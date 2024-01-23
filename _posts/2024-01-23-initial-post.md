@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First release of Intrusion Detection Datasets
-subtitle: 41 datasets described in detail, with more to come!
+subtitle: 43 datasets described in detail, with more to come!
 gh-repo: fkie-cad/intrusion-detection-datasets
 gh-badge: [star, fork, follow]
 tags: [datasets, webpage]
@@ -29,7 +29,7 @@ Additional information includes:
 - Related links (homepages, download sources, documentation, etc.)
 
 ### Contributing
-As there are certainly more than 41 IDS-adjacent datasets out there, any help in documenting them in the level of detail outlined above is more than welcome.
+As there are certainly more than 43 IDS-adjacent datasets out there, any help in documenting them in the level of detail outlined above is more than welcome.
 Alternatively, although I tried to be as thorough as possible during my research (while spending a reasonable amount of time per dataset), it is of course likely that I have missed some information, or made slight mistakes.
 Any help in this regard, as in improving existing entries, is also much appreciated.
 For more information, visit the [Contribution Guide](/intrusion-detection-datasets/content/contributing)
