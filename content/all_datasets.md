@@ -1,7 +1,7 @@
 ---
 layout: page
 title: All Datasets
-subtitle: Overview of all datasets currently contained in this collection
+subtitle: Overview of all datasets examined so far
 full-width: true
 ---
 

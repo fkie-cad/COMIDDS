@@ -10,7 +10,7 @@ author: Philipp Bönninghausen
 ---
 
 This post marks the beginning of the "Intrusion Detection Datasets" collection.
-It is intended to be a comprehensive resource for anyone looking for a dataset suitable for the generation of IDS alerts.
+It is intended to be a comprehensive resource for anyone looking for a dataset suitable for IDS development and evaluation.
 However, with research requirements often being complex (and dataset documentation often being lacking), this collection aims to be more than just a list of names and one-line descriptions.
 
 ### Features
