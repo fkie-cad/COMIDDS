@@ -9,10 +9,10 @@ Any help in this regard, as in improving existing entries, is also much apprecia
 
 You can contribute in one of two ways:
 
-- Open a [new issue](https://github.com/Maspital/Intrusion-Detection-Datasets/issues/new/choose) in our repository, describing your suggestions for improvement.
+- Open a [new issue](https://github.com/fkie-cad/intrusion-detection-datasets/issues/new/choose) in our repository, describing your suggestions for improvement.
 - Fork this repository, implement your suggested changes, and then open a pull request.
 
-If you want to contribute a new dataset entry, please use this [template](https://raw.githubusercontent.com/Maspital/Intrusion-Detection-Datasets/main/docs/new_entry_template.md) from the documentation.
+If you want to contribute a new dataset entry, please use this [template](https://raw.githubusercontent.com/fkie-cad/intrusion-detection-datasets/main/docs/new_entry_template.md) from the documentation.
 A new entry should consist of said template filled out and named appropriately, placed in `/content/datasets/`.
 Additionally, a new row should be added to the list of all datasets in `/content/all_datasets.md`, adding information to each cell as needed.
 

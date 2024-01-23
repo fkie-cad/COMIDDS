@@ -2,9 +2,9 @@
 layout: post
 title: POST_TITLE
 subtitle: POST_SUBTITLE
-gh-repo: Maspital/Intrusion-Detection-Datasets
+gh-repo: fkie-cad/intrusion-detection-datasets
 gh-badge: [star, fork, follow]
-tags: [datasets, webpage]
+tags: [APPROPRIATE, TAGS, HERE]
 comments: true
-author: Philipp Bönninghausen
+author: YOUR_NAME
 ---
