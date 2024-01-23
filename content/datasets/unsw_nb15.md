@@ -64,7 +64,7 @@ Attacks are grouped into one of nine categories:
 
 Additionally, IXIA supplies a ground truth file, listing information like start time or source port and address.
 Two simulation runs were performed, which differ only in the frequency of their attacks.
-During the first run (16 hours), one attack is executed.
+During the first run (16 hours), one attack is executed per second.
 During the second run (15 hours), that number increases to ten attacks per second.
 
 ### Contained Data
