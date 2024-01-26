@@ -32,7 +32,7 @@ title: PWNJUTSU
 ***
 
 ### Overview
-The PWNJUTSU dataset originated from the desire to facilitate research of APTs, which requires suitable datasets appropriate attacks.
+The PWNJUTSU dataset originated from the desire to facilitate research of APTs, which requires suitable datasets containing appropriate attacks.
 For this purpose, the authors designed a framework to unequivocally describe the model of such an APT campaign, modelling various states of knowledge and control an attacker possesses over a network, and how they may move between these states.
 Several red team professionals were individually tasked with exploiting a small network, with their behavior then being matched against this model.
 The host and network logs extracted from this process form the PWNJUTSU dataset.
@@ -71,7 +71,7 @@ For each of the 22 runs, the following log data was collected:
 - Various network logs (DNS, ssh, http, etc.)
 
 Sadly, these logs are *not* labeled.
-An additional 23 run is available, which consists of just configured network, without any malicious activity.
+An additional 23rd run is available, which consists of just the configured network, without any malicious activity.
 The authors provide an internal search engine, enabling exploration of the data online (linked below). 
 
 ### Papers
