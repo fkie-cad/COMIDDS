@@ -8,6 +8,7 @@ title: UNSW-NB15
 - [Contained Data](#contained-data)
 - [Papers](#papers)
 - [Links](#links)
+- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                           |
@@ -89,6 +90,9 @@ labeling per entry consists of:
 ### Links
 - [Homepage](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 - [IXIA PerfectStorm](https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html)
+
+### Related Entries
+- [NF-UQ-NIDS](unsw_nb15.md)
 
 ### Data Examples
 *Dataset currently not available, the storage provider CloudStor has been decommissioned*

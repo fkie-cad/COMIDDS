@@ -88,8 +88,8 @@ below.
 - [Secondary Source](https://registry.opendata.aws/cse-cic-ids2018/)
 
 ### Related Entries
-
 - [CIC IDS2017](cic_ids2017.md)
+- [NF-UQ-NIDS](nf_uq_nids.md)
 
 ### Example Data
 
