@@ -35,7 +35,7 @@ title: NF-UQ-NIDS
 ### Overview
 The NetFlow University of Queensland Network Intrusion Detection Dataset (NF-UQ-NIDS) is a combination of four distinct datasets using a newly proposed set of standardized features.
 These datasets are UNSW-NB15 (2015), CSE-CIC-IDS2018 (2018), BoT-IoT (2018), and ToN-IoT (2019) - the former two are also present in this collection (see related entries), while the latter two deal with IoT systems and are thus not included.
-The main goal of the authors is the introduction of the aforementioned standard feature set to be used with anomaly-based NIDS, facilitating evaluation and comparison between different models and classifiers - efforts which are normally hardly useful due to feature spaces that are almost exclusive from one another.
+The main goal of the authors is the introduction of the aforementioned standard feature set (based on NetFlow v9) to be used with anomaly-based NIDS, facilitating evaluation and comparison between different models and classifiers - efforts which are normally hardly useful due to feature spaces that are almost exclusive from one another.
 Additionally, a standardized feature set allows for agglomeration of different datasets, which is precisely what NF-UQ-NIDS is.
 Two different feature sets were developed, a shorter version containing twelve features (v1) as well as a longer version made up of 43 features (v2).
 
@@ -69,7 +69,7 @@ Here, the authors simply condensed all categories of behavior from each dataset 
 - Ransomware
 
 ### Contained Data
-Two different feature set, both based (i.e., a subset) on the NetFlow protocol, were introduced.
+Two different feature set, both based (i.e., a subset) on the NetFlow v9 protocol, were introduced.
 The first set, v1, consists of 12 features, the second, v2, of 43.
 These features are both listed in the Data Example section below and explained in the cited papers, which also discuss the decisions leading to those selections.
 
