@@ -92,7 +92,7 @@ labeling per entry consists of:
 - [IXIA PerfectStorm](https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html)
 
 ### Related Entries
-- [NF-UQ-NIDS](unsw_nb15.md)
+- [NF-UQ-NIDS](nf_uq_nids.md)
 
 ### Data Examples
 *Dataset currently not available, the storage provider CloudStor has been decommissioned*
