@@ -56,7 +56,7 @@ specifically measure this.
 The simulation is divided into networks 1 and 2, with 1 representing the main work environment, and 2 acting as critical
 infrastructure of a given enterprise, depicted in the picture below.
 
-![NGIDS Network Diagram]({{ "/assets/img/ngids_ds.png" | relative_url }})
+![NGIDS Network Diagram]({{ "/assets/img/ngids_ds.svg" | relative_url }})
 
 Machine A collects host logs, while machine B collects network packets (as pcaps) moving from network 1 to network 2.
 
