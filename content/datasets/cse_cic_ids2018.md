@@ -48,7 +48,7 @@ An overview is provided by the diagram below (image quality courtesy of the auth
 Presumably, vulnerable software versions have been installed to facilitate certain exploits, but this is more...
 suggested than specified in their description.
 
-![CIC IDS 2018 Network Diagram]({{ "/assets/img/cse_cic_ids_2018_diagram.png" | relative_url }})
+![CIC IDS 2018 Network Diagram]({{ "/assets/img/cse_cic_ids_2018_diagram.svg" | relative_url }})
 
 ### Activity
 

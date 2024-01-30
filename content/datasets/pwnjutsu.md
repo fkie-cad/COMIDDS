@@ -39,10 +39,8 @@ The host and network logs extracted from this process form the PWNJUTSU dataset.
 The main drawback, however, is that the resulting logs are not labeled.
 
 ### Environment
-Infrastructure was deployed in a virtualized way on a dedicated server, depicted below.
-Each participant was designated a separate network instance within this infrastructure, consisting of one gateway and three machines ("level 1-3"), which the participant had to move through laterally.
-
-![PWNJUTSU Infrastructure]({{ "/assets/img/pwnjutsu_infrastructure.png" | relative_url }})
+The entire infrastructure was deployed in a virtualized way on a dedicated server, hosting administrative services as well as several small networks.
+Each participant was designated one such network instance within this infrastructure, consisting of one gateway and three machines ("level 1-3"), which the participant had to move through laterally.
 
 Each set of three vulnerable machines runs Ubuntu 14.04, Windows 2008, and Ubuntu 20.04, respectively.
 The first two machines are derivations of the Metasploitable 3 project, while the third (Ubuntu 20.04) is "custom", with four distinct vulnerabilities:

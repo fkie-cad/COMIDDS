@@ -47,7 +47,7 @@ It is the predecessor to the CDE CIC IDS2018 dataset.
 The network is divided into a separate victim and attacker network, each consisting of multiple machines, running
 various Versions of Windows and Linux, as well as macOS.
 
-![CIC IDS 2017 Network Diagram]({{ "/assets/img/cic_ids_2017_diagram.png" | relative_url }})
+![CIC IDS 2017 Network Diagram]({{ "/assets/img/cic_ids_2017_diagram.svg" | relative_url }})
 
 ### Activity
 

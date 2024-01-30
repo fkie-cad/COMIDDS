@@ -43,7 +43,7 @@ The general setup consists of three virtual servers, two routers and an unspecif
 Server 1 and 3 generate normal traffic, while server 2 generates malicious traffic.
 The paper lists the number of "distinct IP addresses" as 45, but the total number of machines is most definitely lower.
 
-![UNSW-NB15 Network Architecture]({{ "/assets/img/unsw_nb15_network_architecture.jpeg" | relative_url }})
+![UNSW-NB15 Network Architecture]({{ "/assets/img/unsw_nb15_network_architecture.svg" | relative_url }})
 
 It seems to be implied that all traffic from router 2 is (also?) passed to router 1, where all traffic is dumped in the form of pcaps.
 Section 4.A is not entirely clear in this regard.
