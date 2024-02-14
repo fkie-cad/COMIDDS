@@ -22,7 +22,7 @@ title: AIT Log Data Set
 | **OS Types**             | Ubuntu 20.04                                                                                                      |
 | **Number of Machines**   | 9-27                                                                                                              |
 | **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                             |
-| **Year of Collection**   | 2023                                                                                                              |
+| **Year of Collection**   | 2022                                                                                                              |
 | **Attack Categories**    | Reconnaissance <br> Privilege Escalation <br> Data Exfiltration <br> Web-based Attacks <Remote Command Execution> |
 | **User Emulation**       | Yes, models complex behavior                                                                                      |
 |                          |                                                                                                                   |
