@@ -21,7 +21,7 @@ title: NGIDS Dataset
 | **OS Types**             | Ubuntu 14.04                                                                                  |
 | **Number of Machines**   | _n/a_                                                                                         |
 | **Total Runtime**        | ~5 days                                                                                       |
-| **Year of Collection**   | 2018                                                                                          |
+| **Year of Collection**   | 2016                                                                                          |
 | **Attack Categories**    | DDoS<br/>Shellcode<br/>Worms<br/>Reconnaissance<br/>Exploits<br/>"Generic"                    |
 | **User Emulation**       | Yes, using IXIA PerfectStorm                                                                  |
 |                          |                                                                                               |
@@ -37,7 +37,7 @@ The Next-Generation Intrusion Detection System Dataset (NGIDS-DS) was created as
 It attempts to improve upon major datasets of its time (namely KDD'98 and ADFA-LD), following a set of "requirements"
 laid out in the paper, which are all aimed towards generating a more realistic dataset.
 It is a collection of host and network logs from a simulated enterprise environment, generally intended to be used with
-anomaly-based detection methods, with the paper defining a novel "combined feature" for this purpose.
+anomaly-based detection methods, with the paper defining a novel "combined feature" for this purpose, merging information about a system call and its execution time.
 Their requirements for a simulation are:
 
 - complete capture of OS audit logs and network packets
@@ -79,7 +79,7 @@ which acts as an all-in-one solution:
 - generates ground truth for said attacks
 
 Further details regarding user behavior is not provided.
-The entire simulation ran for a duration of approximately five days.
+The entire simulation ran for a duration of approximately five days, from March 11, 2016, to March 16, 2016.
 
 ### Contained Data
 
