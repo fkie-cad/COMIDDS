@@ -16,10 +16,15 @@ single entry on this website.
 - Publications
     - [Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection (2022)](#pillars-of-sand-the-current-state-of-datasets-in-the-field-of-network-intrusion-detection-2022)
     - [A Comprehensive Survey of Databases and Deep Learning Methods for Cybersecurity and Intrusion Detection Systems (2020)](#a-comprehensive-survey-of-databases-and-deep-learning-methods-for-cybersecurity-and-intrusion-detection-systems-2020)
+    - [A Review of the Advancements in Intrusion Detection Datasets (2019)](#a-review-of-the-advancements-in-intrusion-detection-datasets-2019)
     - [A Survey of Intrusion Detection Systems leveraging Host Data (2019)](#a-survey-of-intrusion-detection-systems-leveraging-host-data-2019)
+    - [A Survey of Network-based Intrusion Detection Data Sets (2019)](#a-survey-of-network-based-intrusion-detection-data-sets-2019)
     - [Survey of Intrusion Detection Systems: Techniques, Datasets and Challenges (2019)](#survey-of-intrusion-detection-systems-techniques-datasets-and-challenges-2019)
     - [Cybersecurity Research Datasets: Taxonomy and Empirical Analysis (2018)](#cybersecurity-research-datasets-taxonomy-and-empirical-analysis-2018)
+    - [A survey of deep learning-based network anomaly detection (2017)](#a-survey-of-deep-learning-based-network-anomaly-detection-2017)
+    - [A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection (2015)](#a-survey-of-data-mining-and-machine-learning-methods-for-cyber-security-intrusion-detection-2015)
     - [A Detail Analysis on Intrusion Detection Datasets (2014)](#a-detail-analysis-on-intrusion-detection-datasets-2014)
+    - [Network anomaly detection: Methods, systems and tools (2013)](#network-anomaly-detection-methods-systems-and-tools-2013)
 - Other collections
     - [Malware Traffic Analysis (2024)](#malware-traffic-analysis-2024)
     - [NETRESEC (2024)](#netresec-2024)
@@ -163,7 +168,7 @@ Referenced collections:
 - [SecRepo](#secrepo---samples-of-security-related-data-2020)
 - [The Honeypot Project](#the-honeynet-project)
 
-### A Survey of Network-based Intrusion Detection Data Sets
+### A Survey of Network-based Intrusion Detection Data Sets (2019)
 
 ```
 Ring, M., Wunderlich, S., Scheuring, D., Landes, D., & Hotho, A. (2019). A survey of network-based intrusion detection data sets. Computers & Security, 86, 147-167.
@@ -248,6 +253,7 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- UNIBS
 
 Referenced collections:
 
@@ -264,6 +270,37 @@ papers.
 Does not provide an actual list, rather aims to describe general observations, like the fact that only 6% of the
 surveyed papers created a dataset *and* made it publicly available.
 
+### A survey of deep learning-based network anomaly detection (2017)
+
+```
+Kwon, D., Kim, H., Kim, J., Suh, S. C., Kim, I., & Kim, K. J. (2019). A survey of deep learning-based network anomaly detection. Cluster Computing, 22, 949-961.
+```
+
+This survey features various deep learning approaches in the field of anomaly-based intrusion detections.
+Datasets, while acknowledged as an important factor, are only described in one section.
+Weirdly, the two chosen datasets are quite out-of-date for a survey that has been published in 2017.
+
+Referenced datasets:
+
+- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+
+### A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection (2015)
+
+```
+Buczak, A. L., & Guven, E. (2015). A survey of data mining and machine learning methods for cyber security intrusion detection. IEEE Communications surveys & tutorials, 18(2), 1153-1176.
+```
+
+This survey only considers machine learning and datamining (i.e., anomaly-based) approaches and what they entail.
+Given the relative recency of this work, the choice of described datasets, which were pretty much deprecated at the time
+of writing, is surprising.
+
+Referenced datasets:
+
+- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- DARPA 1999
+- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+
 ### A Detail Analysis on Intrusion Detection Datasets (2014)
 
 ```
@@ -278,6 +315,31 @@ Referenced datasets:
 - GURE-KDD
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+
+### Network anomaly detection: Methods, systems and tools (2013)
+
+```
+Bhuyan, M. H., Bhattacharyya, D. K., & Kalita, J. K. (2013). Network anomaly detection: methods, systems and tools. Ieee communications surveys & tutorials, 16(1), 303-336.
+```
+
+This survey mainly focuses on different approaches towards network anomaly detection, encountered attacks, patterns,
+etc.
+Datasets that are suitable for this purpose are mentioned as a secondary talking point, and described only in
+brief.
+
+Referenced datasets:
+
+- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
+- Lawrence Berkeley National Laboratory Traces
+- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- TUIDS
+
+Referenced collections:
+
+- CAIDA
+- DEFCON CTF archive
 
 ## Other collections
 
