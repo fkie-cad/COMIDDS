@@ -79,6 +79,10 @@ event originated from.
 
 - [Toward Generating a New Intrusion Detection Dataset and Intrusion Detection Traffic Characterization (2017)](https://doi.org/10.5220/0006639801080116)
 - [An Evaluation Framework for Intrusion Detection Datasets (2016)](https://doi.org/10.1109/ICISSEC.2016.7885840)
+- [Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study (2021)](https://doi.org/10.1109/SPW53761.2021.00009)
+- [Error Prevalence in NIDS datasets: A Case Study on CIC-IDS-2017 and CSE-CIC-IDS-2018 (2022)](https://doi.org/10.1109/CNS56114.2022.9947235)
+- [Network Intrusion Detection: A Comprehensive Analysis of CIC-IDS2017 (2022)](https://dx.doi.org/10.5220/0000157000003120)
+- [Errors in the CICIDS2017 Dataset and the Significant Differences in Detection Performances It Makes (2022)](https://doi.org/10.1007/978-3-031-31108-6_2)
 
 ### Links
 

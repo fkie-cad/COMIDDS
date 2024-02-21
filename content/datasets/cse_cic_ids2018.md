@@ -78,6 +78,7 @@ below.
 ### Papers
 
 - [Toward Generating a New Intrusion Detection Dataset and Intrusion Detection Traffic Characterization (2017)](https://doi.org/10.5220/0006639801080116)
+- [Error Prevalence in NIDS datasets: A Case Study on CIC-IDS-2017 and CSE-CIC-IDS-2018 (2022)](https://doi.org/10.1109/CNS56114.2022.9947235)
 
 ### Links
 
