@@ -1,9 +1,9 @@
-ul {
-    margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
-}
-
+p.maps-to-line {
+    margin: 0px 0px 3px
+    }
 p {
-    margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
+    margin: 0px 0px 3px
+   }
+ul {
+    margin: 9px 0px 26px 25.5px
 }
