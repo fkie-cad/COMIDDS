@@ -31,6 +31,8 @@ body > main {
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -74,8 +76,8 @@ hr.small {
   border-radius: 0.1875rem;
 }
 ul {
-    margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
 }
 
 /* fix in-page anchors to not be behind fixed header */
