@@ -1,6 +1,14 @@
 ---
 title: Related Work
+css: assets/css/compact.css
 ---
+
+<style>
+  ul {
+    margin-top: 0; /* Remove top margin from the unordered list */
+    padding-inline-start: 20px; /* Adjust the left padding of the list items */
+  }
+</style>
 
 This page lists publications and collections covering IDS datasets.
 Related publications, sorted by year or release, are any academic work that at least partially covers the topic of available IDS datasets.
