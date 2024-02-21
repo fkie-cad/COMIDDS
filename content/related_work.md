@@ -401,7 +401,7 @@ https://www.impactcybertrust.org/search
 
 The "Information Marketplace for Policy and Analysis of Cyber-Risk and Trust" (IMPACT, formerly PREDICT), maintained by
 the US Department of Homeland Security, contains 70 datasets.
-These are for the mostly made up of network related files (pcaps and DNS logs) from a wide variety of scenarios (CTF
+These are for the most part made up of network related files (pcaps and DNS logs) from a wide variety of scenarios (CTF
 events, IoT, corpo networks, etc.), as well as some miscellaneous things like network shapefiles.
 55 of these datasets were created by IMPACT, 15 are external (mostly CAIDA). Many datasets require prior authorization
 to access them.
@@ -443,7 +443,7 @@ Currently, it consists of nine entries containing Linux syslogs, firewall logs, 
 
 ```
 https://ita.ee.lbl.gov/
-(accessed 18.02.2024, last updated 11.08.2010)
+(accessed 18.02.2024, last updated 09.04.2010)
 ```
 
 An archive hosting 16 different network data from various sources, such as WWW servers, web clients, and some custom
