@@ -21,7 +21,7 @@ title: OpTC
 | **OS Types**             | Windows 10                                                                             |
 | **Number of Machines**   | 1000 (only data for 500 included)                                                      |
 | **Total Runtime**        | 6 days                                                                                 |
-| **Year of Collection**   | 2020                                                                                   |
+| **Year of Collection**   | 2019                                                                                   |
 | **Attack Categories**    | Powershell Empire<br/>Malicious Upgrades                                               |
 | **User Emulation**       | Yes                                                                                    |
 |                          |                                                                                        |

@@ -23,7 +23,7 @@ title: PWNJUTSU
 | **Total Runtime**        | n/a                                                                           |
 | **Year of Collection**   | 2022                                                                          |
 | **Attack Categories**    | Discovery<br/>Lateral Movement<br/>Credential Access<br/>Privilege Escalation |
-| **User Emulation**       |                                                                               |
+| **User Emulation**       | n/a                                                                           |
 |                          |                                                                               |
 | **Packed Size**          | 82 GB                                                                         |
 | **Unpacked Size**        | n/a                                                                           |
