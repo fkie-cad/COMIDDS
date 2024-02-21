@@ -1,6 +1,5 @@
 ---
 title: Related Work
-css: assets/css/compact.css
 ---
 
 This page lists publications and collections covering IDS datasets.
