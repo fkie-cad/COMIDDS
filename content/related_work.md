@@ -143,12 +143,12 @@ Referenced datasets:
 
 Referenced collections:
 - CAIDA
-- [Digital Corpora Database](#digital-corpora-2023)
-- [IMPACT](#impact-2021)
-- [Malware Traffic Analysis](#malware-traffic-analysis-2024)
-- [NETRESEC](#netresec-2024)
-- [SecRepo](#secrepo---samples-of-security-related-data-2020)
-- [The Honeypot Project](#the-honeynet-project)
+- [Digital Corpora Database](#digital-corpora)
+- [IMPACT](#impact)
+- [Malware Traffic Analysis](#malware-traffic-analysis)
+- [NETRESEC](#netresec)
+- [SecRepo](#secrepo---samples-of-security-related-data)
+- [The Honeypot Project](#the-honeynet-project-challenges)
 
 ### A Survey of Network-based Intrusion Detection Data Sets (2019)
 
@@ -200,16 +200,16 @@ Referenced collections:
 - Contagiodump
 - covert.io
 - DEFCON CTF archive
-- [IMPACT](#impact-2021)
-- [Internet Traffic Archive](#the-internet-traffic-archive-2008)
+- [IMPACT](#impact)
+- [Internet Traffic Archive](#the-internet-traffic-archive)
 - Kaggle
-- [Malware Traffic Analysis](#malware-traffic-analysis-2024)
+- [Malware Traffic Analysis](#malware-traffic-analysis)
 - Mid-Atlantic CCDC
 - MAWILab
-- [NETRESEC](#netresec-2024)
+- [NETRESEC](#netresec)
 - OpenML
 - RIPE Data Repository
-- [SecRepo](#secrepo---samples-of-security-related-data-2020)
+- [SecRepo](#secrepo---samples-of-security-related-data)
 - Simple Web
 - UMass Trace Repository
 - Vast Challenges
