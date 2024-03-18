@@ -143,12 +143,12 @@ Referenced datasets:
 
 Referenced collections:
 - CAIDA
-- [Digital Corpora Database](#digital-corpora-2023)
-- [IMPACT](#impact-2021)
-- [Malware Traffic Analysis](#malware-traffic-analysis-2024)
-- [NETRESEC](#netresec-2024)
-- [SecRepo](#secrepo---samples-of-security-related-data-2020)
-- [The Honeypot Project](#the-honeynet-project)
+- [Digital Corpora Database](#digital-corpora)
+- [IMPACT](#impact)
+- [Malware Traffic Analysis](#malware-traffic-analysis)
+- [NETRESEC](#netresec)
+- [SecRepo](#secrepo---samples-of-security-related-data)
+- [The Honeypot Project](#the-honeynet-project-challenges)
 
 ### A Survey of Network-based Intrusion Detection Data Sets (2019)
 
@@ -200,16 +200,16 @@ Referenced collections:
 - Contagiodump
 - covert.io
 - DEFCON CTF archive
-- [IMPACT](#impact-2021)
-- [Internet Traffic Archive](#the-internet-traffic-archive-2008)
+- [IMPACT](#impact)
+- [Internet Traffic Archive](#the-internet-traffic-archive)
 - Kaggle
-- [Malware Traffic Analysis](#malware-traffic-analysis-2024)
+- [Malware Traffic Analysis](#malware-traffic-analysis)
 - Mid-Atlantic CCDC
 - MAWILab
-- [NETRESEC](#netresec-2024)
+- [NETRESEC](#netresec)
 - OpenML
 - RIPE Data Repository
-- [SecRepo](#secrepo---samples-of-security-related-data-2020)
+- [SecRepo](#secrepo---samples-of-security-related-data)
 - Simple Web
 - UMass Trace Repository
 - Vast Challenges
@@ -242,7 +242,8 @@ Zheng, M., Robbins, H., Chai, Z., Thapa, P., & Moore, T. (2018). Cybersecurity r
 ```
 
 Tries to construct a taxonomy of the types of created and shared cybersecurity data(sets) by inspecting 965 related papers.
-Does not provide an actual list, rather aims to describe general observations, like the fact that only 6% of the surveyed papers created a dataset *and* made it publicly available.
+Does not provide an actual list, rather aims to describe general observations, like the fact that only 6% of the surveyed papers created a dataset
+*and* made it publicly available.
 
 ### A survey of deep learning-based network anomaly detection (2017)
 
@@ -310,6 +311,39 @@ Referenced collections:
 
 `Last updated` refers to the last time a new entry was added to the collection.
 
+### Awesome Cybersecurity Datasets
+
+```
+https://github.com/shramos/Awesome-Cybersecurity-Datasets
+(accessed 18.02.2024, last updated 23.01.2021)
+```
+
+A "curated" personal collection of various cybersecurity-related datasets or collections, grouped into several categories such as "Network", "Software" or "Fraud".
+Each entry is described in only one or two sentences, and most datasets are not, or only partially, suitable for IDS research.
+The list is somewhat deprecated and does especially lack meaningful host-based datasets.
+
+### Digital Corpora
+
+```
+https://digitalcorpora.org/
+(accessed 19.02.2024, last updated 05.05.2023)
+```
+
+A collection of datasets mostly designed for the use in forensics education.
+It consists of various disk images, memory dumps and pcaps, as well as a bunch of benign and malicious files.
+It does not seem to contain actual log data.
+
+### IMPACT
+
+```
+https://www.impactcybertrust.org/search
+(accessed 19.02.2024, last updated 13.07.2021)
+```
+
+The "Information Marketplace for Policy and Analysis of Cyber-Risk and Trust" (IMPACT, formerly PREDICT), maintained by the US Department of Homeland Security, contains 70 datasets.
+These are for the most part made up of network related files (pcaps and DNS logs) from a wide variety of scenarios (CTF events, IoT, corpo networks, etc.), as well as some miscellaneous things like network shapefiles.
+55 of these datasets were created by IMPACT, 15 are external (mostly CAIDA). Many datasets require prior authorization to access them.
+
 ### Malware Traffic Analysis
 
 ```
@@ -330,38 +364,15 @@ https://www.netresec.com/?page=PcapFiles
 A large collection of pcap files and other repositories which are hosting pcaps themselves.
 They are categorized into CDX, Malware Traffic, Network Forensics, SCADA/ICS, CTF, Packet Injection/Man-on-the-Side, and Uncategorized.
 
-### Digital Corpora
+### Public Security Log Sharing Site
 
 ```
-https://digitalcorpora.org/
-(accessed 19.02.2024, last updated 05.05.2023)
+https://log-sharing.dreamhosters.com/
+(accessed 18.02.2024, last updated 11.08.2010)
 ```
 
-A collection of datasets mostly designed for the use in forensics education.
-It consists of various disk images, memory dumps and pcaps, as well as a bunch of benign and malicious files.
-It does not seem to contain actual log data.
-
-### Awesome Cybersecurity Datasets
-
-```
-https://github.com/shramos/Awesome-Cybersecurity-Datasets
-(accessed 18.02.2024, last updated 23.01.2021)
-```
-
-A "curated" personal collection of various cybersecurity-related datasets or collections, grouped into several categories such as "Network", "Software" or "Fraud".
-Each entry is described in only one or two sentences, and most datasets are not, or only partially, suitable for IDS research.
-The list is somewhat deprecated and does especially lack meaningful host-based datasets.
-
-### IMPACT
-
-```
-https://www.impactcybertrust.org/search
-(accessed 19.02.2024, last updated 13.07.2021)
-```
-
-The "Information Marketplace for Policy and Analysis of Cyber-Risk and Trust" (IMPACT, formerly PREDICT), maintained by the US Department of Homeland Security, contains 70 datasets.
-These are for the most part made up of network related files (pcaps and DNS logs) from a wide variety of scenarios (CTF events, IoT, corpo networks, etc.), as well as some miscellaneous things like network shapefiles.
-55 of these datasets were created by IMPACT, 15 are external (mostly CAIDA). Many datasets require prior authorization to access them.
+A collection which started as an effort to collect various log samples, but seems to have been discontinued after operating for about one year.
+Currently, it consists of nine entries containing Linux syslogs, firewall logs, apache logs, and web proxy logs.
 
 ### SecRepo - Samples of Security Related Data
 
@@ -383,16 +394,6 @@ https://www.honeynet.org/challenges/
 
 A collection of 14 forensic challenges related to pcaps, malware and log files.
 However, most resources, except for the two newest challenges, are no longer available.
-
-### Public Security Log Sharing Site
-
-```
-https://log-sharing.dreamhosters.com/
-(accessed 18.02.2024, last updated 11.08.2010)
-```
-
-A collection which started as an effort to collect various log samples, but seems to have been discontinued after operating for about one year.
-Currently, it consists of nine entries containing Linux syslogs, firewall logs, apache logs, and web proxy logs.
 
 ### The Internet Traffic Archive
 
