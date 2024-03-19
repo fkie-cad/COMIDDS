@@ -55,7 +55,7 @@ Access to the dataset can easily be requested on the homepage linked below (the 
 It can either be downloaded as one text file containing the full nine months (2,3 GB), or nine text files with 30 days of events each.
 
 ### Papers
-- [Connected Components and Credential Hopping in Authentication Graphs](https://doi.org/10.1109/SITIS.2014.95)
+- [Connected Components and Credential Hopping in Authentication Graphs (2014)](https://doi.org/10.1109/SITIS.2014.95)
 
 ### Links
 - [Homepage](https://csr.lanl.gov/data/auth/)
