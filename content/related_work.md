@@ -175,7 +175,7 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - ISOT
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [Kent 2016 (alias for: Comprehensive, Multi-Source Cybersecurity Events)](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
+- [Kent 2016](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
 - Lawrence Berkeley National Laboratory Traces
 - NDSec-1
