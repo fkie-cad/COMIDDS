@@ -78,6 +78,11 @@ Note: Their service is currently unavailable, preventing downloads :(
 
 - [Homepage](https://csr.lanl.gov/data/2017/)
 
+### Related Entries
+- Other LANL datasets:
+    - [Comprehensive, Multi-Source Cybersecurity Events](comp_multi_source_cybersec_events.md)
+    - [User-Computer Authentication Associations in Time](user_computer_associations.md)
+
 ### Data Examples
 
 Example network event data
