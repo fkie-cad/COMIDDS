@@ -18,6 +18,6 @@ We intentionally omit datasets from very different environments such as industri
 Any kind of contribution is most welcome, both in the form of adding new entries and improving existing ones!
 For more information, please refer to the [Contribution Guide](https://fkie-cad.github.io/intrusion-detection-datasets/content/contributing/).
 
-## Acknowledgments
+## Further Information
 
-The website was made using [Beautiful Jekyll](https://beautifuljekyll.com/).
+For more information, please see the [About page](https://fkie-cad.github.io/intrusion-detection-datasets/content/about/).

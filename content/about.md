@@ -26,6 +26,20 @@ Additional information includes:
 - Related published papers
 - Related links (homepages, download sources, documentation, etc.)
 
-### Credits
+### Citing this Work
+
+If you would like to cite this overview in your (academic) work, we recommend to cite the exact release that the cited information refers to, e.g.,
+
+```
+@misc{idd100,
+  author = {{Intrusion Detection Datasets} contributors},
+  title = {{Intrusion Detection Datasets v1.0.0 -- GitHub}},
+  year = {2024},
+  howpublished = {\url{https://github.com/fkie-cad/intrusion-detection-datasets/releases/tag/v1.0.0}},
+  note = {[Online; accessed DD-MMM-YYYY]},
+}
+```
+
+### Acknowledgments
 
 The webpage was made using [Beautiful Jekyll](https://beautifuljekyll.com/).
