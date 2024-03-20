@@ -68,7 +68,7 @@ The raw DARPA data, which comes in the form of binary TCP dumps, is divided and 
 million connection records) of training data, and two weeks (~two million connection records) of test data.
 A connection record is defined as "a sequence of TCP packets starting and ending at some well-defined times, between
 which data flows to and from a source IP address to a target IP address under some well-defined protocol".
-Each of these connection records contains 41 features (description linked below), including a label indicating whether
+Each of these connection records contains 41 features (description linked below), with a 42nd label indicating whether
 this event is normal or malicious, which in the latter case also references the specific attack that event belongs to.
 
 The KDD'99 dataset fixes some issues present in its DARPA foundation, which was severely affected by simulation
