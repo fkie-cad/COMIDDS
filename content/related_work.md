@@ -75,7 +75,6 @@ Referenced datasets:
 - ISOT
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
-- Lawrence Berkeley National Laboratory Traces
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 - [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
 - [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
@@ -84,6 +83,7 @@ Referenced datasets:
 Referenced collections:
 - CAIDA
 - DEFCON CTF Archive
+- [Lawrence Berkeley National Laboratory Traces](#the-internet-traffic-archive) (alias for: The Internet Traffic Archive)
 - MAWILab
 - UMass Trace Repository
 
@@ -106,12 +106,12 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
-- Lawrence Berkeley National Laboratory Traces
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 - [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
 
 Referenced Collections:
 - CAIDA
+- [Lawrence Berkeley National Laboratory Traces](#the-internet-traffic-archive) (alias for: The Internet Traffic Archive)
 - DEFCON CTF Archive
 
 ### A Survey of Intrusion Detection Systems leveraging Host Data (2019)
@@ -177,7 +177,6 @@ Referenced datasets:
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kent 2016](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
-- Lawrence Berkeley National Laboratory Traces
 - NDSec-1
 - [NGIDS-DS](/intrusion-detection-datasets/content/datasets/ngids_dataset)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
@@ -203,6 +202,7 @@ Referenced collections:
 - [IMPACT](#impact)
 - [Internet Traffic Archive](#the-internet-traffic-archive)
 - Kaggle
+- [Lawrence Berkeley National Laboratory Traces](#the-internet-traffic-archive) (alias for: The Internet Traffic Archive)
 - [Malware Traffic Analysis](#malware-traffic-analysis)
 - Mid-Atlantic CCDC
 - MAWILab
@@ -298,7 +298,6 @@ Datasets that are suitable for this purpose are mentioned as a secondary talking
 Referenced datasets:
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- Lawrence Berkeley National Laboratory Traces
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 - TUIDS
@@ -306,6 +305,7 @@ Referenced datasets:
 Referenced collections:
 - CAIDA
 - DEFCON CTF archive
+- [Lawrence Berkeley National Laboratory Traces](#the-internet-traffic-archive) (alias for: The Internet Traffic Archive)
 
 ## Other collections
 
