@@ -137,7 +137,7 @@ Referenced datasets:
 - UNM system call dataset
 - [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
 - [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
-- User-Computer Authentication Associations in Time
+- [User-Computer Authentication Associations in Time](/intrusion-detection-datasets/content/datasets/user_computer_associations)
 - [Vast Challenge 2012]((/intrusion-detection-datasets/content/datasets/vast_2012))
 - Vast Challenge 2013
 
@@ -175,7 +175,7 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - ISOT
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- Kent 2016
+- [Kent 2016](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
 - Lawrence Berkeley National Laboratory Traces
 - NDSec-1

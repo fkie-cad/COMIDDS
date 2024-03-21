@@ -82,6 +82,11 @@ or correlated.
 - [Homepage](https://csr.lanl.gov/data/cyber1/)
     - Data access must be requested here
 
+### Related Entries
+- Other LANL datasets:
+    - [Unified Host and Network Dataset](unified_host_and_network_dataset.md)
+    - [User-Computer Authentication Associations in Time](user_computer_associations.md)
+
 ### Example Data
 
 Authentication events in `auth.txt`
