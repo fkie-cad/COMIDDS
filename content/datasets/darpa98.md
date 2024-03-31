@@ -43,11 +43,24 @@ Due to its age and a number of flaws, it should be used with reservations, if at
 
 ### Environment
 
-Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
+The simulated Air Force base consists of a small number of hosts, leveraging "custom software" to appear as if they were
+1000s of hosts with different IP addresses.
 
 ### Activity
 
-Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
+Within the network, automated users perform an array of tasks such as sending mails, browsing, or using services like
+FTP, telnet or SNMP.
+The total duration of this simulation was nine weeks.
+Any protective devices such as firewalls are omitted, as "the focus was on detecting attacks, and not preventing
+attacks".
+All attacks are performed from the outside of this network, and a sniffer is located at the entry point of the network
+to capture this traffic.
+Attacks belong to one of four categories:
+
+- DoS
+- Remote to Local
+- User to Root
+- Surveillance/Probing
 
 ### Contained Data
 
