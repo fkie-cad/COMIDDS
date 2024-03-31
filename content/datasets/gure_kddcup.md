@@ -39,23 +39,10 @@ information about both of these datasets can be found in the [Related Entries](#
 Note that the authors did not directly copy the KDDCup 1999 dataset, but instead recreated it using the same methodology, including additional information in the process.
 
 ### Environment
-The simulated Air Force base consists of a small number of hosts, leveraging "custom software" to appear as if they were
-1000s of hosts with different IP addresses.
+Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
 
 ### Activity
-Within the network, automated users perform an array of tasks such as sending mails, browsing, or using services like
-FTP, telnet or SNMP.
-The total duration of this simulation was nine weeks.
-Any protective devices such as firewalls are omitted, as "the focus was on detecting attacks, and not preventing
-attacks".
-All attacks are performed from the outside of this network, and a sniffer is located at the entry point of the network
-to capture this traffic.
-Attacks belong to one of four categories:
-
-- DoS
-- Remote to Local
-- User to Root
-- Surveillance/Probing
+Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
 
 ### Contained Data
 The raw DARPA data, which comes in the form of binary TCP dumps, is transformed into connection records, mimicking the methodology of the KDDCup 1999 dataset.
