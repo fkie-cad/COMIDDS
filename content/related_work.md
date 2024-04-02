@@ -70,7 +70,7 @@ Referenced datasets:
 - [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
 - CIC DoS
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- Gure-KDD-Cup
+- [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - ISOT
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
@@ -130,7 +130,7 @@ Referenced datasets:
 - [Comprehensive Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
 - [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- GURE-KDD
+- [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - Malware Capture Facility Project
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
@@ -282,7 +282,7 @@ Sahu, S. K., Sarangi, S., & Jena, S. K. (2014, February). A detail analysis on i
 This paper shortly analyzed three papers the authors deem suitable to test their novel preprocessing techniques, which are supposed to improve the performance of various data mining algorithms.
 
 Referenced datasets:
-- GURE-KDD
+- [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 
