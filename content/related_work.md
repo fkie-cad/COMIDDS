@@ -3,10 +3,10 @@ title: Related Work
 ---
 
 This page lists publications and collections covering IDS datasets.
-Related publications, sorted by year or release, are any academic work that at least partially covers the topic of available IDS datasets.
+Related publications, sorted by year of release, are any academic work that at least partially covers the topic of available IDS datasets.
 Collections, sorted alphabetically, simply features agglomerations of IDS-related datasets not backed by a scientific publication.
 
-Each entry consists of citation and a brief description of the survey's scope of selected datasets.
+Each entry consists of a citation and a brief description of the survey's scope of selected datasets.
 Additionally, for publications, all datasets discussed in the survey are also listed, linking to their respective entries on this website, if available.
 
 ## Contents
@@ -68,7 +68,7 @@ Referenced datasets:
 - [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
 - [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
 - [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
-- CIC DoS
+- [CIC DoS](/intrusion-detection-datasets/content/datasets/cic_dos)
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
 - [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
@@ -165,7 +165,7 @@ Referenced datasets:
 - Booters Dataset
 - ISCX Botnet 2014
 - [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
-- CIC DoS
+- [CIC DoS](/intrusion-detection-datasets/content/datasets/cic_dos)
 - [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
 - CIDDS-001 & 002
 - [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
