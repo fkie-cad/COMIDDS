@@ -28,7 +28,7 @@ title: NSL-KDD
 |                          |                                                                            |
 | **Packed Size**          | 6 MB                                                                       |
 | **Unpacked Size**        | 19 MB                                                                      |
-| **Download Link**        | [goto](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/NSL-KDD.zip)       |
+| **Download Link**        | [goto](https://github.com/HoaNP/NSL-KDD-DataSet)                           |
 
 ***
 
@@ -42,28 +42,15 @@ all.
 
 ### Environment
 
-The simulated Air Force base consists of a small number of hosts, leveraging "custom software" to appear as if they were
-1000s of hosts with different IP addresses.
+Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
 
 ### Activity
 
-Within the network, automated users perform an array of tasks such as sending mails, browsing, or using services like
-FTP, telnet or SNMP.
-The total duration of this simulation was nine weeks.
-Any protective devices such as firewalls are omitted, as "the focus was on detecting attacks, and not preventing
-attacks".
-All attacks are performed from the outside of this network, and a sniffer is located at the entry point of the network
-to capture this traffic.
-Attacks belong to one of four categories:
-
-- DoS
-- Remote to Local
-- User to Root
-- Surveillance/Probing
+Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
 
 ### Contained Data
 
-The original version contained a large number of redundant/duplicate records, which was problematic for two reasons:
+The original version - the KDD Cup 1999 dataset - contained a large number of redundant/duplicate records, which was problematic for two reasons:
 
 - In the training set, it caused classifiers to be biased towards those more frequent records
 - In the test set, it caused evaluation to be biased towards learners having better detection rates on artificially
@@ -78,6 +65,8 @@ group is inversely proportional to the number of records in the original dataset
 evaluation.
 The difficulty is available as a new feature of each event (the last one).
 
+Note that the original download source is now longer accessible, however, an unofficial copy is available via an individuals GitHub repository.
+
 ### Papers
 
 - [A detailed analysis of the KDD CUP 99 data set (2009)](https://doi.org/10.1109/cisda.2009.5356528)
@@ -86,11 +75,12 @@ The difficulty is available as a new feature of each event (the last one).
 ### Links
 
 - [Homepage](https://www.unb.ca/cic/datasets/nsl.html)
-- [Download Page](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/)
+- [Unofficial Download Source](https://github.com/HoaNP/NSL-KDD-DataSet)
 
 ### Related Entries
 
 - [KDD Cup 1999](kdd_cup_1999.md)
+- [DARPA'98 Intrusion Detection Program](darpa98.md)
 
 ### Data Examples
 
