@@ -45,7 +45,7 @@ Further details are not available.
 ### Activity
 The declared goal of executed attacks was to render services on the server side unresponsive while being as stealthy and resource-efficient as possible, including stopping attacks as soon as servers became unresponsive.
 The authors state that attacks were selected to match the most common types of application layer DoS, resulting in a mix of high- and log-volume attacks.
-These attacks were executed leveraging a several publicly available tools such as [Goldeneye](https://github.com/jseidl/GoldenEye) or [Slowloris](https://github.com/gkbrk/slowloris), for a total of eight attacks:
+These attacks were executed leveraging several publicly available tools such as [Goldeneye](https://github.com/jseidl/GoldenEye) or [Slowloris](https://github.com/gkbrk/slowloris), for a total of eight attacks:
 - High-volume HTTP attacks:
   - DoS improved GET
   - DDoS GET
