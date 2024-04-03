@@ -52,6 +52,10 @@ What kind of data was collected and how it is present in the dataset, including 
 ### Data Examples
 Snippet from the dataset, ideally one for each data type.
 Note that multi-word annotations (like `json lines`) will not render properly on GitHub Pages.
+Wrapping these snippets with `raw`/`endraw` is not strictly required, but prevents Liquid from parsing anything it shouldn't.
+
+<!--  {% raw %} -->
 ```
 data example
 ```
+<!--  {% endraw %} -->
