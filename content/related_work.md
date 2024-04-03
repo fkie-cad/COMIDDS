@@ -78,7 +78,7 @@ Referenced datasets:
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 - [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
 - [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
-- Mentioned, but not further detailed:<br>Metrosec, UNIBS 2009, TUIDS, University of Napoli traffic dataset, CSIC 2010 HTTP dataset, UNM system call dataset
+- Mentioned, but not further detailed:<br>Metrosec, UNIBS 2009, [TUIDS](/intrusion-detection-datasets/content/datasets/tuids), University of Napoli traffic dataset, CSIC 2010 HTTP dataset, UNM system call dataset
 
 Referenced collections:
 - CAIDA
@@ -187,7 +187,7 @@ Referenced datasets:
 - SSENET 2014
 - SSHCure
 - TRAbID
-- TUIDS
+- [TUIDS](/intrusion-detection-datasets/content/datasets/tuids)
 - [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
 - UNIBS
 - [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
@@ -300,7 +300,7 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- TUIDS
+- [TUIDS](/intrusion-detection-datasets/content/datasets/tuids)
 
 Referenced collections:
 - CAIDA
