@@ -29,7 +29,7 @@ Additional information includes:
 ### Citing this Work
 
 If you would like to cite this overview in your (academic) work, we recommend to cite the exact release that the cited information refers to, e.g.,
-
+<!--  {% raw %} --> 
 ```
 @misc{idd100,
   author = {{Intrusion Detection Datasets} contributors},
@@ -39,6 +39,7 @@ If you would like to cite this overview in your (academic) work, we recommend to
   note = {[Online; accessed DD-MMM-YYYY]},
 }
 ```
+<!-- {% endraw %} -->
 
 ### Acknowledgments
 
