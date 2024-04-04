@@ -43,24 +43,11 @@ Like the dataset it is based on, due to its age and a number of flaws, it should
 
 ### Environment
 
-The simulated Air Force base consists of a small number of hosts, leveraging "custom software" to appear as if they were
-1000s of hosts with different IP addresses.
+Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
 
 ### Activity
 
-Within the network, automated users perform an array of tasks such as sending mails, browsing, or using services like
-FTP, telnet or SNMP.
-The total duration of this simulation was nine weeks.
-Any protective devices such as firewalls are omitted, as "the focus was on detecting attacks, and not preventing
-attacks".
-All attacks are performed from the outside of this network, and a sniffer is located at the entry point of the network
-to capture this traffic.
-Attacks belong to one of four categories:
-
-- DoS
-- Remote to Local
-- User to Root
-- Surveillance/Probing
+Refer to the underlying [DARPA'98 Intrusion Detection Program](darpa98.md).
 
 ### Contained Data
 
@@ -68,7 +55,7 @@ The raw DARPA data, which comes in the form of binary TCP dumps, is divided and 
 million connection records) of training data, and two weeks (~two million connection records) of test data.
 A connection record is defined as "a sequence of TCP packets starting and ending at some well-defined times, between
 which data flows to and from a source IP address to a target IP address under some well-defined protocol".
-Each of these connection records contains 41 features (description linked below), including a label indicating whether
+Each of these connection records contains 41 features (description linked below), with a 42nd label indicating whether
 this event is normal or malicious, which in the latter case also references the specific attack that event belongs to.
 
 The KDD'99 dataset fixes some issues present in its DARPA foundation, which was severely affected by simulation
