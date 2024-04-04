@@ -1,7 +1,7 @@
 ---
 layout: post
 title: News in v1.2.0
-subtitle: Five new dataset entries, some minor updates, and citation info
+subtitle: Four new dataset entries, some minor updates, and citation info
 gh-repo: fkie-cad/intrusion-detection-datasets
 gh-badge: [star, fork, follow]
 tags: [datasets]
