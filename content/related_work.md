@@ -72,7 +72,7 @@ Referenced datasets:
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
 - [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- ISOT
+- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
@@ -173,7 +173,7 @@ Referenced datasets:
 - DDoS 2016
 - IRSC
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- ISOT
+- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kent 2016](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
