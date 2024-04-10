@@ -39,6 +39,8 @@ botnets.
 Thirteen different scenarios were executed, with each one representing a certain botnet behavior, resulting in thirteen
 individual datasets.
 
+Note that these thirteen datasets are a subset of the [Malware Capture Facility Project](https://mcfp.weebly.com/), though other datasets within this collection did not undergo any further analysis or study.
+
 ### Environment
 
 The infected network consists of an unspecified number of virtualized machines running Windows XP SP2, with each machine
@@ -82,3 +84,4 @@ with [Argus](https://openargus.org/using-argus), though other tools might work t
 ### Links
 
 - [Homepage](https://www.stratosphereips.org/datasets-ctu13)
+- [Malware Capture Facility Project](https://mcfp.weebly.com/)
