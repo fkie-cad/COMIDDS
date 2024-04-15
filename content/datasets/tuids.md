@@ -33,7 +33,7 @@ title: TUIDS
 ### Overview
 The TUIDS dataset (presumably standing for Tezpur University IDS) was an attempt to improve upon the deprecated DARPA'98 dataset and its derivatives like NSL KDD -
 though some of the raised criticism is a bit nonsensical (e.g., NSL KDD is criticised for being "simulated", although they use the exact same methodology of collecting data in a testbed).
-This dataset is derived from a medium-sized testbed of 44 machines, which are then subjected to various DoS attacks
+This dataset is derived from a medium-sized testbed of 44 machines, which are then subjected to various DoS attacks.
 However, the dataset is no longer available for unknown reasons, making it both difficult and somewhat pointless to provide a lot of detailed information here.
 
 ### Environment
