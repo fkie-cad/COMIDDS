@@ -132,7 +132,7 @@ Referenced datasets:
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
 - [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- Malware Capture Facility Project
+- [Malware Capture Facility Project](/intrusion-detection-datasets/content/datasets/ctu_13) (alias for: CTU 13)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 - UNM system call dataset
 - [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
