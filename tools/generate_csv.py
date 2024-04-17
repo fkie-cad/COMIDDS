@@ -24,20 +24,20 @@ def main():
 
     csv_string = (
         "Name;"
-        "Network Focus;"
-        "Host Focus;"
+        "Network Attacks;"
+        "Host Attacks;"
         "Start Year;"
         "End Year;"
         "Setting;"
         "OS Type;"
 
-        "Network Log Source;"
-        "Network Logs Labeled;"
-        "Host Log Source;"
-        "Host Logs Labeled;"
+        "Network Data Source;"
+        "Network Data Labeled;"
+        "Host Data Source;"
+        "Host Data Labeled;"
 
         "Attack Categories;"
-        "User Emulation;"
+        "Benign Activity;"
 
         "Packed Size in MB;"
         "Unpacked Size in MB"

@@ -5,7 +5,7 @@ title: CSV Download
 ## [Download here]({{ site.baseurl }}/assets/data/datasets.csv)
 
 This `.csv` file is automatically created by parsing all currently existing dataset entries.
-It does not contain any new information, but is intended to facilitate deriving statistics or similar analysis efforts.
+It can be used to sort and filter data in a spreadsheet program or generate statistics and plots.
 The following fields are present for each dataset (semicolon-delimited):
 
 | Field Name           | Description                                                                                                  |
@@ -22,6 +22,6 @@ The following fields are present for each dataset (semicolon-delimited):
 | Host Data Source     | Source of host data (e.g., Windows events or ssh auth logs)                                                  |
 | Host Data Labeled    | If and how labels for host data is are available                                                             |
 | Attack Categories    | Types of attacks in the underlying scenario                                                                  |
-| User Emulation       | How user behavior (aka "normal behavior") was generated in the underlying scenario                           |
+| Benign activity      | How benign activity (aka "normal behavior") was generated in the underlying scenario                         |
 | Packed Size in MB    | Size of the entire dataset when packed, in MB                                                                |
 | Unpacked Size in MB  | Size of the entire dataset when unpacked, in MB                                                              |
