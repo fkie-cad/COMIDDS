@@ -62,6 +62,6 @@ def extract_from_table(markdown, key):
     match = re.search(pattern, markdown, re.DOTALL)
     if match:
         result = match.group(1).strip()
-        return result.replace("\"", "").replace("<br/>", ", ")
+        return result.replace("\"", "").replace("<br/>", ", ").replace("<br>", ", ")
     else:
         return "PARSE_ERROR"

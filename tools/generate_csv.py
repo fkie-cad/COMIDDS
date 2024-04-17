@@ -1,7 +1,7 @@
 import src.string_parser as parse
 
 FIRST_ENTRY_LINE = 11
-LINES_AFTER_TABLE_END = 8
+LINES_AFTER_TABLE_END = 7
 POS = {
     "Name": 0,
     "Focus": 1,
@@ -30,9 +30,9 @@ def main():
         "OS Type;"
         
         "Network Log Source;"
-        "Network Log Labeled;"
+        "Network Logs Labeled;"
         "Host Log Source;"
-        "Host Log Labeled;"
+        "Host Logs Labeled;"
         
         "Attack Categories;"
         "User Emulation;"
