@@ -22,9 +22,10 @@ author: Fraunhofer FKIE, Philipp Bönninghausen
 navbar-links:
   All Datasets: "content/all_datasets"
   CSV Download: "content/csv_download"
-  Contributing: "content/contributing"
-  About: "content/about"
   Related Work: "content/related_work"
+  More:
+    - Contributing: "content/contributing"
+    - About: "content/about"
 #  Author's home: "https://deanattali.com"
 
 ################
@@ -119,7 +120,7 @@ edit_page_button: true
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
-navbar-var-length: false
+navbar-var-length: true
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "datasets,collection,cybersecurity,IDS"
