@@ -22,9 +22,9 @@ author: Fraunhofer FKIE, Philipp Bönninghausen
 navbar-links:
   All Datasets: "content/all_datasets"
   CSV Download: "content/csv_download"
+  Related Work: "content/related_work"
   More:
     - Contributing: "content/contributing"
-    - Related Work: "content/related_work"
     - About: "content/about"
 #  Author's home: "https://deanattali.com"
 
