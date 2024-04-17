@@ -23,7 +23,7 @@ title: CIC DoS
 | **Total Runtime**        | 24 hours              |
 | **Year of Collection**   | 2017                  |
 | **Attack Categories**    | Application-layer DoS |
-| **Benign Activity**       | n/a                   |
+| **Benign Activity**      | n/a                   |
 |                          |                       |
 | **Packed Size**          | n/a                   |
 | **Unpacked Size**        | 4,6 GB                |

@@ -23,7 +23,7 @@ title: ASNM Datasets
 | **Total Runtime**        | n/a                                                    |
 | **Year of Collection**   | 2009/2015/2018                                         |
 | **Attack Categories**    | Remote Buffer Overflows<br/>Obfuscated Network Attacks |
-| **Benign Activity**       | Yes, but not further detailed                          |
+| **Benign Activity**      | Yes, but not further detailed                          |
 |                          |                                                        |
 | **Packed Size**          | 21 MB                                                  |
 | **Unpacked Size**        | 95 MB                                                  |

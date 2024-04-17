@@ -23,7 +23,7 @@ title: Twente 2014 Dataset
 | **Total Runtime**        | 2 months                                                      |
 | **Year of Collection**   | 2013-2014                                                     |
 | **Attack Categories**    | ssh bruteforce                                                |
-| **Benign Activity**       | Real users                                                    |
+| **Benign Activity**      | Real users                                                    |
 |                          |                                                               |
 | **Packed Size**          | 2,42 GB                                                       |
 | **Unpacked Size**        | 5,76 GB                                                       |

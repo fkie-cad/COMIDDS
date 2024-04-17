@@ -20,12 +20,12 @@ title: Skopik 2014
 | **Number of Machines**   | 2 + N users                    |
 | **Total Runtime**        | ~15 minutes                    |
 | **Year of Collection**   | 2014                           |
-| **Attack Categories**    | _n/a_                          |
-| **Benign Activity**       | Yes, following a complex model |
+| **Attack Categories**    | n/a                            |
+| **Benign Activity**      | Yes, following a complex model |
 |                          |                                |
-| **Packed Size**          | _n/a_                          |
-| **Unpacked Size**        | _n/a_                          |
-| **Download Link**        | _n/a_                          |
+| **Packed Size**          | n/a                            |
+| **Unpacked Size**        | n/a                            |
+| **Download Link**        | n/a                            |
 
 ***
 

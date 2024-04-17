@@ -18,12 +18,12 @@ title: CLUE-LDS
 | **Host Logs Labeled**    | No, data generated in production -> no known attacks                 |
 |                          |                                                                      |
 | **Overall Setting**      | Enterprise IT                                                        |
-| **OS Types**             | _n/a_ (focus on subsystem "hBox")                                    |
-| **Number of Machines**   | _n/a_ (5000 distinct users)                                          |
+| **OS Types**             | n/a (focus on subsystem "hBox")                                      |
+| **Number of Machines**   | n/a (5000 distinct users)                                            |
 | **Total Runtime**        | 1910 days                                                            |
 | **Year of Collection**   | 2017-2022                                                            |
-| **Attack Categories**    | _n/a_                                                                |
-| **Benign Activity**       | Real users                                                           |
+| **Attack Categories**    | n/a                                                                  |
+| **Benign Activity**      | Real users                                                           |
 |                          |                                                                      |
 | **Packed Size**          | 640 MB                                                               |
 | **Unpacked Size**        | 14,9 GB                                                              |

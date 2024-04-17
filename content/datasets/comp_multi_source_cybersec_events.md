@@ -23,10 +23,10 @@ title: Comprehensive, Multi-Source Cybersecurity Events
 | **Total Runtime**        | 58 days                                                |
 | **Year of Collection**   | 2015                                                   |
 | **Attack Categories**    | Authentication with stolen credentials                 |
-| **Benign Activity**       | Real users                                             |
+| **Benign Activity**      | Real users                                             |
 |                          |                                                        |
 | **Packed Size**          | 12 GB                                                  |
-| **Unpacked Size**        | _n/a_                                                  |
+| **Unpacked Size**        | n/a                                                    |
 | **Download Link**        | [must be requested](https://csr.lanl.gov/data/cyber1/) |
 
 ***

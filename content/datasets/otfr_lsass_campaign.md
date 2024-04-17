@@ -23,7 +23,7 @@ title: OTFR LSASS Campaign
 | **Total Runtime**        | n/a                                                                                                                                  |
 | **Year of Collection**   | 2023                                                                                                                                 |
 | **Attack Categories**    | Resource Development<br/>Execution<br/>Discovery<br/>Privilege Escalation<br/>Defense Evasion<br/>Credential Access<br/>Exfiltration |
-| **Benign Activity**       | No                                                                                                                                   |
+| **Benign Activity**      | No                                                                                                                                   |
 |                          |                                                                                                                                      |
 | **Packed Size**          | 423 MB                                                                                                                               |
 | **Unpacked Size**        | ~1 GB                                                                                                                                |

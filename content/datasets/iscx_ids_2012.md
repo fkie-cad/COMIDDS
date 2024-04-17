@@ -23,7 +23,7 @@ title: ISCX Intrusion Detection Evaluation Dataset
 | **Total Runtime**        | 7 days                                                                    |
 | **Year of Collection**   | 2012                                                                      |
 | **Attack Categories**    | Infiltration from Inside<br/>DoS/DDoS<br/>Brute Force                     |
-| **Benign Activity**       | Dedicated profiles generating traffic on various protocols/services       |
+| **Benign Activity**      | Dedicated profiles generating traffic on various protocols/services       |
 |                          |                                                                           |
 | **Packed Size**          | 84 GB                                                                     |
 | **Unpacked Size**        | 87 GB                                                                     |

@@ -24,9 +24,9 @@ title: TUIDS
 | **Attack Categories**    | DoS                          |
 | **Benign Activity**      | Presumably, but not detailed |
 |                          |                              |
-| **Packed Size**          | _n/a_                        |
-| **Unpacked Size**        | _n/a_                        |
-| **Download Link**        | _n/a_                        |
+| **Packed Size**          | n/a                          |
+| **Unpacked Size**        | n/a                          |
+| **Download Link**        | n/a                          |
 
 ***
 

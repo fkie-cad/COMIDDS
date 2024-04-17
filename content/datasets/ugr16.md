@@ -18,15 +18,15 @@ title: UGR'16
 | **Host Logs Labeled**    | -                                       |
 |                          |                                         |
 | **Overall Setting**      | Tier 3 ISP network                      |
-| **OS Types**             | _n/a_                                   |
+| **OS Types**             | n/a                                     |
 | **Number of Machines**   | 27                                      |
 | **Total Runtime**        | ~130 days                               |
 | **Year of Collection**   | 2016                                    |
 | **Attack Categories**    | DoS<br/>Port Scanning<br/>Botnet        |
-| **Benign Activity**       | Real users                              |
+| **Benign Activity**      | Real users                              |
 |                          |                                         |
 | **Packed Size**          | 236 GB                                  |
-| **Unpacked Size**        | _n/a_                                   |
+| **Unpacked Size**        | n/a                                     |
 | **Download Link**        | [goto](https://nesg.ugr.es/nesg-ugr16/) |
 
 ***
