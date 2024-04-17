@@ -5,7 +5,7 @@ title: CSV Download
 ## [Download here]({{ site.baseurl }}/assets/data/datasets.csv)
 
 This `.csv` file was created by parsing all currently existing dataset entries.
-It does not contain any new information, but is intended to facilitate deriving statistics or similar analysis purposes.
+It does not contain any new information, but is intended to facilitate deriving statistics or similar analysis efforts.
 The following fields are present for each dataset (semicolon-delimited):
 
 | Field Name           | Description                                                                                                  |
