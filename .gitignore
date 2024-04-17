@@ -17,6 +17,3 @@ beautiful-jekyll-theme-*.gem
 
 # Python stuff
 __pycache__/
-
-# Lock files
-.~lock.*.csv#
