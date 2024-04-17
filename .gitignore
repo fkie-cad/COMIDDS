@@ -14,3 +14,9 @@ beautiful-jekyll-theme-*.gem
 
 # PyCharm
 /.idea
+
+# Python stuff
+__pycache__/
+
+# Lock files
+.~lock.*.csv#
