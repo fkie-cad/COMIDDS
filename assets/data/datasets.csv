@@ -46,3 +46,4 @@ Unraveled;Yes;Yes;2021;2021;Enterprise IT;Windows, Linux;pcaps, snort logs;Yes;S
 UNSW-NB15;Yes;No;2015;2015;Undisclosed;Undisclosed;pcaps, custom network features;Yes;-;-;Scanning, Backdoors, DoS, Exploits, Reconnaissance, Shellcode, Worms, Fuzzing;PARSE_ERROR;100000.0;;
 User-Computer Associations in Time;No;No;2014;2014;Enterprise IT;Undisclosed;-;-;Authentication events;No;none;PARSE_ERROR;2300.0;;
 VAST Challenge 2011;Yes;No;2011;2011;Enterprise IT;Windows;Firewall, Snort;Ground truth provided;OS Security Events;Ground truth provided;Reconnaissance, DoS, Persistence;PARSE_ERROR;940.0;9300.0;
+VAST Challenge 2012;Yes;No;2012;2012;Enterprise IT;Undisclosed;Firewall and IDS logs;Ground truth provided;-;-;BotNet;PARSE_ERROR;186.0;2900.0;
