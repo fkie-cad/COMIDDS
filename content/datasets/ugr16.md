@@ -12,7 +12,7 @@ title: UGR'16
 
 | <!-- -->                 | <!-- -->                                |
 |--------------------------|-----------------------------------------|
-| **Network Log Source**   | NetFlows                           |
+| **Network Log Source**   | NetFlows                                |
 | **Network Logs Labeled** | Yes                                     |
 | **Host Log Source**      | -                                       |
 | **Host Logs Labeled**    | -                                       |

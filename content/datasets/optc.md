@@ -12,7 +12,7 @@ title: OpTC
 
 | <!-- -->                 | <!-- -->                                                                               |
 |--------------------------|----------------------------------------------------------------------------------------|
-| **Network Log Source**   | NetFlows                                                                          |
+| **Network Log Source**   | NetFlows                                                                               |
 | **Network Logs Labeled** | Yes                                                                                    |
 | **Host Log Source**      | eCar events                                                                            |
 | **Host Logs Labeled**    | Yes                                                                                    |
@@ -154,7 +154,9 @@ Bro (Zeek) events taken from `bro/2019-09-20/dns.11_00_00-12_00_00.log`.
 eCar-bro events taken from `ecar-bro/evaluation/23Sep19-red/AIA-201-225/ecarbro.json`.
 
 ```json
-[...]
+[
+  ...
+]
 {
   "timestamp": "2019-09-23T14:55:18.164-04:00",
   "id": "8e8b8298-d173-4e01-a871-8e10cb2c0be2",
@@ -204,5 +206,7 @@ eCar-bro events taken from `ecar-bro/evaluation/23Sep19-red/AIA-201-225/ecarbro.
   }
 }
 
-[...]
+[
+  ...
+]
 ```
