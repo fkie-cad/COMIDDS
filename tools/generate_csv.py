@@ -1,7 +1,7 @@
 import src.string_parser as parse
 
 FIRST_ENTRY_LINE = 11
-LINES_AFTER_TABLE_END = 7
+LINES_AFTER_TABLE_END = 8
 POS = {
     "Name": 0,
     "Focus": 1,
