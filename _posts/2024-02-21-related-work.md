@@ -4,7 +4,7 @@ title: Related Work added
 subtitle: A collection of related surveys and non-scientific collections of IDS datasets
 gh-repo: fkie-cad/intrusion-detection-datasets
 gh-badge: [ star, fork, follow ]
-tags: [ website ]
+tags: [ features ]
 comments: true
 author: Philipp Bönninghausen
 ---
