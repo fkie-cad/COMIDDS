@@ -12,7 +12,7 @@ title: Twente 2014 Dataset
 
 | <!-- -->                 | <!-- -->                                                      |
 |--------------------------|---------------------------------------------------------------|
-| **Network Log Source**   | Network flows (ssh auth only)                                 |
+| **Network Log Source**   | NetFlows (ssh auth only)                                      |
 | **Network Logs Labeled** | Yes                                                           |
 | **Host Log Source**      | ssh auth logs                                                 |
 | **Host Logs Labeled**    | Yes                                                           |
@@ -23,7 +23,7 @@ title: Twente 2014 Dataset
 | **Total Runtime**        | 2 months                                                      |
 | **Year of Collection**   | 2013-2014                                                     |
 | **Attack Categories**    | ssh bruteforce                                                |
-| **User Emulation**       | Real users                                                    |
+| **Benign Activity**      | Real users                                                    |
 |                          |                                                               |
 | **Packed Size**          | 2,42 GB                                                       |
 | **Unpacked Size**        | 5,76 GB                                                       |

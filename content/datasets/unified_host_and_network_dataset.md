@@ -12,21 +12,21 @@ title: Unified Host and Network Dataset
 
 | <!-- -->                 | <!-- -->                                              |
 |--------------------------|-------------------------------------------------------|
-| **Network Log Source**   | Network flows                                         |
+| **Network Log Source**   | NetFlows                                              |
 | **Network Logs Labeled** | No                                                    |
 | **Host Log Source**      | Windows events (auth & proc)                          |
 | **Host Logs Labeled**    | No                                                    |
 |                          |                                                       |
 | **Overall Setting**      | Enterprise IT                                         |
 | **OS Types**             | Undisclosed Windows Versions<br/>Undisclosed other OS |
-| **Number of Machines**   | _n/a_                                                 |
+| **Number of Machines**   | n/a                                                   |
 | **Total Runtime**        | 90 days                                               |
 | **Year of Collection**   | 2017                                                  |
 | **Attack Categories**    | None                                                  |
-| **User Emulation**       | Real users                                            |
+| **Benign Activity**      | Real users                                            |
 |                          |                                                       |
-| **Packed Size**          | _n/a_                                                 |
-| **Unpacked Size**        | _n/a_                                                 |
+| **Packed Size**          | n/a                                                   |
+| **Unpacked Size**        | n/a                                                   |
 | **Download Link**        | see below                                             |
 
 ***

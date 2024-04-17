@@ -21,10 +21,10 @@ title: ADFA Linux Dataset
 | **Overall Setting**      | Single OS                                                                                  |
 | **OS Types**             | Ubuntu 11.04 LTS                                                                           |
 | **Number of Machines**   | 1                                                                                          |
-| **Total Runtime**        | _n/a_                                                                                      |
+| **Total Runtime**        | n/a                                                                                        |
 | **Year of Collection**   | 2013                                                                                       |
 | **Attack Categories**    | Password Bruteforce <br> Social Engineering <br> Web-Based Attacks <br> Remote Exploits    |
-| **User Emulation**       | Unspecified "normal operation"                                                             |
+| **Benign Activity**      | Unspecified "normal operation"                                                             |
 |                          |                                                                                            |
 | **Packed Size**          | 2 MB                                                                                       |
 | **Unpacked Size**        | 17 MB                                                                                      |

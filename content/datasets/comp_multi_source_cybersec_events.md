@@ -12,10 +12,10 @@ title: Comprehensive, Multi-Source Cybersecurity Events
 
 | <!-- -->                 | <!-- -->                                               |
 |--------------------------|--------------------------------------------------------|
-| **Network Log Source**   | Network flows, DNS lookups                             |
+| **Network Log Source**   | NetFlows, DNS lookups                                  |
 | **Network Logs Labeled** | No                                                     |
 | **Host Log Source**      | Auth events, Process events                            |
-| **Host Logs Labeled**    | Partial, for auth events                               |
+| **Host Logs Labeled**    | Yes, for auth events                                   |
 |                          |                                                        |
 | **Overall Setting**      | Enterprise IT                                          |
 | **OS Types**             | Windows <br> Others undisclosed                        |
@@ -23,10 +23,10 @@ title: Comprehensive, Multi-Source Cybersecurity Events
 | **Total Runtime**        | 58 days                                                |
 | **Year of Collection**   | 2015                                                   |
 | **Attack Categories**    | Authentication with stolen credentials                 |
-| **User Emulation**       | Real users                                             |
+| **Benign Activity**      | Real users                                             |
 |                          |                                                        |
 | **Packed Size**          | 12 GB                                                  |
-| **Unpacked Size**        | _n/a_                                                  |
+| **Unpacked Size**        | n/a                                                    |
 | **Download Link**        | [must be requested](https://csr.lanl.gov/data/cyber1/) |
 
 ***

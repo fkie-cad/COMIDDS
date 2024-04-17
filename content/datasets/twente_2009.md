@@ -11,7 +11,7 @@ title: Twente 2009 Dataset
 
 | <!-- -->                 | <!-- -->                                                                                    |
 |--------------------------|---------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Network flows derived from pcaps                                                            |
+| **Network Log Source**   | NetFlows                                                                                    |
 | **Network Logs Labeled** | Yes                                                                                         |
 | **Host Log Source**      | -                                                                                           |
 | **Host Logs Labeled**    | -                                                                                           |
@@ -22,7 +22,7 @@ title: Twente 2009 Dataset
 | **Total Runtime**        | 6 days                                                                                      |
 | **Year of Collection**   | 2009                                                                                        |
 | **Attack Categories**    | Diverse                                                                                     |
-| **User Emulation**       | No                                                                                          |
+| **Benign Activity**      | No                                                                                          |
 |                          |                                                                                             |
 | **Packed Size**          | 303 MB                                                                                      |
 | **Unpacked Size**        | 1,85 GB                                                                                     |

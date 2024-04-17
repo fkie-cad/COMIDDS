@@ -12,7 +12,7 @@ title: OTFR APT 29
 
 | <!-- -->                 | <!-- -->                                                                                                                                                                                |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Packet captures, Zeek logs                                                                                                                                                              |
+| **Network Log Source**   | pcaps, Zeek logs                                                                                                                                                                        |
 | **Network Logs Labeled** | No                                                                                                                                                                                      |
 | **Host Log Source**      | Windows events                                                                                                                                                                          |
 | **Host Logs Labeled**    | No                                                                                                                                                                                      |
@@ -23,7 +23,7 @@ title: OTFR APT 29
 | **Total Runtime**        | n/a                                                                                                                                                                                     |
 | **Year of Collection**   | 2020                                                                                                                                                                                    |
 | **Attack Categories**    | Execution<br/>Persistence<br/>Privilege Escalation<br/>Defense Evasion<br/>Credential Access<br/>Discovery<br/>Lateral Movement<br/>Collection<br/>Command and Control<br/>Exfiltration |
-| **User Emulation**       | No                                                                                                                                                                                      |
+| **Benign Activity**      | No                                                                                                                                                                                      |
 |                          |                                                                                                                                                                                         |
 | **Packed Size**          | 126 MB                                                                                                                                                                                  |
 | **Unpacked Size**        | 2,03 GB                                                                                                                                                                                 |

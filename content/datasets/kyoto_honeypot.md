@@ -22,11 +22,11 @@ title: Kyoto Honeypot Dataset
 | **Number of Machines**   | 32                                                                      |
 | **Total Runtime**        | 9 years                                                                 |
 | **Year of Collection**   | 2006-2015                                                               |
-| **Attack Categories**    | _n/a_ (it's a honeypot)                                                 |
-| **User Emulation**       | Automated "normal traffic generation"                                   |
+| **Attack Categories**    | n/a (it's a honeypot)                                                   |
+| **Benign Activity**      | Automated "normal traffic generation"                                   |
 |                          |                                                                         |
 | **Packed Size**          | 5 GB                                                                    |
-| **Unpacked Size**        | _n/a_                                                                   |
+| **Unpacked Size**        | n/a                                                                     |
 | **Download Link**        | [goto](http://www.takakura.com/Kyoto_data/new_data201704/)              |
 
 ***

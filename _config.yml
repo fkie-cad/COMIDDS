@@ -21,6 +21,7 @@ author: Fraunhofer FKIE, Philipp Bönninghausen
 
 navbar-links:
   All Datasets: "content/all_datasets"
+  CSV Download: "content/csv_download"
   Contributing: "content/contributing"
   About: "content/about"
   Related Work: "content/related_work"

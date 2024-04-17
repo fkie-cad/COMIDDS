@@ -11,8 +11,8 @@ title: CTU-13 Dataset
 
 | <!-- -->                 | <!-- -->                                                                       |
 |--------------------------|--------------------------------------------------------------------------------|
-| **Network Log Source**   | Pcaps, NetFlows                                                                |
-| **Network Logs Labeled** | NetFlows are labeled                                                           |
+| **Network Log Source**   | pcaps, NetFlows                                                                |
+| **Network Logs Labeled** | Yes, NetFlows are labeled                                                      |
 | **Host Log Source**      | -                                                                              |
 | **Host Logs Labeled**    | -                                                                              |
 |                          |                                                                                |
@@ -22,7 +22,7 @@ title: CTU-13 Dataset
 | **Total Runtime**        | 1-67 hrs                                                                       |
 | **Year of Collection**   | 2011                                                                           |
 | **Attack Categories**    | Various Botnet activity<br/>(Neris, Rbot, Virut, Menti, Sogou, Murlo, NSIS.ay) |
-| **User Emulation**       | Yes, as in real background traffic                                             |
+| **Benign Activity**      | Yes, as in real background traffic                                             |
 |                          |                                                                                |
 | **Packed Size**          | n/a                                                                            |
 | **Unpacked Size**        | 697 GB (sum of all 13 scenarios)                                               |

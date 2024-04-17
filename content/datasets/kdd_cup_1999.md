@@ -24,7 +24,7 @@ title: KDD Cup 1999
 | **Total Runtime**        | Nine weeks                                                                 |
 | **Year of Collection**   | 1998                                                                       |
 | **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing          |
-| **User Emulation**       | Scripts for traffic generation, actual humans for performing complex tasks |
+| **Benign Activity**      | Scripts for traffic generation, actual humans for performing complex tasks |
 |                          |                                                                            |
 | **Packed Size**          | 18 MB                                                                      |
 | **Unpacked Size**        | 743 MB                                                                     |

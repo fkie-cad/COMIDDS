@@ -23,7 +23,7 @@ title: PWNJUTSU
 | **Total Runtime**        | n/a                                                                           |
 | **Year of Collection**   | 2022                                                                          |
 | **Attack Categories**    | Discovery<br/>Lateral Movement<br/>Credential Access<br/>Privilege Escalation |
-| **User Emulation**       | n/a                                                                           |
+| **Benign Activity**      | n/a                                                                           |
 |                          |                                                                               |
 | **Packed Size**          | 82 GB                                                                         |
 | **Unpacked Size**        | n/a                                                                           |
@@ -64,13 +64,13 @@ In terms of MITRE tactics, which is also what the authors adhered to when descri
 For each of the 22 runs, the following log data was collected:
 - pcaps
 - System logs (all aggregated into a single file)
-  - auth, auditd and Apache for Linux
-  - Sysmon and event logs (System, Application, Security) for Windows
+    - auth, auditd and Apache for Linux
+    - Sysmon and event logs (System, Application, Security) for Windows
 - Various network logs (DNS, ssh, http, etc.)
 
 Sadly, these logs are *not* labeled.
 An additional 23rd run is available, which consists of just the configured network, without any malicious activity.
-The authors provide an internal search engine, enabling exploration of the data online (linked below). 
+The authors provide an internal search engine, enabling exploration of the data online (linked below).
 
 ### Papers
 - [PWNJUTSU: A Dataset and Semantics-Driven Approach to Retrace Attack Campaigns](https://doi.org/10.1109/TNSM.2022.3183476)

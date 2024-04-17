@@ -13,9 +13,9 @@ title: SOCBED Example Dataset
 | <!-- -->                 | <!-- -->                                                       |
 |--------------------------|----------------------------------------------------------------|
 | **Network Log Source**   | Traffic via packetbeat                                         |
-| **Network Logs Labeled** | No (but I labelled a separate run manually)                    |
+| **Network Logs Labeled** | No (but I labeled a separate run manually)                     |
 | **Host Log Source**      | Various system logs                                            |
-| **Host Logs Labeled**    | No (but I labelled a separate run manually)                    |
+| **Host Logs Labeled**    | No (but I labeled a separate run manually)                     |
 |                          |                                                                |
 | **Overall Setting**      | Enterprise IT                                                  |
 | **OS Types**             | Windows 10<br/>Ubuntu 16.04<br/>IPFire<br/>Kali2021 (Attacker) |
@@ -23,7 +23,7 @@ title: SOCBED Example Dataset
 | **Total Runtime**        | 2 hours                                                        |
 | **Year of Collection**   | 2021                                                           |
 | **Attack Categories**    | Diverse                                                        |
-| **User Emulation**       | Yes                                                            |
+| **Benign Activity**      | Yes                                                            |
 |                          |                                                                |
 | **Packed Size**          | 78 MB                                                          |
 | **Unpacked Size**        | 1,3 GB                                                         |

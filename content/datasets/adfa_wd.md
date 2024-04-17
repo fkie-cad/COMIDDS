@@ -27,10 +27,10 @@ Info for ADFA-WD will be added if that data becomes available.
 | **Overall Setting**      | Single OS                                                                                           |
 | **OS Types**             | Windows XP Service Pack 2                                                                           |
 | **Number of Machines**   | 1                                                                                                   |
-| **Total Runtime**        | _n/a_                                                                                               |
+| **Total Runtime**        | n/a                                                                                                 |
 | **Year of Collection**   | 2014                                                                                                |
 | **Attack Categories**    | Stealthy Shellcode                                                                                  |
-| **User Emulation**       | _n/a_                                                                                               |
+| **Benign Activity**      | n/a                                                                                                 |
 |                          |                                                                                                     |
 | **Packed Size**          | 403 MB                                                                                              |
 | **Unpacked Size**        | 13,6 GB                                                                                             |

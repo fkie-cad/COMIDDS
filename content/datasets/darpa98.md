@@ -13,7 +13,7 @@ title: DARPA'98 Intrusion Detection Program
 | <!-- -->                 | <!-- -->                                                                                      |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | **Network Log Source**   | tcpdumps                                                                                      |
-| **Network Logs Labeled** | Yes, via ground truth                                                                         |
+| **Network Logs Labeled** | Ground truth provided                                                                         |
 | **Host Log Source**      | bsm audits, file system dumps                                                                 |
 | **Host Logs Labeled**    | No                                                                                            |
 |                          |                                                                                               |
@@ -23,10 +23,10 @@ title: DARPA'98 Intrusion Detection Program
 | **Total Runtime**        | Nine weeks                                                                                    |
 | **Year of Collection**   | 1998                                                                                          |
 | **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                             |
-| **User Emulation**       | Scripts for traffic generation, actual humans for performing complex tasks                    |
+| **Benign Activity**      | Scripts for traffic generation, actual humans for performing complex tasks                    |
 |                          |                                                                                               |
 | **Packed Size**          | 5 GB                                                                                          |
-| **Unpacked Size**        | _n/a_                                                                                         |
+| **Unpacked Size**        | n/a                                                                                           |
 | **Download Link**        | [goto](https://www.ll.mit.edu/r-d/datasets/1998-darpa-intrusion-detection-evaluation-dataset) |
 
 ***

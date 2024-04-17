@@ -24,7 +24,7 @@ title: User-Computer Authentication Associations in Time
 | **Total Runtime**        | 9 months              |
 | **Year of Collection**   | 2014                  |
 | **Attack Categories**    | none                  |
-| **User Emulation**       | Real users            |
+| **Benign Activity**      | Real users            |
 |                          |                       |
 | **Packed Size**          | 2,3 GB                |
 | **Unpacked Size**        | n/a                   |

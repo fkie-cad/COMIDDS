@@ -12,7 +12,7 @@ title: CIC-DDos2019
 
 | <!-- -->                 | <!-- -->                                                      |
 |--------------------------|---------------------------------------------------------------|
-| **Network Log Source**   | Pcaps, NetFlows                                               |
+| **Network Log Source**   | pcaps, NetFlows                                               |
 | **Network Logs Labeled** | Flows are labeled                                             |
 | **Host Log Source**      | Windows event logs, Ubuntu event logs                         |
 | **Host Logs Labeled**    | No                                                            |
@@ -23,7 +23,7 @@ title: CIC-DDos2019
 | **Total Runtime**        | ~16 hours                                                     |
 | **Year of Collection**   | 2019                                                          |
 | **Attack Categories**    | Various DDoS attacks                                          |
-| **User Emulation**       | Yes, models complex behavior                                  |
+| **Benign Activity**      | Yes, models complex behavior                                  |
 |                          |                                                               |
 | **Packed Size**          | 24,4 GB                                                       |
 | **Unpacked Size**        | n/a                                                           |

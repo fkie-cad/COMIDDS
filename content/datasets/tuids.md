@@ -22,11 +22,11 @@ title: TUIDS
 | **Total Runtime**        | 4 weeks                      |
 | **Year of Collection**   | 2012                         |
 | **Attack Categories**    | DoS                          |
-| **User Emulation**       | Presumably, but not detailed |
+| **Benign Activity**      | Presumably, but not detailed |
 |                          |                              |
-| **Packed Size**          | _n/a_                        |
-| **Unpacked Size**        | _n/a_                        |
-| **Download Link**        | _n/a_                        |
+| **Packed Size**          | n/a                          |
+| **Unpacked Size**        | n/a                          |
+| **Download Link**        | n/a                          |
 
 ***
 

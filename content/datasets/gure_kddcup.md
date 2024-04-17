@@ -24,7 +24,7 @@ title: gureKDDCup
 | **Total Runtime**        | Nine weeks                                                                                                 |
 | **Year of Collection**   | 1998                                                                                                       |
 | **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                                          |
-| **User Emulation**       | Scripts for traffic generation, actual humans for performing complex tasks                                 |
+| **Benign Activity**      | Scripts for traffic generation, actual humans for performing complex tasks                                 |
 |                          |                                                                                                            |
 | **Packed Size**          | 10 GB                                                                                                      |
 | **Unpacked Size**        | n/a                                                                                                        |
@@ -60,14 +60,14 @@ That is, for each connection record, three additional files are generated:
 The filename before the extension is equal to the number of the associated conneciton record.
 Data is divided into seven weeks, which then each contain five folders, one for every workday (MON-FR).
 Each of those contains the following data:
-- `gureKddcup.list`: Connection records for that day. 
-The first 6 attributes are: connection_number, start_time, orig_port, resp_port, orig_ip, resp_ip (information to identify the connection), followed by the cited 41 attributes plus class (see data example below)
+- `gureKddcup.list`: Connection records for that day.
+  The first 6 attributes are: connection_number, start_time, orig_port, resp_port, orig_ip, resp_ip (information to identify the connection), followed by the cited 41 attributes plus class (see data example below)
 - `a-matched`: All sent packets' payloads of that days connections, one file per connection record.
-Each filename matches to a connection_number in the list of connection records.
+  Each filename matches to a connection_number in the list of connection records.
 - `b-matched`: All received packets' payloads of that days connections, one file per connection record.
-Each filename matches to a connection_number in the list of connection records.
+  Each filename matches to a connection_number in the list of connection records.
 - `a-matched`: All packets' payloads of that days connections, one file per connection record.
-Each filename matches to a connection_number in the list of connection records.
+  Each filename matches to a connection_number in the list of connection records.
 
 The authors also supply a subset of this data called gureKddcup6percent.
 It supplies the same information in the same way, but, as the name suggests, only supplies 6% of the original connection records plus associated payloads.

@@ -24,7 +24,7 @@ title: NF-UQ-NIDS
 | **Total Runtime**        | n/a                                                                                                                                               |
 | **Year of Collection**   | 2015 / 2018 / 2019                                                                                                                                |
 | **Attack Categories**    | DoS / DDoS<br/>Reconnaissance<br/>Injection<br/>Infiltration<br/>Backdoor<br/>Botnet<br/>Shellcode<br/>MITM<br/>Worms<br/>Ransomware<br/>Exploits |
-| **User Emulation**       | Yes                                                                                                                                               |
+| **Benign Activity**      | Yes                                                                                                                                               |
 |                          |                                                                                                                                                   |
 | **Packed Size**          | 2 GB                                                                                                                                              |
 | **Unpacked Size**        | 14,8 GB                                                                                                                                           |
