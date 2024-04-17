@@ -14,7 +14,7 @@ title: CSE-CIC-IDS2018
 | <!-- -->                 | <!-- -->                                                                                                 |
 |--------------------------|----------------------------------------------------------------------------------------------------------|
 | **Network Log Source**   | pcaps, NetFlows                                                                                          |
-| **Network Logs Labeled** | NetFlows are labeled                                                                                     |
+| **Network Logs Labeled** | Yes, NetFlows are labeled                                                                                |
 | **Host Log Source**      | Ubuntu event logs, Windows event logs                                                                    |
 | **Host Logs Labeled**    | No                                                                                                       |
 |                          |                                                                                                          |

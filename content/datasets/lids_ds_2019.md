@@ -15,7 +15,7 @@ title: LID-DS 2019
 | **Network Log Source**   | -                                                                        |
 | **Network Logs Labeled** | -                                                                        |
 | **Host Log Source**      | Syscalls with parameter information                                      |
-| **Host Logs Labeled**    | Some metadata provided                                                   |
+| **Host Logs Labeled**    | Ground truth provided                                                    |
 |                          |                                                                          |
 | **Overall Setting**      | Single OS                                                                |
 | **OS Types**             | Ubuntu 18.04                                                             |

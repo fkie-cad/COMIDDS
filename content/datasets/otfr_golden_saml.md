@@ -15,7 +15,7 @@ title: SimuLand Golden SAML Dataset
 | **Network Log Source**   | -                                                |
 | **Network Logs Labeled** | -                                                |
 | **Host Log Source**      | Events from AAD, MS Defender, Office and Windows |
-| **Host Logs Labeled**    | Yes (everything is malicious                     |
+| **Host Logs Labeled**    | Yes, in the sense that everything is malicious   |
 |                          |                                                  |
 | **Overall Setting**      | Enterprise IT                                    |
 | **OS Types**             | Windows                                          |

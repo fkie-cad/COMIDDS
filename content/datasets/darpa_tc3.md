@@ -15,7 +15,7 @@ title: DARPA TC3
 | **Network Log Source**   | -                                                                                         |
 | **Network Logs Labeled** | -                                                                                         |
 | **Host Log Source**      | Custom event logs                                                                         |
-| **Host Logs Labeled**    | Ground Truth provided                                                                     |
+| **Host Logs Labeled**    | Ground truth provided                                                                     |
 |                          |                                                                                           |
 | **Overall Setting**      | Undisclosed                                                                               |
 | **OS Types**             | Windows?                                                                                  |

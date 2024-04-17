@@ -13,7 +13,7 @@ title: DARPA'98 Intrusion Detection Program
 | <!-- -->                 | <!-- -->                                                                                      |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | **Network Log Source**   | tcpdumps                                                                                      |
-| **Network Logs Labeled** | Yes, via ground truth                                                                         |
+| **Network Logs Labeled** | Ground truth provided                                                                         |
 | **Host Log Source**      | bsm audits, file system dumps                                                                 |
 | **Host Logs Labeled**    | No                                                                                            |
 |                          |                                                                                               |

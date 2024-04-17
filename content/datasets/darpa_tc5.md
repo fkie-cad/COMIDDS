@@ -14,7 +14,7 @@ title: DARPA TC5
 | **Network Log Source**   | -                                                                                |
 | **Network Logs Labeled** | -                                                                                |
 | **Host Log Source**      | Custom event logs                                                                |
-| **Host Logs Labeled**    | Ground Truth provided                                                            |
+| **Host Logs Labeled**    | Ground truth provided                                                            |
 |                          |                                                                                  |
 | **Overall Setting**      | Enterprise IT                                                                    |
 | **OS Types**             | Windows<br/>Ubuntu                                                               |
