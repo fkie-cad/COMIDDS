@@ -18,9 +18,9 @@ The following fields are present for each dataset (semicolon-delimited):
 | Setting              | Setting of the underlying scenario (Single OS/Enterprise IT/Military IT/Subsystem/Miscellaneous/Undisclosed) |
 | OS Type              | OS families that were part of the underlying scenario (Windows/Linux/Unix/MacOS/Undisclosed)                 |
 | Network Data Source  | Source of network data (e.g., pcaps or NetFlows)                                                             |
-| Network Data Labeled | If and how labels for network data is available                                                              |
+| Network Data Labeled | If and how labels for network data are available                                                             |
 | Host Data Source     | Source of host data (e.g., Windows events or ssh auth logs)                                                  |
-| Host Data Labeled    | If and how labels for host data is are available                                                             |
+| Host Data Labeled    | If and how labels for host data are available                                                                |
 | Attack Categories    | Types of attacks in the underlying scenario                                                                  |
 | Benign activity      | How benign activity (aka "normal behavior") was generated in the underlying scenario                         |
 | Packed Size in MB    | Size of the entire dataset when packed, in MB                                                                |
