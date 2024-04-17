@@ -11,7 +11,7 @@ title: CTU-13 Dataset
 
 | <!-- -->                 | <!-- -->                                                                       |
 |--------------------------|--------------------------------------------------------------------------------|
-| **Network Log Source**   | Pcaps, NetFlows                                                                |
+| **Network Log Source**   | pcaps, NetFlows                                                                |
 | **Network Logs Labeled** | NetFlows are labeled                                                           |
 | **Host Log Source**      | -                                                                              |
 | **Host Logs Labeled**    | -                                                                              |

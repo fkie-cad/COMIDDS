@@ -13,7 +13,7 @@ title: AIT Log Data Set
 
 | <!-- -->                 | <!-- -->                                                                                                          |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | VPN, DNS, pcaps, suricata                                                                                         |
+| **Network Log Source**   | VPN, DNS, pcaps, Suricata                                                                                         |
 | **Network Logs Labeled** | Partial, see details                                                                                              |
 | **Host Log Source**      | Apache, auth, audit, syslogs, and more                                                                            |
 | **Host Logs Labeled**    | Partial, see details                                                                                              |

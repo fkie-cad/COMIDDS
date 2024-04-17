@@ -14,7 +14,7 @@ title: AWSCTD
 |--------------------------|--------------------------------------------------------------|
 | **Network Log Source**   | -                                                            |
 | **Network Logs Labeled** | -                                                            |
-| **Host Log Source**      | Sequences of Syscall Numbers (aka library calls to Ntdll)    |
+| **Host Log Source**      | Sequences of Syscall Numbers                                 |
 | **Host Logs Labeled**    | Yes                                                          |
 |                          |                                                              |
 | **Overall Setting**      | Single OS                                                    |

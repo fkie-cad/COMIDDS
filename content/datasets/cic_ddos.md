@@ -12,7 +12,7 @@ title: CIC-DDos2019
 
 | <!-- -->                 | <!-- -->                                                      |
 |--------------------------|---------------------------------------------------------------|
-| **Network Log Source**   | Pcaps, NetFlows                                               |
+| **Network Log Source**   | pcaps, NetFlows                                               |
 | **Network Logs Labeled** | Flows are labeled                                             |
 | **Host Log Source**      | Windows event logs, Ubuntu event logs                         |
 | **Host Logs Labeled**    | No                                                            |

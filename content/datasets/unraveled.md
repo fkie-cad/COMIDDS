@@ -15,7 +15,7 @@ title: Unraveled
 
 | <!-- -->                 | <!-- -->                                                                |
 |--------------------------|-------------------------------------------------------------------------|
-| **Network Log Source**   | Network captures, snort logs                                            |
+| **Network Log Source**   | pcaps, snort logs                                                       |
 | **Network Logs Labeled** | Yes                                                                     |
 | **Host Log Source**      | Syslog, audit, auth                                                     |
 | **Host Logs Labeled**    | Yes                                                                     |

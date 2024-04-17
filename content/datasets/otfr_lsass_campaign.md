@@ -12,7 +12,7 @@ title: OTFR LSASS Campaign
 
 | <!-- -->                 | <!-- -->                                                                                                                             |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Packet captures, Zeek logs                                                                                                           |
+| **Network Log Source**   | pcaps, Zeek logs                                                                                                           |
 | **Network Logs Labeled** | No                                                                                                                                   |
 | **Host Log Source**      | Windows events                                                                                                                       |
 | **Host Logs Labeled**    | No                                                                                                                                   |

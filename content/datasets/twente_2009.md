@@ -11,7 +11,7 @@ title: Twente 2009 Dataset
 
 | <!-- -->                 | <!-- -->                                                                                    |
 |--------------------------|---------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Network flows derived from pcaps                                                            |
+| **Network Log Source**   | NetFlows                                                                                    |
 | **Network Logs Labeled** | Yes                                                                                         |
 | **Host Log Source**      | -                                                                                           |
 | **Host Logs Labeled**    | -                                                                                           |

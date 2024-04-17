@@ -12,7 +12,7 @@ title: Twente 2014 Dataset
 
 | <!-- -->                 | <!-- -->                                                      |
 |--------------------------|---------------------------------------------------------------|
-| **Network Log Source**   | Network flows (ssh auth only)                                 |
+| **Network Log Source**   | NetFlows (ssh auth only)                                 |
 | **Network Logs Labeled** | Yes                                                           |
 | **Host Log Source**      | ssh auth logs                                                 |
 | **Host Logs Labeled**    | Yes                                                           |

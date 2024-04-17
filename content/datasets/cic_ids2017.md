@@ -13,7 +13,7 @@ title: CIC-IDS2017
 
 | <!-- -->                 | <!-- -->                                                                                         |
 |--------------------------|--------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Pcaps, derived features                                                                          |
+| **Network Log Source**   | pcaps, derived features                                                                          |
 | **Network Logs Labeled** | Yes                                                                                              |
 | **Host Log Source**      | -                                                                                                |
 | **Host Logs Labeled**    | -                                                                                                |

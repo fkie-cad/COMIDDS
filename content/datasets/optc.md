@@ -12,7 +12,7 @@ title: OpTC
 
 | <!-- -->                 | <!-- -->                                                                               |
 |--------------------------|----------------------------------------------------------------------------------------|
-| **Network Log Source**   | Network flows                                                                          |
+| **Network Log Source**   | NetFlows                                                                          |
 | **Network Logs Labeled** | Yes                                                                                    |
 | **Host Log Source**      | eCar events                                                                            |
 | **Host Logs Labeled**    | Yes                                                                                    |
