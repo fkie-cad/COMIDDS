@@ -65,7 +65,7 @@ def main():
         new_entry += parse.extract_from_table(details_md, "Host Logs Labeled") + ";"
 
         new_entry += parse.extract_from_table(details_md, "Attack Categories") + ";"
-        new_entry += parse.extract_from_table(details_md, "User Emulation") + ";"
+        new_entry += parse.extract_from_table(details_md, "Benign Activity") + ";"
 
         new_entry += parse.size_in_mb(content[POS["Packed Size"]]) + ";"
         new_entry += parse.size_in_mb(content[POS["Unpacked Size"]]) + ";"
