@@ -16,6 +16,8 @@ POS = {
 }
 
 
+# EXECUTE FROM REPO ROOT
+
 def main():
     with open("content/all_datasets.md") as file:
         datasets = file.readlines()[FIRST_ENTRY_LINE - 1: - LINES_AFTER_TABLE_END]
@@ -28,15 +30,15 @@ def main():
         "End Year;"
         "Setting;"
         "OS Type;"
-        
+
         "Network Log Source;"
         "Network Logs Labeled;"
         "Host Log Source;"
         "Host Logs Labeled;"
-        
+
         "Attack Categories;"
         "User Emulation;"
-        
+
         "Packed Size in MB;"
         "Unpacked Size in MB"
         "\n")
@@ -73,7 +75,7 @@ def main():
 
     print(csv_string)
 
-    with open("datasets.csv", "w") as file:
+    with open("assets/data/datasets.csv", "w") as file:
         file.write(csv_string)
 
 
