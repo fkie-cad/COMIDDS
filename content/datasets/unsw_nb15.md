@@ -24,7 +24,7 @@ title: UNSW-NB15
 | **Total Runtime**        | 31 hours                                                                                           |
 | **Year of Collection**   | 2015                                                                                               |
 | **Attack Categories**    | Scanning<br/>Backdoors<br/>DoS<br/>Exploits<br/>Reconnaissance<br/>Shellcode<br/>Worms<br/>Fuzzing |
-| **User Emulation**       | Yes, via IXIA PerfectStorm                                                                         |
+| **Benign Activity**       | Yes, via IXIA PerfectStorm                                                                         |
 |                          |                                                                                                    |
 | **Packed Size**          | ~100 GB                                                                                            |
 | **Unpacked Size**        | n/a                                                                                                |

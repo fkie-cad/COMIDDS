@@ -23,7 +23,7 @@ title: OpTC
 | **Total Runtime**        | 6 days                                                                                 |
 | **Year of Collection**   | 2019                                                                                   |
 | **Attack Categories**    | Powershell Empire<br/>Malicious Upgrades                                               |
-| **User Emulation**       | Yes                                                                                    |
+| **Benign Activity**       | Yes                                                                                    |
 |                          |                                                                                        |
 | **Packed Size**          | _n/a_                                                                                  |
 | **Unpacked Size**        | 1 TB                                                                                   |

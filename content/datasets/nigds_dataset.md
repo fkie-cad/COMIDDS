@@ -23,7 +23,7 @@ title: NGIDS Dataset
 | **Total Runtime**        | ~5 days                                                                                       |
 | **Year of Collection**   | 2016                                                                                          |
 | **Attack Categories**    | DDoS<br/>Shellcode<br/>Worms<br/>Reconnaissance<br/>Exploits<br/>"Generic"                    |
-| **User Emulation**       | Yes, using IXIA PerfectStorm                                                                  |
+| **Benign Activity**       | Yes, using IXIA PerfectStorm                                                                  |
 |                          |                                                                                               |
 | **Packed Size**          | 941 MB                                                                                        |
 | **Unpacked Size**        | 13,4 GB                                                                                       |

@@ -22,7 +22,7 @@ title: EVTX to MITRE ATT&CK
 | **Total Runtime**        | _n/a_                                                                                                                                             |
 | **Year of Collection**   | _n/a_                                                                                                                                             |
 | **Attack Categories**    | Execution<br/>Persistence<br/>Privilege Escalation<br/>Defense Evasion<br/>Credential Access<br/>Discovery<br/>Lateral Movement<br/>C2<br/>Impact |
-| **User Emulation**       | _n/a_                                                                                                                                             |
+| **Benign Activity**       | _n/a_                                                                                                                                             |
 |                          |                                                                                                                                                   |
 | **Packed Size**          | 3,7 MB                                                                                                                                            |
 | **Unpacked Size**        | _n/a_                                                                                                                                             |

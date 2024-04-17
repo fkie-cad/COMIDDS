@@ -24,7 +24,7 @@ title: AIT Log Data Set
 | **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                         |
 | **Year of Collection**   | 2022                                                                                                          |
 | **Attack Categories**    | Reconnaissance<br>Privilege Escalation<br>Data Exfiltration<br>Web-based Attacks<br/>Remote Command Execution |
-| **User Emulation**       | Yes, models complex behavior                                                                                  |
+| **Benign Activity**       | Yes, models complex behavior                                                                                  |
 |                          |                                                                                                               |
 | **Packed Size**          | 130 GB                                                                                                        |
 | **Unpacked Size**        | 206 GB                                                                                                        |

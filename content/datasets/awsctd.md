@@ -23,7 +23,7 @@ title: AWSCTD
 | **Total Runtime**        | ~30 minutes per run                                          |
 | **Year of Collection**   | 2018                                                         |
 | **Attack Categories**    | Over 10k different malware samples, idk                      |
-| **User Emulation**       | None                                                         |
+| **Benign Activity**       | None                                                         |
 |                          |                                                              |
 | **Packed Size**          | 9,8 MB                                                       |
 | **Unpacked Size**        | 558 MB                                                       |

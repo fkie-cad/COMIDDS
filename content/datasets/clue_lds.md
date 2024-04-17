@@ -23,7 +23,7 @@ title: CLUE-LDS
 | **Total Runtime**        | 1910 days                                                            |
 | **Year of Collection**   | 2017-2022                                                            |
 | **Attack Categories**    | _n/a_                                                                |
-| **User Emulation**       | Real users                                                           |
+| **Benign Activity**       | Real users                                                           |
 |                          |                                                                      |
 | **Packed Size**          | 640 MB                                                               |
 | **Unpacked Size**        | 14,9 GB                                                              |

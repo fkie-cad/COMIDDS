@@ -21,7 +21,7 @@ title: Skopik 2014
 | **Total Runtime**        | ~15 minutes                    |
 | **Year of Collection**   | 2014                           |
 | **Attack Categories**    | _n/a_                          |
-| **User Emulation**       | Yes, following a complex model |
+| **Benign Activity**       | Yes, following a complex model |
 |                          |                                |
 | **Packed Size**          | _n/a_                          |
 | **Unpacked Size**        | _n/a_                          |

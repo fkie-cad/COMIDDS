@@ -24,7 +24,7 @@ title: CSE-CIC-IDS2018
 | **Total Runtime**        | ~5 days                                                                                                  |
 | **Year of Collection**   | 2018                                                                                                     |
 | **Attack Categories**    | Bruteforce<br/>Heartbleed<br/>Botnet<br/>DoS/DDoS<br/>Web-Based<br/>Infiltration from Inside             |
-| **User Emulation**       | Yes, models complex behavior                                                                             |
+| **Benign Activity**       | Yes, models complex behavior                                                                             |
 |                          |                                                                                                          |
 | **Packed Size**          | 220 GB                                                                                                   |
 | **Unpacked Size**        | _n/a_                                                                                                    |

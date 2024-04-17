@@ -23,7 +23,7 @@ title: Unified Host and Network Dataset
 | **Total Runtime**        | 90 days                                               |
 | **Year of Collection**   | 2017                                                  |
 | **Attack Categories**    | None                                                  |
-| **User Emulation**       | Real users                                            |
+| **Benign Activity**       | Real users                                            |
 |                          |                                                       |
 | **Packed Size**          | _n/a_                                                 |
 | **Unpacked Size**        | _n/a_                                                 |

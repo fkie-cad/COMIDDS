@@ -23,7 +23,7 @@ title: SimuLand Golden SAML Dataset
 | **Total Runtime**        | _n/a_                                            |
 | **Year of Collection**   | 2021                                             |
 | **Attack Categories**    | Impersonation<br/>Data Extraction                |
-| **User Emulation**       | _n/a_                                            |
+| **Benign Activity**       | _n/a_                                            |
 |                          |                                                  |
 | **Packed Size**          | _n/a_                                            |
 | **Unpacked Size**        | <1 MB                                            |

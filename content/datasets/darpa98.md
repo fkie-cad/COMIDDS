@@ -23,7 +23,7 @@ title: DARPA'98 Intrusion Detection Program
 | **Total Runtime**        | Nine weeks                                                                                    |
 | **Year of Collection**   | 1998                                                                                          |
 | **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                             |
-| **User Emulation**       | Scripts for traffic generation, actual humans for performing complex tasks                    |
+| **Benign Activity**       | Scripts for traffic generation, actual humans for performing complex tasks                    |
 |                          |                                                                                               |
 | **Packed Size**          | 5 GB                                                                                          |
 | **Unpacked Size**        | _n/a_                                                                                         |

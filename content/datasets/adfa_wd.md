@@ -30,7 +30,7 @@ Info for ADFA-WD will be added if that data becomes available.
 | **Total Runtime**        | _n/a_                                                                                               |
 | **Year of Collection**   | 2014                                                                                                |
 | **Attack Categories**    | Stealthy Shellcode                                                                                  |
-| **User Emulation**       | _n/a_                                                                                               |
+| **Benign Activity**       | _n/a_                                                                                               |
 |                          |                                                                                                     |
 | **Packed Size**          | 403 MB                                                                                              |
 | **Unpacked Size**        | 13,6 GB                                                                                             |

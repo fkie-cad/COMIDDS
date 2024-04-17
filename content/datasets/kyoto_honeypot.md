@@ -23,7 +23,7 @@ title: Kyoto Honeypot Dataset
 | **Total Runtime**        | 9 years                                                                 |
 | **Year of Collection**   | 2006-2015                                                               |
 | **Attack Categories**    | _n/a_ (it's a honeypot)                                                 |
-| **User Emulation**       | Automated "normal traffic generation"                                   |
+| **Benign Activity**       | Automated "normal traffic generation"                                   |
 |                          |                                                                         |
 | **Packed Size**          | 5 GB                                                                    |
 | **Unpacked Size**        | _n/a_                                                                   |

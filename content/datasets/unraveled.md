@@ -26,7 +26,7 @@ title: Unraveled
 | **Total Runtime**        | 6 weeks                                                                 |
 | **Year of Collection**   | 2021                                                                    |
 | **Attack Categories**    | Reconnaissance<br/>Persistence<br/>Lateral Movement<br/>Defense Evasion |
-| **User Emulation**       | Yes, models complex behavior                                            |
+| **Benign Activity**       | Yes, models complex behavior                                            |
 |                          |                                                                         |
 | **Packed Size**          | _n/a_                                                                   |
 | **Unpacked Size**        | 22 GB                                                                   |

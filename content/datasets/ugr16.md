@@ -23,7 +23,7 @@ title: UGR'16
 | **Total Runtime**        | ~130 days                               |
 | **Year of Collection**   | 2016                                    |
 | **Attack Categories**    | DoS<br/>Port Scanning<br/>Botnet        |
-| **User Emulation**       | Real users                              |
+| **Benign Activity**       | Real users                              |
 |                          |                                         |
 | **Packed Size**          | 236 GB                                  |
 | **Unpacked Size**        | _n/a_                                   |
