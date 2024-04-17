@@ -37,6 +37,7 @@ OTFR Security Datasets - SimuLand Golden SAML;No;Yes;2021;2021;Enterprise IT;Win
 PWNJUTSU;Yes;Yes;2022;2022;Miscellaneous;Windows, Linux;pcaps, various logs (DNS, ssh, http, ssl, etc.);No;Sysmon, auditd, Windows events, various logs (auth, Apache);No;Discovery, Lateral Movement, Credential Access, Privilege Escalation;PARSE_ERROR;82000.0;;
 Skopik 2014;No;Yes;2014;2014;Enterprise IT;Linux;-;-;Syslogs;No;_n/a_;PARSE_ERROR;;;
 SOCBED Example Dataset;Yes;Yes;2021;2021;Enterprise IT;Windows, Linux;Traffic via packetbeat;No (but I labeled a separate run manually);Various system logs;No (but I labeled a separate run manually);Diverse;PARSE_ERROR;78.0;1300.0;
+TUIDS;Yes;No;2012;2012;Enterprise IT;Undisclosed;pcaps, NetFlows;Features are labeled;-;-;DoS;Presumably, but not detailed;;;
 Twente 2009;Yes;No;2009;2009;Single OS;Linux;NetFlows;Yes;-;-;Diverse;PARSE_ERROR;303.0;1900.0;
 Twente 2014;Yes;No;2014;2014;Enterprise IT;Undisclosed;NetFlows (ssh auth only);Yes;ssh auth logs;Yes;ssh bruteforce;PARSE_ERROR;2420.0;5800.0;
 UGR'16;Yes;No;2016;2016;Enterprise IT;Undisclosed;NetFlows;Yes;-;-;DoS, Port Scanning, Botnet;PARSE_ERROR;236000.0;;
