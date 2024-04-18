@@ -98,9 +98,10 @@ Referenced collections:
 Kenyon, A., Deka, L., & Elizondo, D. (2020). Are public intrusion datasets fit for purpose characterising the state of the art in intrusion event datasets. Computers & Security, 99, 102022.
 ```
 
-The authors focus on analysing the - according to them - most widely used  public intrusion datasets, also noting that their relative scarcity is the lack of central registry of some sort.
-For this purpose, they study 25 datasets as well as three collections, providing a small set of features (origin, anonymization, labeling, flow availability, attack types) and a description for each.
+The authors focus on analysing the - according to them - most widely used  public intrusion datasets, also noting that their relative scarcity is compounded by the lack of central registry of some sort.
+To alleviate this problem, and to investigate the current state of the art, they study 25 datasets as well as three collections, providing a small set of features (origin, anonymization, labeling, flow availability, attack types) and a description for each.
 They also enumerate a number of characteristic a dataset should fulfil in order to be suitable for IDS research, and conclude that, at the time of writing, there is no such dataset.
+A couple of datasets deemed noteworthy are highlighted.
 
 Referenced datasets:
 - [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
