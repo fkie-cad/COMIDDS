@@ -38,6 +38,7 @@ Additionally, for publications, all datasets discussed in the survey are also li
 
 ### Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection (2022)
 
+[Link to Paper](https://doi.org/10.5281/zenodo.7068716)
 ```
 Gints Engelen, Robert Flood, Lisa Liu, Vera Rimmer, Henry Clausen, David Aspinall, & Wouter Joosen. (2022). Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection. Zenodo. https://doi.org/10.5281/zenodo.7068716
 ```
@@ -54,6 +55,7 @@ Referenced datasets:
 
 ### A Comprehensive Survey of Databases and Deep Learning Methods for Cybersecurity and Intrusion Detection Systems (2020)
 
+[Link to Paper](https://doi.org/10.1109/JSYST.2020.2992966)
 ```
 Gümüşbaş, D., Yıldırım, T., Genovese, A., & Scotti, F. (2020). A comprehensive survey of databases and deep learning methods for cybersecurity and intrusion detection systems. IEEE Systems Journal, 15(2), 1717-1731.
 ```
@@ -89,6 +91,7 @@ Referenced collections:
 
 ### A Review of the Advancements in Intrusion Detection Datasets (2019)
 
+[Link to Paper](http://dx.doi.org/10.1016/j.procs.2020.03.330)
 ```
 Thakkar, A., & Lohiya, R. (2020). A review of the advancement in intrusion detection datasets. Procedia Computer Science, 167, 636-645.
 ```
@@ -116,6 +119,7 @@ Referenced Collections:
 
 ### A Survey of Intrusion Detection Systems leveraging Host Data (2019)
 
+[Link to Paper](https://doi.org/10.1145/3344382)
 ```
 Bridges, R. A., Glass-Vanderlan, T. R., Iannacone, M. D., Vincent, M. S., & Chen, Q. (2019). A survey of intrusion detection systems leveraging host data. ACM Computing Surveys (CSUR), 52(6), 1-35.
 ```
@@ -152,6 +156,7 @@ Referenced collections:
 
 ### A Survey of Network-based Intrusion Detection Data Sets (2019)
 
+[Link to Paper](https://doi.org/10.1016/j.cose.2019.06.005)
 ```
 Ring, M., Wunderlich, S., Scheuring, D., Landes, D., & Hotho, A. (2019). A survey of network-based intrusion detection data sets. Computers & Security, 86, 147-167.
 ```
@@ -217,6 +222,7 @@ Referenced collections:
 
 ### Survey of Intrusion Detection Systems: Techniques, Datasets and Challenges (2019)
 
+[Link to Paper](https://doi.org/10.1186/s42400-019-0038-7)
 ```
 Khraisat, A., Gondal, I., Vamplew, P., & Kamruzzaman, J. (2019). Survey of intrusion detection systems: techniques, datasets and challenges. Cybersecurity, 2(1), 1-22.
 ```
@@ -237,6 +243,7 @@ Referenced collections:
 
 ### Cybersecurity Research Datasets: Taxonomy and Empirical Analysis (2018)
 
+[Link to Paper](https://www.usenix.org/conference/cset18/presentation/zheng)
 ```
 Zheng, M., Robbins, H., Chai, Z., Thapa, P., & Moore, T. (2018). Cybersecurity research datasets: taxonomy and empirical analysis. In 11th USENIX Workshop on Cyber Security Experimentation and Test (CSET 18).
 ```
@@ -247,6 +254,7 @@ Does not provide an actual list, rather aims to describe general observations, l
 
 ### A survey of deep learning-based network anomaly detection (2017)
 
+[Link to Paper](https://doi.org/10.1007/s10586-017-1117-8)
 ```
 Kwon, D., Kim, H., Kim, J., Suh, S. C., Kim, I., & Kim, K. J. (2019). A survey of deep learning-based network anomaly detection. Cluster Computing, 22, 949-961.
 ```
@@ -261,6 +269,7 @@ Referenced datasets:
 
 ### A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection (2015)
 
+[Link to Paper](https://doi.org/10.1109/COMST.2015.2494502)
 ```
 Buczak, A. L., & Guven, E. (2015). A survey of data mining and machine learning methods for cyber security intrusion detection. IEEE Communications surveys & tutorials, 18(2), 1153-1176.
 ```
@@ -275,6 +284,7 @@ Referenced datasets:
 
 ### A Detail Analysis on Intrusion Detection Datasets (2014)
 
+[Link to Paper](http://dx.doi.org/10.1109/IAdCC.2014.6779523)
 ```
 Sahu, S. K., Sarangi, S., & Jena, S. K. (2014, February). A detail analysis on intrusion detection datasets. In 2014 ieee international advance computing conference (IACC) (pp. 1348-1353). IEEE.
 ```
@@ -288,6 +298,7 @@ Referenced datasets:
 
 ### Network anomaly detection: Methods, systems and tools (2013)
 
+[Link to Paper](https://doi.org/10.1109/SURV.2013.052213.00046)
 ```
 Bhuyan, M. H., Bhattacharyya, D. K., & Kalita, J. K. (2013). Network anomaly detection: methods, systems and tools. Ieee communications surveys & tutorials, 16(1), 303-336.
 ```
@@ -313,10 +324,8 @@ Referenced collections:
 
 ### Awesome Cybersecurity Datasets
 
-```
 https://github.com/shramos/Awesome-Cybersecurity-Datasets
 (accessed 18.02.2024, last updated 23.01.2021)
-```
 
 A "curated" personal collection of various cybersecurity-related datasets or collections, grouped into several categories such as "Network", "Software" or "Fraud".
 Each entry is described in only one or two sentences, and most datasets are not, or only partially, suitable for IDS research.
@@ -324,10 +333,8 @@ The list is somewhat deprecated and does especially lack meaningful host-based d
 
 ### Digital Corpora
 
-```
-https://digitalcorpora.org/
+https://digitalcorpora.org/ <br>
 (accessed 19.02.2024, last updated 05.05.2023)
-```
 
 A collection of datasets mostly designed for the use in forensics education.
 It consists of various disk images, memory dumps and pcaps, as well as a bunch of benign and malicious files.
@@ -335,10 +342,8 @@ It does not seem to contain actual log data.
 
 ### IMPACT
 
-```
-https://www.impactcybertrust.org/search
+https://www.impactcybertrust.org/search <br>
 (accessed 19.02.2024, last updated 13.07.2021)
-```
 
 The "Information Marketplace for Policy and Analysis of Cyber-Risk and Trust" (IMPACT, formerly PREDICT), maintained by the US Department of Homeland Security, contains 70 datasets.
 These are for the most part made up of network related files (pcaps and DNS logs) from a wide variety of scenarios (CTF events, IoT, corpo networks, etc.), as well as some miscellaneous things like network shapefiles.
@@ -346,40 +351,32 @@ These are for the most part made up of network related files (pcaps and DNS logs
 
 ### Malware Traffic Analysis
 
-```
-https://www.malware-traffic-analysis.net/
+https://www.malware-traffic-analysis.net/ <br>
 (accessed 19.02.2024, last updated 14.02.2024)
-```
 
 Various pcaps and malware samples stemming from individual campaigns or attack instances, but without any overall categorization or even overview.
 They are available as blog posts named something like "DarkGate activity" or "GootLoader Infection", which each one listing some references and download links to any relevant files.
 
 ### NETRESEC
 
-```
-https://www.netresec.com/?page=PcapFiles
+https://www.netresec.com/?page=PcapFiles <br>
 (accessed 19.02.2024, last updated 04.01.2024)
-```
 
 A large collection of pcap files and other repositories which are hosting pcaps themselves.
 They are categorized into CDX, Malware Traffic, Network Forensics, SCADA/ICS, CTF, Packet Injection/Man-on-the-Side, and Uncategorized.
 
 ### Public Security Log Sharing Site
 
-```
-https://log-sharing.dreamhosters.com/
+https://log-sharing.dreamhosters.com/ <br>
 (accessed 18.02.2024, last updated 11.08.2010)
-```
 
 A collection which started as an effort to collect various log samples, but seems to have been discontinued after operating for about one year.
 Currently, it consists of nine entries containing Linux syslogs, firewall logs, apache logs, and web proxy logs.
 
 ### SecRepo - Samples of Security Related Data
 
-```
-https://www.secrepo.com/
+https://www.secrepo.com/ <br>
 (accessed 18.02.2024, last updated 01.10.2020)
-```
 
 An individuals effort to "keep a somewhat curated list of Security related data I've found, created, or was pointed to".
 It contains several entries of the authors own creation, some of which are described in a bit more detail, as well as 121 "3rd party" entries from a broad range of topics, each described in a single sentence.
@@ -387,20 +384,16 @@ Some of them are usable for IDS related purposes.
 
 ### The Honeynet Project Challenges
 
-```
-https://www.honeynet.org/challenges/
+https://www.honeynet.org/challenges/ <br>
 (accessed 19.02.2024, last updated 18.03.2015)
-```
 
 A collection of 14 forensic challenges related to pcaps, malware and log files.
 However, most resources, except for the two newest challenges, are no longer available.
 
 ### The Internet Traffic Archive
 
-```
-https://ita.ee.lbl.gov/
+https://ita.ee.lbl.gov/ <br>
 (accessed 18.02.2024, last updated 09.04.2010)
-```
 
 An archive hosting 16 different network data from various sources, such as WWW servers, web clients, and some custom networks.
 Most data is in the form of traces, some include http logs or traceroute measurements.
