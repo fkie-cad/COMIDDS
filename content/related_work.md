@@ -2,7 +2,7 @@
 title: Related Work
 ---
 
-This page lists publications and collections covering IDS datasets.
+The following is a (non-exhaustive) list of publications and collections covering IDS datasets.
 Related publications, sorted by year of release, are any academic work that at least partially covers the topic of available IDS datasets.
 Collections, sorted alphabetically, simply features agglomerations of IDS-related datasets not backed by a scientific publication.
 
