@@ -14,6 +14,7 @@ Additionally, for publications, all datasets discussed in the survey are also li
 - Publications
     - [Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection (2022)](#pillars-of-sand-the-current-state-of-datasets-in-the-field-of-network-intrusion-detection-2022)
     - [A Comprehensive Survey of Databases and Deep Learning Methods for Cybersecurity and Intrusion Detection Systems (2020)](#a-comprehensive-survey-of-databases-and-deep-learning-methods-for-cybersecurity-and-intrusion-detection-systems-2020)
+    - [Are Public Intrusion Datasets Fit for Purpose Characterising the State of the Art in Intrusion Event Datasets (2020)](#are-public-intrusion-datasets-fit-for-purpose-characterising-the-state-of-the-art-in-intrusion-event-datasets-2020)
     - [A Review of the Advancements in Intrusion Detection Datasets (2019)](#a-review-of-the-advancements-in-intrusion-detection-datasets-2019)
     - [A Survey of Intrusion Detection Systems leveraging Host Data (2019)](#a-survey-of-intrusion-detection-systems-leveraging-host-data-2019)
     - [A Survey of Network-based Intrusion Detection Data Sets (2019)](#a-survey-of-network-based-intrusion-detection-data-sets-2019)
@@ -89,6 +90,52 @@ Referenced collections:
 - MAWILab
 - UMass Trace Repository
 
+
+### Are Public Intrusion Datasets Fit for Purpose Characterising the State of the Art in Intrusion Event Datasets (2020)
+
+[Link to Paper](https://doi.org/10.1016/j.cose.2020.102022)
+```
+Kenyon, A., Deka, L., & Elizondo, D. (2020). Are public intrusion datasets fit for purpose characterising the state of the art in intrusion event datasets. Computers & Security, 99, 102022.
+```
+
+The authors focus on analysing the - according to them - most widely used  public intrusion datasets, also noting that their relative scarcity is the lack of central registry of some sort.
+For this purpose, they study 25 datasets as well as three collections, providing a small set of features (origin, anonymization, labeling, flow availability, attack types) and a description for each.
+They also enumerate a number of characteristic a dataset should fulfil in order to be suitable for IDS research, and conclude that, at the time of writing, there is no such dataset.
+
+Referenced datasets:
+- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
+- AWID
+- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
+- CERT ITTD
+- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
+- [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
+- CIDD
+- CIDDS
+- CSIC HTTP 
+- [CTU-13](/intrusion-detection-datasets/content/datasets/ctu_13)
+- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- ICS 2014
+- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
+- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
+- LANL (by which the authors mean the following three datasets)
+  - [Comprehensive Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
+  - [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
+  - [User-Computer Authentication Associations in Time](/intrusion-detection-datasets/content/datasets/user_computer_associations)
+- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- UCKA-CSD
+- [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- RUU
+- SEA
+- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
+
+
+Referenced collections:
+- DEFCON CTF Archive
+- [Lawrence Berkeley National Laboratory Traces](#the-internet-traffic-archive) (alias for: The Internet Traffic Archive)
+- MAWI
+- UMASS
+
 ### A Review of the Advancements in Intrusion Detection Datasets (2019)
 
 [Link to Paper](http://dx.doi.org/10.1016/j.procs.2020.03.330)
@@ -132,7 +179,7 @@ Referenced datasets:
 - Active DNS Project
 - [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
 - [Comprehensive Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
-- [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
+- [CTU-13](/intrusion-detection-datasets/content/datasets/ctu_13)
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
 - [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
