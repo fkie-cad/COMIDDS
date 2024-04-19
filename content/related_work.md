@@ -110,7 +110,7 @@ Referenced datasets:
 - CERT ITTD
 - [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
 - [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
-- CIDD
+- [CIDD](/intrusion-detection-datasets/content/datasets/cidd)
 - CIDDS
 - CSIC HTTP 
 - [CTU-13](/intrusion-detection-datasets/content/datasets/ctu_13)
