@@ -101,7 +101,7 @@ Kenyon, A., Deka, L., & Elizondo, D. (2020). Are public intrusion datasets fit f
 The authors focus on analysing the - according to them - most widely used  public intrusion datasets, also noting that their relative scarcity is compounded by the lack of central registry of some sort.
 To alleviate this problem, and to investigate the current state of the art, they study 25 datasets as well as three collections, providing a small set of features (origin, anonymization, labeling, flow availability, attack types) and a description for each.
 They also enumerate a number of characteristic a dataset should fulfil in order to be suitable for IDS research, and conclude that, at the time of writing, there is no such dataset.
-A couple of datasets deemed noteworthy are highlighted.
+However, the MAWI and CAIDA collection as well as the ISCX IDS 2012, CIC-IDS 2017 and CSE-CIC-IDS 2018 datasets are highlighted, as they fulfill at least most of the aforementioned characteristics.
 
 Referenced datasets:
 - [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
