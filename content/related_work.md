@@ -12,6 +12,7 @@ Additionally, for publications, all datasets discussed in the survey are also li
 ## Contents
 
 - Publications
+    - [A systematic literature review of methods and datasets for anomaly-based network intrusion detection (2022)](#a-systematic-literature-review-of-methods-and-datasets-for-anomaly-based-network-intrusion-detection-2022)
     - [Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection (2022)](#pillars-of-sand-the-current-state-of-datasets-in-the-field-of-network-intrusion-detection-2022)
     - [A Comprehensive Survey of Databases and Deep Learning Methods for Cybersecurity and Intrusion Detection Systems (2020)](#a-comprehensive-survey-of-databases-and-deep-learning-methods-for-cybersecurity-and-intrusion-detection-systems-2020)
     - [Are Public Intrusion Datasets Fit for Purpose Characterising the State of the Art in Intrusion Event Datasets (2020)](#are-public-intrusion-datasets-fit-for-purpose-characterising-the-state-of-the-art-in-intrusion-event-datasets-2020)
@@ -36,6 +37,71 @@ Additionally, for publications, all datasets discussed in the survey are also li
     - [The Internet Traffic Archive](#the-internet-traffic-archive)
 
 ## Publications
+
+### A systematic literature review of methods and datasets for anomaly-based network intrusion detection (2022)
+
+[Link to Paper](https://doi.org/10.1016/j.cose.2022.102675)
+```
+Yang, Z., Liu, X., Li, T., Wu, D., Wang, J., Zhao, Y., & Han, H. (2022). A systematic literature review of methods and datasets for anomaly-based network intrusion detection. Computers & Security, 116, 102675.
+```
+An extensive survey covering a broad range of publications (119 in total) and topics related to anomaly-based network intrusion detection systems, ranging from data preprocessing over evaluation metrics to, relevant here, datasets.
+While it is one of the more comprehensive surveys in this regard, listing over 52 datasets and collections, there is very little information provided for each of them.
+Every entry is described with four properties (real/emulated, event count, label existence and number of labels), along with a few sentences outlining some additional details, though in no particular order or consistent manner.
+While significant in scope (though not complete), the provided coverage of dataset is negligible, i.e., there is no further analysis or conclusion on the basis of the surveyed datasets.
+
+Referenced datasets:
+- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld)
+- AWID
+- BoT-IoT
+- Botnet 2014
+- CDMX 2016
+- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
+- [CIC DoS](/intrusion-detection-datasets/content/datasets/cic_dos)
+- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
+- CIDDS
+- CIRA-CIC-DoHBrw 2020
+- CSIC 2010 HTTP Dataset
+- [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
+- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- DARPA 1999
+- DARPA 2000
+- DDoS 2016
+- ICML-09
+- InSDN
+- IoT-23
+- IRSC
+- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
+- ISOT
+- ISOT CID
+- ISOT HTTP Botnet
+- ISTS-12
+- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+- Kharon
+- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
+- LDID
+- NCCDC
+- NDSec-1
+- [NGIDS-DS](/intrusion-detection-datasets/content/datasets/ngids_dataset)
+- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- OPCUA
+- PUF
+- SANTA
+- SSENET 2011
+- SSENET 2014
+- SSHCure
+- SUEEE 2017
+- TRAbID
+- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
+- UCSD
+- [UGR'16](/intrusion-detection-datasets/content/datasets/ugr16)
+- [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
+- [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- Witty Worm
+
+Referenced collections:
+- CAIDA
+- DEFCON CTF Archive
+- MAWILab
 
 ### Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection (2022)
 
