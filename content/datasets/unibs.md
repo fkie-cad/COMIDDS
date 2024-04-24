@@ -46,6 +46,7 @@ Each workstation is running a "GT client daemon", information regarding network 
 - Skype
 - P2P (Bittorrent, Edonkey)
 - Other (FTP, SSH, MSN)
+
 Any further details are not available, most likely because the focus of this dataset was simply on correctly assigning flows to these services or protocols.
 Intentional malicious activity is not present.
 
