@@ -12,18 +12,18 @@ title: UNIBS
 
 | <!-- -->                 | <!-- -->                                                           |
 |--------------------------|--------------------------------------------------------------------|
-| **Network Log Source**   |                                                                    |
-| **Network Logs Labeled** |                                                                    |
-| **Host Log Source**      |                                                                    |
-| **Host Logs Labeled**    |                                                                    |
+| **Network Data Source**  |                                                                    |
+| **Network Data Labeled** |                                                                    |
+| **Host Data Source**     |                                                                    |
+| **Host Data Labeled**    |                                                                    |
 |                          |                                                                    |
 | **Overall Setting**      |                                                                    |
 | **OS Types**             |                                                                    |
 | **Number of Machines**   |                                                                    |
 | **Total Runtime**        |                                                                    |
 | **Year of Collection**   |                                                                    |
-| **Attack Categories**    |                                                                    |
-| **User Emulation**       |                                                                    |
+| **Attack Categories**    | None                                                               |
+| **Benign Activity**      | Real users                                                         |
 |                          |                                                                    |
 | **Packed Size**          |                                                                    |
 | **Unpacked Size**        |                                                                    |
@@ -32,7 +32,7 @@ title: UNIBS
 ***
 
 ### Overview
-A general description of the dataset, giving a brief overview over origin, intended usage and some properties of the dataset.
+The University of Brescia (UNIBS) dataset was created to showcase the capabilities of the "GT" tool, 
 
 ### Environment
 A description of the environment the dataset originated from, including networks, operating systems, running services, etc.
