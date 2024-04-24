@@ -19,10 +19,10 @@ Info for ADFA-WD will be added if that data becomes available.
 
 | <!-- -->                 | <!-- -->                                                                                            |
 |--------------------------|-----------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                                                   |
-| **Network Logs Labeled** | -                                                                                                   |
-| **Host Log Source**      | DLL calls, XML logs from Procmon                                                                    |
-| **Host Logs Labeled**    | "Yes", as in SAA only contains attack data                                                          |
+| **Network Data Source**  | -                                                                                                   |
+| **Network Data Labeled** | -                                                                                                   |
+| **Host Data Source**     | DLL calls, XML logs from Procmon                                                                    |
+| **Host Data Labeled**    | "Yes", as in SAA only contains attack data                                                          |
 |                          |                                                                                                     |
 | **Overall Setting**      | Single OS                                                                                           |
 | **OS Types**             | Windows XP Service Pack 2                                                                           |

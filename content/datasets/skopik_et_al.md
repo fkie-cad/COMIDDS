@@ -10,10 +10,10 @@ title: Skopik 2014
 
 | <!-- -->                 | <!-- -->                             |
 |--------------------------|--------------------------------------|
-| **Network Log Source**   | -                                    |
-| **Network Logs Labeled** | -                                    |
-| **Host Log Source**      | Syslogs                              |
-| **Host Logs Labeled**    | No                                   |
+| **Network Data Source**  | -                                    |
+| **Network Data Labeled** | -                                    |
+| **Host Data Source**     | Syslogs                              |
+| **Host Data Labeled**    | No                                   |
 |                          |                                      |
 | **Overall Setting**      | Enterprise IT                        |
 | **OS Types**             | Ubuntu 13.04                         |

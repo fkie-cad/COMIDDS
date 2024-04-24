@@ -12,10 +12,10 @@ title: NEW_ENTRY_NAME
 
 | <!-- -->                 | <!-- --> |
 |--------------------------|----------|
-| **Network Log Source**   |          |
-| **Network Logs Labeled** |          |
-| **Host Log Source**      |          |
-| **Host Logs Labeled**    |          |
+| **Network Data Source**  |          |
+| **Network Data Labeled** |          |
+| **Host Data Source**     |          |
+| **Host Data Labeled**    |          |
 |                          |          |
 | **Overall Setting**      |          |
 | **OS Types**             |          |

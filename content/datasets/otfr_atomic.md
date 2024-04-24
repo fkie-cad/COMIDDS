@@ -12,10 +12,10 @@ title: OTFR Atomic Security Datasets
 
 | <!-- -->                 | <!-- -->                                                                      |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, AWS CloudTrail                                                         |
-| **Network Logs Labeled** | "Yes", in the sense that only attack traffic is provided                      |
-| **Host Log Source**      | Windows events, linux auditd                                                  |
-| **Host Logs Labeled**    | "Yes", in the sense that only attack events are provided                      |
+| **Network Data Source**  | pcaps, AWS CloudTrail                                                         |
+| **Network Data Labeled** | "Yes", in the sense that only attack traffic is provided                      |
+| **Host Data Source**     | Windows events, linux auditd                                                  |
+| **Host Data Labeled**    | "Yes", in the sense that only attack events are provided                      |
 |                          |                                                                               |
 | **Overall Setting**      | Single OS                                                                     |
 | **OS Types**             | Windows<br/>Linux                                                             |

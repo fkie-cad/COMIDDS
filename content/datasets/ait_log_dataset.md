@@ -13,10 +13,10 @@ title: AIT Log Data Set
 
 | <!-- -->                 | <!-- -->                                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | VPN, DNS, pcaps, Suricata                                                                                     |
-| **Network Logs Labeled** | Yes                                                                                                           |
-| **Host Log Source**      | Apache, auth, audit, syslogs, and more                                                                        |
-| **Host Logs Labeled**    | Yes                                                                                                           |
+| **Network Data Source**  | VPN, DNS, pcaps, Suricata                                                                                     |
+| **Network Data Labeled** | Yes                                                                                                           |
+| **Host Data Source**     | Apache, auth, audit, syslogs, and more                                                                        |
+| **Host Data Labeled**    | Yes                                                                                                           |
 |                          |                                                                                                               |
 | **Overall Setting**      | Enterprise OS                                                                                                 |
 | **OS Types**             | Ubuntu 20.04                                                                                                  |

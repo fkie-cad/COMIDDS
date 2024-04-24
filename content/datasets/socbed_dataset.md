@@ -12,10 +12,10 @@ title: SOCBED Example Dataset
 
 | <!-- -->                 | <!-- -->                                                       |
 |--------------------------|----------------------------------------------------------------|
-| **Network Log Source**   | Traffic via packetbeat                                         |
-| **Network Logs Labeled** | No (but I labeled a separate run manually)                     |
-| **Host Log Source**      | Various system logs                                            |
-| **Host Logs Labeled**    | No (but I labeled a separate run manually)                     |
+| **Network Data Source**  | Traffic via packetbeat                                         |
+| **Network Data Labeled** | No (but I labeled a separate run manually)                     |
+| **Host Data Source**     | Various system logs                                            |
+| **Host Data Labeled**    | No (but I labeled a separate run manually)                     |
 |                          |                                                                |
 | **Overall Setting**      | Enterprise IT                                                  |
 | **OS Types**             | Windows 10<br/>Ubuntu 16.04<br/>IPFire<br/>Kali2021 (Attacker) |

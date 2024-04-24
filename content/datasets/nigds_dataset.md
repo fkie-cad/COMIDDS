@@ -12,10 +12,10 @@ title: NGIDS Dataset
 
 | <!-- -->                 | <!-- -->                                                                                      |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps                                                                                         |
-| **Network Logs Labeled** | Ground truth provided                                                                         |
-| **Host Log Source**      | Features derived from host events                                                             |
-| **Host Logs Labeled**    | Yes                                                                                           |
+| **Network Data Source**  | pcaps                                                                                         |
+| **Network Data Labeled** | Ground truth provided                                                                         |
+| **Host Data Source**     | Features derived from host events                                                             |
+| **Host Data Labeled**    | Yes                                                                                           |
 |                          |                                                                                               |
 | **Overall Setting**      | Enterprise IT                                                                                 |
 | **OS Types**             | Ubuntu 14.04                                                                                  |

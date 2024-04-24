@@ -13,10 +13,10 @@ title: CSE-CIC-IDS2018
 
 | <!-- -->                 | <!-- -->                                                                                                 |
 |--------------------------|----------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, NetFlows                                                                                          |
-| **Network Logs Labeled** | Yes, NetFlows are labeled                                                                                |
-| **Host Log Source**      | Ubuntu event logs, Windows event logs                                                                    |
-| **Host Logs Labeled**    | No                                                                                                       |
+| **Network Data Source**  | pcaps, NetFlows                                                                                          |
+| **Network Data Labeled** | Yes, NetFlows are labeled                                                                                |
+| **Host Data Source**     | Ubuntu event logs, Windows event logs                                                                    |
+| **Host Data Labeled**    | No                                                                                                       |
 |                          |                                                                                                          |
 | **Overall Setting**      | Enterprise IT                                                                                            |
 | **OS Types**             | Windows 7/8.1/10/Vista/Server 2016 <br> Ubuntu 14.04/16.04 <br> MacOS<br/> Kali & Windows 8.1 (Attacker) |

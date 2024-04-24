@@ -12,10 +12,10 @@ title: OpTC
 
 | <!-- -->                 | <!-- -->                                                                               |
 |--------------------------|----------------------------------------------------------------------------------------|
-| **Network Log Source**   | NetFlows                                                                               |
-| **Network Logs Labeled** | Yes                                                                                    |
-| **Host Log Source**      | eCar events                                                                            |
-| **Host Logs Labeled**    | Yes                                                                                    |
+| **Network Data Source**  | NetFlows                                                                               |
+| **Network Data Labeled** | Yes                                                                                    |
+| **Host Data Source**     | eCar events                                                                            |
+| **Host Data Labeled**    | Yes                                                                                    |
 |                          |                                                                                        |
 | **Overall Setting**      | Enterprise IT                                                                          |
 | **OS Types**             | Windows 10                                                                             |

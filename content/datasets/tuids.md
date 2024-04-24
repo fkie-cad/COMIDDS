@@ -11,10 +11,10 @@ title: TUIDS
 
 | <!-- -->                 | <!-- -->                               |
 |--------------------------|----------------------------------------|
-| **Network Log Source**   | pcaps, NetFlows                        |
-| **Network Logs Labeled** | Features are labeled                   |
-| **Host Log Source**      | -                                      |
-| **Host Logs Labeled**    | -                                      |
+| **Network Data Source**  | pcaps, NetFlows                        |
+| **Network Data Labeled** | Features are labeled                   |
+| **Host Data Source**     | -                                      |
+| **Host Data Labeled**    | -                                      |
 |                          |                                        |
 | **Overall Setting**      | Enterprise IT                          |
 | **OS Types**             | Undisclosed                            |

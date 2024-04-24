@@ -12,10 +12,10 @@ title: Kyoto Honeypot Dataset
 
 | <!-- -->                 | <!-- -->                                                                |
 |--------------------------|-------------------------------------------------------------------------|
-| **Network Log Source**   | Features extracted from network traffic                                 |
-| **Network Logs Labeled** | Yes                                                                     |
-| **Host Log Source**      | -                                                                       |
-| **Host Logs Labeled**    | -                                                                       |
+| **Network Data Source**  | Features extracted from network traffic                                 |
+| **Network Data Labeled** | Yes                                                                     |
+| **Host Data Source**     | -                                                                       |
+| **Host Data Labeled**    | -                                                                       |
 |                          |                                                                         |
 | **Overall Setting**      | Diverse                                                                 |
 | **OS Types**             | Windows XP/2000 Server/Vista<br/>MacOs<br/>Solaris 8<br/>Various others |

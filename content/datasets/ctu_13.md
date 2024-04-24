@@ -11,10 +11,10 @@ title: CTU-13 Dataset
 
 | <!-- -->                 | <!-- -->                                                                       |
 |--------------------------|--------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, NetFlows                                                                |
-| **Network Logs Labeled** | Yes, NetFlows are labeled                                                      |
-| **Host Log Source**      | -                                                                              |
-| **Host Logs Labeled**    | -                                                                              |
+| **Network Data Source**  | pcaps, NetFlows                                                                |
+| **Network Data Labeled** | Yes, NetFlows are labeled                                                      |
+| **Host Data Source**     | -                                                                              |
+| **Host Data Labeled**    | -                                                                              |
 |                          |                                                                                |
 | **Overall Setting**      | Enterprise IT                                                                  |
 | **OS Types**             | Windows XP SP2                                                                 |

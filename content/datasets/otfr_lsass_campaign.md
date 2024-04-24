@@ -12,10 +12,10 @@ title: OTFR LSASS Campaign
 
 | <!-- -->                 | <!-- -->                                                                                                                             |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, Zeek logs                                                                                                                     |
-| **Network Logs Labeled** | No                                                                                                                                   |
-| **Host Log Source**      | Windows events                                                                                                                       |
-| **Host Logs Labeled**    | No                                                                                                                                   |
+| **Network Data Source**  | pcaps, Zeek logs                                                                                                                     |
+| **Network Data Labeled** | No                                                                                                                                   |
+| **Host Data Source**     | Windows events                                                                                                                       |
+| **Host Data Labeled**    | No                                                                                                                                   |
 |                          |                                                                                                                                      |
 | **Overall Setting**      | Single OS                                                                                                                            |
 | **OS Types**             | Windows                                                                                                                              |

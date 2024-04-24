@@ -13,10 +13,10 @@ title: AIT Alert Data Set
 
 | <!-- -->                 | <!-- -->                                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Suricata, Wazuh and AMiner alerts                                                                             |
-| **Network Logs Labeled** | Yes                                                                                                           |
-| **Host Log Source**      | Wazuh and AMiner alerts                                                                                       |
-| **Host Logs Labeled**    | Yes                                                                                                           |
+| **Network Data Source**  | Suricata, Wazuh and AMiner alerts                                                                             |
+| **Network Data Labeled** | Yes                                                                                                           |
+| **Host Data Source**     | Wazuh and AMiner alerts                                                                                       |
+| **Host Data Labeled**    | Yes                                                                                                           |
 |                          |                                                                                                               |
 | **Overall Setting**      | Enterprise Network                                                                                            |
 | **OS Types**             | Ubuntu 20.04                                                                                                  |

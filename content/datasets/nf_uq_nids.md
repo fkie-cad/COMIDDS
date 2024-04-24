@@ -13,10 +13,10 @@ title: NF-UQ-NIDS
 
 | <!-- -->                 | <!-- -->                                                                                                                                          |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Custom NetFlows                                                                                                                                   |
-| **Network Logs Labeled** | Yes                                                                                                                                               |
-| **Host Log Source**      | -                                                                                                                                                 |
-| **Host Logs Labeled**    | -                                                                                                                                                 |
+| **Network Data Source**  | Custom NetFlows                                                                                                                                   |
+| **Network Data Labeled** | Yes                                                                                                                                               |
+| **Host Data Source**     | -                                                                                                                                                 |
+| **Host Data Labeled**    | -                                                                                                                                                 |
 |                          |                                                                                                                                                   |
 | **Overall Setting**      | Enterprise IT / Miscellaneous                                                                                                                     |
 | **OS Types**             | Windows, Linux, MacOS, IoT                                                                                                                        |

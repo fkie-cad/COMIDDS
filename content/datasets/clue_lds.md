@@ -12,10 +12,10 @@ title: CLUE-LDS
 
 | <!-- -->                 | <!-- -->                                                             |
 |--------------------------|----------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                    |
-| **Network Logs Labeled** | -                                                                    |
-| **Host Log Source**      | Events generated from usage of storage solution "hBox"               |
-| **Host Logs Labeled**    | No, data generated in production -> no known attacks                 |
+| **Network Data Source**  | -                                                                    |
+| **Network Data Labeled** | -                                                                    |
+| **Host Data Source**     | Events generated from usage of storage solution "hBox"               |
+| **Host Data Labeled**    | No, data generated in production -> no known attacks                 |
 |                          |                                                                      |
 | **Overall Setting**      | Enterprise IT                                                        |
 | **OS Types**             | n/a (focus on subsystem "hBox")                                      |

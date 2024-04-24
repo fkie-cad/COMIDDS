@@ -12,10 +12,10 @@ title: OTFR Log4Shell
 
 | <!-- -->                 | <!-- -->                                                                                  |
 |--------------------------|-------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps                                                                                     |
-| **Network Logs Labeled** | No, seems to be implied                                                                   |
-| **Host Log Source**      | Sysmon for Linux                                                                          |
-| **Host Logs Labeled**    | No, seems to be implied                                                                   |
+| **Network Data Source**  | pcaps                                                                                     |
+| **Network Data Labeled** | No, seems to be implied                                                                   |
+| **Host Data Source**     | Sysmon for Linux                                                                          |
+| **Host Data Labeled**    | No, seems to be implied                                                                   |
 |                          |                                                                                           |
 | **Overall Setting**      | Single OS                                                                                 |
 | **OS Types**             | Ubuntu 18.04.6 LTS                                                                        |

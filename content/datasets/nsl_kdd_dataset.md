@@ -13,10 +13,10 @@ title: NSL-KDD
 
 | <!-- -->                 | <!-- -->                                                                           |
 |--------------------------|------------------------------------------------------------------------------------|
-| **Network Log Source**   | Connection records                                                                 |
-| **Network Logs Labeled** | Yes                                                                                |
-| **Host Log Source**      | -                                                                                  |
-| **Host Logs Labeled**    | -                                                                                  |
+| **Network Data Source**  | Connection records                                                                 |
+| **Network Data Labeled** | Yes                                                                                |
+| **Host Data Source**     | -                                                                                  |
+| **Host Data Labeled**    | -                                                                                  |
 |                          |                                                                                    |
 | **Overall Setting**      | Military IT                                                                        |
 | **OS Types**             | Linux 2.0.27<br/>SunOS 4.1.4<br/>Sun Solaris 2.5.1<br/>Windows NT                  |

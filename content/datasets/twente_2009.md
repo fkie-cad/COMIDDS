@@ -11,10 +11,10 @@ title: Twente 2009 Dataset
 
 | <!-- -->                 | <!-- -->                                                                                    |
 |--------------------------|---------------------------------------------------------------------------------------------|
-| **Network Log Source**   | NetFlows                                                                                    |
-| **Network Logs Labeled** | Yes                                                                                         |
-| **Host Log Source**      | -                                                                                           |
-| **Host Logs Labeled**    | -                                                                                           |
+| **Network Data Source**  | NetFlows                                                                                    |
+| **Network Data Labeled** | Yes                                                                                         |
+| **Host Data Source**     | -                                                                                           |
+| **Host Data Labeled**    | -                                                                                           |
 |                          |                                                                                             |
 | **Overall Setting**      | Single OS / Honeypot                                                                        |
 | **OS Types**             | Debian Etch 4.0                                                                             |

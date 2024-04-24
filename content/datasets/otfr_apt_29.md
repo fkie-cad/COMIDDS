@@ -12,10 +12,10 @@ title: OTFR APT 29
 
 | <!-- -->                 | <!-- -->                                                                                                                                                                                |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, Zeek logs                                                                                                                                                                        |
-| **Network Logs Labeled** | No                                                                                                                                                                                      |
-| **Host Log Source**      | Windows events                                                                                                                                                                          |
-| **Host Logs Labeled**    | No                                                                                                                                                                                      |
+| **Network Data Source**  | pcaps, Zeek logs                                                                                                                                                                        |
+| **Network Data Labeled** | No                                                                                                                                                                                      |
+| **Host Data Source**     | Windows events                                                                                                                                                                          |
+| **Host Data Labeled**    | No                                                                                                                                                                                      |
 |                          |                                                                                                                                                                                         |
 | **Overall Setting**      | Enterprise IT                                                                                                                                                                           |
 | **OS Types**             | Windows 10<br/>Windows Server 2019<br/>Ubuntu Server                                                                                                                                    |

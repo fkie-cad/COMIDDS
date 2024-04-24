@@ -13,10 +13,10 @@ title: UNSW-NB15
 
 | <!-- -->                 | <!-- -->                                                                                                                              |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, custom network features                                                                                                        |
-| **Network Logs Labeled** | Yes                                                                                                                                   |
-| **Host Log Source**      | -                                                                                                                                     |
-| **Host Logs Labeled**    | -                                                                                                                                     |
+| **Network Data Source**  | pcaps, custom network features                                                                                                        |
+| **Network Data Labeled** | Yes                                                                                                                                   |
+| **Host Data Source**     | -                                                                                                                                     |
+| **Host Data Labeled**    | -                                                                                                                                     |
 |                          |                                                                                                                                       |
 | **Overall Setting**      | Miscellaneous                                                                                                                         |
 | **OS Types**             | Undisclosed                                                                                                                           |

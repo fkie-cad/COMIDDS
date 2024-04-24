@@ -12,10 +12,10 @@ title: ISCX IDS 2012
 
 | <!-- -->                 | <!-- -->                                                                       |
 |--------------------------|--------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps                                                                          |
-| **Network Logs Labeled** | Yes                                                                            |
-| **Host Log Source**      | -                                                                              |
-| **Host Logs Labeled**    | -                                                                              |
+| **Network Data Source**  | pcaps                                                                          |
+| **Network Data Labeled** | Yes                                                                            |
+| **Host Data Source**     | -                                                                              |
+| **Host Data Labeled**    | -                                                                              |
 |                          |                                                                                |
 | **Overall Setting**      | Enterprise IT                                                                  |
 | **OS Types**             | Windows XP SP1/SP2<br/>Windows 7<br/>Windows Server 2003<br/>Ubuntu 10.04      |

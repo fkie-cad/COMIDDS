@@ -12,10 +12,10 @@ title: ASNM Datasets
 
 | <!-- -->                 | <!-- -->                                               |
 |--------------------------|--------------------------------------------------------|
-| **Network Log Source**   | Custom extension of network flows                      |
-| **Network Logs Labeled** | Yes                                                    |
-| **Host Log Source**      | -                                                      |
-| **Host Logs Labeled**    | -                                                      |
+| **Network Data Source**  | Custom extension of network flows                      |
+| **Network Data Labeled** | Yes                                                    |
+| **Host Data Source**     | -                                                      |
+| **Host Data Labeled**    | -                                                      |
 |                          |                                                        |
 | **Overall Setting**      | Enterprise IT<br/>Small Network                        |
 | **OS Types**             | Windows Server<br/>Windows XP SP3<br/>Linux Server     |

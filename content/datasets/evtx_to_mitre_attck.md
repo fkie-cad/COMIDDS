@@ -11,10 +11,10 @@ title: EVTX to MITRE ATT&CK
 
 | <!-- -->                 | <!-- -->                                                                                                                                          |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                                                                                                 |
-| **Network Logs Labeled** | -                                                                                                                                                 |
-| **Host Log Source**      | Windows evtx files                                                                                                                                |
-| **Host Logs Labeled**    | Yes, in the sense that everything is malicious                                                                                                    |
+| **Network Data Source**  | -                                                                                                                                                 |
+| **Network Data Labeled** | -                                                                                                                                                 |
+| **Host Data Source**     | Windows evtx files                                                                                                                                |
+| **Host Data Labeled**    | Yes, in the sense that everything is malicious                                                                                                    |
 |                          |                                                                                                                                                   |
 | **Overall Setting**      | Single OS                                                                                                                                         |
 | **OS Types**             | Windows 10<br/>Windows Server 2012 R2 and higher                                                                                                  |
