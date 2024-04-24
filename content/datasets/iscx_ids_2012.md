@@ -1,5 +1,5 @@
 ---
-title: ISCX Intrusion Detection Evaluation Dataset
+title: ISCX IDS 2012
 ---
 
 - [Overview](#overview)
