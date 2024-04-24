@@ -23,7 +23,7 @@ title: CIC-DDos2019
 | **Total Runtime**        | ~16 hours                                                     |
 | **Year of Collection**   | 2019                                                          |
 | **Attack Categories**    | Various DDoS attacks                                          |
-| **Benign Activity**      | Yes, models complex behavior                                  |
+| **Benign Activity**      | Synthetic, models complex behavior                            |
 |                          |                                                               |
 | **Packed Size**          | 24,4 GB                                                       |
 | **Unpacked Size**        | n/a                                                           |

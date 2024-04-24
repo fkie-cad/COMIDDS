@@ -23,7 +23,7 @@ title: SOCBED Example Dataset
 | **Total Runtime**        | 2 hours                                                        |
 | **Year of Collection**   | 2021                                                           |
 | **Attack Categories**    | Diverse                                                        |
-| **Benign Activity**      | Yes                                                            |
+| **Benign Activity**      | Synthetic                                                      |
 |                          |                                                                |
 | **Packed Size**          | 78 MB                                                          |
 | **Unpacked Size**        | 1,3 GB                                                         |

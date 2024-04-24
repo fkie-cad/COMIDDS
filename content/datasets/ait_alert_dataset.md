@@ -24,7 +24,7 @@ title: AIT Alert Data Set
 | **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                         |
 | **Year of Collection**   | 2023                                                                                                          |
 | **Attack Categories**    | Reconnaissance<br>Privilege Escalation<br>Data Exfiltration<br>Web-based Attacks<br/>Remote Command Execution |
-| **Benign Activity**      | Yes, models complex behavior                                                                                  |
+| **Benign Activity**      | Synthetic, models complex behavior                                                                            |
 |                          |                                                                                                               |
 | **Packed Size**          | 96 MB                                                                                                         |
 | **Unpacked Size**        | 2,9 GB                                                                                                        |

@@ -23,7 +23,7 @@ title: OTFR Log4Shell
 | **Total Runtime**        | n/a                                                                                       |
 | **Year of Collection**   | 2021                                                                                      |
 | **Attack Categories**    | Log4j / Log4Shell                                                                         |
-| **Benign Activity**      | No                                                                                        |
+| **Benign Activity**      | None                                                                                      |
 |                          |                                                                                           |
 | **Packed Size**          | <1 MB                                                                                     |
 | **Unpacked Size**        | 1 MB                                                                                      |

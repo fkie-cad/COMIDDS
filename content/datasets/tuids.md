@@ -9,24 +9,24 @@ title: TUIDS
 - [Papers](#papers)
 - [Links](#links)
 
-| <!-- -->                 | <!-- -->                     |
-|--------------------------|------------------------------|
-| **Network Log Source**   | pcaps, NetFlows              |
-| **Network Logs Labeled** | Features are labeled         |
-| **Host Log Source**      | -                            |
-| **Host Logs Labeled**    | -                            |
-|                          |                              |
-| **Overall Setting**      | Enterprise IT                |
-| **OS Types**             | Undisclosed                  |
-| **Number of Machines**   | 44                           |
-| **Total Runtime**        | 4 weeks                      |
-| **Year of Collection**   | 2012                         |
-| **Attack Categories**    | DoS                          |
-| **Benign Activity**      | Presumably, but not detailed |
-|                          |                              |
-| **Packed Size**          | n/a                          |
-| **Unpacked Size**        | n/a                          |
-| **Download Link**        | n/a                          |
+| <!-- -->                 | <!-- -->                               |
+|--------------------------|----------------------------------------|
+| **Network Log Source**   | pcaps, NetFlows                        |
+| **Network Logs Labeled** | Features are labeled                   |
+| **Host Log Source**      | -                                      |
+| **Host Logs Labeled**    | -                                      |
+|                          |                                        |
+| **Overall Setting**      | Enterprise IT                          |
+| **OS Types**             | Undisclosed                            |
+| **Number of Machines**   | 44                                     |
+| **Total Runtime**        | 4 weeks                                |
+| **Year of Collection**   | 2012                                   |
+| **Attack Categories**    | DoS                                    |
+| **Benign Activity**      | Presumably synthetic, but not detailed |
+|                          |                                        |
+| **Packed Size**          | n/a                                    |
+| **Unpacked Size**        | n/a                                    |
+| **Download Link**        | n/a                                    |
 
 ***
 

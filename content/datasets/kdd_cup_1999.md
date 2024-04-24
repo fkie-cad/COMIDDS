@@ -11,24 +11,24 @@ title: KDD Cup 1999
 - [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                                   |
-|--------------------------|----------------------------------------------------------------------------|
-| **Network Log Source**   | Connection records                                                         |
-| **Network Logs Labeled** | Yes                                                                        |
-| **Host Log Source**      | -                                                                          |
-| **Host Logs Labeled**    | -                                                                          |
-|                          |                                                                            |
-| **Overall Setting**      | Military IT                                                                |
-| **OS Types**             | Linux 2.0.27<br/>SunOS 4.1.4<br/>Sun Solaris 2.5.1<br/>Windows NT          |
-| **Number of Machines**   | 1000's                                                                     |
-| **Total Runtime**        | Nine weeks                                                                 |
-| **Year of Collection**   | 1998                                                                       |
-| **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing          |
-| **Benign Activity**      | Scripts for traffic generation, actual humans for performing complex tasks |
-|                          |                                                                            |
-| **Packed Size**          | 18 MB                                                                      |
-| **Unpacked Size**        | 743 MB                                                                     |
-| **Download Link**        | [goto](http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz)           |
+| <!-- -->                 | <!-- -->                                                                           |
+|--------------------------|------------------------------------------------------------------------------------|
+| **Network Log Source**   | Connection records                                                                 |
+| **Network Logs Labeled** | Yes                                                                                |
+| **Host Log Source**      | -                                                                                  |
+| **Host Logs Labeled**    | -                                                                                  |
+|                          |                                                                                    |
+| **Overall Setting**      | Military IT                                                                        |
+| **OS Types**             | Linux 2.0.27<br/>SunOS 4.1.4<br/>Sun Solaris 2.5.1<br/>Windows NT                  |
+| **Number of Machines**   | 1000's                                                                             |
+| **Total Runtime**        | Nine weeks                                                                         |
+| **Year of Collection**   | 1998                                                                               |
+| **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                  |
+| **Benign Activity**      | Scripts for synthetic traffic generation, real humans for performing complex tasks |
+|                          |                                                                                    |
+| **Packed Size**          | 18 MB                                                                              |
+| **Unpacked Size**        | 743 MB                                                                             |
+| **Download Link**        | [goto](http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz)                   |
 
 ***
 

@@ -23,7 +23,7 @@ title: OTFR APT 3
 | **Total Runtime**        | n/a                                                                                          |
 | **Year of Collection**   | 2019                                                                                         |
 | **Attack Categories**    | PowerShell Empire                                                                            |
-| **Benign Activity**      | No                                                                                           |
+| **Benign Activity**      | None                                                                                         |
 |                          |                                                                                              |
 | **Packed Size**          | 30 MB                                                                                        |
 | **Unpacked Size**        | 855 MB                                                                                       |

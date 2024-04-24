@@ -23,7 +23,7 @@ title: LID-DS 2019
 | **Total Runtime**        | 30 seconds per sim                                                       |
 | **Year of Collection**   | 2019                                                                     |
 | **Attack Categories**    | Various CVEs                                                             |
-| **Benign Activity**      | Yes                                                                      |
+| **Benign Activity**      | Synthetic                                                                |
 |                          |                                                                          |
 | **Packed Size**          | 13 GB                                                                    |
 | **Unpacked Size**        | n/a                                                                      |

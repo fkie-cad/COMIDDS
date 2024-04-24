@@ -24,7 +24,7 @@ title: ADFA Linux Dataset
 | **Total Runtime**        | n/a                                                                                        |
 | **Year of Collection**   | 2013                                                                                       |
 | **Attack Categories**    | Password Bruteforce <br> Social Engineering <br> Web-Based Attacks <br> Remote Exploits    |
-| **Benign Activity**      | Unspecified "normal operation"                                                             |
+| **Benign Activity**      | Synthetic, unspecified "normal operation"                                                  |
 |                          |                                                                                            |
 | **Packed Size**          | 2 MB                                                                                       |
 | **Unpacked Size**        | 17 MB                                                                                      |

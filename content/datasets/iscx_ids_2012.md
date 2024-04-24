@@ -10,24 +10,24 @@ title: ISCX IDS 2012
 - [Links](#links)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                                  |
-|--------------------------|---------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps                                                                     |
-| **Network Logs Labeled** | Yes                                                                       |
-| **Host Log Source**      | -                                                                         |
-| **Host Logs Labeled**    | -                                                                         |
-|                          |                                                                           |
-| **Overall Setting**      | Enterprise IT                                                             |
-| **OS Types**             | Windows XP SP1/SP2<br/>Windows 7<br/>Windows Server 2003<br/>Ubuntu 10.04 |
-| **Number of Machines**   | 23                                                                        |
-| **Total Runtime**        | 7 days                                                                    |
-| **Year of Collection**   | 2012                                                                      |
-| **Attack Categories**    | Infiltration from Inside<br/>DoS/DDoS<br/>Brute Force                     |
-| **Benign Activity**      | Dedicated profiles generating traffic on various protocols/services       |
-|                          |                                                                           |
-| **Packed Size**          | 84 GB                                                                     |
-| **Unpacked Size**        | 87 GB                                                                     |
-| **Download Link**        | Tricky, see links below                                                   |
+| <!-- -->                 | <!-- -->                                                                       |
+|--------------------------|--------------------------------------------------------------------------------|
+| **Network Log Source**   | pcaps                                                                          |
+| **Network Logs Labeled** | Yes                                                                            |
+| **Host Log Source**      | -                                                                              |
+| **Host Logs Labeled**    | -                                                                              |
+|                          |                                                                                |
+| **Overall Setting**      | Enterprise IT                                                                  |
+| **OS Types**             | Windows XP SP1/SP2<br/>Windows 7<br/>Windows Server 2003<br/>Ubuntu 10.04      |
+| **Number of Machines**   | 23                                                                             |
+| **Total Runtime**        | 7 days                                                                         |
+| **Year of Collection**   | 2012                                                                           |
+| **Attack Categories**    | Infiltration from Inside<br/>DoS/DDoS<br/>Brute Force                          |
+| **Benign Activity**      | Synthetic, dedicated profiles generating traffic on various protocols/services |
+|                          |                                                                                |
+| **Packed Size**          | 84 GB                                                                          |
+| **Unpacked Size**        | 87 GB                                                                          |
+| **Download Link**        | Tricky, see links below                                                        |
 
 ***
 

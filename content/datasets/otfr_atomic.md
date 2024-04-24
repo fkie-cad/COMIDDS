@@ -23,7 +23,7 @@ title: OTFR Atomic Security Datasets
 | **Total Runtime**        | n/a                                                                           |
 | **Year of Collection**   | 2019-2022                                                                     |
 | **Attack Categories**    | Most of MITRE's Att&ck matrix                                                 |
-| **Benign Activity**      | No                                                                            |
+| **Benign Activity**      | None                                                                          |
 |                          |                                                                               |
 | **Packed Size**          | 125 MB                                                                        |
 | **Unpacked Size**        | n/a                                                                           |

@@ -23,7 +23,7 @@ title: DARPA TC3
 | **Total Runtime**        | 8 days                                                                                    |
 | **Year of Collection**   | 2018                                                                                      |
 | **Attack Categories**    | Backdoor<br/>Loader Drakon APT<br/>Port Scans<br/>Process Elevation<br/>Process Injection |
-| **Benign Activity**      | Yes, but not specified                                                                    |
+| **Benign Activity**      | Present, but not specified                                                                |
 |                          |                                                                                           |
 | **Packed Size**          | 115 GB                                                                                    |
 | **Unpacked Size**        | n/a                                                                                       |

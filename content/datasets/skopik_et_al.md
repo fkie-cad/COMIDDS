@@ -8,24 +8,24 @@ title: Skopik 2014
 - [Contained Data](#contained-data)
 - [Papers](#papers)
 
-| <!-- -->                 | <!-- -->                       |
-|--------------------------|--------------------------------|
-| **Network Log Source**   | -                              |
-| **Network Logs Labeled** | -                              |
-| **Host Log Source**      | Syslogs                        |
-| **Host Logs Labeled**    | No                             |
-|                          |                                |
-| **Overall Setting**      | Enterprise IT                  |
-| **OS Types**             | Ubuntu 13.04                   |
-| **Number of Machines**   | 2 + N users                    |
-| **Total Runtime**        | ~15 minutes                    |
-| **Year of Collection**   | 2014                           |
-| **Attack Categories**    | n/a                            |
-| **Benign Activity**      | Yes, following a complex model |
-|                          |                                |
-| **Packed Size**          | n/a                            |
-| **Unpacked Size**        | n/a                            |
-| **Download Link**        | n/a                            |
+| <!-- -->                 | <!-- -->                             |
+|--------------------------|--------------------------------------|
+| **Network Log Source**   | -                                    |
+| **Network Logs Labeled** | -                                    |
+| **Host Log Source**      | Syslogs                              |
+| **Host Logs Labeled**    | No                                   |
+|                          |                                      |
+| **Overall Setting**      | Enterprise IT                        |
+| **OS Types**             | Ubuntu 13.04                         |
+| **Number of Machines**   | 2 + N users                          |
+| **Total Runtime**        | ~15 minutes                          |
+| **Year of Collection**   | 2014                                 |
+| **Attack Categories**    | n/a                                  |
+| **Benign Activity**      | Synthetic, following a complex model |
+|                          |                                      |
+| **Packed Size**          | n/a                                  |
+| **Unpacked Size**        | n/a                                  |
+| **Download Link**        | n/a                                  |
 
 ***
 

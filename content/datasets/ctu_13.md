@@ -22,7 +22,7 @@ title: CTU-13 Dataset
 | **Total Runtime**        | 1-67 hrs                                                                       |
 | **Year of Collection**   | 2011                                                                           |
 | **Attack Categories**    | Various Botnet activity<br/>(Neris, Rbot, Virut, Menti, Sogou, Murlo, NSIS.ay) |
-| **Benign Activity**      | Yes, as in real background traffic                                             |
+| **Benign Activity**      | Real background traffic                                                        |
 |                          |                                                                                |
 | **Packed Size**          | n/a                                                                            |
 | **Unpacked Size**        | 697 GB (sum of all 13 scenarios)                                               |

@@ -22,7 +22,7 @@ title: Twente 2009 Dataset
 | **Total Runtime**        | 6 days                                                                                      |
 | **Year of Collection**   | 2009                                                                                        |
 | **Attack Categories**    | Diverse                                                                                     |
-| **Benign Activity**      | No                                                                                          |
+| **Benign Activity**      | None                                                                                        |
 |                          |                                                                                             |
 | **Packed Size**          | 303 MB                                                                                      |
 | **Unpacked Size**        | 1,85 GB                                                                                     |

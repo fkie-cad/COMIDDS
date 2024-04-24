@@ -24,7 +24,7 @@ title: CIC-IDS2017
 | **Total Runtime**        | ~5 days                                                                                          |
 | **Year of Collection**   | 2017                                                                                             |
 | **Attack Categories**    | Brute Force FTP/SSH<br/>DoS & DDoS<br/>Web Attacks<br/>Botnets                                   |
-| **Benign Activity**      | Yes, models complex behavior                                                                     |
+| **Benign Activity**      | Synthetic, models complex behavior                                                               |
 |                          |                                                                                                  |
 | **Packed Size**          | 48,4 GB                                                                                          |
 | **Unpacked Size**        | 50 GB                                                                                            |

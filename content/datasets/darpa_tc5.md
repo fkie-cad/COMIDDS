@@ -22,7 +22,7 @@ title: DARPA TC5
 | **Total Runtime**        | 10 days                                                                          |
 | **Year of Collection**   | 2019                                                                             |
 | **Attack Categories**    | All MITRE tactics                                                                |
-| **Benign Activity**      | Yes, but not specified                                                           |
+| **Benign Activity**      | Present, but not specified                                                       |
 |                          |                                                                                  |
 | **Packed Size**          | n/a                                                                              |
 | **Unpacked Size**        | n/a                                                                              |
