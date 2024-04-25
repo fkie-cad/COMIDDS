@@ -13,18 +13,18 @@ title: ADFA Linux Dataset
 
 | <!-- -->                 | <!-- -->                                                                                   |
 |--------------------------|--------------------------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                                          |
-| **Network Logs Labeled** | -                                                                                          |
-| **Host Log Source**      | Sequences of Syscall Numbers                                                               |
-| **Host Logs Labeled**    | Yes                                                                                        |
+| **Network Data Source**  | -                                                                                          |
+| **Network Data Labeled** | -                                                                                          |
+| **Host Data Source**     | Sequences of Syscall Numbers                                                               |
+| **Host Data Labeled**    | Yes                                                                                        |
 |                          |                                                                                            |
 | **Overall Setting**      | Single OS                                                                                  |
 | **OS Types**             | Ubuntu 11.04 LTS                                                                           |
 | **Number of Machines**   | 1                                                                                          |
-| **Total Runtime**        | _n/a_                                                                                      |
+| **Total Runtime**        | n/a                                                                                        |
 | **Year of Collection**   | 2013                                                                                       |
 | **Attack Categories**    | Password Bruteforce <br> Social Engineering <br> Web-Based Attacks <br> Remote Exploits    |
-| **User Emulation**       | Unspecified "normal operation"                                                             |
+| **Benign Activity**      | Synthetic, unspecified "normal operation"                                                  |
 |                          |                                                                                            |
 | **Packed Size**          | 2 MB                                                                                       |
 | **Unpacked Size**        | 17 MB                                                                                      |

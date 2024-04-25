@@ -11,21 +11,21 @@ title: EVTX to MITRE ATT&CK
 
 | <!-- -->                 | <!-- -->                                                                                                                                          |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                                                                                                 |
-| **Network Logs Labeled** | -                                                                                                                                                 |
-| **Host Log Source**      | Windows evtx files                                                                                                                                |
-| **Host Logs Labeled**    | Yes, in the sense that everything is malicious                                                                                                    |
+| **Network Data Source**  | -                                                                                                                                                 |
+| **Network Data Labeled** | -                                                                                                                                                 |
+| **Host Data Source**     | Windows evtx files                                                                                                                                |
+| **Host Data Labeled**    | Yes, in the sense that everything is malicious                                                                                                    |
 |                          |                                                                                                                                                   |
 | **Overall Setting**      | Single OS                                                                                                                                         |
 | **OS Types**             | Windows 10<br/>Windows Server 2012 R2 and higher                                                                                                  |
-| **Number of Machines**   | _n/a_                                                                                                                                             |
-| **Total Runtime**        | _n/a_                                                                                                                                             |
-| **Year of Collection**   | _n/a_                                                                                                                                             |
+| **Number of Machines**   | n/a                                                                                                                                               |
+| **Total Runtime**        | n/a                                                                                                                                               |
+| **Year of Collection**   | n/a                                                                                                                                               |
 | **Attack Categories**    | Execution<br/>Persistence<br/>Privilege Escalation<br/>Defense Evasion<br/>Credential Access<br/>Discovery<br/>Lateral Movement<br/>C2<br/>Impact |
-| **User Emulation**       | _n/a_                                                                                                                                             |
+| **Benign Activity**      | n/a                                                                                                                                               |
 |                          |                                                                                                                                                   |
 | **Packed Size**          | 3,7 MB                                                                                                                                            |
-| **Unpacked Size**        | _n/a_                                                                                                                                             |
+| **Unpacked Size**        | n/a                                                                                                                                               |
 | **Download Link**        | [goto](https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/archive/refs/heads/master.zip)                                                       |
 
 ***

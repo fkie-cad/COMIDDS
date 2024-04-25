@@ -11,24 +11,24 @@ title: AIT Alert Data Set
 - [Related Entries](#related-entries)
 - [Example Data](#related-entries)
 
-| <!-- -->                 | <!-- -->                                                                                                          |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Suricata, Wazuh and AMiner alerts                                                                                 |
-| **Network Logs Labeled** | Yes                                                                                                               |
-| **Host Log Source**      | Wazuh and AMiner alerts                                                                                           |
-| **Host Logs Labeled**    | Yes                                                                                                               |
-|                          |                                                                                                                   |
-| **Overall Setting**      | Enterprise Network                                                                                                |
-| **OS Types**             | Ubuntu 20.04                                                                                                      |
-| **Number of Machines**   | 9-27                                                                                                              |
-| **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                             |
-| **Year of Collection**   | 2023                                                                                                              |
-| **Attack Categories**    | Reconnaissance <br> Privilege Escalation <br> Data Exfiltration <br> Web-based Attacks <Remote Command Execution> |
-| **User Emulation**       | Yes, models complex behavior                                                                                      |
-|                          |                                                                                                                   |
-| **Packed Size**          | 96 MB                                                                                                             |
-| **Unpacked Size**        | 2,9 GB                                                                                                            |
-| **Download Link**        | [goto](https://zenodo.org/record/8263181)                                                                         |
+| <!-- -->                 | <!-- -->                                                                                                      |
+|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Network Data Source**  | Suricata, Wazuh and AMiner alerts                                                                             |
+| **Network Data Labeled** | Yes                                                                                                           |
+| **Host Data Source**     | Wazuh and AMiner alerts                                                                                       |
+| **Host Data Labeled**    | Yes                                                                                                           |
+|                          |                                                                                                               |
+| **Overall Setting**      | Enterprise Network                                                                                            |
+| **OS Types**             | Ubuntu 20.04                                                                                                  |
+| **Number of Machines**   | 9-27                                                                                                          |
+| **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                         |
+| **Year of Collection**   | 2023                                                                                                          |
+| **Attack Categories**    | Reconnaissance<br>Privilege Escalation<br>Data Exfiltration<br>Web-based Attacks<br/>Remote Command Execution |
+| **Benign Activity**      | Synthetic, models complex behavior                                                                            |
+|                          |                                                                                                               |
+| **Packed Size**          | 96 MB                                                                                                         |
+| **Unpacked Size**        | 2,9 GB                                                                                                        |
+| **Download Link**        | [goto](https://zenodo.org/record/8263181)                                                                     |
 
 ***
 

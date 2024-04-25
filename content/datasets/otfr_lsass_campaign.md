@@ -12,10 +12,10 @@ title: OTFR LSASS Campaign
 
 | <!-- -->                 | <!-- -->                                                                                                                             |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Packet captures, Zeek logs                                                                                                           |
-| **Network Logs Labeled** | No                                                                                                                                   |
-| **Host Log Source**      | Windows events                                                                                                                       |
-| **Host Logs Labeled**    | No                                                                                                                                   |
+| **Network Data Source**  | pcaps, Zeek logs                                                                                                                     |
+| **Network Data Labeled** | No                                                                                                                                   |
+| **Host Data Source**     | Windows events                                                                                                                       |
+| **Host Data Labeled**    | No                                                                                                                                   |
 |                          |                                                                                                                                      |
 | **Overall Setting**      | Single OS                                                                                                                            |
 | **OS Types**             | Windows                                                                                                                              |
@@ -23,7 +23,7 @@ title: OTFR LSASS Campaign
 | **Total Runtime**        | n/a                                                                                                                                  |
 | **Year of Collection**   | 2023                                                                                                                                 |
 | **Attack Categories**    | Resource Development<br/>Execution<br/>Discovery<br/>Privilege Escalation<br/>Defense Evasion<br/>Credential Access<br/>Exfiltration |
-| **User Emulation**       | No                                                                                                                                   |
+| **Benign Activity**      | None                                                                                                                                 |
 |                          |                                                                                                                                      |
 | **Packed Size**          | 423 MB                                                                                                                               |
 | **Unpacked Size**        | ~1 GB                                                                                                                                |

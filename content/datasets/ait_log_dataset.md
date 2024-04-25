@@ -11,24 +11,24 @@ title: AIT Log Data Set
 - [Related Entries](#related-entries)
 - [Example Data](#example-data)
 
-| <!-- -->                 | <!-- -->                                                                                                          |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | VPN, DNS, pcaps, suricata                                                                                         |
-| **Network Logs Labeled** | Partial, see details                                                                                              |
-| **Host Log Source**      | Apache, auth, audit, syslogs, and more                                                                            |
-| **Host Logs Labeled**    | Partial, see details                                                                                              |
-|                          |                                                                                                                   |
-| **Overall Setting**      | Enterprise OS                                                                                                     |
-| **OS Types**             | Ubuntu 20.04                                                                                                      |
-| **Number of Machines**   | 9-27                                                                                                              |
-| **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                             |
-| **Year of Collection**   | 2022                                                                                                              |
-| **Attack Categories**    | Reconnaissance <br> Privilege Escalation <br> Data Exfiltration <br> Web-based Attacks <Remote Command Execution> |
-| **User Emulation**       | Yes, models complex behavior                                                                                      |
-|                          |                                                                                                                   |
-| **Packed Size**          | 130 GB                                                                                                            |
-| **Unpacked Size**        | 206 GB                                                                                                            |
-| **Download Link**        | [goto](https://zenodo.org/record/5789064)                                                                         |
+| <!-- -->                 | <!-- -->                                                                                                      |
+|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Network Data Source**  | VPN, DNS, pcaps, Suricata                                                                                     |
+| **Network Data Labeled** | Yes                                                                                                           |
+| **Host Data Source**     | Apache, auth, audit, syslogs, and more                                                                        |
+| **Host Data Labeled**    | Yes                                                                                                           |
+|                          |                                                                                                               |
+| **Overall Setting**      | Enterprise OS                                                                                                 |
+| **OS Types**             | Ubuntu 20.04                                                                                                  |
+| **Number of Machines**   | 9-27                                                                                                          |
+| **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                         |
+| **Year of Collection**   | 2022                                                                                                          |
+| **Attack Categories**    | Reconnaissance<br>Privilege Escalation<br>Data Exfiltration<br>Web-based Attacks<br/>Remote Command Execution |
+| **Benign Activity**      | Synthetic, models complex behavior                                                                            |
+|                          |                                                                                                               |
+| **Packed Size**          | 130 GB                                                                                                        |
+| **Unpacked Size**        | 206 GB                                                                                                        |
+| **Download Link**        | [goto](https://zenodo.org/record/5789064)                                                                     |
 
 ***
 

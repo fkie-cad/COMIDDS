@@ -14,3 +14,6 @@ beautiful-jekyll-theme-*.gem
 
 # PyCharm
 /.idea
+
+# Python stuff
+__pycache__/

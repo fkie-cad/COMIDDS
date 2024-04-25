@@ -12,10 +12,10 @@ title: DARPA'98 Intrusion Detection Program
 
 | <!-- -->                 | <!-- -->                                                                                      |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| **Network Log Source**   | tcpdumps                                                                                      |
-| **Network Logs Labeled** | Yes, via ground truth                                                                         |
-| **Host Log Source**      | bsm audits, file system dumps                                                                 |
-| **Host Logs Labeled**    | No                                                                                            |
+| **Network Data Source**  | tcpdumps                                                                                      |
+| **Network Data Labeled** | Ground truth provided                                                                         |
+| **Host Data Source**     | bsm audits, file system dumps                                                                 |
+| **Host Data Labeled**    | No                                                                                            |
 |                          |                                                                                               |
 | **Overall Setting**      | Military IT                                                                                   |
 | **OS Types**             | Linux 2.0.27<br/>SunOS 4.1.4<br/>Sun Solaris 2.5.1<br/>Windows NT                             |
@@ -23,10 +23,10 @@ title: DARPA'98 Intrusion Detection Program
 | **Total Runtime**        | Nine weeks                                                                                    |
 | **Year of Collection**   | 1998                                                                                          |
 | **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                             |
-| **User Emulation**       | Scripts for traffic generation, actual humans for performing complex tasks                    |
+| **Benign Activity**      | Scripts for synthetic traffic generation, real humans for performing complex tasks            |
 |                          |                                                                                               |
 | **Packed Size**          | 5 GB                                                                                          |
-| **Unpacked Size**        | _n/a_                                                                                         |
+| **Unpacked Size**        | n/a                                                                                           |
 | **Download Link**        | [goto](https://www.ll.mit.edu/r-d/datasets/1998-darpa-intrusion-detection-evaluation-dataset) |
 
 ***

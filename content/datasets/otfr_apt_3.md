@@ -12,10 +12,10 @@ title: OTFR APT 3
 
 | <!-- -->                 | <!-- -->                                                                                     |
 |--------------------------|----------------------------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                                            |
-| **Network Logs Labeled** | -                                                                                            |
-| **Host Log Source**      | Windows events                                                                               |
-| **Host Logs Labeled**    | No                                                                                           |
+| **Network Data Source**  | -                                                                                            |
+| **Network Data Labeled** | -                                                                                            |
+| **Host Data Source**     | Windows events                                                                               |
+| **Host Data Labeled**    | No                                                                                           |
 |                          |                                                                                              |
 | **Overall Setting**      | Enterprise IT                                                                                |
 | **OS Types**             | Windows 10 Pro<br/>Windows Server 2016<br/>Linux (Attacker)                                  |
@@ -23,7 +23,7 @@ title: OTFR APT 3
 | **Total Runtime**        | n/a                                                                                          |
 | **Year of Collection**   | 2019                                                                                         |
 | **Attack Categories**    | PowerShell Empire                                                                            |
-| **User Emulation**       | No                                                                                           |
+| **Benign Activity**      | None                                                                                         |
 |                          |                                                                                              |
 | **Packed Size**          | 30 MB                                                                                        |
 | **Unpacked Size**        | 855 MB                                                                                       |

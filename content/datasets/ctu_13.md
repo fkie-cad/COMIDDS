@@ -11,10 +11,10 @@ title: CTU-13 Dataset
 
 | <!-- -->                 | <!-- -->                                                                       |
 |--------------------------|--------------------------------------------------------------------------------|
-| **Network Log Source**   | Pcaps, NetFlows                                                                |
-| **Network Logs Labeled** | NetFlows are labeled                                                           |
-| **Host Log Source**      | -                                                                              |
-| **Host Logs Labeled**    | -                                                                              |
+| **Network Data Source**  | pcaps, NetFlows                                                                |
+| **Network Data Labeled** | Yes, NetFlows are labeled                                                      |
+| **Host Data Source**     | -                                                                              |
+| **Host Data Labeled**    | -                                                                              |
 |                          |                                                                                |
 | **Overall Setting**      | Enterprise IT                                                                  |
 | **OS Types**             | Windows XP SP2                                                                 |
@@ -22,7 +22,7 @@ title: CTU-13 Dataset
 | **Total Runtime**        | 1-67 hrs                                                                       |
 | **Year of Collection**   | 2011                                                                           |
 | **Attack Categories**    | Various Botnet activity<br/>(Neris, Rbot, Virut, Menti, Sogou, Murlo, NSIS.ay) |
-| **User Emulation**       | Yes, as in real background traffic                                             |
+| **Benign Activity**      | Real background traffic                                                        |
 |                          |                                                                                |
 | **Packed Size**          | n/a                                                                            |
 | **Unpacked Size**        | 697 GB (sum of all 13 scenarios)                                               |
@@ -38,6 +38,8 @@ contents) and fulfils a number of requirements, such as containing real backgrou
 botnets.
 Thirteen different scenarios were executed, with each one representing a certain botnet behavior, resulting in thirteen
 individual datasets.
+
+Note that these thirteen datasets are a subset of the [Malware Capture Facility Project](https://mcfp.weebly.com/), though other datasets within this collection did not undergo any further analysis or study.
 
 ### Environment
 
@@ -82,3 +84,4 @@ with [Argus](https://openargus.org/using-argus), though other tools might work t
 ### Links
 
 - [Homepage](https://www.stratosphereips.org/datasets-ctu13)
+- [Malware Capture Facility Project](https://mcfp.weebly.com/)
