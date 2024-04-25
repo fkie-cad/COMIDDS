@@ -59,10 +59,10 @@ def main():
         new_entry += content[POS["Setting"]] + ";"
         new_entry += content[POS["OS Type"]] + ";"
 
-        new_entry += parse.extract_from_table(details_md, "Network Log Source") + ";"
-        new_entry += parse.extract_from_table(details_md, "Network Logs Labeled") + ";"
-        new_entry += parse.extract_from_table(details_md, "Host Log Source") + ";"
-        new_entry += parse.extract_from_table(details_md, "Host Logs Labeled") + ";"
+        new_entry += parse.extract_from_table(details_md, "Network Data Source") + ";"
+        new_entry += parse.extract_from_table(details_md, "Network Data Labeled") + ";"
+        new_entry += parse.extract_from_table(details_md, "Host Data Source") + ";"
+        new_entry += parse.extract_from_table(details_md, "Host Data Labeled") + ";"
 
         new_entry += parse.extract_from_table(details_md, "Attack Categories") + ";"
         new_entry += parse.extract_from_table(details_md, "Benign Activity") + ";"

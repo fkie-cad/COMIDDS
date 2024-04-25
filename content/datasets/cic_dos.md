@@ -12,10 +12,10 @@ title: CIC DoS
 
 | <!-- -->                 | <!-- -->              |
 |--------------------------|-----------------------|
-| **Network Log Source**   | Unknown               |
-| **Network Logs Labeled** | Presumably            |
-| **Host Log Source**      | -                     |
-| **Host Logs Labeled**    | -                     |
+| **Network Data Source**  | Unknown               |
+| **Network Data Labeled** | Presumably            |
+| **Host Data Source**     | -                     |
+| **Host Data Labeled**    | -                     |
 |                          |                       |
 | **Overall Setting**      | Single OS             |
 | **OS Types**             | Apache Linux          |

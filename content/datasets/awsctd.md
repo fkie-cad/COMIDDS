@@ -12,10 +12,10 @@ title: AWSCTD
 
 | <!-- -->                 | <!-- -->                                                     |
 |--------------------------|--------------------------------------------------------------|
-| **Network Log Source**   | -                                                            |
-| **Network Logs Labeled** | -                                                            |
-| **Host Log Source**      | Sequences of Syscall Numbers                                 |
-| **Host Logs Labeled**    | Yes                                                          |
+| **Network Data Source**  | -                                                            |
+| **Network Data Labeled** | -                                                            |
+| **Host Data Source**     | Sequences of Syscall Numbers                                 |
+| **Host Data Labeled**    | Yes                                                          |
 |                          |                                                              |
 | **Overall Setting**      | Single OS                                                    |
 | **OS Types**             | Windows 7                                                    |

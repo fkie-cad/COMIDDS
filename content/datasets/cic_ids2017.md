@@ -13,10 +13,10 @@ title: CIC-IDS2017
 
 | <!-- -->                 | <!-- -->                                                                                         |
 |--------------------------|--------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, derived features                                                                          |
-| **Network Logs Labeled** | Yes                                                                                              |
-| **Host Log Source**      | -                                                                                                |
-| **Host Logs Labeled**    | -                                                                                                |
+| **Network Data Source**  | pcaps, derived features                                                                          |
+| **Network Data Labeled** | Yes                                                                                              |
+| **Host Data Source**     | -                                                                                                |
+| **Host Data Labeled**    | -                                                                                                |
 |                          |                                                                                                  |
 | **Overall Setting**      | Enterprise IT                                                                                    |
 | **OS Types**             | Windows Server 2016<br/>Ubuntu 12/16.04<br/>Windows Vista/7/8.1/10<br/>macOS<br/>Kali (Attacker) |
@@ -24,7 +24,7 @@ title: CIC-IDS2017
 | **Total Runtime**        | ~5 days                                                                                          |
 | **Year of Collection**   | 2017                                                                                             |
 | **Attack Categories**    | Brute Force FTP/SSH<br/>DoS & DDoS<br/>Web Attacks<br/>Botnets                                   |
-| **Benign Activity**      | Yes, models complex behavior                                                                     |
+| **Benign Activity**      | Synthetic, models complex behavior                                                               |
 |                          |                                                                                                  |
 | **Packed Size**          | 48,4 GB                                                                                          |
 | **Unpacked Size**        | 50 GB                                                                                            |

@@ -12,10 +12,10 @@ title: Kyoto Honeypot Dataset
 
 | <!-- -->                 | <!-- -->                                                                |
 |--------------------------|-------------------------------------------------------------------------|
-| **Network Log Source**   | Features extracted from network traffic                                 |
-| **Network Logs Labeled** | Yes                                                                     |
-| **Host Log Source**      | -                                                                       |
-| **Host Logs Labeled**    | -                                                                       |
+| **Network Data Source**  | Features extracted from network traffic                                 |
+| **Network Data Labeled** | Yes                                                                     |
+| **Host Data Source**     | -                                                                       |
+| **Host Data Labeled**    | -                                                                       |
 |                          |                                                                         |
 | **Overall Setting**      | Diverse                                                                 |
 | **OS Types**             | Windows XP/2000 Server/Vista<br/>MacOs<br/>Solaris 8<br/>Various others |
@@ -23,7 +23,7 @@ title: Kyoto Honeypot Dataset
 | **Total Runtime**        | 9 years                                                                 |
 | **Year of Collection**   | 2006-2015                                                               |
 | **Attack Categories**    | n/a (it's a honeypot)                                                   |
-| **Benign Activity**      | Automated "normal traffic generation"                                   |
+| **Benign Activity**      | Synthetic, automated "normal traffic generation"                        |
 |                          |                                                                         |
 | **Packed Size**          | 5 GB                                                                    |
 | **Unpacked Size**        | n/a                                                                     |

@@ -12,10 +12,10 @@ title: PWNJUTSU
 
 | <!-- -->                 | <!-- -->                                                                      |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, various logs (DNS, ssh, http, ssl, etc.)                               |
-| **Network Logs Labeled** | No                                                                            |
-| **Host Log Source**      | Sysmon, auditd, Windows events, various logs (auth, Apache)                   |
-| **Host Logs Labeled**    | No                                                                            |
+| **Network Data Source**  | pcaps, various logs (DNS, ssh, http, ssl, etc.)                               |
+| **Network Data Labeled** | No                                                                            |
+| **Host Data Source**     | Sysmon, auditd, Windows events, various logs (auth, Apache)                   |
+| **Host Data Labeled**    | No                                                                            |
 |                          |                                                                               |
 | **Overall Setting**      | Miscellaneous                                                                 |
 | **OS Types**             | Windows 2008<br/>Ubuntu 14.04 / 20.04                                         |

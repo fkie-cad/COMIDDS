@@ -12,10 +12,10 @@ title: Twente 2014 Dataset
 
 | <!-- -->                 | <!-- -->                                                      |
 |--------------------------|---------------------------------------------------------------|
-| **Network Log Source**   | NetFlows (ssh auth only)                                      |
-| **Network Logs Labeled** | Yes                                                           |
-| **Host Log Source**      | ssh auth logs                                                 |
-| **Host Logs Labeled**    | Yes                                                           |
+| **Network Data Source**  | NetFlows (ssh auth only)                                      |
+| **Network Data Labeled** | Yes                                                           |
+| **Host Data Source**     | ssh auth logs                                                 |
+| **Host Data Labeled**    | Yes                                                           |
 |                          |                                                               |
 | **Overall Setting**      | Enterprise OS                                                 |
 | **OS Types**             | n/a                                                           |
