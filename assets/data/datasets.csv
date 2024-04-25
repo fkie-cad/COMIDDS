@@ -41,9 +41,11 @@ TUIDS;Yes;No;2012;2012;Enterprise IT;Undisclosed;pcaps, NetFlows;Features are la
 VAST Challenge 2012;Yes;No;2012;2012;Enterprise IT;Undisclosed;Firewall and IDS logs;Ground truth provided;-;-;BotNet;Presumably synthetic, but not detailed;186.0;2900.0;
 CTU 13;Yes;No;2011;2011;Enterprise IT;Windows, Undisclosed;pcaps, NetFlows;Yes, NetFlows are labeled;-;-;Various Botnet activity, (Neris, Rbot, Virut, Menti, Sogou, Murlo, NSIS.ay);Real background traffic;;697000.0;
 VAST Challenge 2011;Yes;No;2011;2011;Enterprise IT;Windows;Firewall, Snort;Ground truth provided;OS Security Events;Ground truth provided;Reconnaissance, DoS, Persistence;Present, but not further explained;940.0;9300.0;
+ISOT Botnet;Yes;No;2010;2010;Enterprise IT;Undisclosed;pcaps;Yes;-;-;Botnets (Storm, Waledac);Real users;3000.0;10600.0;
 CDX CTF 2009;Yes;No;2009;2009;Enterprise IT;Windows, Linux;pcaps, snort IDS alerts;Some ground truth provided;Apache web server logs, Splunk logs;No;n/a;Synthetic, via scripts;12000.0;15300.0;
 NSL-KDD;Yes;No;2009;2009;Military IT;Unix;Connection records;Yes;-;-;DoS, Remote to Local, User to Root, Surveillance/Probing;Scripts for synthetic traffic generation, real humans for performing complex tasks;6.0;19.0;
 Twente 2009;Yes;No;2009;2009;Single OS;Linux;NetFlows;Yes;-;-;Diverse;None;303.0;1900.0;
+UNIBS;No;No;2009;2009;Enterprise IT;Undisclosed;NetFlows;No;-;-;None;Real users;;2700.0;
 gureKDDCup;Yes;No;2008;2008;Military IT;Unix;Connection records with payload;Yes;-;-;DoS, Remote to Local, User to Root, Surveillance/Probing;Scripts for synthetic traffic generation, real humans for performing complex tasks;10000.0;;
 KDD Cup 1999;Yes;No;1999;1999;Military IT;Unix;Connection records;Yes;-;-;DoS, Remote to Local, User to Root, Surveillance/Probing;Scripts for synthetic traffic generation, real humans for performing complex tasks;18.0;743.0;
 DARPA'98 Intrusion Detection Program;Yes;No;1998;1998;Military IT;Unix;tcpdumps;Ground truth provided;bsm audits, file system dumps;No;DoS, Remote to Local, User to Root, Surveillance/Probing;Scripts for synthetic traffic generation, real humans for performing complex tasks;5000.0;;
