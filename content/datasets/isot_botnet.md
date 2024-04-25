@@ -52,7 +52,7 @@ These traces are simply available in the form of a single large pcap file with 1
 Labels are available via malicious traffic having a specific MAC, as per Table 2 of the linked documentation.
 
 It should be noted that the application of methods based on machine learning on merged datasets bears some additional risks;
-researchers must ensure that results are not a byproducts of anomalies that remained after the merging, which might not actually be caused by the malicious behavior, but rather the simple fact that these traces stemmed from separate environments.
+researchers must ensure that results are not a byproducts of anomalies that remained after the merging process, which might not actually be caused by the malicious behavior, but rather the simple fact that these traces stem from separate environments.
 
 ### Papers
 - [Detecting P2P botnets through network behavior analysis and machine learning (2011)](https://doi.org/10.1109/PST.2011.5971980)
