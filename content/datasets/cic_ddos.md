@@ -12,10 +12,10 @@ title: CIC-DDos2019
 
 | <!-- -->                 | <!-- -->                                                      |
 |--------------------------|---------------------------------------------------------------|
-| **Network Log Source**   | pcaps, NetFlows                                               |
-| **Network Logs Labeled** | Flows are labeled                                             |
-| **Host Log Source**      | Windows event logs, Ubuntu event logs                         |
-| **Host Logs Labeled**    | No                                                            |
+| **Network Data Source**  | pcaps, NetFlows                                               |
+| **Network Data Labeled** | Flows are labeled                                             |
+| **Host Data Source**     | Windows event logs, Ubuntu event logs                         |
+| **Host Data Labeled**    | No                                                            |
 |                          |                                                               |
 | **Overall Setting**      | Enterprise IT                                                 |
 | **OS Types**             | Windows Vista/7/8.1/10<br/>Ubuntu 16.04<br/>Fortinet          |
@@ -23,7 +23,7 @@ title: CIC-DDos2019
 | **Total Runtime**        | ~16 hours                                                     |
 | **Year of Collection**   | 2019                                                          |
 | **Attack Categories**    | Various DDoS attacks                                          |
-| **Benign Activity**      | Yes, models complex behavior                                  |
+| **Benign Activity**      | Synthetic, models complex behavior                            |
 |                          |                                                               |
 | **Packed Size**          | 24,4 GB                                                       |
 | **Unpacked Size**        | n/a                                                           |

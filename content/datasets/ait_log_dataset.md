@@ -13,10 +13,10 @@ title: AIT Log Data Set
 
 | <!-- -->                 | <!-- -->                                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | VPN, DNS, pcaps, Suricata                                                                                     |
-| **Network Logs Labeled** | Yes                                                                                                           |
-| **Host Log Source**      | Apache, auth, audit, syslogs, and more                                                                        |
-| **Host Logs Labeled**    | Yes                                                                                                           |
+| **Network Data Source**  | VPN, DNS, pcaps, Suricata                                                                                     |
+| **Network Data Labeled** | Yes                                                                                                           |
+| **Host Data Source**     | Apache, auth, audit, syslogs, and more                                                                        |
+| **Host Data Labeled**    | Yes                                                                                                           |
 |                          |                                                                                                               |
 | **Overall Setting**      | Enterprise OS                                                                                                 |
 | **OS Types**             | Ubuntu 20.04                                                                                                  |
@@ -24,7 +24,7 @@ title: AIT Log Data Set
 | **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                         |
 | **Year of Collection**   | 2022                                                                                                          |
 | **Attack Categories**    | Reconnaissance<br>Privilege Escalation<br>Data Exfiltration<br>Web-based Attacks<br/>Remote Command Execution |
-| **Benign Activity**      | Yes, models complex behavior                                                                                  |
+| **Benign Activity**      | Synthetic, models complex behavior                                                                            |
 |                          |                                                                                                               |
 | **Packed Size**          | 130 GB                                                                                                        |
 | **Unpacked Size**        | 206 GB                                                                                                        |
