@@ -52,7 +52,7 @@ Intentional malicious activity is not present.
 
 ### Contained Data
 Traffic was collected from the central faculty router via `tcpdump` and enriched with ground truth from the GT tool (in the form of related protocol and application).
-It is available in an anonymized and payload-stripped form, presumably in as NetFlows, but has to be requested via mail.
+It is available in an anonymized and payload-stripped form, presumably as NetFlows, but has to be requested via mail.
 
 ### Papers
 - [GT: picking up the truth from the ground for internet traffic (2009)](https://doi.org/10.1145/1629607.1629610)
