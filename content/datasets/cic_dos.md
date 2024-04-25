@@ -12,10 +12,10 @@ title: CIC DoS
 
 | <!-- -->                 | <!-- -->              |
 |--------------------------|-----------------------|
-| **Network Log Source**   | Unknown               |
-| **Network Logs Labeled** | Presumably            |
-| **Host Log Source**      | -                     |
-| **Host Logs Labeled**    | -                     |
+| **Network Data Source**  | Unknown               |
+| **Network Data Labeled** | Presumably            |
+| **Host Data Source**     | -                     |
+| **Host Data Labeled**    | -                     |
 |                          |                       |
 | **Overall Setting**      | Single OS             |
 | **OS Types**             | Apache Linux          |
@@ -23,7 +23,7 @@ title: CIC DoS
 | **Total Runtime**        | 24 hours              |
 | **Year of Collection**   | 2017                  |
 | **Attack Categories**    | Application-layer DoS |
-| **User Emulation**       | n/a                   |
+| **Benign Activity**      | n/a                   |
 |                          |                       |
 | **Packed Size**          | n/a                   |
 | **Unpacked Size**        | 4,6 GB                |
@@ -47,13 +47,13 @@ The declared goal of executed attacks was to render services on the server side 
 The authors state that attacks were selected to match the most common types of application layer DoS, resulting in a mix of high- and log-volume attacks.
 These attacks were executed leveraging several publicly available tools such as [Goldeneye](https://github.com/jseidl/GoldenEye) or [Slowloris](https://github.com/gkbrk/slowloris), for a total of eight attacks:
 - High-volume HTTP attacks:
-  - DoS improved GET
-  - DDoS GET
-  - DoS GET
+    - DoS improved GET
+    - DDoS GET
+    - DoS GET
 - Low-volume HTTP attacks
-  - slow-send body (twice with different tools)
-  - slow-send headers (twice with different tools)
-  - slow-read
+    - slow-send body (twice with different tools)
+    - slow-send headers (twice with different tools)
+    - slow-read
 
 Additional details can be found in chapter 6 of the cited paper.
 

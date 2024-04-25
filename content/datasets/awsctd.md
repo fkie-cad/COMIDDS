@@ -12,10 +12,10 @@ title: AWSCTD
 
 | <!-- -->                 | <!-- -->                                                     |
 |--------------------------|--------------------------------------------------------------|
-| **Network Log Source**   | -                                                            |
-| **Network Logs Labeled** | -                                                            |
-| **Host Log Source**      | Sequences of Syscall Numbers (aka library calls to Ntdll)    |
-| **Host Logs Labeled**    | Yes                                                          |
+| **Network Data Source**  | -                                                            |
+| **Network Data Labeled** | -                                                            |
+| **Host Data Source**     | Sequences of Syscall Numbers                                 |
+| **Host Data Labeled**    | Yes                                                          |
 |                          |                                                              |
 | **Overall Setting**      | Single OS                                                    |
 | **OS Types**             | Windows 7                                                    |
@@ -23,7 +23,7 @@ title: AWSCTD
 | **Total Runtime**        | ~30 minutes per run                                          |
 | **Year of Collection**   | 2018                                                         |
 | **Attack Categories**    | Over 10k different malware samples, idk                      |
-| **User Emulation**       | None                                                         |
+| **Benign Activity**      | None                                                         |
 |                          |                                                              |
 | **Packed Size**          | 9,8 MB                                                       |
 | **Unpacked Size**        | 558 MB                                                       |

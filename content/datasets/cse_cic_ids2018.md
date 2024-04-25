@@ -13,10 +13,10 @@ title: CSE-CIC-IDS2018
 
 | <!-- -->                 | <!-- -->                                                                                                 |
 |--------------------------|----------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, NetFlows                                                                                          |
-| **Network Logs Labeled** | NetFlows are labeled                                                                                     |
-| **Host Log Source**      | Ubuntu event logs, Windows event logs                                                                    |
-| **Host Logs Labeled**    | No                                                                                                       |
+| **Network Data Source**  | pcaps, NetFlows                                                                                          |
+| **Network Data Labeled** | Yes, NetFlows are labeled                                                                                |
+| **Host Data Source**     | Ubuntu event logs, Windows event logs                                                                    |
+| **Host Data Labeled**    | No                                                                                                       |
 |                          |                                                                                                          |
 | **Overall Setting**      | Enterprise IT                                                                                            |
 | **OS Types**             | Windows 7/8.1/10/Vista/Server 2016 <br> Ubuntu 14.04/16.04 <br> MacOS<br/> Kali & Windows 8.1 (Attacker) |
@@ -24,10 +24,10 @@ title: CSE-CIC-IDS2018
 | **Total Runtime**        | ~5 days                                                                                                  |
 | **Year of Collection**   | 2018                                                                                                     |
 | **Attack Categories**    | Bruteforce<br/>Heartbleed<br/>Botnet<br/>DoS/DDoS<br/>Web-Based<br/>Infiltration from Inside             |
-| **User Emulation**       | Yes, models complex behavior                                                                             |
+| **Benign Activity**      | Synthetic, models complex behavior                                                                       |
 |                          |                                                                                                          |
 | **Packed Size**          | 220 GB                                                                                                   |
-| **Unpacked Size**        | _n/a_                                                                                                    |
+| **Unpacked Size**        | n/a                                                                                                      |
 | **Download Link**        | [Instructions at bottom of page](https://www.unb.ca/cic/datasets/ids-2018.html)                          |
 
 ***

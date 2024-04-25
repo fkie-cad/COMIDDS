@@ -12,10 +12,10 @@ title: OpTC
 
 | <!-- -->                 | <!-- -->                                                                               |
 |--------------------------|----------------------------------------------------------------------------------------|
-| **Network Log Source**   | Network flows                                                                          |
-| **Network Logs Labeled** | Yes                                                                                    |
-| **Host Log Source**      | eCar events                                                                            |
-| **Host Logs Labeled**    | Yes                                                                                    |
+| **Network Data Source**  | NetFlows                                                                               |
+| **Network Data Labeled** | Yes                                                                                    |
+| **Host Data Source**     | eCar events                                                                            |
+| **Host Data Labeled**    | Yes                                                                                    |
 |                          |                                                                                        |
 | **Overall Setting**      | Enterprise IT                                                                          |
 | **OS Types**             | Windows 10                                                                             |
@@ -23,9 +23,9 @@ title: OpTC
 | **Total Runtime**        | 6 days                                                                                 |
 | **Year of Collection**   | 2019                                                                                   |
 | **Attack Categories**    | Powershell Empire<br/>Malicious Upgrades                                               |
-| **User Emulation**       | Yes                                                                                    |
+| **Benign Activity**      | Synthetic                                                                              |
 |                          |                                                                                        |
-| **Packed Size**          | _n/a_                                                                                  |
+| **Packed Size**          | n/a                                                                                    |
 | **Unpacked Size**        | 1 TB                                                                                   |
 | **Download Link**        | [GDrive](https://drive.google.com/drive/u/0/folders/1n3kkS3KR31KUegn42yk3-e6JkZvf0Caa) |
 
@@ -154,7 +154,9 @@ Bro (Zeek) events taken from `bro/2019-09-20/dns.11_00_00-12_00_00.log`.
 eCar-bro events taken from `ecar-bro/evaluation/23Sep19-red/AIA-201-225/ecarbro.json`.
 
 ```json
-[...]
+[
+  ...
+]
 {
   "timestamp": "2019-09-23T14:55:18.164-04:00",
   "id": "8e8b8298-d173-4e01-a871-8e10cb2c0be2",
@@ -204,5 +206,7 @@ eCar-bro events taken from `ecar-bro/evaluation/23Sep19-red/AIA-201-225/ecarbro.
   }
 }
 
-[...]
+[
+  ...
+]
 ```

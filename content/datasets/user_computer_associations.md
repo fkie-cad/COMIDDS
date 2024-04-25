@@ -13,10 +13,10 @@ title: User-Computer Authentication Associations in Time
 
 | <!-- -->                 | <!-- -->              |
 |--------------------------|-----------------------|
-| **Network Log Source**   | -                     |
-| **Network Logs Labeled** | -                     |
-| **Host Log Source**      | Authentication events |
-| **Host Logs Labeled**    | No                    |
+| **Network Data Source**  | -                     |
+| **Network Data Labeled** | -                     |
+| **Host Data Source**     | Authentication events |
+| **Host Data Labeled**    | No                    |
 |                          |                       |
 | **Overall Setting**      | Enterprise IT         |
 | **OS Types**             | Undisclosed           |
@@ -24,7 +24,7 @@ title: User-Computer Authentication Associations in Time
 | **Total Runtime**        | 9 months              |
 | **Year of Collection**   | 2014                  |
 | **Attack Categories**    | none                  |
-| **User Emulation**       | Real users            |
+| **Benign Activity**      | Real users            |
 |                          |                       |
 | **Packed Size**          | 2,3 GB                |
 | **Unpacked Size**        | n/a                   |

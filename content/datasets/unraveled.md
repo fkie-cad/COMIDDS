@@ -15,10 +15,10 @@ title: Unraveled
 
 | <!-- -->                 | <!-- -->                                                                |
 |--------------------------|-------------------------------------------------------------------------|
-| **Network Log Source**   | Network captures, snort logs                                            |
-| **Network Logs Labeled** | Yes                                                                     |
-| **Host Log Source**      | Syslog, audit, auth                                                     |
-| **Host Logs Labeled**    | Yes                                                                     |
+| **Network Data Source**  | pcaps, snort logs                                                       |
+| **Network Data Labeled** | Yes                                                                     |
+| **Host Data Source**     | Syslog, audit, auth                                                     |
+| **Host Data Labeled**    | Yes                                                                     |
 |                          |                                                                         |
 | **Overall Setting**      | Enterprise IT                                                           |
 | **OS Types**             | Windows 10<br/>Ubuntu 18.04<br/>Kali2020                                |
@@ -26,9 +26,9 @@ title: Unraveled
 | **Total Runtime**        | 6 weeks                                                                 |
 | **Year of Collection**   | 2021                                                                    |
 | **Attack Categories**    | Reconnaissance<br/>Persistence<br/>Lateral Movement<br/>Defense Evasion |
-| **User Emulation**       | Yes, models complex behavior                                            |
+| **Benign Activity**      | Synthetic, models complex behavior                                      |
 |                          |                                                                         |
-| **Packed Size**          | _n/a_                                                                   |
+| **Packed Size**          | n/a                                                                     |
 | **Unpacked Size**        | 22 GB                                                                   |
 | **Download Link**        | [goto](https://dapt2021.s3.amazonaws.com/README.txt)                    |
 

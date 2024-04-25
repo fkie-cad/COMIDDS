@@ -11,10 +11,10 @@ title: Twente 2009 Dataset
 
 | <!-- -->                 | <!-- -->                                                                                    |
 |--------------------------|---------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Network flows derived from pcaps                                                            |
-| **Network Logs Labeled** | Yes                                                                                         |
-| **Host Log Source**      | -                                                                                           |
-| **Host Logs Labeled**    | -                                                                                           |
+| **Network Data Source**  | NetFlows                                                                                    |
+| **Network Data Labeled** | Yes                                                                                         |
+| **Host Data Source**     | -                                                                                           |
+| **Host Data Labeled**    | -                                                                                           |
 |                          |                                                                                             |
 | **Overall Setting**      | Single OS / Honeypot                                                                        |
 | **OS Types**             | Debian Etch 4.0                                                                             |
@@ -22,7 +22,7 @@ title: Twente 2009 Dataset
 | **Total Runtime**        | 6 days                                                                                      |
 | **Year of Collection**   | 2009                                                                                        |
 | **Attack Categories**    | Diverse                                                                                     |
-| **User Emulation**       | No                                                                                          |
+| **Benign Activity**      | None                                                                                        |
 |                          |                                                                                             |
 | **Packed Size**          | 303 MB                                                                                      |
 | **Unpacked Size**        | 1,85 GB                                                                                     |
