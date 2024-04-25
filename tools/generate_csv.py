@@ -1,4 +1,5 @@
 import src.string_parser as parse
+from src.field_names import FieldNames as Fn
 
 FIRST_ENTRY_LINE = 11
 LINES_AFTER_TABLE_END = 7
@@ -23,24 +24,24 @@ def main():
         datasets = file.readlines()[FIRST_ENTRY_LINE - 1: - LINES_AFTER_TABLE_END]
 
     csv_string = (
-        "Name;"
-        "Network Attacks;"
-        "Host Attacks;"
-        "Start Year;"
-        "End Year;"
-        "Setting;"
-        "OS Type;"
+        f"{Fn.ds_name};"
+        f"{Fn.network_attacks};"
+        f"{Fn.host_attacks};"
+        f"{Fn.start_year};"
+        f"{Fn.end_year};"
+        f"{Fn.ds_setting};"
+        f"{Fn.os_types};"
 
-        "Network Data Source;"
-        "Network Data Labeled;"
-        "Host Data Source;"
-        "Host Data Labeled;"
+        f"{Fn.network_src};"
+        f"{Fn.network_label};"
+        f"{Fn.host_src};"
+        f"{Fn.host_label};"
 
-        "Attack Categories;"
-        "Benign Activity;"
+        f"{Fn.atk_categories};"
+        f"{Fn.benign_activity};"
 
-        "Packed Size in MB;"
-        "Unpacked Size in MB"
+        f"{Fn.packed_size};"
+        f"{Fn.unpacked_size}"
         "\n")
 
     for dataset in datasets:
@@ -68,7 +69,7 @@ def main():
         new_entry += parse.extract_from_table(details_md, "Benign Activity") + ";"
 
         new_entry += parse.size_in_mb(content[POS["Packed Size"]]) + ";"
-        new_entry += parse.size_in_mb(content[POS["Unpacked Size"]]) + ";"
+        new_entry += parse.size_in_mb(content[POS["Unpacked Size"]])
 
         new_entry += "\n"
         csv_string += new_entry
