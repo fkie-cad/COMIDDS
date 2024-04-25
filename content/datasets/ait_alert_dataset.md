@@ -13,10 +13,10 @@ title: AIT Alert Data Set
 
 | <!-- -->                 | <!-- -->                                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Suricata, Wazuh and AMiner alerts                                                                             |
-| **Network Logs Labeled** | Yes                                                                                                           |
-| **Host Log Source**      | Wazuh and AMiner alerts                                                                                       |
-| **Host Logs Labeled**    | Yes                                                                                                           |
+| **Network Data Source**  | Suricata, Wazuh and AMiner alerts                                                                             |
+| **Network Data Labeled** | Yes                                                                                                           |
+| **Host Data Source**     | Wazuh and AMiner alerts                                                                                       |
+| **Host Data Labeled**    | Yes                                                                                                           |
 |                          |                                                                                                               |
 | **Overall Setting**      | Enterprise Network                                                                                            |
 | **OS Types**             | Ubuntu 20.04                                                                                                  |
@@ -24,7 +24,7 @@ title: AIT Alert Data Set
 | **Total Runtime**        | 4-6 days per sim, 8 simulations total                                                                         |
 | **Year of Collection**   | 2023                                                                                                          |
 | **Attack Categories**    | Reconnaissance<br>Privilege Escalation<br>Data Exfiltration<br>Web-based Attacks<br/>Remote Command Execution |
-| **Benign Activity**      | Yes, models complex behavior                                                                                  |
+| **Benign Activity**      | Synthetic, models complex behavior                                                                            |
 |                          |                                                                                                               |
 | **Packed Size**          | 96 MB                                                                                                         |
 | **Unpacked Size**        | 2,9 GB                                                                                                        |

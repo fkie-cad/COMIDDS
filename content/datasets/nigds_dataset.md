@@ -12,10 +12,10 @@ title: NGIDS Dataset
 
 | <!-- -->                 | <!-- -->                                                                                      |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps                                                                                         |
-| **Network Logs Labeled** | Ground truth provided                                                                         |
-| **Host Log Source**      | Features derived from host events                                                             |
-| **Host Logs Labeled**    | Yes                                                                                           |
+| **Network Data Source**  | pcaps                                                                                         |
+| **Network Data Labeled** | Ground truth provided                                                                         |
+| **Host Data Source**     | Features derived from host events                                                             |
+| **Host Data Labeled**    | Yes                                                                                           |
 |                          |                                                                                               |
 | **Overall Setting**      | Enterprise IT                                                                                 |
 | **OS Types**             | Ubuntu 14.04                                                                                  |
@@ -23,7 +23,7 @@ title: NGIDS Dataset
 | **Total Runtime**        | ~5 days                                                                                       |
 | **Year of Collection**   | 2016                                                                                          |
 | **Attack Categories**    | DDoS<br/>Shellcode<br/>Worms<br/>Reconnaissance<br/>Exploits<br/>"Generic"                    |
-| **Benign Activity**      | Yes, using IXIA PerfectStorm                                                                  |
+| **Benign Activity**      | Synthetic, using IXIA PerfectStorm                                                            |
 |                          |                                                                                               |
 | **Packed Size**          | 941 MB                                                                                        |
 | **Unpacked Size**        | 13,4 GB                                                                                       |

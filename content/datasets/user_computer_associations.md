@@ -13,10 +13,10 @@ title: User-Computer Authentication Associations in Time
 
 | <!-- -->                 | <!-- -->              |
 |--------------------------|-----------------------|
-| **Network Log Source**   | -                     |
-| **Network Logs Labeled** | -                     |
-| **Host Log Source**      | Authentication events |
-| **Host Logs Labeled**    | No                    |
+| **Network Data Source**  | -                     |
+| **Network Data Labeled** | -                     |
+| **Host Data Source**     | Authentication events |
+| **Host Data Labeled**    | No                    |
 |                          |                       |
 | **Overall Setting**      | Enterprise IT         |
 | **OS Types**             | Undisclosed           |

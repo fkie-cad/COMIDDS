@@ -502,7 +502,7 @@ https://www.honeynet.org/challenges/ <br>
 (accessed 19.02.2024, last updated 18.03.2015)
 
 A collection of 14 forensic challenges related to pcaps, malware and log files.
-However, most resources, except for the two newest challenges, are no longer available.
+However, underlying resources for several of these challenges are no longer available.
 
 ### The Internet Traffic Archive
 

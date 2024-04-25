@@ -12,10 +12,10 @@ title: Comprehensive, Multi-Source Cybersecurity Events
 
 | <!-- -->                 | <!-- -->                                               |
 |--------------------------|--------------------------------------------------------|
-| **Network Log Source**   | NetFlows, DNS lookups                                  |
-| **Network Logs Labeled** | No                                                     |
-| **Host Log Source**      | Auth events, Process events                            |
-| **Host Logs Labeled**    | Yes, for auth events                                   |
+| **Network Data Source**  | NetFlows, DNS lookups                                  |
+| **Network Data Labeled** | No                                                     |
+| **Host Data Source**     | Auth events, Process events                            |
+| **Host Data Labeled**    | Yes, for auth events                                   |
 |                          |                                                        |
 | **Overall Setting**      | Enterprise IT                                          |
 | **OS Types**             | Windows <br> Others undisclosed                        |
