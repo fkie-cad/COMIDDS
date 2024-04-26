@@ -19,14 +19,14 @@ def name(full_name):
 
 
 def network_focus(focus_info: str):
-    if "Network" in focus_info:
+    if "Network" in focus_info or "Both" in focus_info:
         return "Yes"
     else:
         return "No"
 
 
 def host_focus(focus_info: str):
-    if "Host" in focus_info:
+    if "Host" in focus_info or "Both" in focus_info:
         return "Yes"
     else:
         return "No"
