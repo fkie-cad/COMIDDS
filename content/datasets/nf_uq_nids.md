@@ -13,10 +13,10 @@ title: NF-UQ-NIDS
 
 | <!-- -->                 | <!-- -->                                                                                                                                          |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | Custom NetFlows                                                                                                                                   |
-| **Network Logs Labeled** | Yes                                                                                                                                               |
-| **Host Log Source**      | -                                                                                                                                                 |
-| **Host Logs Labeled**    | -                                                                                                                                                 |
+| **Network Data Source**  | Custom NetFlows                                                                                                                                   |
+| **Network Data Labeled** | Yes                                                                                                                                               |
+| **Host Data Source**     | -                                                                                                                                                 |
+| **Host Data Labeled**    | -                                                                                                                                                 |
 |                          |                                                                                                                                                   |
 | **Overall Setting**      | Enterprise IT / Miscellaneous                                                                                                                     |
 | **OS Types**             | Windows, Linux, MacOS, IoT                                                                                                                        |
@@ -24,7 +24,7 @@ title: NF-UQ-NIDS
 | **Total Runtime**        | n/a                                                                                                                                               |
 | **Year of Collection**   | 2015 / 2018 / 2019                                                                                                                                |
 | **Attack Categories**    | DoS / DDoS<br/>Reconnaissance<br/>Injection<br/>Infiltration<br/>Backdoor<br/>Botnet<br/>Shellcode<br/>MITM<br/>Worms<br/>Ransomware<br/>Exploits |
-| **Benign Activity**      | Yes                                                                                                                                               |
+| **Benign Activity**      | Synthetic                                                                                                                                         |
 |                          |                                                                                                                                                   |
 | **Packed Size**          | 2 GB                                                                                                                                              |
 | **Unpacked Size**        | 14,8 GB                                                                                                                                           |

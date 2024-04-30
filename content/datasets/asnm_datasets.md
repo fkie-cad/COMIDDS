@@ -12,10 +12,10 @@ title: ASNM Datasets
 
 | <!-- -->                 | <!-- -->                                               |
 |--------------------------|--------------------------------------------------------|
-| **Network Log Source**   | Custom extension of network flows                      |
-| **Network Logs Labeled** | Yes                                                    |
-| **Host Log Source**      | -                                                      |
-| **Host Logs Labeled**    | -                                                      |
+| **Network Data Source**  | Custom extension of network flows                      |
+| **Network Data Labeled** | Yes                                                    |
+| **Host Data Source**     | -                                                      |
+| **Host Data Labeled**    | -                                                      |
 |                          |                                                        |
 | **Overall Setting**      | Enterprise IT<br/>Small Network                        |
 | **OS Types**             | Windows Server<br/>Windows XP SP3<br/>Linux Server     |
@@ -23,7 +23,7 @@ title: ASNM Datasets
 | **Total Runtime**        | n/a                                                    |
 | **Year of Collection**   | 2009/2015/2018                                         |
 | **Attack Categories**    | Remote Buffer Overflows<br/>Obfuscated Network Attacks |
-| **Benign Activity**      | Yes, but not further detailed                          |
+| **Benign Activity**      | Synthetic, but not further detailed                    |
 |                          |                                                        |
 | **Packed Size**          | 21 MB                                                  |
 | **Unpacked Size**        | 95 MB                                                  |

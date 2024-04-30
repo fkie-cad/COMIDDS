@@ -12,10 +12,10 @@ title: LID-DS 2019
 
 | <!-- -->                 | <!-- -->                                                                 |
 |--------------------------|--------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                        |
-| **Network Logs Labeled** | -                                                                        |
-| **Host Log Source**      | Syscalls with parameter information                                      |
-| **Host Logs Labeled**    | Ground truth provided                                                    |
+| **Network Data Source**  | -                                                                        |
+| **Network Data Labeled** | -                                                                        |
+| **Host Data Source**     | Syscalls with parameter information                                      |
+| **Host Data Labeled**    | Ground truth provided                                                    |
 |                          |                                                                          |
 | **Overall Setting**      | Single OS                                                                |
 | **OS Types**             | Ubuntu 18.04                                                             |
@@ -23,7 +23,7 @@ title: LID-DS 2019
 | **Total Runtime**        | 30 seconds per sim                                                       |
 | **Year of Collection**   | 2019                                                                     |
 | **Attack Categories**    | Various CVEs                                                             |
-| **Benign Activity**      | Yes                                                                      |
+| **Benign Activity**      | Synthetic                                                                |
 |                          |                                                                          |
 | **Packed Size**          | 13 GB                                                                    |
 | **Unpacked Size**        | n/a                                                                      |

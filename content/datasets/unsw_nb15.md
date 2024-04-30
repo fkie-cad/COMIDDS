@@ -13,10 +13,10 @@ title: UNSW-NB15
 
 | <!-- -->                 | <!-- -->                                                                                                                              |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Log Source**   | pcaps, custom network features                                                                                                        |
-| **Network Logs Labeled** | Yes                                                                                                                                   |
-| **Host Log Source**      | -                                                                                                                                     |
-| **Host Logs Labeled**    | -                                                                                                                                     |
+| **Network Data Source**  | pcaps, custom network features                                                                                                        |
+| **Network Data Labeled** | Yes                                                                                                                                   |
+| **Host Data Source**     | -                                                                                                                                     |
+| **Host Data Labeled**    | -                                                                                                                                     |
 |                          |                                                                                                                                       |
 | **Overall Setting**      | Miscellaneous                                                                                                                         |
 | **OS Types**             | Undisclosed                                                                                                                           |
@@ -24,7 +24,7 @@ title: UNSW-NB15
 | **Total Runtime**        | 31 hours                                                                                                                              |
 | **Year of Collection**   | 2015                                                                                                                                  |
 | **Attack Categories**    | Scanning<br/>Backdoors<br/>DoS<br/>Exploits<br/>Reconnaissance<br/>Shellcode<br/>Worms<br/>Fuzzing                                    |
-| **Benign Activity**      | Yes, via IXIA PerfectStorm                                                                                                            |
+| **Benign Activity**      | Synthetic, via IXIA PerfectStorm                                                                                                            |
 |                          |                                                                                                                                       |
 | **Packed Size**          | ~100 GB                                                                                                                               |
 | **Unpacked Size**        | n/a                                                                                                                                   |

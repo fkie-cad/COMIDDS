@@ -12,10 +12,10 @@ title: Unified Host and Network Dataset
 
 | <!-- -->                 | <!-- -->                                              |
 |--------------------------|-------------------------------------------------------|
-| **Network Log Source**   | NetFlows                                              |
-| **Network Logs Labeled** | No                                                    |
-| **Host Log Source**      | Windows events (auth & proc)                          |
-| **Host Logs Labeled**    | No                                                    |
+| **Network Data Source**  | NetFlows                                              |
+| **Network Data Labeled** | No                                                    |
+| **Host Data Source**     | Windows events (auth & proc)                          |
+| **Host Data Labeled**    | No                                                    |
 |                          |                                                       |
 | **Overall Setting**      | Enterprise IT                                         |
 | **OS Types**             | Undisclosed Windows Versions<br/>Undisclosed other OS |

@@ -12,10 +12,10 @@ title: DARPA TC3
 
 | <!-- -->                 | <!-- -->                                                                                  |
 |--------------------------|-------------------------------------------------------------------------------------------|
-| **Network Log Source**   | -                                                                                         |
-| **Network Logs Labeled** | -                                                                                         |
-| **Host Log Source**      | Custom event logs                                                                         |
-| **Host Logs Labeled**    | Ground truth provided                                                                     |
+| **Network Data Source**  | -                                                                                         |
+| **Network Data Labeled** | -                                                                                         |
+| **Host Data Source**     | Custom event logs                                                                         |
+| **Host Data Labeled**    | Ground truth provided                                                                     |
 |                          |                                                                                           |
 | **Overall Setting**      | Undisclosed                                                                               |
 | **OS Types**             | Windows?                                                                                  |
@@ -23,7 +23,7 @@ title: DARPA TC3
 | **Total Runtime**        | 8 days                                                                                    |
 | **Year of Collection**   | 2018                                                                                      |
 | **Attack Categories**    | Backdoor<br/>Loader Drakon APT<br/>Port Scans<br/>Process Elevation<br/>Process Injection |
-| **Benign Activity**      | Yes, but not specified                                                                    |
+| **Benign Activity**      | Present, but not specified                                                                |
 |                          |                                                                                           |
 | **Packed Size**          | 115 GB                                                                                    |
 | **Unpacked Size**        | n/a                                                                                       |
