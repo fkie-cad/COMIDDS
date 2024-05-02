@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 import pandas as pd
 import matplotlib.lines as lines
 
@@ -21,6 +22,10 @@ label_handles = [
                  label="Ground Truth", markersize=10, fillstyle="left"),
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
                  label="No Labels", markersize=10, fillstyle="none"),
+]
+type_handles = [
+    patches.Patch(color=network_color, label="Network Sources"),
+    patches.Patch(color=host_color, label="Host Sources"),
 ]
 
 
@@ -46,6 +51,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     ax.xaxis.tick_top()
     ax.tick_params(axis="x", labelrotation=90)
 
+    ax.set_axisbelow(True)
     plt.grid(axis='y', linestyle='--', alpha=0.6)
     plt.grid(axis='x', linestyle='-', alpha=0.1)
 
@@ -58,6 +64,30 @@ def datasets_over_years(dataframe: pd.DataFrame):
     plt.tight_layout()
     plt.savefig("assets/data/plots/datasets_over_years.png")
     plt.savefig("assets/data/plots/datasets_over_years.pdf", format="pdf")
+
+
+def datatypes_count(dataframe: pd.DataFrame):
+    network_types, host_types = count_types(dataframe)
+    total_count = dataframe.shape[0]
+
+    labels = list(network_types.keys()) + list(host_types.keys())
+    values = list(network_types.values()) + list(host_types.values())
+    colors = [network_color] * len(network_types) + [host_color] * len(host_types)
+
+    fig, ax = plt.subplots(figsize=(10, 5))
+
+    ax.bar(labels, values, color=colors)
+
+    plt.ylim(top=total_count)
+    plt.ylabel("# Datasets")
+
+    ax.set_axisbelow(True)
+    plt.grid(axis='y', linestyle='--', alpha=0.3)
+    plt.legend(handles=type_handles, loc="upper right")
+
+    plt.tight_layout()
+    plt.savefig("assets/data/plots/datatypes_percentages.png")
+    plt.savefig("assets/data/plots/datatypes_percentages.pdf", format="pdf")
 
 
 def marker_style(data_row: pd.DataFrame):
@@ -88,3 +118,57 @@ def marker_style(data_row: pd.DataFrame):
         solid_capstyle="round",
     )
     return style
+
+
+def count_types(dataframe: pd.DataFrame):
+    network_types = {
+        "Packet\nCaptures": 0,
+        "Network\nFlows": 0,
+        "NIDS\nAlerts": 0,
+        "Protocol\nLogs": 0,
+        "Other": 0
+    }
+    host_types = {
+        "HIDS\nAlerts": 0,
+        "Host\nLogs & Events": 0,
+        "System Call\nTraces": 0,
+        "Other ": 0,
+    }
+    matches = {
+        "Packet\nCaptures": ["pcaps", "tcpdump"],
+        "Network\nFlows": ["netflows", "connection records"],
+        "NIDS\nAlerts": ["snort", "suricata", "zeek", "wazuh", "ids", "aminer"],
+        "Protocol\nLogs": ["dns", "ssh", "http", "ssl"],
+        "HIDS\nAlerts": ["wazuh", "aminer", "sigma"],
+        "Host\nLogs & Events": ["event", "evtx", "audit", "logs", "sysmon"],
+        "System Call\nTraces": ["syscall", "dll"],
+    }
+    total_count = dataframe.shape[0]
+
+    for index, row in dataframe.iterrows():
+        net_src = row["Network Data Source"].lower()
+        host_src = row["Host Data Source"].lower()
+
+        # Skip length =< 1 because datasets with no such source either have an empty string or "-"
+        if len(net_src) > 1:
+            found_something = False
+            for tp in list(network_types.keys())[:-1]:
+                if any(x in net_src for x in matches[tp]):
+                    network_types[tp] += 1
+                    found_something = True
+            if not found_something:
+                network_types["Other"] += 1
+
+        if len(host_src) > 1:
+            found_something = False
+            for tp in list(host_types.keys())[:-1]:
+                if any(x in host_src for x in matches[tp]):
+                    host_types[tp] += 1
+                    found_something = True
+            if not found_something:
+                host_types["Other "] += 1
+
+    sorted_network_types = dict(sorted(network_types.items(), key=lambda item: item[1], reverse=True))
+    sorted_host_types = dict(sorted(host_types.items(), key=lambda item: item[1], reverse=True))
+
+    return sorted_network_types, sorted_host_types
