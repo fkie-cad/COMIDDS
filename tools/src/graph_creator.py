@@ -1,69 +1,93 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from src.field_names import FieldNames as Fn
-import numpy as np
+import matplotlib.lines as lines
+
+host_color = "#fcba00"
+network_color = "#004e9f"
+both_color = "#909085"
+
+data_handles = [
+    lines.Line2D([], [], linewidth=0, color=network_color, marker='o',
+                 label="Network Data", markersize=10),
+    lines.Line2D([], [], linewidth=0, marker='o', color=host_color,
+                 label="Host Data", markersize=10),
+    lines.Line2D([], [], linewidth=0, marker='o', color=both_color,
+                 label="Both", markersize=10),
+]
+label_handles = [
+    lines.Line2D([], [], linewidth=0, marker='o', color="black",
+                 label="Labeled", markersize=10, fillstyle="full"),
+    lines.Line2D([], [], linewidth=0, marker='o', color="black",
+                 label="Ground Truth", markersize=10, fillstyle="left"),
+    lines.Line2D([], [], linewidth=0, marker='o', color="black",
+                 label="No Labels", markersize=10, fillstyle="none"),
+]
 
 
-def datasets_per_year(dataframe: pd.DataFrame):
-    year_range = list(range(dataframe[Fn.end_year].min(), dataframe[Fn.end_year].max() + 1))
-    no_attacks = [0] * len(year_range)
-    host_attacks = [0] * len(year_range)
-    network_attacks = [0] * len(year_range)
-    both_attacks = [0] * len(year_range)
+def datasets_over_years(dataframe: pd.DataFrame):
+    dataframe = dataframe.sort_values('End Year').reset_index(drop=True)
 
-    for _, ds_entry in dataframe.iterrows():
-        host = ds_entry[Fn.host_attacks]
-        network = ds_entry[Fn.network_attacks]
-        year_index = year_range.index(ds_entry[Fn.end_year])
+    dataset_names = dataframe["Name"].tolist()
+    start_years = dataframe["Start Year"].tolist()
+    end_years = dataframe["End Year"].tolist()
 
-        if host == "Yes" and network == "Yes":
-            both_attacks[year_index] += 1
-        elif host == "Yes":
-            host_attacks[year_index] += 1
-        elif network == "Yes":
-            network_attacks[year_index] += 1
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    for i, (name, start, end) in enumerate(zip(dataset_names, start_years, end_years)):
+        style = marker_style(dataframe, i)
+
+        if start != end:
+            ax.plot([name, name], [start, end], **style)
         else:
-            no_attacks[year_index] += 1
+            ax.plot(name, end, "o", **style)
 
-    attack_focus = {
-        "Network Attacks": network_attacks,
-        "Host Attacks": host_attacks,
-        "Host&Network Attacks": both_attacks,
-        "No Attacks": no_attacks,
-    }
+    plt.ylabel("Year")
 
-    width = 0.6
-    figure, axis = plt.subplots(figsize=(12, 8))
-    bottom = np.zeros(len(year_range))
+    ax.xaxis.tick_top()
+    ax.tick_params(axis="x", labelrotation=90)
 
-    for category, count in attack_focus.items():
-        axis.bar(year_range, count, width, label=category, bottom=bottom)
-        bottom += count
+    plt.grid(axis='y', linestyle='--', alpha=0.6)
+    plt.grid(axis='x', linestyle='-', alpha=0.1)
 
-    axis.set_title("Datasets per year and included attacks")
-    axis.set_xlabel("Year")
-    axis.set_ylabel("Number of Datasets")
-    axis.legend()
+    first_legend = ax.legend(handles=data_handles, loc="lower right", title="Contained Data")
+    second_legend = ax.legend(handles=label_handles, loc="center right", title="Label Availability",
+                              bbox_to_anchor=(1, 0.36))
+    ax.add_artist(first_legend)
+    ax.add_artist(second_legend)
 
     plt.tight_layout()
-    plt.savefig("tools/testplot.png")
+    plt.savefig("assets/data/plots/datasets_over_years.png")
+    # plt.savefig("assets/data/plots/datasets_over_years.pdf", format="pdf")
 
 
-def dataset_test(dataframe: pd.DataFrame):
-    dataframe = dataframe.sort_values(Fn.end_year)
+def marker_style(dataframe: pd.DataFrame, index: int):
+    style = dict(
+        color=get_color(dataframe.loc[index, "Host Data"], dataframe.loc[index, "Network Data"]),
+        markersize=10,
+        lw=10,
+        fillstyle=get_label(dataframe.loc[index, "Host Data Labeled"], dataframe.loc[index, "Network Data Labeled"]),
+        solid_capstyle="round",
+    )
+    return style
 
-    x_year = dataframe[Fn.end_year].tolist()
-    y_names = dataframe[Fn.ds_name].tolist()
 
-    fig, ax = plt.subplots(figsize=(8, 12))
+def get_color(host_data: str, net_data: str):
+    if host_data == "Yes" and net_data == "Yes":
+        return both_color
+    elif host_data == "Yes":
+        return host_color
+    elif net_data == "Yes":
+        return network_color
+    else:
+        raise ValueError("Invalid data for fields 'Host Data' or 'Network Data'")
 
-    ax.scatter(x_year, y_names)  # alpha controls the transparency of the points
 
-    plt.title('Datasets Over the Years')
-    plt.xlabel('Year')
-    plt.ylabel('Dataset')
-    plt.xticks(x_year, rotation=90)
-    plt.grid(axis='x', linestyle='--', alpha=0.7)
-    plt.tight_layout()
+def get_label(host_lbl: str, net_lbl: str):
+    descr = host_lbl.lower() + net_lbl.lower()
 
-    plt.savefig("tools/test.png")
+    if "yes" in descr:
+        return "full"
+    elif "ground truth" in descr:
+        return "left"
+    else:
+        return "none"

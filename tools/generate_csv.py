@@ -1,5 +1,4 @@
 import src.string_parser as parse
-from src.field_names import FieldNames as Fn
 
 FIRST_ENTRY_LINE = 11
 LINES_AFTER_TABLE_END = 7
@@ -24,24 +23,24 @@ def main():
         datasets = file.readlines()[FIRST_ENTRY_LINE - 1: - LINES_AFTER_TABLE_END]
 
     csv_string = (
-        f"{Fn.ds_name};"
-        f"{Fn.network_attacks};"
-        f"{Fn.host_attacks};"
-        f"{Fn.start_year};"
-        f"{Fn.end_year};"
-        f"{Fn.ds_setting};"
-        f"{Fn.os_types};"
+        "Name;"
+        "Network Data;"
+        "Host Data;"
+        "Start Year;"
+        "End Year;"
+        "Setting;"
+        "OS Type;"
 
-        f"{Fn.network_src};"
-        f"{Fn.network_label};"
-        f"{Fn.host_src};"
-        f"{Fn.host_label};"
+        "Network Data Source;"
+        "Network Data Labeled;"
+        "Host Data Source;"
+        "Host Data Labeled;"
 
-        f"{Fn.atk_categories};"
-        f"{Fn.benign_activity};"
+        "Attack Categories;"
+        "Benign Activity;"
 
-        f"{Fn.packed_size};"
-        f"{Fn.unpacked_size}"
+        "Packed Size in MB;"
+        "Unpacked Size in MB"
         "\n")
 
     for dataset in datasets:
@@ -73,8 +72,6 @@ def main():
 
         new_entry += "\n"
         csv_string += new_entry
-
-    print(csv_string)
 
     with open("assets/data/datasets.csv", "w") as file:
         file.write(csv_string)
