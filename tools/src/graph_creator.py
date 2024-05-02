@@ -46,8 +46,6 @@ def datasets_over_years(dataframe: pd.DataFrame):
         else:
             ax.plot(name, end, "o", **style)
 
-    plt.ylabel("Year")
-
     ax.xaxis.tick_top()
     ax.tick_params(axis="x", labelrotation=90)
 
