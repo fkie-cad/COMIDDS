@@ -34,7 +34,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     fig, ax = plt.subplots(figsize=(12, 6))
 
     for i, (name, start, end) in enumerate(zip(dataset_names, start_years, end_years)):
-        style = marker_style(dataframe, i)
+        style = marker_style(dataframe.iloc[i])
 
         if start != end:
             ax.plot([name, name], [start, end], **style)
@@ -57,37 +57,34 @@ def datasets_over_years(dataframe: pd.DataFrame):
 
     plt.tight_layout()
     plt.savefig("assets/data/plots/datasets_over_years.png")
-    # plt.savefig("assets/data/plots/datasets_over_years.pdf", format="pdf")
+    plt.savefig("assets/data/plots/datasets_over_years.pdf", format="pdf")
 
 
-def marker_style(dataframe: pd.DataFrame, index: int):
+def marker_style(data_row: pd.DataFrame):
+    host_data = data_row["Host Data"]
+    net_data = data_row["Network Data"]
+    if host_data == "Yes" and net_data == "Yes":
+        color = both_color
+    elif host_data == "Yes":
+        color = host_color
+    elif net_data == "Yes":
+        color = network_color
+    else:
+        raise ValueError("Invalid data, a dataset must contain at least one of the above (Host or Network data)")
+
+    descr = data_row["Host Data Labeled"].lower() + data_row["Network Data Labeled"].lower()
+    if "yes" in descr:
+        fillstyle = "full"
+    elif "ground truth" in descr:
+        fillstyle = "left"
+    else:
+        fillstyle = "none"
+
     style = dict(
-        color=get_color(dataframe.loc[index, "Host Data"], dataframe.loc[index, "Network Data"]),
+        color=color,
         markersize=10,
         lw=10,
-        fillstyle=get_label(dataframe.loc[index, "Host Data Labeled"], dataframe.loc[index, "Network Data Labeled"]),
+        fillstyle=fillstyle,
         solid_capstyle="round",
     )
     return style
-
-
-def get_color(host_data: str, net_data: str):
-    if host_data == "Yes" and net_data == "Yes":
-        return both_color
-    elif host_data == "Yes":
-        return host_color
-    elif net_data == "Yes":
-        return network_color
-    else:
-        raise ValueError("Invalid data for fields 'Host Data' or 'Network Data'")
-
-
-def get_label(host_lbl: str, net_lbl: str):
-    descr = host_lbl.lower() + net_lbl.lower()
-
-    if "yes" in descr:
-        return "full"
-    elif "ground truth" in descr:
-        return "left"
-    else:
-        return "none"
