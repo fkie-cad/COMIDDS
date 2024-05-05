@@ -2,10 +2,16 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import pandas as pd
 import matplotlib.lines as lines
+import seaborn
 
-host_color = "#fcba00"
-network_color = "#004e9f"
-both_color = "#909085"
+seaborn.set_theme()
+seaborn.color_palette()
+plt.style.use("seaborn-v0_8-colorblind")
+sbn_colors = seaborn.color_palette("colorblind")
+
+host_color = sbn_colors[1]
+network_color = sbn_colors[0]
+both_color = sbn_colors[7]
 
 data_handles = [
     lines.Line2D([], [], linewidth=0, color=network_color, marker='o',
@@ -36,7 +42,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     start_years = dataframe["Start Year"].tolist()
     end_years = dataframe["End Year"].tolist()
 
-    fig, ax = plt.subplots(figsize=(12, 6))
+    fig, ax = plt.subplots(figsize=(11, 10))
 
     for i, (name, start, end) in enumerate(zip(dataset_names, start_years, end_years)):
         style = marker_style(dataframe.iloc[i])
@@ -50,8 +56,8 @@ def datasets_over_years(dataframe: pd.DataFrame):
     ax.tick_params(axis="x", labelrotation=90)
 
     ax.set_axisbelow(True)
-    plt.grid(axis='y', linestyle='--', alpha=0.6)
-    plt.grid(axis='x', linestyle='-', alpha=0.1)
+    plt.grid(axis='y', linestyle='-', alpha=1)
+    plt.grid(axis='x', linestyle='--', alpha=0.6)
 
     first_legend = ax.legend(handles=data_handles, loc="lower right", title="Contained Data")
     second_legend = ax.legend(handles=label_handles, loc="center right", title="Label Availability",
@@ -72,15 +78,17 @@ def datatypes_count(dataframe: pd.DataFrame):
     values = list(network_types.values()) + list(host_types.values())
     colors = [network_color] * len(network_types) + [host_color] * len(host_types)
 
-    fig, ax = plt.subplots(figsize=(10, 5))
+    fig, ax = plt.subplots(figsize=(4.5, 5))
 
     ax.bar(labels, values, color=colors)
 
     plt.ylim(top=total_count)
-    plt.ylabel("# Datasets")
+    plt.ylabel("Number of Datasets")
 
+    ax.tick_params(axis="x", labelrotation=90)
     ax.set_axisbelow(True)
-    plt.grid(axis='y', linestyle='--', alpha=0.3)
+    plt.grid(axis='x', linestyle='--', alpha=0)
+    plt.grid(axis='y', linestyle='-', alpha=1)
     plt.legend(handles=type_handles, loc="upper right")
 
     plt.tight_layout()
@@ -120,28 +128,41 @@ def marker_style(data_row: pd.DataFrame):
 
 def count_types(dataframe: pd.DataFrame):
     network_types = {
-        "Packet\nCaptures": 0,
-        "Network\nFlows": 0,
-        "NIDS\nAlerts": 0,
-        "Protocol\nLogs": 0,
-        "Other": 0
+        "packet captures": 0,
+        "network flows": 0,
+        "NIDS alerts": 0,
+        # "protocol logs": 0,
+        "other": 0
     }
     host_types = {
-        "HIDS\nAlerts": 0,
-        "Host\nLogs & Events": 0,
-        "System Call\nTraces": 0,
-        "Other ": 0,
+        "HIDS alerts": 0,
+        "host log files": 0,
+        "system call traces": 0,
+        " other": 0,
+    }
+    benign_activity = {
+        "real": 0,
+        "simulated": 0,
+        "none": 0,
+    }
+    os_types = {
+        "Windows": 0,
+        "Linux": 0,
+        "  other": 0,
+    }
+    os_count = {
+        "single OS": 0,
+        "multi OS": 0,
     }
     matches = {
-        "Packet\nCaptures": ["pcaps", "tcpdump"],
-        "Network\nFlows": ["netflows", "connection records"],
-        "NIDS\nAlerts": ["snort", "suricata", "zeek", "wazuh", "ids", "aminer"],
-        "Protocol\nLogs": ["dns", "ssh", "http", "ssl"],
-        "HIDS\nAlerts": ["wazuh", "aminer", "sigma"],
-        "Host\nLogs & Events": ["event", "evtx", "audit", "logs", "sysmon"],
-        "System Call\nTraces": ["syscall", "dll"],
+        "packet captures": ["pcaps", "tcpdump"],
+        "network flows": ["netflows", "connection records"],
+        "NIDS alerts": ["snort", "suricata", "zeek", "wazuh", "ids", "aminer"],
+        # "protocol logs": ["dns", "ssh", "http", "ssl"],
+        "HIDS alerts": ["wazuh", "aminer", "sigma"],
+        "host log files": ["event", "evtx", "audit", "logs", "sysmon"],
+        "system call traces": ["syscall", "dll"],
     }
-    total_count = dataframe.shape[0]
 
     for index, row in dataframe.iterrows():
         net_src = row["Network Data Source"].lower()
@@ -155,7 +176,7 @@ def count_types(dataframe: pd.DataFrame):
                     network_types[tp] += 1
                     found_something = True
             if not found_something:
-                network_types["Other"] += 1
+                network_types["other"] += 1
 
         if len(host_src) > 1:
             found_something = False
@@ -164,9 +185,17 @@ def count_types(dataframe: pd.DataFrame):
                     host_types[tp] += 1
                     found_something = True
             if not found_something:
-                host_types["Other "] += 1
+                host_types[" other"] += 1
 
     sorted_network_types = dict(sorted(network_types.items(), key=lambda item: item[1], reverse=True))
     sorted_host_types = dict(sorted(host_types.items(), key=lambda item: item[1], reverse=True))
 
     return sorted_network_types, sorted_host_types
+
+
+def cm2inch(*tupl):
+    inch = 2.54
+    if isinstance(tupl[0], tuple):
+        return tuple(i/inch for i in tupl[0])
+    else:
+        return tuple(i/inch for i in tupl)
