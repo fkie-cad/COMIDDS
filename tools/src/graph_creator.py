@@ -72,7 +72,8 @@ def datasets_over_years(dataframe: pd.DataFrame):
     plt.grid(axis='y', linestyle='-', alpha=1)
     plt.grid(axis='x', linestyle='--', alpha=0.6)
 
-    first_legend = ax.legend(handles=data_handles, loc="lower right", title="Contained Data", alignment="left", framealpha=1)
+    first_legend = ax.legend(handles=data_handles, loc="lower right", title="Contained Data", alignment="left",
+                             framealpha=1)
     first_legend.get_frame().set_facecolor("white")
     first_legend.get_frame().set_linewidth(0)
     second_legend = ax.legend(handles=label_handles, loc="lower center", title="Label Availability",
