@@ -7,7 +7,6 @@ title: OTFR LSASS Campaign
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                                             |
@@ -60,10 +59,6 @@ Labels are not provided.
 
 - [Metadata](https://github.com/OTRF/Security-Datasets/tree/master/datasets/compound/_metadata)
 - [Datasets](https://github.com/OTRF/Security-Datasets/tree/master/datasets/compound)
-
-### Related Entries
-
-- [OTFR Security Datasets](../collections/security_datasets.md)
 
 ### Data Examples
 

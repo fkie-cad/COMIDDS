@@ -7,7 +7,6 @@ title: OTFR Log4Shell
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                  |
@@ -58,10 +57,6 @@ Their origin is not documented, labeling information in general is also not prov
 - [Homepage](https://securitydatasets.com/notebooks/compound/Log4Shell.html)
 - [GitHub](https://github.com/OTRF/Security-Datasets/tree/master/datasets/compound/Log4Shell)
 - [Setup Docs](https://github.com/Cyb3rWard0g/log4jshell-lab/blob/main/research-notes/2021-12-11_01-CVE-2021-44228-simulation.md)
-
-### Related Entries
-
-- [OTFR Security Datasets](../collections/security_datasets.md)
 
 ### Data Examples
 

@@ -7,7 +7,6 @@ title: OTFR APT 3
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                     |
@@ -66,10 +65,6 @@ Labels are not provided.
 - [CALDERA APT3 Plugin](https://github.com/mitre-attack/evals_caldera)
 - [APT3 Info Page](https://attackevals.mitre-engenuity.org/enterprise/apt3/)
 - [APT3 Environment](https://attackevals.mitre-engenuity.org/enterprise/apt3/environment)
-
-### Related Entries
-
-- [OTFR Security Datasets](../collections/security_datasets.md)
 
 ### Data Examples
 
