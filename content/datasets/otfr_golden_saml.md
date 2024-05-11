@@ -7,7 +7,6 @@ title: SimuLand Golden SAML Dataset
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Related Entries](#related-entries)
 - [Data](#data)
 
 | <!-- -->                 | <!-- -->                                         |
@@ -67,10 +66,6 @@ Labels are not provided, presumably expecting all logs to be considered maliciou
 - [SimuLand on GitHub](https://github.com/Azure/SimuLand)
 - [AAD Hybrid Identity: AD FS Environment](https://github.com/Azure/SimuLand/blob/main/docs/environments/aadHybridIdentityADFS/README.md)
 - [(Blog Post) Sharing the first SimuLand dataset to expedite research and learn about adversary trade-craft](https://www.microsoft.com/en-us/security/blog/2021/08/05/sharing-the-first-simuland-dataset-to-expedite-research-and-learn-about-adversary-tradecraft/)
-
-### Related Entries
-
-- [SimuLand](../frameworks/simuland.md)
 
 ### Data
 
