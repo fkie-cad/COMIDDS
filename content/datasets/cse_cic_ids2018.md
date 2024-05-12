@@ -34,19 +34,14 @@ title: CSE-CIC-IDS2018
 
 ### Overview
 
-A collaboration between the Communications Security Establishment (CSE) and the Canadian Institute for Cybersecurity (
-CIC), this dataset uses the notion of profiles to generate cybersecurity datasets in a systematic manner, including
-various attack types and a large and diverse infrastructure.
-It is a continuation of previous efforts (CIC IDS2017), and, oddly enough, cites the exact same paper, even though at
-least some key features like network structure do not match up.
+A collaboration between the Communications Security Establishment (CSE) and the Canadian Institute for Cybersecurity (CIC), this dataset uses the notion of profiles to generate cybersecurity datasets in a systematic manner, including various attack types and a large and diverse infrastructure.
+It is a continuation of previous efforts (CIC IDS2017), and, oddly enough, cites the exact same paper, even though at least some key features like network structure do not match up.
 
 ### Environment
 
-The attacking infrastructure contains 50 machines, the victim infrastructure consists of 5 departments with a total of
-420 PCs and 30 servers.
-An overview is provided by the diagram below (image quality courtesy of the authors).
-Presumably, vulnerable software versions have been installed to facilitate certain exploits, but this is more...
-suggested than specified in their description.
+The attacking infrastructure contains 50 machines, the victim infrastructure consists of 5 departments with a total of 420 PCs and 30 servers.
+An overview is provided by the diagram below.
+Presumably, vulnerable software versions have been installed to facilitate certain exploits, but this is more suggested than specified in their description.
 
 ![CIC IDS 2018 Network Diagram]({{ "/assets/img/cse_cic_ids_2018_diagram.svg" | relative_url }})
 
