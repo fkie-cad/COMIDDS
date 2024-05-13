@@ -33,17 +33,17 @@ data_handles = [
 ]
 label_handles = [
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
-                 label="Labeled", markersize=10, fillstyle="full"),
+                 label="Direct", markersize=10, fillstyle="full"),
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
-                 label="Ground Truth", markersize=10, fillstyle="left"),
+                 label="Indirect", markersize=10, fillstyle="left"),
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
                  label="No Labels", markersize=10, fillstyle="none"),
 ]
 type_handles = [
-    patches.Patch(color=network_color, label="Network Sources"),
-    patches.Patch(color=host_color, label="Host Sources"),
+    patches.Patch(color=network_color, label="Network Data Formats"),
+    patches.Patch(color=host_color, label="Host Data Formats"),
     patches.Patch(color=benign_activity_color, label="Benign Activity"),
-    patches.Patch(color=os_type_color, label="Operating System"),
+    patches.Patch(color=os_type_color, label="Operating Systems"),
     patches.Patch(color=os_count_color, label="Number of Systems"),
 ]
 
@@ -173,7 +173,7 @@ def count_types(dataframe: pd.DataFrame):
     }
     os_counts = {
         "single OS": 0,
-        "multi OS": 0,
+        "multiple OS": 0,
     }
     matches = {
         "packet captures": ["pcaps", "tcpdump"],
@@ -193,7 +193,7 @@ def count_types(dataframe: pd.DataFrame):
         "  other": [],  # everything else
 
         "single OS": ["single os"],
-        "multi OS": [],  # everything else
+        "multiple OS": [],  # everything else
     }
     dicts = [network_types, host_types, benign_activity, os_types, os_counts]
 
@@ -205,7 +205,7 @@ def count_types(dataframe: pd.DataFrame):
         os_count = row["Setting"].lower()
 
         data = [net_src, host_src, activity_descr, os_type, os_count]
-        default_key_names = ["other", " other", "none", "  other", "multi OS"]
+        default_key_names = ["other", " other", "none", "  other", "multiple OS"]
 
         for i in range(len(data)):
             # Skip length =< 1 because data values of this length are either empty or "-"
