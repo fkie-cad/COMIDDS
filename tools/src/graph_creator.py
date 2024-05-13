@@ -55,7 +55,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     start_years = dataframe["Start Year"].tolist()
     end_years = dataframe["End Year"].tolist()
 
-    fig, ax = plt.subplots(figsize=(11, 5))
+    fig, ax = plt.subplots(figsize=(11, 4.75))
 
     for i, (name, start, end) in enumerate(zip(dataset_names, start_years, end_years)):
         style = marker_style(dataframe.iloc[i])
@@ -67,6 +67,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
 
     ax.xaxis.tick_top()
     ax.tick_params(axis="x", labelrotation=90)
+    plt.ylabel("Year")
 
     ax.set_axisbelow(True)
     plt.grid(axis='y', linestyle='-', alpha=1)
@@ -77,7 +78,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     first_legend.get_frame().set_facecolor("white")
     first_legend.get_frame().set_linewidth(0)
     second_legend = ax.legend(handles=label_handles, loc="lower center", title="Label Availability",
-                              bbox_to_anchor=(0.751, 0), alignment="left", framealpha=1)
+                              bbox_to_anchor=(0.746, 0), alignment="left", framealpha=1)
     second_legend.get_frame().set_facecolor("white")
     second_legend.get_frame().set_linewidth(0)
     ax.add_artist(first_legend)
