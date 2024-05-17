@@ -69,10 +69,8 @@ Wazuh, which generates a separate new alert.
 
 For each of the eight scenarios (fox, harrison, russellmitchell, santos, shaw, wardbeck, wheeler, wilson), two separate
 files exists containing Wazuh and AMiner alerts, e.g. `fox_aminer.json` and `fox_wazuh.json`.
-Labeling is provided via a separate `.csv` file, which lists the start- and stop-timestamps for each attack, per
-scenario.
-These can be matched against those contained in alerts (`id`-field for Wazuh alerts, `LogData.DetectionTimestamp` for
-AMiner alerts).
+Labeling based in time intervals is provided via a separate `.csv` file, which lists the start- and stop-timestamps for each attack, per scenario.
+Alternatively, the authors supply a script for labeling alerts individually (instructions linked below).
 
 ### Papers
 
@@ -83,6 +81,7 @@ AMiner alerts).
 
 - [Homepage](https://zenodo.org/record/8263181)
 - [Reproducing and Analysis on GitHub](https://github.com/ait-aecid/alert-data-set)
+  - [Instructions for alert labeling](https://github.com/ait-aecid/alert-data-set?tab=readme-ov-file#alert-prioritization)
 - [Dataset alerts are derived from](https://zenodo.org/record/5789064)
 
 ### Related entries
