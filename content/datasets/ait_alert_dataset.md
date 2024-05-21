@@ -69,10 +69,17 @@ Wazuh, which generates a separate new alert.
 
 For each of the eight scenarios (fox, harrison, russellmitchell, santos, shaw, wardbeck, wheeler, wilson), two separate
 files exists containing Wazuh and AMiner alerts, e.g. `fox_aminer.json` and `fox_wazuh.json`.
-Labeling is provided via a separate `.csv` file, which lists the start- and stop-timestamps for each attack, per
-scenario.
-These can be matched against those contained in alerts (`id`-field for Wazuh alerts, `LogData.DetectionTimestamp` for
-AMiner alerts).
+Labels are provided via a separate [.csv file](https://github.com/ait-aecid/alert-data-set/tree/main/alerts_csv), which looks like this:
+```
+time,name,ip,host,short,time_label,event_label
+[...]
+1642996679,AMiner: New request method in Apache Access log.,10.143.2.4,intranet_server,A-Acc-Val1,wpscan,wpscan
+[...]
+```
+The epoch timestamps (here, `1642996679`) have to be matched against those found in the alerts, and then labeled with `time_label` and/or `event_label`.
+The latter label is more precise and should be preferred, as it is based on the labeling of the original logs, while the former simply uses the time intervals of attack executions to label alerts.
+Note that Wazuh alerts contain both an epoch and an ISO timestamp which differ from one another - you MUST use the ISO timestamp (and convert it to epoch).
+The epoch timestamps resemble the time a given alert was generated, which happened roughly a year after the creation of the original log dataset and won't match against the timestamps found in the ground truth.
 
 ### Papers
 
@@ -83,6 +90,7 @@ AMiner alerts).
 
 - [Homepage](https://zenodo.org/record/8263181)
 - [Reproducing and Analysis on GitHub](https://github.com/ait-aecid/alert-data-set)
+  - [Ground Truth](https://github.com/ait-aecid/alert-data-set/tree/main/alerts_csv)
 - [Dataset alerts are derived from](https://zenodo.org/record/5789064)
 
 ### Related entries
@@ -180,7 +188,7 @@ Example of an AMiner alert, stored in `.jsonl` files.
 }
 ```
 
-Labels provided as a `.csv` file.
+Time intervals provided as a `.csv` file.
 
 ```
 scenario,attack,start,end
