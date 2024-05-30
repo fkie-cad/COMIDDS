@@ -11,8 +11,8 @@ The following fields are present for each dataset (semicolon-delimited):
 | Field Name           | Description                                                                                                  |
 |----------------------|--------------------------------------------------------------------------------------------------------------|
 | Name                 | Name of the dataset                                                                                          |
-| Network Attacks      | Does this dataset feature network-based attacks (Yes/No)                                                     |
-| Host Attacks         | Does this dataset feature host-based attacks (Yes/No)                                                        |
+| Network Data         | Does this dataset feature network-based data (Yes/No)                                                        |
+| Host Data            | Does this dataset feature host-based data (Yes/No)                                                           |
 | Start Year           | Year in which data collection started                                                                        |
 | End Year             | Year in which data collection ended (usually the same as `Start Year`, but not always)                       |
 | Setting              | Setting of the underlying scenario (Single OS/Enterprise IT/Military IT/Subsystem/Miscellaneous/Undisclosed) |

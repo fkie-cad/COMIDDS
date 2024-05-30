@@ -1,5 +1,5 @@
 ---
-title: CIC-DDos2019 
+title: CICDDos2019 
 ---
 
 - [Overview](#overview)
@@ -32,7 +32,7 @@ title: CIC-DDos2019
 ***
 
 ### Overview
-The CIC-DDos2019 dataset, developed by the Canadian Institute for Cybersecurity (CIC), was created to enable evaluation of new DDoS detection methods, which, according to the authors, was not possible with previously existing datasets containing DDoS attacks.
+The CICDDos2019 dataset, developed by the Canadian Institute for Cybersecurity (CIC), was created to enable evaluation of new DDoS detection methods, which, according to the authors, was not possible with previously existing datasets containing DDoS attacks.
 The dataset is accompanied by a newly proposed taxonomy for DDoS attacks, dividing them into several subclasses.
 These attacks are then executed within a small testbed, consisting of a victim network performing benign behavior and a separate attacker network.
 This simulation was run on two separate days, namely training and testing day;

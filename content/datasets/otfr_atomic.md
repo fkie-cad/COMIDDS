@@ -7,7 +7,6 @@ title: OTFR Atomic Security Datasets
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                      |
@@ -71,10 +70,6 @@ None go into detail regarding any labeling, presumably expecting all logs to be 
 - [AWS Datasets](https://securitydatasets.com/notebooks/atomic/aws/intro.html)
 - [Linux Datasets](https://securitydatasets.com/notebooks/atomic/linux/intro.html)
 - [Windows Datasets](https://securitydatasets.com/notebooks/atomic/windows/intro.html)
-
-### Related Entries
-
-- [OTFR Security Datasets](../collections/security_datasets.md)
 
 ### Data Examples
 
