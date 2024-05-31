@@ -31,6 +31,8 @@ This discrepancy occurs because some datasets, for example, do not include netwo
 
 ![Figure 2: Characteristics of surveyed datasets, grouped into categories.]({{ "/assets/data/plots/datatypes_count.png" | relative_url }})
 
+[Download PDF]({{ site.baseurl }}/assets/data/plots/datatypes_count.pdf)
+
 <p style="text-align: center;font-size:0.8em;">
 [Download PDF]({{ site.baseurl }}/assets/data/plots/datatypes_count.pdf) / [Download PNG]({{ site.baseurl }}/assets/data/plots/datatypes_count.png)
 </p>
