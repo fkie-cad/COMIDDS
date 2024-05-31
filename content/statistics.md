@@ -16,9 +16,11 @@ Even though this simplifies certain aspects, the figure provides a reasonably br
 As an example, while the [DARPA '98](/intrusion-detection-datasets/content/datasets/darpa98) and [CSE-CIC-IDS2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018) datasets contain both network and host data and are visualized as such, only their network data is labeled and thus typically used by other publications.
 Still, declaring these datasets to contain only network data would go beyond the purpose of a survey, as it is up to other researchers to decide whether the (in this case host) data can be utilized for their purposes.
 
-![Figure 1: Distribution of datasets in time]({{ "/assets/data/datasets_over_years.png" | relative_url }})
+![Figure 1: Distribution of datasets in time]({{ "/assets/data/plots/datasets_over_years.png" | relative_url }})
 
-<p style="text-align: center;">[Download PDF]({{ site.baseurl }}/assets/data/datasets_over_years.pdf) / [Download PNG]({{ site.baseurl }}/assets/data/datasets_over_years.png)</p>
+<p style="text-align: center;font-size:0.8em;">
+[Download PDF]({{ site.baseurl }}/assets/data/plots/datasets_over_years.pdf) / [Download PNG]({{ site.baseurl }}/assets/data/plots/datasets_over_years.png)
+</p>
 
 
 ### Dataset characteristics
@@ -27,6 +29,8 @@ This figure lists various characteristics of surveyed datasets, grouped into fiv
 Except for the final category, these classifications are not mutually exclusive -- consequently, the sum of a specific category might not align with the total number of datasets surveyed. 
 This discrepancy occurs because some datasets, for example, do not include network data, while others may include multiple operating systems, affecting the sums respectively.
 
-![Figure 2: Characteristics of surveyed datasets, grouped into categories.]({{ "/assets/data/datatypes_count.png" | relative_url }})
+![Figure 2: Characteristics of surveyed datasets, grouped into categories.]({{ "/assets/data/plots/datatypes_count.png" | relative_url }})
 
-<p style="text-align: center;">[Download PDF]({{ site.baseurl }}/assets/data/datatypes_count.pdf) / [Download PNG]({{ site.baseurl }}/assets/data/datatypes_count.png)</p>
+<p style="text-align: center;font-size:0.8em;">
+[Download PDF]({{ site.baseurl }}/assets/data/plots/datatypes_count.pdf) / [Download PNG]({{ site.baseurl }}/assets/data/plots/datatypes_count.png)
+</p>
