@@ -55,7 +55,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     start_years = dataframe["Start Year"].tolist()
     end_years = dataframe["End Year"].tolist()
 
-    fig, ax = plt.subplots(figsize=(11, 4.75))
+    fig, ax = plt.subplots(figsize=(11, 8))
 
     for i, (name, start, end) in enumerate(zip(dataset_names, start_years, end_years)):
         style = marker_style(dataframe.iloc[i])
