@@ -7,7 +7,6 @@ title: OTFR APT 29
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                                                                                                |
@@ -65,10 +64,6 @@ However, they are not labeled.
 - [MITRE APT 29 Info Page](https://attackevals.mitre-engenuity.org/enterprise/apt29/)
 - [MITRE Emulation Plan Day 1](https://github.com/mitre-attack/attack-arsenal/tree/master/adversary_emulation/APT29/Emulation_Plan/Day%201)
 - [MITRE Emulation Plan Day 2](https://github.com/mitre-attack/attack-arsenal/tree/master/adversary_emulation/APT29/Emulation_Plan/Day%202)
-
-### Related Entries
-
-- [OTFR Security Datasets](../collections/security_datasets.md)
 
 ### Data Examples
 

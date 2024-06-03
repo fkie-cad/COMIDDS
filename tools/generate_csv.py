@@ -24,8 +24,8 @@ def main():
 
     csv_string = (
         "Name;"
-        "Network Attacks;"
-        "Host Attacks;"
+        "Network Data;"
+        "Host Data;"
         "Start Year;"
         "End Year;"
         "Setting;"
@@ -68,12 +68,10 @@ def main():
         new_entry += parse.extract_from_table(details_md, "Benign Activity") + ";"
 
         new_entry += parse.size_in_mb(content[POS["Packed Size"]]) + ";"
-        new_entry += parse.size_in_mb(content[POS["Unpacked Size"]]) + ";"
+        new_entry += parse.size_in_mb(content[POS["Unpacked Size"]])
 
         new_entry += "\n"
         csv_string += new_entry
-
-    print(csv_string)
 
     with open("assets/data/datasets.csv", "w") as file:
         file.write(csv_string)

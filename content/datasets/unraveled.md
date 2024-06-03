@@ -102,6 +102,7 @@ Notably, only very few of the provided processed host log files seem to contain 
 
 - [Homepage on Gitlab](https://gitlab.com/asu22/unraveled)
 - [Raw Data Download Guide](https://dapt2021.s3.amazonaws.com/README.txt)
+  - While not included in this guide, consider using the `--no-sign-request` option to avoid having to provide AWS credentials
 
 ### Related Entries
 
