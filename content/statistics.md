@@ -10,7 +10,7 @@ This figure presents the distribution of currently surveyed datasets over time, 
 Datasets containing data from more than one year are represented accordingly.
 Additionally, data sources and label availability are shown:
 Data sources are grouped into "Network Data" (e.g., packet captures or network flows), "Host Data" (e.g., system logs or syscalls), and "Both" (any combination of the previous two);
-label availability for each dataset has been classified into either "Labeled" (explicit labels for at least a subset of data), "Ground Truth" (meta-information allowing for manual labeling), or "No Labels".
+label availability for each dataset has been classified into either "Direct" (explicit labels for at least a subset of data), "Indirect" (meta-information allowing for manual labeling), or "No Labels".
 
 Even though this simplifies certain aspects, the figure provides a reasonably broad overview of the current landscape of IDS-related datasets.
 As an example, while the [DARPA '98](/intrusion-detection-datasets/content/datasets/darpa98) and [CSE-CIC-IDS2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018) datasets contain both network and host data and are visualized as such, only their network data is labeled and thus typically used by other publications.
