@@ -42,6 +42,16 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install Python dependencies
+        run: pip install pandas matplotlib
+      - name: Generate CSV assets
+        run: python tools/generate_csv.py
+      - name: Generate plot assets
+        run: python tools/generate_plots.py
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
