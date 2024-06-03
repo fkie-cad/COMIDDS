@@ -2,7 +2,7 @@
 title: Dataset Statistics
 ---
 
-The following plots are generated from the CSV file provided in [CSV Download](csv_download).
+The following plots are generated from the CSV file provided in [CSV Download](/intrusion-detection-datasets/content/csv_download).
 
 ### Distribution of datasets over time
 
