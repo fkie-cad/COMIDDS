@@ -2,10 +2,26 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import pandas as pd
 import matplotlib.lines as lines
+import seaborn
 
-host_color = "#fcba00"
-network_color = "#004e9f"
-both_color = "#909085"
+seaborn.set_theme()
+seaborn.color_palette()
+plt.style.use("seaborn-v0_8-colorblind")
+sbn_colors = seaborn.color_palette("colorblind")
+
+# Uni Bonn colors
+# host_color = "#fcba00"
+# network_color = "#004e9f"
+# both_color = "#909085"
+
+# default colorblind-friendly colors
+host_color = sbn_colors[1]
+network_color = sbn_colors[0]
+both_color = sbn_colors[7]
+
+benign_activity_color = sbn_colors[2]
+os_type_color = sbn_colors[8]
+os_count_color = sbn_colors[9]
 
 data_handles = [
     lines.Line2D([], [], linewidth=0, color=network_color, marker='o',
@@ -17,15 +33,18 @@ data_handles = [
 ]
 label_handles = [
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
-                 label="Labeled", markersize=10, fillstyle="full"),
+                 label="Direct", markersize=10, fillstyle="full"),
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
-                 label="Ground Truth", markersize=10, fillstyle="left"),
+                 label="Indirect", markersize=10, fillstyle="left"),
     lines.Line2D([], [], linewidth=0, marker='o', color="black",
                  label="No Labels", markersize=10, fillstyle="none"),
 ]
 type_handles = [
-    patches.Patch(color=network_color, label="Network Sources"),
-    patches.Patch(color=host_color, label="Host Sources"),
+    patches.Patch(color=network_color, label="Network Data Formats"),
+    patches.Patch(color=host_color, label="Host Data Formats"),
+    patches.Patch(color=benign_activity_color, label="Benign Activity"),
+    patches.Patch(color=os_type_color, label="Operating Systems"),
+    patches.Patch(color=os_count_color, label="Number of Systems"),
 ]
 
 
@@ -36,7 +55,7 @@ def datasets_over_years(dataframe: pd.DataFrame):
     start_years = dataframe["Start Year"].tolist()
     end_years = dataframe["End Year"].tolist()
 
-    fig, ax = plt.subplots(figsize=(12, 6))
+    fig, ax = plt.subplots(figsize=(11, 4.75))
 
     for i, (name, start, end) in enumerate(zip(dataset_names, start_years, end_years)):
         style = marker_style(dataframe.iloc[i])
@@ -48,14 +67,20 @@ def datasets_over_years(dataframe: pd.DataFrame):
 
     ax.xaxis.tick_top()
     ax.tick_params(axis="x", labelrotation=90)
+    plt.ylabel("Year")
 
     ax.set_axisbelow(True)
-    plt.grid(axis='y', linestyle='--', alpha=0.6)
-    plt.grid(axis='x', linestyle='-', alpha=0.1)
+    plt.grid(axis='y', linestyle='-', alpha=1)
+    plt.grid(axis='x', linestyle='--', alpha=0.6)
 
-    first_legend = ax.legend(handles=data_handles, loc="lower right", title="Contained Data")
-    second_legend = ax.legend(handles=label_handles, loc="center right", title="Label Availability",
-                              bbox_to_anchor=(1, 0.36))
+    first_legend = ax.legend(handles=data_handles, loc="lower right", title="Contained Data", alignment="left",
+                             framealpha=1)
+    first_legend.get_frame().set_facecolor("white")
+    first_legend.get_frame().set_linewidth(0)
+    second_legend = ax.legend(handles=label_handles, loc="lower center", title="Label Availability",
+                              bbox_to_anchor=(0.746, 0), alignment="left", framealpha=1)
+    second_legend.get_frame().set_facecolor("white")
+    second_legend.get_frame().set_linewidth(0)
     ax.add_artist(first_legend)
     ax.add_artist(second_legend)
 
@@ -65,27 +90,32 @@ def datasets_over_years(dataframe: pd.DataFrame):
 
 
 def datatypes_count(dataframe: pd.DataFrame):
-    network_types, host_types = count_types(dataframe)
+    all_dicts = count_types(dataframe)
     total_count = dataframe.shape[0]
 
-    labels = list(network_types.keys()) + list(host_types.keys())
-    values = list(network_types.values()) + list(host_types.values())
-    colors = [network_color] * len(network_types) + [host_color] * len(host_types)
+    labels, values, colors, x_pos = order_bar_data(all_dicts)
 
-    fig, ax = plt.subplots(figsize=(10, 5))
+    fig, ax = plt.subplots(figsize=(5.5, 5.05))
 
-    ax.bar(labels, values, color=colors)
+    plt.bar(x_pos, values, color=colors)
+    plt.xticks(x_pos, labels)
 
     plt.ylim(top=total_count)
-    plt.ylabel("# Datasets")
+    plt.ylabel("Number of Datasets")
 
+    ax.tick_params(axis="x", labelrotation=90)
     ax.set_axisbelow(True)
-    plt.grid(axis='y', linestyle='--', alpha=0.3)
-    plt.legend(handles=type_handles, loc="upper right")
+    plt.grid(axis='x', linestyle='--', alpha=0)
+    plt.grid(axis='y', linestyle='-', alpha=1)
+
+    legend = ax.legend(handles=type_handles, loc="upper left", framealpha=1)
+    legend.get_frame().set_facecolor("white")
+    legend.get_frame().set_linewidth(0)
+    ax.add_artist(legend)
 
     plt.tight_layout()
-    plt.savefig("assets/data/plots/datatypes_percentages.png")
-    plt.savefig("assets/data/plots/datatypes_percentages.pdf", format="pdf")
+    plt.savefig("assets/data/plots/datatypes_count.png")
+    plt.savefig("assets/data/plots/datatypes_count.pdf", format="pdf")
 
 
 def marker_style(data_row: pd.DataFrame):
@@ -119,54 +149,103 @@ def marker_style(data_row: pd.DataFrame):
 
 
 def count_types(dataframe: pd.DataFrame):
+    # The spaces before some "other" keys are there to prevent matplotlib from merging them all into a single label
     network_types = {
-        "Packet\nCaptures": 0,
-        "Network\nFlows": 0,
-        "NIDS\nAlerts": 0,
-        "Protocol\nLogs": 0,
-        "Other": 0
+        "packet captures": 0,
+        "network flows": 0,
+        "NIDS alerts": 0,
+        "other": 0
     }
     host_types = {
-        "HIDS\nAlerts": 0,
-        "Host\nLogs & Events": 0,
-        "System Call\nTraces": 0,
-        "Other ": 0,
+        "HIDS alerts": 0,
+        "host log files": 0,
+        "system call traces": 0,
+        " other": 0,
+    }
+    benign_activity = {
+        "real": 0,
+        "simulated": 0,
+        "none": 0,
+    }
+    os_types = {
+        "Windows": 0,
+        "Linux": 0,
+        "  other": 0,
+    }
+    os_counts = {
+        "single OS": 0,
+        "multiple OS": 0,
     }
     matches = {
-        "Packet\nCaptures": ["pcaps", "tcpdump"],
-        "Network\nFlows": ["netflows", "connection records"],
-        "NIDS\nAlerts": ["snort", "suricata", "zeek", "wazuh", "ids", "aminer"],
-        "Protocol\nLogs": ["dns", "ssh", "http", "ssl"],
-        "HIDS\nAlerts": ["wazuh", "aminer", "sigma"],
-        "Host\nLogs & Events": ["event", "evtx", "audit", "logs", "sysmon"],
-        "System Call\nTraces": ["syscall", "dll"],
+        "packet captures": ["pcaps", "tcpdump"],
+        "network flows": ["netflows", "connection records"],
+        "NIDS alerts": ["snort", "suricata", "zeek", "wazuh", " ids ", "aminer"],
+
+        "HIDS alerts": ["wazuh", "aminer", "sigma"],
+        "host log files": ["event", "evtx", "audit", "logs", "sysmon"],
+        "system call traces": ["syscall", "dll"],
+
+        "real": ["real"],
+        "simulated": ["synthetic"],
+        "none": [],  # everything else
+
+        "Windows": ["windows"],
+        "Linux": ["linux"],
+        "  other": [],  # everything else
+
+        "single OS": ["single os"],
+        "multiple OS": [],  # everything else
     }
-    total_count = dataframe.shape[0]
+    dicts = [network_types, host_types, benign_activity, os_types, os_counts]
 
     for index, row in dataframe.iterrows():
         net_src = row["Network Data Source"].lower()
         host_src = row["Host Data Source"].lower()
+        activity_descr = row["Benign Activity"].lower()
+        os_type = row["OS Type"].lower()
+        os_count = row["Setting"].lower()
 
-        # Skip length =< 1 because datasets with no such source either have an empty string or "-"
-        if len(net_src) > 1:
-            found_something = False
-            for tp in list(network_types.keys())[:-1]:
-                if any(x in net_src for x in matches[tp]):
-                    network_types[tp] += 1
-                    found_something = True
-            if not found_something:
-                network_types["Other"] += 1
+        data = [net_src, host_src, activity_descr, os_type, os_count]
+        default_key_names = ["other", " other", "none", "  other", "multiple OS"]
 
-        if len(host_src) > 1:
-            found_something = False
-            for tp in list(host_types.keys())[:-1]:
-                if any(x in host_src for x in matches[tp]):
-                    host_types[tp] += 1
-                    found_something = True
-            if not found_something:
-                host_types["Other "] += 1
+        for i in range(len(data)):
+            # Skip length =< 1 because data values of this length are either empty or "-"
+            if len(data[i]) > 1:
+                found_something = False
+                for entry in list(dicts[i].keys())[:-1]:
+                    if any(keyword in data[i] for keyword in matches[entry]):
+                        dicts[i][entry] += 1
+                        found_something = True
+                if not found_something:
+                    dicts[i][default_key_names[i]] += 1
 
-    sorted_network_types = dict(sorted(network_types.items(), key=lambda item: item[1], reverse=True))
-    sorted_host_types = dict(sorted(host_types.items(), key=lambda item: item[1], reverse=True))
+    for i, dct in enumerate(dicts):
+        if i == 2:
+            # dont order benign activity
+            continue
+        dicts[i] = dict(sorted(dct.items(), key=lambda item: item[1], reverse=True))
 
-    return sorted_network_types, sorted_host_types
+    return list(dicts)
+
+
+def order_bar_data(all_dicts: list[dict]):
+    color_list = [network_color, host_color, benign_activity_color, os_type_color, os_count_color]
+    labels = []
+    values = []
+    colors = []
+    positions = []
+
+    for i, entry in enumerate(all_dicts):
+        labels += list(entry.keys())
+        values += list(entry.values())
+        colors += [color_list[i]] * len(entry)
+
+        cur_min = max(positions, default=0)
+        if i < 1:
+            spacing = 1
+        else:
+            spacing = 2
+        new_positions = list(range(cur_min + spacing, cur_min + len(entry) + spacing))
+        positions += new_positions
+
+    return labels, values, colors, positions
