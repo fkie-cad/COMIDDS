@@ -32,7 +32,7 @@ title: UWF-ZeekData22
 ***
 
 ### Overview
-The University of West Florida Zeek Dataset (UWF-ZeekData22) is consists of 64 days network traffic and related Zeek logs, collected from a "cyber wargaming course" held at the same university.
+The University of West Florida Zeek Dataset (UWF-ZeekData22) consists of 64 days network traffic and related Zeek logs, collected from a "cyber wargaming course" held at the same university.
 This course leveraged the UWF's cyber range, a virtualized and relatively diverse environment of different systems which participants were instructed to attack and defend.
 The datasets defining feature is the inclusion of MITRE tactic labels assigned to each packet or log, potentially allowing for attack chain detection or similar use cases.
 However, the vast majority (>99.9%) of malicious traffic consists of simple reconnaissance, and, apart from statistics, there is very little information about individual attacks.
