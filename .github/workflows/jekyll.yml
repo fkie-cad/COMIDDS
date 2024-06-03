@@ -47,7 +47,7 @@ jobs:
         with:
           python-version: "3.10"
       - name: Install Python dependencies
-        run: pip install pandas matplotlib
+        run: pip install pandas matplotlib seaborn
       - name: Generate CSV assets
         run: python tools/generate_csv.py
       - name: Generate plot assets
