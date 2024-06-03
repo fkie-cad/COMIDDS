@@ -12,10 +12,10 @@ title: UWF-ZeekData22
 
 | <!-- -->                 | <!-- -->                                                                       |
 |--------------------------|--------------------------------------------------------------------------------|
-| **Network Data Source**  |                                                                                |
-| **Network Data Labeled** |                                                                                |
-| **Host Data Source**     |                                                                                |
-| **Host Data Labeled**    |                                                                                |
+| **Network Data Source**  | pcaps, Zeek logs                                                               |
+| **Network Data Labeled** | Yes                                                                            |
+| **Host Data Source**     | -                                                                              |
+| **Host Data Labeled**    | -                                                                              |
 |                          |                                                                                |
 | **Overall Setting**      | Enterprise IT                                                                  |
 | **OS Types**             | Windows 10/2008 Metasploitable3<br/>Debian 11<br/>Ubuntu 14.04 Metasploitable3 |
