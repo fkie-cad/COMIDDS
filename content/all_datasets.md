@@ -60,6 +60,6 @@ before-content: gh_buttons.html
 ### Legend
 
 ¹ Labeling:
-- 🟩: Provides clear labels on at least a portion of the contained data
-- 🟨: Provides some form of ground truth that allows for manual labeling
-- 🟥: Does not provide labeled data or ground truth
+- 🟩: Direct; provides explicit labels on at least a portion of the contained data
+- 🟨: Indirect; provides some form of ground truth that allows for manual labeling
+- 🟥: No labels; does not provide labeled data or ground truth
