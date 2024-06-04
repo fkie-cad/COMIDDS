@@ -62,4 +62,4 @@ before-content: gh_buttons.html
 ¹ Labeling:
 - 🟩: Direct; provides explicit labels on at least a portion of the contained data
 - 🟨: Indirect; provides some form of ground truth that allows for manual labeling
-- 🟥: No labels; does not provide labeled data or ground truth
+- 🟥: No labels; does not provide any form of explicit labels or information that would allow for their creation
