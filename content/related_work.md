@@ -141,13 +141,13 @@ Referenced datasets:
 - [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
 - [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- ISOT
+- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
 - [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
 - [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
-- Mentioned, but not further detailed:<br>Metrosec, UNIBS 2009, [TUIDS](/intrusion-detection-datasets/content/datasets/tuids), University of Napoli traffic dataset, CSIC 2010 HTTP dataset, UNM system call dataset
+- Mentioned, but not further detailed:<br>Metrosec, [UNIBS](/intrusion-detection-datasets/content/datasets/unibs), [TUIDS](/intrusion-detection-datasets/content/datasets/tuids), University of Napoli traffic dataset, CSIC 2010 HTTP dataset, UNM system call dataset
 
 Referenced collections:
 - CAIDA
@@ -292,7 +292,7 @@ Referenced datasets:
 - DDoS 2016
 - IRSC
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- ISOT
+- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [Kent 2016](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
 - [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
@@ -308,7 +308,7 @@ Referenced datasets:
 - TRAbID
 - [TUIDS](/intrusion-detection-datasets/content/datasets/tuids)
 - [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
-- UNIBS
+- [UNIBS](/intrusion-detection-datasets/content/datasets/unibs)
 - [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
 - [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
 
@@ -350,7 +350,7 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- UNIBS
+- [UNIBS](/intrusion-detection-datasets/content/datasets/unibs)
 
 Referenced collections:
 - CAIDA

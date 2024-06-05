@@ -16,5 +16,7 @@ If you want to contribute a new dataset entry, please use this [template](https:
 A new entry should consist of said template filled out and named appropriately, placed in `/content/datasets/`.
 Additionally, a new row should be added to the list of all datasets in `/content/all_datasets.md`, adding information to each cell as needed.
 
+You can find a list of datasets that we are aware of, but which do not have an entry yet, in [this issue](https://github.com/fkie-cad/intrusion-detection-datasets/issues/13) 
+
 On every page you will also find an "Edit Page" button at the bottom leading you to GitHub, where you will be prompted to fork this repository - saving you a few clicks when you want to edit an existing entry.
 While contributions should generally be aimed towards datasets, suggestions regarding the underlying structure (like the website itself) are of course also welcome.
