@@ -24,6 +24,7 @@ navbar-links:
   CSV Download: "content/csv_download"
   Related Work: "content/related_work"
   More:
+    - Statistics: "content/statistics"
     - Contributing: "content/contributing"
     - About: "content/about"
 #  Author's home: "https://deanattali.com"
@@ -290,6 +291,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - vendor/
+  - tools/
 
 plugins:
   - jekyll-paginate
