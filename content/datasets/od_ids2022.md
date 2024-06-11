@@ -18,7 +18,7 @@ title: OD-IDS2022
 | **Host Data Labeled**    | -                                               |
 |                          |                                                 |
 | **Overall Setting**      | Enterprise IT                                   |
-| **OS Types**             | Windows<br/>Linux                               |
+| **OS Types**             | Windows Server 2016<br/>Linux Server 18.04      |
 | **Number of Machines**   | 2                                               |
 | **Total Runtime**        | 30 days                                         |
 | **Year of Collection**   | 2022                                            |
