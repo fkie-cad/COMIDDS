@@ -73,7 +73,7 @@ Referenced datasets:
 - [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
 - ISOT
 - ISOT CID
-- ISOT HTTP Botnet
+- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
 - ISTS-12
 - [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
 - Kharon
