@@ -120,7 +120,7 @@ Data is available in the form of `.csv` files.
 
 ### Related Entries
 
-- [CDX CTF 2009](cdx_2009.md)
+- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
 
 ### Data Examples
 

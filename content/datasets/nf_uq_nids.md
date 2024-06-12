@@ -96,8 +96,8 @@ For example, for UNSW-NB-15, these are named NF-UNSW-NB15 and NF-UNSW-NB15-v2.
 - [Unrelated](https://xkcd.com/927/)
 
 ### Related Entries
-- [UNSW-NB15](unsw_nb15.md)
-- [CSE-CIC-IDS2018](cse_cic_ids2018.md)
+- [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- [CSE-CIC-IDS2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
 
 ### Data Examples
 Snippet of NF-UQ-NIDS taken from `e3bd3035f88e55fa_MOHANAD_A4706/data/NF-UQ-NIDS.csv`
