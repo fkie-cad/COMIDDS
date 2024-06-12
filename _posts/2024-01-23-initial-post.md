@@ -4,7 +4,7 @@ title: First release of Intrusion Detection Datasets
 subtitle: 43 datasets described in detail, with more to come!
 gh-repo: fkie-cad/intrusion-detection-datasets
 gh-badge: [star, fork, follow]
-tags: [datasets, webpage]
+tags: [datasets, features]
 comments: true
 author: Philipp Bönninghausen
 ---
