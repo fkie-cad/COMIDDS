@@ -16,7 +16,7 @@ def get_all_paper_ids(filename):
 
 def fetch_citation_info_from_ids(paper_ids):
     results = {}
-
+    
     for paper_id in paper_ids:
         try:
             total_citation_count = get_total_citation_count(paper_id)
@@ -62,7 +62,7 @@ def swap_placeholders_with_info(filename, processed_citation_info: dict):
         content = file.read()
 
     for placeholder, count in processed_citation_info.items():
-        content = content.replace(placeholder, count)
+        content = content.replace(placeholder, str(count))
 
     with open(filename, "w") as file:
         file.write(content)
@@ -101,7 +101,7 @@ def multi_citation_request(paper_id, remaining_citations):
 
     while remaining_citations > 0:
         citations = single_citation_request(paper_id, offset=current_offset)
-        all_citations.append(citations)
+        all_citations.extend(citations)
         current_offset += 1000
         remaining_citations -= 1000
 
