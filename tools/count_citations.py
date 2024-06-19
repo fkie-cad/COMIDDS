@@ -1,32 +1,16 @@
-from scholarly import scholarly
-from pprint import pp
-from datetime import datetime
+import src.citation_fetcher as cf
 
-# phrase = "Reproducible and Adaptable Log Data Generation for Sound Cybersecurity Experiments"
-# phrase = "Maintainable Log Datasets for Evaluation of Intrusion Detection Systems"
-phrase = "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization"
 
-current_year = datetime.now().year
+MAIN_FILE = "content/all_datasets.md"
+MAX_AGE_IN_YEARS = 5
 
-search_query = scholarly.search_pubs(phrase)
-paper = next(search_query)
 
-pp(paper)
+def main():
+    paper_ids = cf.get_all_paper_ids(MAIN_FILE)
+    citation_info = cf.fetch_citation_info_from_ids(paper_ids)
+    processed_citation_info = cf.count_recent_citations(citation_info, MAX_AGE_IN_YEARS)
+    cf.swap_placeholders_with_info(MAIN_FILE, processed_citation_info)
 
-cited_by = scholarly.citedby(paper)
-count = 0
 
-for i, ppr in enumerate(cited_by):
-    print(f"Paper {i + 1}:")
-    try:
-        year = ppr["bib"]["pub_year"]
-    except KeyError:
-        continue
-    print(year)
-    if current_year - int(year) <= 5:
-        count += 1
-
-print(count)
-
-# does not seem to work without proxies
-# see https://scholarly.readthedocs.io/en/latest/quickstart.html#using-proxies
+if __name__ == '__main__':
+    main()
