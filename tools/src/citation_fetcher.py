@@ -46,6 +46,9 @@ def count_recent_citations(citation_info: dict, max_age):
         recent_citations = 0
         for cit in citations:
             year = cit["citingPaper"]["year"]
+            if not year:
+                # Some publications do not provide a year value
+                continue
             if year >= current_year - max_age:
                 recent_citations += 1
 
@@ -68,7 +71,7 @@ def swap_placeholders_with_info(filename, processed_citation_info: dict):
 def get_total_citation_count(paper_id):
     url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
     params = {
-        "field": "citationCount",
+        "fields": "citationCount",
     }
     req = requests.get(url, params)
     if req.status_code != 200:
