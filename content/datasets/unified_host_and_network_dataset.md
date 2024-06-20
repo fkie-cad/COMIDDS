@@ -80,8 +80,8 @@ Note: Their service is currently unavailable, preventing downloads :(
 
 ### Related Entries
 - Other LANL datasets:
-    - [Comprehensive, Multi-Source Cybersecurity Events](comp_multi_source_cybersec_events.md)
-    - [User-Computer Authentication Associations in Time](user_computer_associations.md)
+    - [Comprehensive, Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
+    - [User-Computer Authentication Associations in Time](/intrusion-detection-datasets/content/datasets/user_computer_associations)
 
 ### Data Examples
 

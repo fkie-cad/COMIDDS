@@ -106,7 +106,7 @@ Notably, only very few of the provided processed host log files seem to contain 
 
 ### Related Entries
 
-- [DAPT 2020, an earlier approach by the same authors](dapt2020.md)
+- [DAPT 2020, an earlier approach by the same authors](/intrusion-detection-datasets/content/datasets/dapt2020)
 
 ### Example Data
 

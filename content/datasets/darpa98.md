@@ -80,4 +80,4 @@ example, the TTL of malicious traffic is always 126 or 253, while benign traffic
 
 ### Related Entries
 
-- [KDD Cup 1999](kdd_cup_1999.md)
+- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)

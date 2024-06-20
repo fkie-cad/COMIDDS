@@ -117,7 +117,7 @@ A circled checkmark indicates that labels exists for that file.
 
 ### Related entries
 
-- [AIT Alert Dataset](ait_alert_dataset.md)
+- [AIT Alert Dataset](/intrusion-detection-datasets/content/datasets/ait_alert_dataset)
 
 ### Example Data
 
