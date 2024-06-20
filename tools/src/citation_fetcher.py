@@ -1,5 +1,6 @@
 from datetime import datetime
 import requests
+from time import sleep
 
 
 def get_all_paper_ids(filename):
@@ -14,17 +15,20 @@ def get_all_paper_ids(filename):
     return all_ids
 
 
-def fetch_citation_info_from_ids(paper_ids):
+def fetch_citation_info_from_ids(paper_ids, api_key):
     results = {}
+    request_headers = {
+        "x-api-key": api_key,
+    }
     
     for paper_id in paper_ids:
         print(f"Now processing paper {paper_id}...")
         try:
-            total_citation_count = get_total_citation_count(paper_id)
+            total_citation_count = get_total_citation_count(paper_id, request_headers)
             if total_citation_count <= 1000:
-                citation_info = single_citation_request(paper_id)
+                citation_info = single_citation_request(paper_id, request_headers)
             else:
-                citation_info = multi_citation_request(paper_id, total_citation_count)
+                citation_info = multi_citation_request(paper_id, total_citation_count, request_headers)
             results[paper_id] = citation_info
 
         except requests.HTTPError as e:
@@ -70,19 +74,21 @@ def swap_placeholders_with_info(filename, processed_citation_info: dict):
         file.write(content)
 
 
-def get_total_citation_count(paper_id):
+def get_total_citation_count(paper_id, headers):
     url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
     params = {
         "fields": "citationCount",
     }
-    req = requests.get(url, params)
+    req = requests.get(url, params=params, headers=headers)
+
     if req.status_code != 200:
         raise requests.HTTPError(req)
 
+    sleep(10)
     return req.json()["citationCount"]
 
 
-def single_citation_request(paper_id, offset=0):
+def single_citation_request(paper_id, headers, offset=0):
     url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}/citations"
     params = {
         "fields": "year",
@@ -94,17 +100,17 @@ def single_citation_request(paper_id, offset=0):
         raise requests.HTTPError(req)
 
     cited_papers = req.json()["data"]
+    sleep(10)
     return cited_papers
 
 
-def multi_citation_request(paper_id, remaining_citations):
+def multi_citation_request(paper_id, total_count, headers):
     all_citations = []
     current_offset = 0
 
-    while remaining_citations > 0:
-        citations = single_citation_request(paper_id, offset=current_offset)
+    while total_count > current_offset:
+        citations = single_citation_request(paper_id, headers, offset=current_offset)
         all_citations.extend(citations)
         current_offset += 1000
-        remaining_citations -= 1000
 
     return all_citations
