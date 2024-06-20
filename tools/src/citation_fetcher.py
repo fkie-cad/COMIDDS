@@ -20,22 +20,37 @@ def fetch_citation_info_from_ids(paper_ids, api_key):
     request_headers = {
         "x-api-key": api_key,
     }
-    
+    max_tries = 10
+    wait_after_failure = 5  # seconds
+
     for paper_id in paper_ids:
         print(f"Now processing paper {paper_id}...")
-        try:
-            total_citation_count = get_total_citation_count(paper_id, request_headers)
-            if total_citation_count <= 1000:
-                citation_info = single_citation_request(paper_id, request_headers)
-            else:
-                citation_info = multi_citation_request(paper_id, total_citation_count, request_headers)
-            results[paper_id] = citation_info
+        current_attempt = 0
+        success = False
 
-        except requests.HTTPError as e:
-            print(f"WARNING: Unable to fetch citation details for paper with id {paper_id}.")
-            print(f"The failed request returned the following:\n{e.args[0].json()}")
+        while not success and current_attempt < max_tries:
+            try:
+                total_citation_count = get_total_citation_count(paper_id, request_headers)
+                if total_citation_count <= 1000:
+                    citation_info = single_citation_request(paper_id, request_headers)
+                else:
+                    citation_info = multi_citation_request(paper_id, total_citation_count, request_headers)
+                results[paper_id] = citation_info
+                success = True
+
+            except requests.HTTPError as e:
+                print(f"WARNING: Unable to fetch citation details for paper with id {paper_id} on attempt {current_attempt + 1}/{max_tries}.")
+                print(f"The failed request returned the following:\n{e.args[0].json()}")
+                print(f"Waiting for {wait_after_failure} seconds and trying again.")
+                sleep(wait_after_failure)
+                current_attempt += 1
+                continue
+
+        if success:
+            print("Done.\n")
+        else:
             results[paper_id] = None
-            continue
+            print(f"Unable to fetch citation info after {max_tries} attempts.\n")
 
     return results
 
@@ -84,7 +99,7 @@ def get_total_citation_count(paper_id, headers):
     if req.status_code != 200:
         raise requests.HTTPError(req)
 
-    sleep(10)
+    sleep(1)
     return req.json()["citationCount"]
 
 
@@ -100,7 +115,7 @@ def single_citation_request(paper_id, headers, offset=0):
         raise requests.HTTPError(req)
 
     cited_papers = req.json()["data"]
-    sleep(10)
+    sleep(1)
     return cited_papers
 
 
