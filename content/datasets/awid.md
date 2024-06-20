@@ -10,49 +10,113 @@ title: AWID
 - [Links](#links)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- --> |
-|--------------------------|----------|
-| **Network Data Source**  |          |
-| **Network Data Labeled** |          |
-| **Host Data Source**     |          |
-| **Host Data Labeled**    |          |
-|                          |          |
-| **Overall Setting**      |          |
-| **OS Types**             |          |
-| **Number of Machines**   |          |
-| **Total Runtime**        |          |
-| **Year of Collection**   |          |
-| **Attack Categories**    |          |
-| **User Emulation**       |          |
-|                          |          |
-| **Packed Size**          |          |
-| **Unpacked Size**        |          |
-| **Download Link**        |          |
+| <!-- -->                 | <!-- -->                                                                    |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Network Data Source**  | Custom Network Features                                                     |
+| **Network Data Labeled** | Yes                                                                         |
+| **Host Data Source**     | -                                                                           |
+| **Host Data Labeled**    | -                                                                           |
+|                          |                                                                             |
+| **Overall Setting**      | Home IT                                                                     |
+| **OS Types**             | Ubuntu 12.04 LTS<br/>Windows 7<br/>iOS<br/>Android<br/>Misc. Linux          |
+| **Number of Machines**   | 10                                                                          |
+| **Total Runtime**        | ~109 hours                                                                  |
+| **Year of Collection**   | 2015                                                                        |
+| **Attack Categories**    | Various attacks targeting Wi-Fi networks using WEP                          |
+| **User Emulation**       | Yes, presumably synthetic                                                   |
+|                          |                                                                             |
+| **Packed Size**          | -                                                                           |
+| **Unpacked Size**        | 15 GB                                                                       |
+| **Download Link**        | [Access must be requested](https://icsdweb.aegean.gr/awid/download-dataset) |
 
 ***
 
 ### Overview
-A general description of the dataset, giving a brief overview over origin, intended usage and some properties of the dataset.
+The Aegean WiFi Intrusion Dataset (AWID), named after the university where the authors are located, is a medium-sized collection of traffic collected from a small home Wi-Fi network protected using the deprecated Wired Equivalent Protection (WEP).
+Targeting this network, an attacker executes several attacks geared towards WEP specifically, the selection of which is preceded by the authors discussing these kinds of attacks both in a theoretical and practical manner.
+The distinguishing features of this dataset are its focus on wireless communication, whose structure and patterns naturally differ from that of wired networks, with the general goal being to facilitate research towards security in wireless network that goes beyond that supplied by the IEEE standard alone.
+Additionally, the authors showcase the application of several machine learning methods on a subset of this data.
+
+This dataset also seems to be known as AWID2, which is the name it is listed under on its homepage.
+Since then, the authors have also published a more "modern" version called AWID3, which focuses on less deprecated standards such as WPA2 and Wi-Fi 5.
 
 ### Environment
-A description of the environment the dataset originated from, including networks, operating systems, running services, etc.
+Traffic is collected in a physical lab mimicking the structure and scale of a typical home network, hosting laptops, smartphones, smart TVs, and other devices.
+A full list, including OS versions and details like network cards, is available in Table 5 of the paper.
+Some devices regularly leave and re-enter the network, while others remain stationary.
+The network is organized in infrastructure mode (as opposed to Ad-Hoc mode), meaning there is a single Access Point (AP), in the form of a Netgear router.
+As mentioned, the protection mechanism used is the deprecated WEP.
+
+Traffic is collected by a separate machine not associated with the network using Tshark (the terminal version of Wireshark).
+The authors note that this method does not guarantee the capturing of all packets, but resembles a cost-efficient and simple way to collect traffic in such an environment. 
+The attacker acts from outside the physical perimeter of the lab and is initially also not associated with the network.
 
 ### Activity
-What kind of activity, benign and malicious, was performed during the period of data collection.
+Benign traffic is generated by devices inside the network performing activities such as web browsing, VoIP, file transfers, or video streaming, although it is not detailed in which manner this behavior is generated/automated.
+Attacks, as previously mentioned, are motivated by exploiting the weaknesses of WEP, and are grouped into four classes.
+A full description for each of these attacks can be found in Chapters 3 and 5 of the paper, which additionally also includes attacks against WPA/WPA2, even though they are not included in this dataset:
+- Injection attacks
+  - ARP injection
+  - Chop-Chop
+  - Fragmentation
+- Flooding attacks
+  - De-Authentication
+  - Disassociation
+  - De-Authentication broadcast
+  - Disassociation broadcast
+  - Block acknowledge
+  - Authentication request
+  - Fake power saving
+  - CTS
+  - RTS
+  - Beacon
+  - Probe request
+  - Probe response
+- Impersonation attacks
+  - Honeypot
+  - Evil Twin
+- Passive attacks (not present in the dataset due to the nature of these attacks)
+  - FMS
+  - Korek
+  - PTW
+  - Dictionary
+
+These attacks are either executed using existing tools like Metasploit or Aircrack-NG, or are implemented in custom C.
+Activity is generally divided into segments of one hour, where the first X minutes contain only benign behavior and the attacker becomes active during the remaining 60-X minutes.
+For the "Full" datasets (explained in the next section), this ratio is 45 to 15 minutes, for the "Reduced" datasets it is 35 to 25 minutes.
+The attacker changes their MAC addresses multiple times throughout the data collection period
+Details regarding attack sequences are only given for a subset of data, see Section 3.C of the paper.
+
 
 ### Contained Data
-What kind of data was collected and how it is present in the dataset, including any processing and labeling.
+Every collected packet is processed into a connection record consisting of 156 features (the last of which is the class label).
+The authors designed this set of features to encompass almost all fields that can appear in an 802.11 frame, resulting in many fields often being empty by design.
+Rare values like vendor-specific fields, as well as the data field itself, are not considered.
+A full list of all features can be found on the homepage, features are generally divided into:
+- MAC layer information (source address, initialization vector, etc.)
+- Radiotap information (like signal strength)
+- General frame information (like packet numbers)
+
+All values except for the SSID are given as integers, including hex values, which are transformed accordingly.
+Data is divided into eight individual datasets, whose characteristics are depicted in the table below (taken directly from the paper):
+- First differentiation: "CLS" vs. "ATK", where the former uses one of the four aforementioned classes as labels, while the latter instead uses the exact attack name. Data is otherwise identical (why didn't they just include two labels?).
+- Second differentiation: "F" (Full) vs "R" (Reduced), with the latter being designed to facilitate processing on weaker machines. It is a separate dataset, not a subset of the former.
+- Third differentiation: "Trn" (Training) vs. "Tst" (Testing), as is typical for datasets designed for purposes related to machine learning
+
+![Main characteristics and file structure of the AWID dataset]({{ "/assets/img/awid2_characteristics.png" | relative_url }})
+
+Data is divided into segments each covering one hour of traffic.
+The labeling process itself is not detailed.
 
 ### Papers
 - [Intrusion Detection in 802.11 Networks: Empirical Evaluation of Threats and a Public Dataset (2015)](https://doi.org/10.1109/COMST.2015.2402161)
 
 ### Links
-- List of related links, such as homepages and download sources
+- [Homepage](https://icsdweb.aegean.gr/awid/awid2)
+- [Download Request Page](https://icsdweb.aegean.gr/awid/download-dataset)
 
 ### Data Examples
-Snippet from the dataset, ideally one for each data type.
-Note that multi-word annotations (like `json lines`) will not render properly on GitHub Pages.
-Wrapping these snippets with `raw`/`endraw` is not strictly required, but prevents Liquid from parsing anything it shouldn't.
+Access to the dataset has been requested, samples will be added as soon as possible.
 
 <!--  {% raw %} -->
 ```
