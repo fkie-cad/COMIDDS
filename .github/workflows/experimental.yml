@@ -65,7 +65,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install Python dependencies
-        run: pip install pandas matplotlib seaborn
+        run: pip install pandas matplotlib seaborn requests
 
       - name: Generate CSV assets
         run: python tools/generate_csv.py
