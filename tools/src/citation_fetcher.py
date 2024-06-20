@@ -50,7 +50,7 @@ def fetch_citation_info_from_ids(paper_ids, api_key):
             print("Done.\n")
         else:
             results[paper_id] = None
-            print(f"Unable to fetch citation info after {max_tries} attempts.\n")
+            print(f"Unable to fetch citation info after {max_tries} attempts, moving on.\n")
 
     return results
 
