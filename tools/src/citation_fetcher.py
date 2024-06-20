@@ -60,7 +60,7 @@ def count_recent_citations(citation_info: dict, max_age):
     results = {}
 
     for paper, citations in citation_info.items():
-        if not citations:
+        if citations is None:
             results[paper] = "API ERROR"
             continue
 
