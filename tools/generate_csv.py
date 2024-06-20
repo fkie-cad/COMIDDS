@@ -1,18 +1,17 @@
 import src.string_parser as parse
 
-FIRST_ENTRY_LINE = 11
-LINES_AFTER_TABLE_END = 7
 POS = {
     "Name": 0,
     "Focus": 1,
-    "TL;DR": 2,
-    "Year": 3,
-    "Setting": 4,
-    "OS Type": 5,
-    "Labeled?": 6,
-    "Data Type/Sources": 7,
-    "Packed Size": 8,
-    "Unpacked Size": 9,
+    "Year": 2,
+    # "Times Recently Cited": 3,
+    "TL;DR": 4,
+    "Setting": 5,
+    "OS Type": 6,
+    "Labeled?": 7,
+    "Data Type/Sources": 8,
+    "Packed Size": 9,
+    "Unpacked Size": 10,
 }
 
 
@@ -20,7 +19,10 @@ POS = {
 
 def main():
     with open("content/all_datasets.md") as file:
-        datasets = file.readlines()[FIRST_ENTRY_LINE - 1: - LINES_AFTER_TABLE_END]
+        file_content = file.readlines()
+
+    datasets_table = [line for line in file_content if line.startswith("|")]
+    datasets = datasets_table[2:]  # First two lines are the table header
 
     csv_string = (
         "Name;"
