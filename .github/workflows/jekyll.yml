@@ -52,13 +52,16 @@ jobs:
           python-version: "3.10"
 
       - name: Install Python dependencies
-        run: pip install pandas matplotlib seaborn
+        run: pip install pandas matplotlib seaborn requests
 
       - name: Generate CSV assets
         run: python tools/generate_csv.py
 
       - name: Generate plot assets
         run: python tools/generate_plots.py
+
+      - name: Fetch citation information from papers
+        run: python tools/count_citations.py
 
       # CUSTOM MODIFICATION END
 
