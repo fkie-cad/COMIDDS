@@ -3,8 +3,21 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+########################################################################################################################
+
+# THIS SPECIFIC WORKFLOW FILE IS INTENDED TO TEST CHANGES TO THE DEPLOYMENT OF THE WEBSITE!
+
+# Since changes made to GitHub Actions only take effect when they are present in main, I've decided to include this
+# additional workflow to facilitate testing new processes without breaking our ability to deploy the prior version of
+# our website using the original workflow.
+
+# Keep in mind that, in order to deploy the website from another branch, you MUST first modify the environment:
+# Settings --> Environments --> click on github-pages --> Add new rule for your branch
+
+########################################################################################################################
+
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+name: Unstable experimental deployment
 
 on:
   # Runs on pushes targeting the default branch
@@ -59,6 +72,9 @@ jobs:
 
       - name: Generate plot assets
         run: python tools/generate_plots.py
+
+      - name: Fetch citation information from papers
+        run: python tools/count_citations.py
 
       # CUSTOM MODIFICATION END
 
