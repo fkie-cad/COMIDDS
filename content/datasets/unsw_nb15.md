@@ -100,7 +100,7 @@ Other available files are:
 - [IXIA PerfectStorm](https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html)
 
 ### Related Entries
-- [NF-UQ-NIDS](nf_uq_nids.md)
+- [NF-UQ-NIDS](/intrusion-detection-datasets/content/datasets/nf_uq_nids)
 
 ### Data Examples
 Records consisting of 49 + 2 features, taken from `CSV Files/UNSW-NB15_4.csv`

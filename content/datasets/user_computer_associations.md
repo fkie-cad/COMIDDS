@@ -63,8 +63,8 @@ It can either be downloaded as one text file containing the full nine months (2,
 
 ### Related Entries
 - Other LANL datasets:
-    - [Comprehensive, Multi-Source Cybersecurity Events](comp_multi_source_cybersec_events.md)
-    - [Unified Host and Network Dataset](unified_host_and_network_dataset.md)
+    - [Comprehensive, Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
+    - [Unified Host and Network Dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
 
 ### Data Examples
 The first 10 lines of the dataset

@@ -84,8 +84,8 @@ or correlated.
 
 ### Related Entries
 - Other LANL datasets:
-    - [Unified Host and Network Dataset](unified_host_and_network_dataset.md)
-    - [User-Computer Authentication Associations in Time](user_computer_associations.md)
+    - [Unified Host and Network Dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
+    - [User-Computer Authentication Associations in Time](/intrusion-detection-datasets/content/datasets/user_computer_associations)
 
 ### Example Data
 

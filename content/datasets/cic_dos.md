@@ -70,4 +70,4 @@ I would assume data is labeled, but obviously have no way to confirm this.
 - [Homepage](https://www.unb.ca/cic/datasets/dos-dataset.html)
 
 ### Related Entries
-- [ISCX Intrusion Detection Evaluation Dataset](iscx_ids_2012.md)
+- [ISCX Intrusion Detection Evaluation Dataset](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
