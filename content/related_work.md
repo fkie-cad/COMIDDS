@@ -51,7 +51,7 @@ While significant in scope (though not complete), the provided coverage of datas
 
 Referenced datasets:
 - [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld)
-- AWID
+- [AWID](/intrusion-detection-datasets/content/datasets/awid)
 - BoT-IoT
 - Botnet 2014
 - CDMX 2016
@@ -171,7 +171,7 @@ However, the MAWI and CAIDA collection as well as the ISCX IDS 2012, CIC-IDS 201
 
 Referenced datasets:
 - [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
-- AWID
+- [AWID](/intrusion-detection-datasets/content/datasets/awid)
 - [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
 - CERT ITTD
 - [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
@@ -280,7 +280,7 @@ It does so by first defining 15 different properties to describe, such as year o
 Additionally, several existing collections of datasets are listed.
 
 Referenced datasets:
-- AWID
+- [AWID](/intrusion-detection-datasets/content/datasets/awid)
 - Booters Dataset
 - ISCX Botnet 2014
 - [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
