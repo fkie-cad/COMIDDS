@@ -18,6 +18,7 @@ def fetch_citation_info_from_ids(paper_ids):
     results = {}
     
     for paper_id in paper_ids:
+        print(f"Now processing paper {paper_id}...")
         try:
             total_citation_count = get_total_citation_count(paper_id)
             if total_citation_count <= 1000:
@@ -26,8 +27,9 @@ def fetch_citation_info_from_ids(paper_ids):
                 citation_info = multi_citation_request(paper_id, total_citation_count)
             results[paper_id] = citation_info
 
-        except requests.HTTPError:
-            print(f"WARNING: Unable to fetch citation details for paper with id {paper_id}")
+        except requests.HTTPError as e:
+            print(f"WARNING: Unable to fetch citation details for paper with id {paper_id}.")
+            print(f"The failed request returned the following:\n{e.args[0].json()}")
             results[paper_id] = None
             continue
 
@@ -40,7 +42,7 @@ def count_recent_citations(citation_info: dict, max_age):
 
     for paper, citations in citation_info.items():
         if not citations:
-            results[paper] = "n/a"
+            results[paper] = "API ERROR"
             continue
 
         recent_citations = 0
@@ -75,7 +77,7 @@ def get_total_citation_count(paper_id):
     }
     req = requests.get(url, params)
     if req.status_code != 200:
-        raise requests.HTTPError
+        raise requests.HTTPError(req)
 
     return req.json()["citationCount"]
 
@@ -89,7 +91,7 @@ def single_citation_request(paper_id, offset=0):
     }
     req = requests.get(url, params)
     if req.status_code != 200:
-        raise requests.HTTPError
+        raise requests.HTTPError(req)
 
     cited_papers = req.json()["data"]
     return cited_papers
