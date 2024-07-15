@@ -62,8 +62,9 @@ before-content: gh_buttons.html
 ### Legend
 
 ¹ "Times Recently Cited" counts any time the underlying publication of a given dataset has been referenced by other publications **in the last five years**.
-This data is sourced from the  [Semantic Scholar API](https://www.semanticscholar.org/product/api).
+This data is sourced from the [Semantic Scholar API](https://www.semanticscholar.org/product/api) and automatically updated whenever the website is re-deployed.
 Some datasets are not backed by a publication and thus do not show a number here.
+_Last updated: {CITATION_FETCH_TIMESTAMP}_
 
 ² Labeling:
 - 🟩: Direct; provides explicit labels on at least a portion of the contained data
