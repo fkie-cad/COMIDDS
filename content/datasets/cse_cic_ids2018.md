@@ -89,8 +89,8 @@ The aforementioned flaws of this dataset, such as some simulation artifacts maki
 - [Secondary Source](https://registry.opendata.aws/cse-cic-ids2018/)
 
 ### Related Entries
-- [CIC IDS2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
-- [NF-UQ-NIDS](/intrusion-detection-datasets/content/datasets/nf_uq_nids)
+- [CIC IDS2017](/COMIDDS/content/datasets/cic_ids2017)
+- [NF-UQ-NIDS](/COMIDDS/content/datasets/nf_uq_nids)
 
 ### Example Data
 

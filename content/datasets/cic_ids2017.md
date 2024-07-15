@@ -91,7 +91,7 @@ event originated from.
 
 ### Related Entries
 
-- [CSE CIC IDS2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
+- [CSE CIC IDS2018](/COMIDDS/content/datasets/cse_cic_ids2018)
 
 ### Data Examples
 

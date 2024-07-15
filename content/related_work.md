@@ -50,19 +50,19 @@ Every entry is described with four properties (real/emulated, event count, label
 While significant in scope (though not complete), the provided coverage of dataset is negligible, i.e., there is no further analysis or conclusion on the basis of the surveyed datasets.
 
 Referenced datasets:
-- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld)
+- [ADFA-LD](/COMIDDS/content/datasets/adfa_ld)
 - AWID
 - BoT-IoT
 - Botnet 2014
 - CDMX 2016
-- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
-- [CIC DoS](/intrusion-detection-datasets/content/datasets/cic_dos)
-- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
+- [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
+- [CIC DoS](/COMIDDS/content/datasets/cic_dos)
+- [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
 - CIDDS
 - CIRA-CIC-DoHBrw 2020
 - CSIC 2010 HTTP Dataset
-- [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [CTU 13](/COMIDDS/content/datasets/ctu_13)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 - DARPA 1999
 - DARPA 2000
 - DDoS 2016
@@ -70,19 +70,19 @@ Referenced datasets:
 - InSDN
 - IoT-23
 - IRSC
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
 - ISOT
 - ISOT CID
-- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
+- [ISOT Botnet](/COMIDDS/content/datasets/isot_botnet)
 - ISTS-12
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
 - Kharon
-- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
+- [Kyoto Honeypot](/COMIDDS/content/datasets/kyoto_honeypot)
 - LDID
 - NCCDC
 - NDSec-1
-- [NGIDS-DS](/intrusion-detection-datasets/content/datasets/ngids_dataset)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- [NGIDS-DS](/COMIDDS/content/datasets/ngids_dataset)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
 - OPCUA
 - PUF
 - SANTA
@@ -91,11 +91,11 @@ Referenced datasets:
 - SSHCure
 - SUEEE 2017
 - TRAbID
-- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
+- [Twente 2009](/COMIDDS/content/datasets/twente_2009)
 - UCSD
-- [UGR'16](/intrusion-detection-datasets/content/datasets/ugr16)
-- [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
-- [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- [UGR'16](/COMIDDS/content/datasets/ugr16)
+- [Unified Host and Network dataset](/COMIDDS/content/datasets/unified_host_and_network_dataset)
+- [UNSW-NB15](/COMIDDS/content/datasets/unsw_nb15)
 - Witty Worm
 
 Referenced collections:
@@ -114,9 +114,9 @@ An analysis of the five most commonly used datasets for anomaly-based NIDS evalu
 They also offer an allegedly improved version of one of the surveyed datasets, CSE-CIC-IDS 2018.
 
 Referenced datasets:
-- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
-- [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
-- [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
+- [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)
+- [UNSW NB15](/COMIDDS/content/datasets/unsw_nb15)
 - TON-IoT
 - IoT-23
 
@@ -132,22 +132,22 @@ Alongside this, the authors present a list of datasets used to benchmark these a
 Each dataset is described in a couple of sentences, with the six most commonly used ones undergoing some more analysis regarding properties like feature and sample count or attack types.
 
 Referenced datasets:
-- [ASNM CDX](/intrusion-detection-datasets/content/datasets/asnm_datasets)
-- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
-- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
-- [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
-- [CTU 13](/intrusion-detection-datasets/content/datasets/ctu_13)
-- [CIC DoS](/intrusion-detection-datasets/content/datasets/cic_dos)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
-- [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
-- Mentioned, but not further detailed:<br>Metrosec, [UNIBS](/intrusion-detection-datasets/content/datasets/unibs), [TUIDS](/intrusion-detection-datasets/content/datasets/tuids), University of Napoli traffic dataset, CSIC 2010 HTTP dataset, UNM system call dataset
+- [ASNM CDX](/COMIDDS/content/datasets/asnm_datasets)
+- [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
+- [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
+- [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)
+- [CTU 13](/COMIDDS/content/datasets/ctu_13)
+- [CIC DoS](/COMIDDS/content/datasets/cic_dos)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
+- [gureKDDCup](/COMIDDS/content/datasets/gure_kddcup)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
+- [ISOT Botnet](/COMIDDS/content/datasets/isot_botnet)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [Kyoto Honeypot](/COMIDDS/content/datasets/kyoto_honeypot)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
+- [Twente 2009](/COMIDDS/content/datasets/twente_2009)
+- [UNSW NB15](/COMIDDS/content/datasets/unsw_nb15)
+- Mentioned, but not further detailed:<br>Metrosec, [UNIBS](/COMIDDS/content/datasets/unibs), [TUIDS](/COMIDDS/content/datasets/tuids), University of Napoli traffic dataset, CSIC 2010 HTTP dataset, UNM system call dataset
 
 Referenced collections:
 - CAIDA
@@ -170,31 +170,31 @@ They also enumerate a number of characteristic a dataset should fulfil in order 
 However, the MAWI and CAIDA collection as well as the ISCX IDS 2012, CIC-IDS 2017 and CSE-CIC-IDS 2018 datasets are highlighted, as they fulfill at least most of the aforementioned characteristics.
 
 Referenced datasets:
-- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
+- [ADFA-LD](/COMIDDS/content/datasets/adfa_ld), [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
 - AWID
-- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
+- [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
 - CERT ITTD
-- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
-- [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
-- [CIDD](/intrusion-detection-datasets/content/datasets/cidd)
+- [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
+- [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)
+- [CIDD](/COMIDDS/content/datasets/cidd)
 - CIDDS
 - CSIC HTTP 
-- [CTU-13](/intrusion-detection-datasets/content/datasets/ctu_13)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [CTU-13](/COMIDDS/content/datasets/ctu_13)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 - ICS 2014
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [Kyoto Honeypot](/COMIDDS/content/datasets/kyoto_honeypot)
 - LANL (by which the authors mean the following three datasets)
-  - [Comprehensive Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
-  - [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
-  - [User-Computer Authentication Associations in Time](/intrusion-detection-datasets/content/datasets/user_computer_associations)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+  - [Comprehensive Multi-Source Cybersecurity Events](/COMIDDS/content/datasets/comp_multi_source_cybersec_events)
+  - [Unified Host and Network dataset](/COMIDDS/content/datasets/unified_host_and_network_dataset)
+  - [User-Computer Authentication Associations in Time](/COMIDDS/content/datasets/user_computer_associations)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
 - UCKA-CSD
-- [UNSW NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- [UNSW NB15](/COMIDDS/content/datasets/unsw_nb15)
 - RUU
 - SEA
-- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
+- [Twente 2009](/COMIDDS/content/datasets/twente_2009)
 
 
 Referenced collections:
@@ -215,16 +215,16 @@ It (very shortly) discusses some methods used in this field and goes into a bit 
 Strangely, it also includes some datasets that are not really network-related, like ADFA-LD.
 
 Referenced datasets:
-- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
-- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
-- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
-- [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
+- [ADFA-LD](/COMIDDS/content/datasets/adfa_ld), [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
+- [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
+- [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
+- [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [Kyoto Honeypot](/COMIDDS/content/datasets/kyoto_honeypot)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
+- [Twente 2009](/COMIDDS/content/datasets/twente_2009)
 
 Referenced Collections:
 - CAIDA
@@ -244,19 +244,19 @@ Surprisingly, it also features datasets like KDD and NSL KDD, which positively d
 
 Referenced datasets:
 - Active DNS Project
-- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
-- [Comprehensive Multi-Source Cybersecurity Events](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events)
-- [CTU-13](/intrusion-detection-datasets/content/datasets/ctu_13)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [Malware Capture Facility Project](/intrusion-detection-datasets/content/datasets/ctu_13) (alias for: CTU 13)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- [ADFA-LD](/COMIDDS/content/datasets/adfa_ld), [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
+- [Comprehensive Multi-Source Cybersecurity Events](/COMIDDS/content/datasets/comp_multi_source_cybersec_events)
+- [CTU-13](/COMIDDS/content/datasets/ctu_13)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
+- [gureKDDCup](/COMIDDS/content/datasets/gure_kddcup)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [Malware Capture Facility Project](/COMIDDS/content/datasets/ctu_13) (alias for: CTU 13)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
 - UNM system call dataset
-- [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
-- [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
-- [User-Computer Authentication Associations in Time](/intrusion-detection-datasets/content/datasets/user_computer_associations)
-- [Vast Challenge 2012]((/intrusion-detection-datasets/content/datasets/vast_2012))
+- [Unified Host and Network dataset](/COMIDDS/content/datasets/unified_host_and_network_dataset)
+- [UNSW-NB15](/COMIDDS/content/datasets/unsw_nb15)
+- [User-Computer Authentication Associations in Time](/COMIDDS/content/datasets/user_computer_associations)
+- [Vast Challenge 2012]((/COMIDDS/content/datasets/vast_2012))
 - Vast Challenge 2013
 
 Referenced collections:
@@ -283,22 +283,22 @@ Referenced datasets:
 - AWID
 - Booters Dataset
 - ISCX Botnet 2014
-- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
-- [CIC DoS](/intrusion-detection-datasets/content/datasets/cic_dos)
-- [CIC-IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids2017)
+- [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
+- [CIC DoS](/COMIDDS/content/datasets/cic_dos)
+- [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
 - CIDDS-001 & 002
-- [CSE-CIC-IDS 2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 - DDoS 2016
 - IRSC
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- [ISOT Botnet](/intrusion-detection-datasets/content/datasets/isot_botnet)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [Kent 2016](/intrusion-detection-datasets/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
-- [Kyoto Honeypot](/intrusion-detection-datasets/content/datasets/kyoto_honeypot)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
+- [ISOT Botnet](/COMIDDS/content/datasets/isot_botnet)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [Kent 2016](/COMIDDS/content/datasets/comp_multi_source_cybersec_events) (alias for: Comprehensive, Multi-Source Cybersecurity Events)
+- [Kyoto Honeypot](/COMIDDS/content/datasets/kyoto_honeypot)
 - NDSec-1
-- [NGIDS-DS](/intrusion-detection-datasets/content/datasets/ngids_dataset)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- [NGIDS-DS](/COMIDDS/content/datasets/ngids_dataset)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
 - PU-IDS
 - PUF
 - SANTA
@@ -306,11 +306,11 @@ Referenced datasets:
 - SSENET 2014
 - SSHCure
 - TRAbID
-- [TUIDS](/intrusion-detection-datasets/content/datasets/tuids)
-- [Twente 2009](/intrusion-detection-datasets/content/datasets/twente_2009)
-- [UNIBS](/intrusion-detection-datasets/content/datasets/unibs)
-- [Unified Host and Network dataset](/intrusion-detection-datasets/content/datasets/unified_host_and_network_dataset)
-- [UNSW-NB15](/intrusion-detection-datasets/content/datasets/unsw_nb15)
+- [TUIDS](/COMIDDS/content/datasets/tuids)
+- [Twente 2009](/COMIDDS/content/datasets/twente_2009)
+- [UNIBS](/COMIDDS/content/datasets/unibs)
+- [Unified Host and Network dataset](/COMIDDS/content/datasets/unified_host_and_network_dataset)
+- [UNSW-NB15](/COMIDDS/content/datasets/unsw_nb15)
 
 Referenced collections:
 - AZSecure
@@ -344,13 +344,13 @@ Khraisat, A., Gondal, I., Vamplew, P., & Kamruzzaman, J. (2019). Survey of intru
 Mainly focuses on commonly used detection methodology (especially anomaly-based), but also shortly describes eight datasets commonly used to evaluate these approaches.
 
 Referenced datasets:
-- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
-- [CIC IDS 2017](/intrusion-detection-datasets/content/datasets/cic_ids_2017)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- [UNIBS](/intrusion-detection-datasets/content/datasets/unibs)
+- [ADFA-LD](/COMIDDS/content/datasets/adfa_ld), [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
+- [CIC IDS 2017](/COMIDDS/content/datasets/cic_ids_2017)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
+- [UNIBS](/COMIDDS/content/datasets/unibs)
 
 Referenced collections:
 - CAIDA
@@ -378,8 +378,8 @@ Datasets, while acknowledged as an important factor, are only described in one s
 Weirdly, the two chosen datasets are quite out-of-date for a survey that has been published in 2017.
 
 Referenced datasets:
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
 
 ### A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection (2015)
 
@@ -392,9 +392,9 @@ This survey only considers machine learning and datamining (i.e., anomaly-based)
 Given the relative recency of this work, the choice of described datasets, which were pretty much deprecated at the time of writing, is surprising.
 
 Referenced datasets:
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 - DARPA 1999
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
 
 ### A Detail Analysis on Intrusion Detection Datasets (2014)
 
@@ -406,9 +406,9 @@ Sahu, S. K., Sarangi, S., & Jena, S. K. (2014, February). A detail analysis on i
 This paper shortly analyzed three papers the authors deem suitable to test their novel preprocessing techniques, which are supposed to improve the performance of various data mining algorithms.
 
 Referenced datasets:
-- [gureKDDCup](/intrusion-detection-datasets/content/datasets/gure_kddcup)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
+- [gureKDDCup](/COMIDDS/content/datasets/gure_kddcup)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
 
 ### Network anomaly detection: Methods, systems and tools (2013)
 
@@ -421,11 +421,11 @@ This survey mainly focuses on different approaches towards network anomaly detec
 Datasets that are suitable for this purpose are mentioned as a secondary talking point, and described only in brief.
 
 Referenced datasets:
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
-- [ISCX IDS 2012](/intrusion-detection-datasets/content/datasets/iscx_ids_2012)
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [NSL-KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- [TUIDS](/intrusion-detection-datasets/content/datasets/tuids)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
+- [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
+- [TUIDS](/COMIDDS/content/datasets/tuids)
 
 Referenced collections:
 - CAIDA

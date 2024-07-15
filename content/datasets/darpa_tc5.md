@@ -87,4 +87,4 @@ As mentioned, labels are not available, but the provided ground truth could be u
 
 ### Related Entries
 
-- [DARPA TC3](/intrusion-detection-datasets/content/datasets/darpa_tc3)
+- [DARPA TC3](/COMIDDS/content/datasets/darpa_tc3)

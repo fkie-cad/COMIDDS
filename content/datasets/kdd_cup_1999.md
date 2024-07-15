@@ -75,8 +75,8 @@ majority (71%) of the entire test data set.
 
 ### Related Entries
 
-- [NSL KDD](/intrusion-detection-datasets/content/datasets/nsl_kdd_dataset)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [NSL KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 
 ### Data Examples
 
