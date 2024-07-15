@@ -89,7 +89,7 @@ def swap_placeholders_with_info(filename, processed_citation_info: dict):
         content = content.replace(placeholder, str(count))
 
     cur_timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S') + " UTC"
-    content.replace("{CITATION_FETCH_TIMESTAMP}", cur_timestamp)
+    content = content.replace("{CITATION_FETCH_TIMESTAMP}", cur_timestamp)
 
     with open(filename, "w") as file:
         file.write(content)
