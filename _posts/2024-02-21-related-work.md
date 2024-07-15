@@ -19,7 +19,7 @@ Entries of this category, which are usually surveys, consist of the following:
 - List of referenced collections
 
 Referenced datasets link to their respective entries on this webpage, if available.
-Those that are not (which are quite a few) will be looked at and possibly be added to the Intrusion Detection Datasets collection in the future.
+Those that are not (which are quite a few) will be looked at and possibly be added to COMIDDS in the future.
 
 The latter category, "Collections", simply features dataset collections not backed by a scientific publication.
 These are maintained by individuals or organizations, and cover different types of datasets, ranging from "only pcaps" to "anything cybersecurity-related".

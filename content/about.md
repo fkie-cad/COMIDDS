@@ -32,8 +32,8 @@ If you would like to cite this overview in your (academic) work, we recommend to
 <!--  {% raw %} --> 
 ```
 @misc{idd100,
-  author = {{Intrusion Detection Datasets} contributors},
-  title = {{Intrusion Detection Datasets v1.0.0 -- GitHub}},
+  author = {{COMIDDS} contributors},
+  title = {{COMIDDS v1.0.0 -- GitHub}},
   year = {2024},
   howpublished = {\url{https://github.com/fkie-cad/COMIDDS/releases/tag/v1.0.0}},
   note = {[Online; accessed DD-MMM-YYYY]},

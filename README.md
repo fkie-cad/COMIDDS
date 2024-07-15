@@ -1,4 +1,4 @@
-# Intrusion Detection Datasets
+# COMIDDS
 
 A comprehensive overview of datasets for research in host-based and/or network-based intrusion detection, with a focus on enterprise networks.
 
@@ -6,7 +6,7 @@ A comprehensive overview of datasets for research in host-based and/or network-b
 
 ## Content and Goals
 
-This repository contains the website for *Intrusion Detection Datasets*, an overview of datasets for research in intrusion detection.
+This repository contains the website for *COMIDDS*, an overview of datasets for research in intrusion detection.
 Our goal is to provide a comprehensive and detailed list of relevant datasets along with descriptions and links, aiding researchers in finding and selecting suitable data to work with.
 Beyond the [table of all datasets](https://fkie-cad.github.io/COMIDDS/content/all_datasets/), each dataset has a separate page, listing key features and describing the underlying environment, activity, contained data, etc.
 

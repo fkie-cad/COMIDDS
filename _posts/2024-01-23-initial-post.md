@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First release of Intrusion Detection Datasets
+title: First release of COMIDDS
 subtitle: 43 datasets described in detail, with more to come!
 gh-repo: fkie-cad/intrusion-detection-datasets
 gh-badge: [star, fork, follow]
@@ -9,7 +9,7 @@ comments: true
 author: Philipp Bönninghausen
 ---
 
-This post marks the beginning of the "Intrusion Detection Datasets" collection.
+This post marks the beginning of COMIDDS.
 It is intended to be a comprehensive resource for anyone looking for a dataset suitable for IDS development and evaluation.
 However, with research requirements often being complex (and dataset documentation often being lacking), this collection aims to be more than just a list of names and one-line descriptions.
 
