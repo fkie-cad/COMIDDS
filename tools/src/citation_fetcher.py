@@ -3,6 +3,9 @@ import requests
 from time import sleep
 
 
+S2_MAX_PAPERS_PER_REQUEST = 1000
+
+
 def get_all_paper_ids(filename):
     all_ids = []
     with open(filename, "r") as file:
@@ -31,7 +34,7 @@ def fetch_citation_info_from_ids(paper_ids, api_key):
         while not success and current_attempt < max_tries:
             try:
                 total_citation_count = get_total_citation_count(paper_id, request_headers)
-                if total_citation_count <= 1000:
+                if total_citation_count <= S2_MAX_PAPERS_PER_REQUEST:
                     citation_info = single_citation_request(paper_id, request_headers)
                 else:
                     citation_info = multi_citation_request(paper_id, total_citation_count, request_headers)
@@ -107,7 +110,7 @@ def single_citation_request(paper_id, headers, offset=0):
     url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}/citations"
     params = {
         "fields": "year",
-        "limit": 1000,
+        "limit": S2_MAX_PAPERS_PER_REQUEST,
         "offset": offset,
     }
     req = requests.get(url, params)
@@ -126,6 +129,6 @@ def multi_citation_request(paper_id, total_count, headers):
     while total_count > current_offset:
         citations = single_citation_request(paper_id, headers, offset=current_offset)
         all_citations.extend(citations)
-        current_offset += 1000
+        current_offset += S2_MAX_PAPERS_PER_REQUEST
 
     return all_citations
