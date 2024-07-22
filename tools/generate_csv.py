@@ -4,7 +4,7 @@ POS = {
     "Name": 0,
     "Focus": 1,
     "Year": 2,
-    # "Times Recently Cited": 3,
+    "Times Recently Cited": 3,
     "TL;DR": 4,
     "Setting": 5,
     "OS Type": 6,
@@ -42,7 +42,8 @@ def main():
         "Benign Activity;"
 
         "Packed Size in MB;"
-        "Unpacked Size in MB"
+        "Unpacked Size in MB;"
+        "Times Recently Cited"
         "\n")
 
     for dataset in datasets:
@@ -70,7 +71,8 @@ def main():
         new_entry += parse.extract_from_table(details_md, "Benign Activity") + ";"
 
         new_entry += parse.size_in_mb(content[POS["Packed Size"]]) + ";"
-        new_entry += parse.size_in_mb(content[POS["Unpacked Size"]])
+        new_entry += parse.size_in_mb(content[POS["Unpacked Size"]]) + ";"
+        new_entry += content[POS["Times Recently Cited"]]
 
         new_entry += "\n"
         csv_string += new_entry
