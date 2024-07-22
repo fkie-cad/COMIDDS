@@ -26,3 +26,5 @@ The following fields are present for each dataset (semicolon-delimited):
 | Packed Size in MB    | Size of the entire dataset when packed, in MB                                                                                                                      |
 | Unpacked Size in MB  | Size of the entire dataset when unpacked, in MB                                                                                                                    |
 | Times Recently Cited | Number of times the underlying publication of the dataset was cited in the last five years, sourced from the [S2 API](https://www.semanticscholar.org/product/api) |
+
+Note: Missing values are indicated by a single hyphen (`-`).

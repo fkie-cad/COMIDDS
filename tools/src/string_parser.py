@@ -45,7 +45,7 @@ def year_end(year):
 
 def size_in_mb(size: str):
     if size == "-":
-        return ""
+        return size
     size = size.replace("<", "").replace(">", "")
 
     number = float(size.split()[0].replace(",", "."))
