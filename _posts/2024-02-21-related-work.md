@@ -2,7 +2,7 @@
 layout: post
 title: Related Work added
 subtitle: A collection of related surveys and non-scientific collections of IDS datasets
-gh-repo: fkie-cad/intrusion-detection-datasets
+gh-repo: fkie-cad/COMIDDS
 gh-badge: [ star, fork, follow ]
 tags: [ features ]
 comments: true

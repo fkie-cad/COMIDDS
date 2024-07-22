@@ -2,7 +2,7 @@
 layout: post
 title: News in v1.2.0
 subtitle: Four new dataset entries, some minor updates, and citation info
-gh-repo: fkie-cad/intrusion-detection-datasets
+gh-repo: fkie-cad/COMIDDS
 gh-badge: [star, fork, follow]
 tags: [datasets]
 comments: true

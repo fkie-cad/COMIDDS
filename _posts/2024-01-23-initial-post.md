@@ -2,7 +2,7 @@
 layout: post
 title: First release of COMIDDS
 subtitle: 43 datasets described in detail, with more to come!
-gh-repo: fkie-cad/intrusion-detection-datasets
+gh-repo: fkie-cad/COMIDDS
 gh-badge: [star, fork, follow]
 tags: [datasets, features]
 comments: true

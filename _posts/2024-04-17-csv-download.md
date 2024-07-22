@@ -2,7 +2,7 @@
 layout: post
 title: News in v1.3.0
 subtitle: Dataset info now available in CSV format, one new dataset entry
-gh-repo: fkie-cad/intrusion-detection-datasets
+gh-repo: fkie-cad/COMIDDS
 gh-badge: [star, fork, follow]
 tags: [dataset, features]
 comments: true
