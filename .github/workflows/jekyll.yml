@@ -54,14 +54,14 @@ jobs:
       - name: Install Python dependencies
         run: pip install pandas matplotlib seaborn requests
 
-      - name: Generate plot assets
-        run: python tools/generate_plots.py
-
       - name: Fetch citation information from papers
         run: python tools/count_citations.py
 
-      - name: Generate CSV assets # must happen last
+      - name: Generate CSV assets # must happen after fetching citation info
         run: python tools/generate_csv.py
+
+      - name: Generate plot assets from CSV assets
+        run: python tools/generate_plots.py
 
       # CUSTOM MODIFICATION END
 
