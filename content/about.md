@@ -28,10 +28,28 @@ Additional information includes:
 
 ### Citing this Work
 
-If you would like to cite this overview in your (academic) work, we recommend to cite the exact release that the cited information refers to, e.g.,
+If you are using COMIDDS for your academic work, please cite our paper:
 <!--  {% raw %} --> 
 ```
-@misc{idd100,
+@inproceedings{10.1145/3675741.3675754,
+  author = {Bönninghausen, Philipp and Uetz, Rafael and Henze, Martin},
+  title = {Introducing a Comprehensive, Continuous, and Collaborative Survey of Intrusion Detection Datasets},
+  year = {2024},
+  booktitle = {Proceedings of the 17th Cyber Security Experimentation and Test Workshop},
+  series = {CSET '24},
+  location = {Philadelphia, PA, USA},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3675741.3675754},
+  doi = {10.1145/3675741.3675754},
+}
+```
+<!-- {% endraw %} -->
+
+If you (additionally) would like to cite specific information from within COMIDDS, we recommend to cite the release that the information is contained in, e.g.,
+<!--  {% raw %} --> 
+```
+@misc{comidds100,
   author = {{COMIDDS} contributors},
   title = {{COMIDDS v1.0.0 -- GitHub}},
   year = {2024},
