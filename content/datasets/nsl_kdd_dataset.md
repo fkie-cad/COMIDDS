@@ -79,8 +79,8 @@ Note that the original download source is now longer accessible, however, an uno
 
 ### Related Entries
 
-- [KDD Cup 1999](/intrusion-detection-datasets/content/datasets/kdd_cup_1999)
-- [DARPA'98 Intrusion Detection Program](/intrusion-detection-datasets/content/datasets/darpa98)
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)
+- [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 
 ### Data Examples
 

@@ -12,9 +12,9 @@ We intentionally omit datasets from very different environments such as industri
 
 ### Features
 
-All datasets are summarized in a [table](/intrusion-detection-datasets/content/all_datasets), which lists some relevant information for each entry - helpful when you want to quickly determine which of them might me useful to you.
+All datasets are summarized in a [table](/COMIDDS/content/all_datasets), which lists some relevant information for each entry - helpful when you want to quickly determine which of them might me useful to you.
 
-For every dataset, there is a separate entry (for example [this one](/intrusion-detection-datasets/content/datasets/ait_log_dataset)) describing the following characteristics of a given dataset:
+For every dataset, there is a separate entry (for example [this one](/COMIDDS/content/datasets/ait_log_dataset)) describing the following characteristics of a given dataset:
 - Overview (A general description of the dataset, giving a brief overview over origin, intended usage and some properties of the dataset)
 - Environment (A description of the environment the dataset originated from, including networks, operating systems, running services, etc.)
 - Activity (What kind of activity, benign and malicious, was performed during the period of data collection)
@@ -32,10 +32,10 @@ If you would like to cite this overview in your (academic) work, we recommend to
 <!--  {% raw %} --> 
 ```
 @misc{idd100,
-  author = {{Intrusion Detection Datasets} contributors},
-  title = {{Intrusion Detection Datasets v1.0.0 -- GitHub}},
+  author = {{COMIDDS} contributors},
+  title = {{COMIDDS v1.0.0 -- GitHub}},
   year = {2024},
-  howpublished = {\url{https://github.com/fkie-cad/intrusion-detection-datasets/releases/tag/v1.0.0}},
+  howpublished = {\url{https://github.com/fkie-cad/COMIDDS/releases/tag/v1.0.0}},
   note = {[Online; accessed DD-MMM-YYYY]},
 }
 ```

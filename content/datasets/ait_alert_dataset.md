@@ -95,7 +95,7 @@ The epoch timestamps resemble the time a given alert was generated, which happen
 
 ### Related entries
 
-- [AIT Log Dataset](/intrusion-detection-datasets/content/datasets/ait_log_dataset)
+- [AIT Log Dataset](/COMIDDS/content/datasets/ait_log_dataset)
 
 ### Example Data
 

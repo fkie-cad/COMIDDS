@@ -86,7 +86,7 @@ Note: Download links will most likely expire by 15.12.2023, as the storage provi
 
 ### Related Entries
 
-- [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
+- [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
 
 ### Data Examples
 
