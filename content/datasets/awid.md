@@ -32,9 +32,9 @@ title: AWID
 ***
 
 ### Overview
-The Aegean WiFi Intrusion Dataset (AWID), named after the university where the authors are located, is a medium-sized collection of traffic collected from a small home Wi-Fi network protected using the deprecated Wired Equivalent Protection (WEP).
+The Aegean WiFi Intrusion Dataset (AWID), named after the university where the authors are located, is a medium-sized collection of traffic collected from a small home Wi-Fi network protected using the deprecated Wired Equivalent Privacy (WEP).
 Targeting this network, an attacker executes several attacks geared towards WEP specifically, the selection of which is preceded by the authors discussing these kinds of attacks both in a theoretical and practical manner.
-The distinguishing features of this dataset are its focus on wireless communication, whose structure and patterns naturally differ from that of wired networks, with the general goal being to facilitate research towards security in wireless network that goes beyond that supplied by the IEEE standard alone.
+The distinguishing features of this dataset are its focus on wireless communication, whose structure and patterns naturally differ from that of wired networks, with the general goal being to facilitate research towards security in wireless networks that goes beyond that supplied by the IEEE standard alone.
 Additionally, the authors showcase the application of several machine learning methods on a subset of this data.
 
 This dataset also seems to be known as AWID2, which is the name it is listed under on its homepage.
