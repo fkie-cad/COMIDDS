@@ -170,15 +170,9 @@ They also enumerate a number of characteristic a dataset should fulfil in order 
 However, the MAWI and CAIDA collection as well as the ISCX IDS 2012, CIC-IDS 2017 and CSE-CIC-IDS 2018 datasets are highlighted, as they fulfill at least most of the aforementioned characteristics.
 
 Referenced datasets:
-<<<<<<< HEAD
-- [ADFA-LD](/intrusion-detection-datasets/content/datasets/adfa_ld), [ADFA-WD](/intrusion-detection-datasets/content/datasets/adfa_wd)
-- [AWID](/COMIDDS/content/datasets/awid)
-- [CDX CTF 2009](/intrusion-detection-datasets/content/datasets/cdx_2009)
-=======
 - [ADFA-LD](/COMIDDS/content/datasets/adfa_ld), [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
-- AWID
+- [AWID](/COMIDDS/content/datasets/awid)
 - [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
->>>>>>> main
 - CERT ITTD
 - [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
 - [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)
