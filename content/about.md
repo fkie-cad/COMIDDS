@@ -12,9 +12,9 @@ We intentionally omit datasets from very different environments such as industri
 
 ### Features
 
-All datasets are summarized in a [table](/intrusion-detection-datasets/content/all_datasets), which lists some relevant information for each entry - helpful when you want to quickly determine which of them might me useful to you.
+All datasets are summarized in a [table](/COMIDDS/content/all_datasets), which lists some relevant information for each entry - helpful when you want to quickly determine which of them might me useful to you.
 
-For every dataset, there is a separate entry (for example [this one](/intrusion-detection-datasets/content/datasets/ait_log_dataset)) describing the following characteristics of a given dataset:
+For every dataset, there is a separate entry (for example [this one](/COMIDDS/content/datasets/ait_log_dataset)) describing the following characteristics of a given dataset:
 - Overview (A general description of the dataset, giving a brief overview over origin, intended usage and some properties of the dataset)
 - Environment (A description of the environment the dataset originated from, including networks, operating systems, running services, etc.)
 - Activity (What kind of activity, benign and malicious, was performed during the period of data collection)
@@ -28,14 +28,32 @@ Additional information includes:
 
 ### Citing this Work
 
-If you would like to cite this overview in your (academic) work, we recommend to cite the exact release that the cited information refers to, e.g.,
+If you are using COMIDDS for your academic work, please cite our paper:
 <!--  {% raw %} --> 
 ```
-@misc{idd100,
-  author = {{Intrusion Detection Datasets} contributors},
-  title = {{Intrusion Detection Datasets v1.0.0 -- GitHub}},
+@inproceedings{10.1145/3675741.3675754,
+  author = {Bönninghausen, Philipp and Uetz, Rafael and Henze, Martin},
+  title = {Introducing a Comprehensive, Continuous, and Collaborative Survey of Intrusion Detection Datasets},
   year = {2024},
-  howpublished = {\url{https://github.com/fkie-cad/intrusion-detection-datasets/releases/tag/v1.0.0}},
+  booktitle = {Proceedings of the 17th Cyber Security Experimentation and Test Workshop},
+  series = {CSET '24},
+  location = {Philadelphia, PA, USA},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3675741.3675754},
+  doi = {10.1145/3675741.3675754},
+}
+```
+<!-- {% endraw %} -->
+
+If you (additionally) would like to cite specific information from within COMIDDS, we recommend to cite the release that the information is contained in, e.g.,
+<!--  {% raw %} --> 
+```
+@misc{comidds100,
+  author = {{COMIDDS} contributors},
+  title = {{COMIDDS v1.0.0 -- GitHub}},
+  year = {2024},
+  howpublished = {\url{https://github.com/fkie-cad/COMIDDS/releases/tag/v1.0.0}},
   note = {[Online; accessed DD-MMM-YYYY]},
 }
 ```

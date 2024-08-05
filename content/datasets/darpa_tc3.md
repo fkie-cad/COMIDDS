@@ -92,7 +92,7 @@ As mentioned, labels are not provided, but the provided ground truth could be us
 
 ### Related Entries
 
-- [DARPA TC5](/intrusion-detection-datasets/content/datasets/darpa_tc5)
+- [DARPA TC5](/COMIDDS/content/datasets/darpa_tc5)
 
 ### Data Examples
 

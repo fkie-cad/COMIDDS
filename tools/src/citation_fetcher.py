@@ -23,8 +23,8 @@ def fetch_citation_info_from_ids(paper_ids, api_key):
     request_headers = {
         "x-api-key": api_key,
     }
-    max_tries = 10
-    wait_after_failure = 5  # seconds
+    max_tries = 20
+    wait_after_failure = 8  # seconds
 
     for paper_id in paper_ids:
         print(f"Now processing paper {paper_id}...")

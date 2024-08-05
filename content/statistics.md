@@ -2,7 +2,7 @@
 title: Dataset Statistics
 ---
 
-The following plots are generated from the CSV file provided in [CSV Download](/intrusion-detection-datasets/content/csv_download).
+The following plots are generated from the CSV file provided in [CSV Download](/COMIDDS/content/csv_download).
 
 ### Distribution of datasets over time
 
@@ -13,7 +13,7 @@ Data sources are grouped into "Network Data" (e.g., packet captures or network f
 label availability for each dataset has been classified into either "Direct" (explicit labels for at least a subset of data), "Indirect" (meta-information allowing for manual labeling), or "No Labels".
 
 Even though this simplifies certain aspects, the figure provides a reasonably broad overview of the current landscape of IDS-related datasets.
-As an example, while the [DARPA '98](/intrusion-detection-datasets/content/datasets/darpa98) and [CSE-CIC-IDS2018](/intrusion-detection-datasets/content/datasets/cse_cic_ids2018) datasets contain both network and host data and are visualized as such, only their network data is labeled and thus typically used by other publications.
+As an example, while the [DARPA '98](/COMIDDS/content/datasets/darpa98) and [CSE-CIC-IDS2018](/COMIDDS/content/datasets/cse_cic_ids2018) datasets contain both network and host data and are visualized as such, only their network data is labeled and thus typically used by other publications.
 Still, declaring these datasets to contain only network data would go beyond the purpose of a survey, as it is up to other researchers to decide whether the (in this case host) data can be utilized for their purposes.
 
 <p style="text-align: center;">
