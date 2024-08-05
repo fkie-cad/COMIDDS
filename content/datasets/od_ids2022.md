@@ -18,7 +18,7 @@ title: OD-IDS2022
 | **Host Data Labeled**    | -                                               |
 |                          |                                                 |
 | **Overall Setting**      | Enterprise IT                                   |
-| **OS Types**             | Windows Server 2016<br/>Linux Server 18.04      |
+| **OS Types**             | Windows Server 2016<br/>Ubuntu Server 18.04     |
 | **Number of Machines**   | 2                                               |
 | **Total Runtime**        | 30 days                                         |
 | **Year of Collection**   | 2022                                            |
@@ -32,7 +32,7 @@ title: OD-IDS2022
 ***
 
 ### Overview
-The Offensive Defensive Intrusion Detection System (OD-IDS2022) dataset is an effort to create a network-based dataset consisting of NetFlows, fulfilling a number of requirements cited out by the authors.
+The Offensive Defensive Intrusion Detection System (OD-IDS2022) dataset is an effort to create a network-based dataset consisting of NetFlows, fulfilling a number of requirements formulated by the authors.
 These include commonly named dataset characteristics such as Complete Capture, Complete Network Configuration, Labels, Anonymity, etc.
 The defining features of this dataset are its comparatively long runtime (30 days) along with a large number of different network-based attacks (28), inspired by the Open Web Application Security Project's (OWASP) Top 10 list of web application security risks in 2021.
 However, it seems to suffer from poor documentation regarding both benign and malicious activity, and access to the dataset must be requested manually via email.
@@ -61,7 +61,7 @@ Unfortunately, no further details beyond name and leveraged tool per attack are 
 ### Contained Data
 Collected packet captures are processed into NetFlows using [CICFlowMeter](https://www.unb.ca/cic/research/applications.html#CICFlowMeter), producing the same set of 81 features that are for example leveraged by the [CSE-CIC-IDS2018](cse_cic_ids2018.md) dataset, which utilizes the same tool.
 An explanation for each of these 81 features can be found in Section 3.5 of the cited paper;
-an 82nd features holds the label of a given flow, which can be either "benign" or any of the 28 attack classes.
+an 82nd feature holds the label of a given flow, which can be either "benign" or any of the 28 attack classes.
 This data was then split into a training and a validation subset with a ratio of 75:25 along with other minor pre-processing steps, detailed in Chapter 4 of the paper.
 
 The labeling process is not detailed, other than briefly mentioning that this process is typically performed manually.
