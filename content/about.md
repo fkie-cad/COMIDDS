@@ -28,20 +28,24 @@ Additional information includes:
 
 ### Citing this Work
 
-If you are using COMIDDS for your academic work, please cite our paper:
+If you are using COMIDDS for your academic work, please cite our [paper](https://doi.org/10.1145/3675741.3675754):
 <!--  {% raw %} --> 
 ```
 @inproceedings{10.1145/3675741.3675754,
-  author = {Bönninghausen, Philipp and Uetz, Rafael and Henze, Martin},
+  author = {B\"{o}nninghausen, Philipp and Uetz, Rafael and Henze, Martin},
   title = {Introducing a Comprehensive, Continuous, and Collaborative Survey of Intrusion Detection Datasets},
   year = {2024},
-  booktitle = {Proceedings of the 17th Cyber Security Experimentation and Test Workshop},
-  series = {CSET '24},
-  location = {Philadelphia, PA, USA},
+  isbn = {9798400709579},
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3675741.3675754},
   doi = {10.1145/3675741.3675754},
+  booktitle = {Proceedings of the 17th Cyber Security Experimentation and Test Workshop},
+  pages = {34–40},
+  numpages = {7},
+  keywords = {Cyber Range, Cyberattack, Dataset, Enterprise Network, Intrusion Detection, Log Data, Netflow Data, Simulation, Survey, Testbed},
+  location = {Philadelphia, PA, USA},
+  series = {CSET '24}
 }
 ```
 <!-- {% endraw %} -->
