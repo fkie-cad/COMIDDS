@@ -9,7 +9,7 @@ title: CSE-CIC-IDS2018
 - [Papers](#papers)
 - [Links](#links)
 - [Related Entries](#related-entries)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                 |
 | ------------------------ | -------------------------------------------------------------------------------------------------------- |

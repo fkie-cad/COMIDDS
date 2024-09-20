@@ -8,7 +8,7 @@ title: CLUE-LDS
 - [Contained Data](#contained-data)
 - [Papers](#papers)
 - [Links](#links)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                             |
 | ------------------------ | -------------------------------------------------------------------- |

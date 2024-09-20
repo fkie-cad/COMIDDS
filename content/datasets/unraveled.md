@@ -9,7 +9,7 @@ title: Unraveled
 - [Papers](#papers)
 - [Links](#links)
 - [Related Entries](#related-entries)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
     - [Host Logs](#host-logs)
     - [Network Flows](#network-flows)
 

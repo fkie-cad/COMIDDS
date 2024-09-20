@@ -7,7 +7,7 @@ title: EVTX to MITRE ATT&CK
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
