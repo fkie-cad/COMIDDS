@@ -52,7 +52,7 @@ def verify_internal_absolute_link(link: str):
 
 def verify_internal_relative_link(link_origin: str, link: str):
     # The first "../" does not actually traverse a path, but it's required by GitHub Pages
-    link = link.lstrip("../", "")
+    link = link.lstrip("../")
 
     if not link.endswith(".md"):
         link = link + ".md"
