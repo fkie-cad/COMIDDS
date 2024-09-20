@@ -12,7 +12,7 @@ title: AIT Alert Data Set
 - [Example Data](#related-entries)
 
 | <!-- -->                 | <!-- -->                                                                                                      |
-|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------------------------------------------- |
 | **Network Data Source**  | Suricata, Wazuh and AMiner alerts                                                                             |
 | **Network Data Labeled** | Yes                                                                                                           |
 | **Host Data Source**     | Wazuh and AMiner alerts                                                                                       |
@@ -97,7 +97,7 @@ The epoch timestamps resemble the time a given alert was generated, which happen
 
 - [AIT Log Dataset](/COMIDDS/content/datasets/ait_log_dataset)
 
-### Example Data
+### Data Examples
 
 Example of a Wazuh alert, stored in `.jsonl` files.
 

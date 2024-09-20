@@ -11,7 +11,7 @@ title: CLUE-LDS
 - [Example Data](#example-data)
 
 | <!-- -->                 | <!-- -->                                                             |
-|--------------------------|----------------------------------------------------------------------|
+| ------------------------ | -------------------------------------------------------------------- |
 | **Network Data Source**  | -                                                                    |
 | **Network Data Labeled** | -                                                                    |
 | **Host Data Source**     | Events generated from usage of storage solution "hBox"               |
@@ -66,7 +66,7 @@ Since this was collected in a productive environment, there are no known attacks
 
 - [Homepage](https://zenodo.org/records/7119953)
 
-### Example Data
+### Data Examples
 
 Event logs from `clue.json`
 

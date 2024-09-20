@@ -14,7 +14,7 @@ title: Unraveled
     - [Network Flows](#network-flows)
 
 | <!-- -->                 | <!-- -->                                                                |
-|--------------------------|-------------------------------------------------------------------------|
+| ------------------------ | ----------------------------------------------------------------------- |
 | **Network Data Source**  | pcaps, snort logs                                                       |
 | **Network Data Labeled** | Yes                                                                     |
 | **Host Data Source**     | Syslog, audit, auth                                                     |
@@ -108,7 +108,7 @@ Notably, only very few of the provided processed host log files seem to contain 
 
 - [DAPT 2020, an earlier approach by the same authors](/COMIDDS/content/datasets/dapt2020)
 
-### Example Data
+### Data Examples
 
 #### Host Logs
 

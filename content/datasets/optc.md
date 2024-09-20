@@ -11,7 +11,7 @@ title: OpTC
 - [Example Data](#example-data)
 
 | <!-- -->                 | <!-- -->                                                                               |
-|--------------------------|----------------------------------------------------------------------------------------|
+| ------------------------ | -------------------------------------------------------------------------------------- |
 | **Network Data Source**  | NetFlows                                                                               |
 | **Network Data Labeled** | Yes                                                                                    |
 | **Host Data Source**     | eCar events                                                                            |
@@ -85,7 +85,7 @@ use the provided ground truth file to label events manually.
 - [OpTC Red Team Ground Truth](https://github.com/FiveDirections/OpTC-data/blob/master/OpTCRedTeamGroundTruth.pdf)
 - [eCar Model Description](https://github.com/FiveDirections/OpTC-data/blob/master/ecar.md)
 
-### Example Data
+### Data Examples
 
 Snippet of eCar event example taken from `ecar/evaluation/23Sep19-red/AIA-201-225/*.json`.
 

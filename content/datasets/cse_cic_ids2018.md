@@ -12,7 +12,7 @@ title: CSE-CIC-IDS2018
 - [Example Data](#example-data)
 
 | <!-- -->                 | <!-- -->                                                                                                 |
-|--------------------------|----------------------------------------------------------------------------------------------------------|
+| ------------------------ | -------------------------------------------------------------------------------------------------------- |
 | **Network Data Source**  | pcaps, NetFlows                                                                                          |
 | **Network Data Labeled** | Yes, NetFlows are labeled                                                                                |
 | **Host Data Source**     | Ubuntu event logs, Windows event logs                                                                    |
@@ -92,7 +92,7 @@ The aforementioned flaws of this dataset, such as some simulation artifacts maki
 - [CIC IDS2017](/COMIDDS/content/datasets/cic_ids2017)
 - [NF-UQ-NIDS](/COMIDDS/content/datasets/nf_uq_nids)
 
-### Example Data
+### Data Examples
 
 Labeled features from `Processed Traffic Data for ML Algorithms/Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv`
 
