@@ -82,7 +82,7 @@ The aforementioned flaws of this dataset, such as some simulation artifacts maki
 ### Links
 
 - [Homepage](https://www.unb.ca/cic/datasets/ids-2018.html)
-    - For download, install AWS CLI and
+    - To download, install AWS CLI and
       run `aws s3 sync --no-sign-request --region <your-region> "s3://cse-cic-ids2018/" dest-dir`, where your-region is
       your AWS region and destination-dir is the target directory.
     - If cou only need the labeled features, use `s3://cse-cic-ids2018/Processed Traffic Data for ML Algorithms` as your URL

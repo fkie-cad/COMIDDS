@@ -11,7 +11,7 @@ title: CIC DoS
 - [Related Entries](#related-entries)
 
 | <!-- -->                 | <!-- -->              |
-|--------------------------|-----------------------|
+| ------------------------ | --------------------- |
 | **Network Data Source**  | Unknown               |
 | **Network Data Labeled** | Presumably            |
 | **Host Data Source**     | -                     |
@@ -27,7 +27,7 @@ title: CIC DoS
 |                          |                       |
 | **Packed Size**          | n/a                   |
 | **Unpacked Size**        | 4,6 GB                |
-| **Download Link**        | Currently unavailable |
+| **Download Link**        | n/a                   |
 
 ***
 
@@ -37,6 +37,8 @@ The authors argue that these types of DoS attacks commonly avoid traditional net
 Specifically, they focus mostly on low-volume DoS attacks, which are characterized by "small amounts of attack traffic transmitted strategically to a victim", whereas high-volume attacks are more similar to traditional DoS attacks, relying on flooding the application layer with requests.
 As part of this research, and due to the lack of usable datasets of this kind, the authors introduce the CIC DoS dataset, which consists of 24 hours of traffic collected from a webserver being the victim of such attacks.
 However, the dataset is no longer available for unknown reasons, making it both difficult and somewhat pointless to provide a lot of detailed information here.
+
+*Note: This dataset is likely not available on purpose, given that the related webpage and references on the UNB homepage have been taken down.*
 
 ### Environment
 The victim setup consists of a webserver running Apache Linux v2.2.22, PHP5 and Drupal v7 as a content management system.
@@ -67,7 +69,7 @@ I would assume data is labeled, but obviously have no way to confirm this.
 - [Detecting HTTP-based Application Layer DoS Attacks on Web Servers in the Presence of Sampling (2017)](https://doi.org/10.1016/j.comnet.2017.03.018)
 
 ### Links
-- [Homepage](https://www.unb.ca/cic/datasets/dos-dataset.html)
+- [Homepage](https://www.unb.ca/cic/datasets) (this is the general dataset homepage, the page specific to this dataset was removed)
 
 ### Related Entries
 - [ISCX Intrusion Detection Evaluation Dataset](/COMIDDS/content/datasets/iscx_ids_2012)

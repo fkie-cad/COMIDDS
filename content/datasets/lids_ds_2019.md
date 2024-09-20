@@ -11,7 +11,7 @@ title: LID-DS 2019
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                 |
-|--------------------------|--------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------ |
 | **Network Data Source**  | -                                                                        |
 | **Network Data Labeled** | -                                                                        |
 | **Host Data Source**     | Syscalls with parameter information                                      |
@@ -27,7 +27,7 @@ title: LID-DS 2019
 |                          |                                                                          |
 | **Packed Size**          | 13 GB                                                                    |
 | **Unpacked Size**        | n/a                                                                      |
-| **Download Link**        | [goto](https://cloud.scadsai.uni-leipzig.de/index.php/s/HLXiWssriRMt9pp) |
+| **Download Link**        | [goto](https://cloud.scadsai.uni-leipzig.de/index.php/s/kTY67LRiT3BGy8c) |
 
 ***
 
@@ -82,8 +82,8 @@ Additionally, for each attack there is a `run.cvs` file, which contains metadata
 ### Links
 
 - [LID-DS on GitHub](https://github.com/LID-DS/LID-DS)
-- [2019 Version Download](https://cloud.scadsai.uni-leipzig.de/index.php/s/HLXiWssriRMt9pp)
-- [2021 Version Download](https://cloud.scadsai.uni-leipzig.de/index.php/s/cRswswLo2QfLNYL)
+- [2019 Version Download](https://cloud.scadsai.uni-leipzig.de/index.php/s/kTY67LRiT3BGy8c)
+- [2021 Version Download](https://cloud.scadsai.uni-leipzig.de/index.php/s/JtKyYC33SYnk49T)
 
 ### Data Examples
 

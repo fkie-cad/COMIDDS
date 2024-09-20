@@ -4,16 +4,29 @@ import os
 import re
 from pprint import pprint
 
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 # Must be executed from repository root
+# ONLY FORMATTED LINKS "[text](link)" WILL BE CHECKED
 
 
 CONTENT_DIR = "content/"
 PATTERN = re.compile(r"\[(.*?)\]\((.*?)\)")
 
+
 EXCEPTIONS = {
     # Some valid links return nonsensical status codes
     # Only add links that are known to be valid with that specific status code
+    # Do not add 404s
     "https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html": 403,
+    "https://onlineacademiccommunity.uvic.ca/isot/wp-content/uploads/sites/7295/2023/03/ISOT-Dataset-Overview-v0.5.pdf": 403,
+    "https://doi.org/10.1142/9781786340757_0002": 403,
+    "https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset&ga=1": 401,
+    "https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset": 401,
+    "https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FReadMe%2Epdf&parent=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset": 401,
+    "https://unsw-my.sharepoint.com/:x:/r/personal/z5025758_ad_unsw_edu_au/_layouts/15/Doc.aspx?sourcedoc=%7B975B24E4-7E36-4CE1-B98A-9FBE4BB521B7%7D&file=NUSW-NB15_features.csv&action=default&mobileredirect=true": 401,
 }
 
 
@@ -74,13 +87,27 @@ def verify_jekyll_link(link: str):
         raise InvalidLink(f"Jekyll link does not point to a valid file.")
 
 
+def get_url(link: str, verify_ssl: bool):
+    return requests.get(
+        link, stream=True, timeout=5, allow_redirects=True, verify=verify_ssl
+    )
+
+
 def verify_web_link(link: str):
+    verify_ssl = True
     try:
-        response = requests.get(link, stream=True, timeout=5, allow_redirects=True)
+        response = get_url(link, verify_ssl)
+    except requests.exceptions.SSLError:
+        verify_ssl = False
+        response = get_url(link, verify_ssl)
     except Exception as e:
         raise InvalidLink(f"Request failed with:\n{e}")
 
     if 200 <= response.status_code < 300:
+        if not verify_ssl:
+            print(
+                f"\033[94mINFO:\n\033[0mURL \033[4m{link}\033[0m was accessible, but only when disabling SSL verification.\n"
+            )
         return
     elif response.status_code == 418 and "doi.org" in link:
         # Some DOI links return 418 for some reason, even though all of the links are valid

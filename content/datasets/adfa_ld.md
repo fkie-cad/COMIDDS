@@ -11,24 +11,24 @@ title: ADFA Linux Dataset
 - [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                                                   |
-|--------------------------|--------------------------------------------------------------------------------------------|
-| **Network Data Source**  | -                                                                                          |
-| **Network Data Labeled** | -                                                                                          |
-| **Host Data Source**     | Sequences of Syscall Numbers                                                               |
-| **Host Data Labeled**    | Yes                                                                                        |
-|                          |                                                                                            |
-| **Overall Setting**      | Single OS                                                                                  |
-| **OS Types**             | Ubuntu 11.04 LTS                                                                           |
-| **Number of Machines**   | 1                                                                                          |
-| **Total Runtime**        | n/a                                                                                        |
-| **Year of Collection**   | 2013                                                                                       |
-| **Attack Categories**    | Password Bruteforce <br> Social Engineering <br> Web-Based Attacks <br> Remote Exploits    |
-| **Benign Activity**      | Synthetic, unspecified "normal operation"                                                  |
-|                          |                                                                                            |
-| **Packed Size**          | 2 MB                                                                                       |
-| **Unpacked Size**        | 17 MB                                                                                      |
-| **Download Link**        | [goto](https://cloudstor.aarnet.edu.au/plus/s/Gpr0FLAGGZZ1TL8/download) (EXPIRES 15.12.23) |
+| <!-- -->                 | <!-- -->                                                                                  |
+| ------------------------ | ----------------------------------------------------------------------------------------- |
+| **Network Data Source**  | -                                                                                         |
+| **Network Data Labeled** | -                                                                                         |
+| **Host Data Source**     | Sequences of Syscall Numbers                                                              |
+| **Host Data Labeled**    | Yes                                                                                       |
+|                          |                                                                                           |
+| **Overall Setting**      | Single OS                                                                                 |
+| **OS Types**             | Ubuntu 11.04 LTS                                                                          |
+| **Number of Machines**   | 1                                                                                         |
+| **Total Runtime**        | n/a                                                                                       |
+| **Year of Collection**   | 2013                                                                                      |
+| **Attack Categories**    | Password Bruteforce <br> Social Engineering <br> Web-Based Attacks <br> Remote Exploits   |
+| **Benign Activity**      | Synthetic, unspecified "normal operation"                                                 |
+|                          |                                                                                           |
+| **Packed Size**          | 2 MB                                                                                      |
+| **Unpacked Size**        | 17 MB                                                                                     |
+| **Download Link**        | [goto (inofficial)](https://github.com/verazuo/a-labelled-version-of-the-ADFA-LD-dataset) |
 
 ***
 
@@ -39,6 +39,8 @@ Dataset), are designed for the evaluation of anomaly-based intrusion detection s
 These datasets were introduced to address the limitations of older datasets, such as the KDD'99 dataset, which had
 become outdated given the evolution of cyber threats.
 They specifically focus on detection methods leveraging sequences of system calls.
+
+Note: The storage provider 
 
 ### Environment
 
@@ -80,9 +82,10 @@ Attack.
 ### Links
 
 - [Homepage](https://research.unsw.edu.au/projects/adfa-ids-datasets)
-- [ADFA-LD Download](https://cloudstor.aarnet.edu.au/plus/s/Gpr0FLAGGZZ1TL8/download)
+- [ADFA-LD Download (inofficial)](https://github.com/verazuo/a-labelled-version-of-the-ADFA-LD-dataset)
 
-Note: Download links will most likely expire by 15.12.2023, as the storage provider is shutting down.
+*Note: The original version of this dataset was hosted on ClourStor, which shut down in 2023.
+At the time of writing, links on the official homepage have not been updated.*
 
 ### Related Entries
 
