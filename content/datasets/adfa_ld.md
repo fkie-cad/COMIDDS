@@ -40,8 +40,6 @@ These datasets were introduced to address the limitations of older datasets, suc
 become outdated given the evolution of cyber threats.
 They specifically focus on detection methods leveraging sequences of system calls.
 
-Note: The storage provider 
-
 ### Environment
 
 The environment consisted of a single host running Ubuntu 11.04 LTS, which was configured to emulate a (at the time)
