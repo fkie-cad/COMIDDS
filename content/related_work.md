@@ -53,7 +53,7 @@ Referenced datasets:
 - [ADFA-LD](/COMIDDS/content/datasets/adfa_ld)
 - [AWID](/COMIDDS/content/datasets/awid)
 - BoT-IoT
-- [ISCX Botnet 2014](/COMIDDS/content/datasets/iscx_ids_2014)
+- [ISCX Botnet 2014](/COMIDDS/content/datasets/iscx_botnet_2014)
 - CDMX 2016
 - [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
 - [CIC DoS](/COMIDDS/content/datasets/cic_dos)
@@ -282,7 +282,7 @@ Additionally, several existing collections of datasets are listed.
 Referenced datasets:
 - [AWID](/COMIDDS/content/datasets/awid)
 - Booters Dataset
-- [ISCX Botnet 2014](/COMIDDS/content/datasets/iscx_ids_2014)
+- [ISCX Botnet 2014](/COMIDDS/content/datasets/iscx_botnet_2014)
 - [CDX CTF 2009](/COMIDDS/content/datasets/cdx_2009)
 - [CIC DoS](/COMIDDS/content/datasets/cic_dos)
 - [CIC-IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
