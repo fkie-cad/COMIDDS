@@ -13,7 +13,7 @@ title: ISCX Botnet Dataset 2014
 | <!-- -->                 | <!-- -->                                                        |
 | ------------------------ | --------------------------------------------------------------- |
 | **Network Data Source**  | pcaps                                                           |
-| **Network Data Labeled** | Ground truth provided                                           |
+| **Network Data Labeled** | Yes                                                             |
 | **Host Data Source**     | -                                                               |
 | **Host Data Labeled**    | -                                                               |
 |                          |                                                                 |
