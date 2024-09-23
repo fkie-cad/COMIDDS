@@ -2,7 +2,6 @@ import requests
 import sys
 import os
 import re
-from pprint import pprint
 
 import urllib3
 
