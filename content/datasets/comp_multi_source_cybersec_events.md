@@ -8,10 +8,10 @@ title: Comprehensive, Multi-Source Cybersecurity Events
 - [Contained Data](#contained-data)
 - [Papers](#papers)
 - [Links](#links)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                               |
-|--------------------------|--------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------ |
 | **Network Data Source**  | NetFlows, DNS lookups                                  |
 | **Network Data Labeled** | No                                                     |
 | **Host Data Source**     | Auth events, Process events                            |
@@ -87,7 +87,7 @@ or correlated.
     - [Unified Host and Network Dataset](/COMIDDS/content/datasets/unified_host_and_network_dataset)
     - [User-Computer Authentication Associations in Time](/COMIDDS/content/datasets/user_computer_associations)
 
-### Example Data
+### Data Examples
 
 Authentication events in `auth.txt`
 

@@ -9,10 +9,10 @@ title: AIT Log Data Set
 - [Papers](#papers)
 - [Links](#links)
 - [Related Entries](#related-entries)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                      |
-|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------------------------------------------- |
 | **Network Data Source**  | VPN, DNS, pcaps, Suricata                                                                                     |
 | **Network Data Labeled** | Yes                                                                                                           |
 | **Host Data Source**     | Apache, auth, audit, syslogs, and more                                                                        |
@@ -119,7 +119,7 @@ A circled checkmark indicates that labels exists for that file.
 
 - [AIT Alert Dataset](/COMIDDS/content/datasets/ait_alert_dataset)
 
-### Example Data
+### Data Examples
 
 Suricata alerts stored in `suricata/eve.jsonl` (if available).
 The full `.pcap` files can be found in the same directory,

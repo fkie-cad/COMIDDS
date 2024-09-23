@@ -256,7 +256,7 @@ Referenced datasets:
 - [Unified Host and Network dataset](/COMIDDS/content/datasets/unified_host_and_network_dataset)
 - [UNSW-NB15](/COMIDDS/content/datasets/unsw_nb15)
 - [User-Computer Authentication Associations in Time](/COMIDDS/content/datasets/user_computer_associations)
-- [Vast Challenge 2012]((/COMIDDS/content/datasets/vast_2012))
+- [Vast Challenge 2012](/COMIDDS/content/datasets/vast_2012)
 - Vast Challenge 2013
 
 Referenced collections:
@@ -345,7 +345,7 @@ Mainly focuses on commonly used detection methodology (especially anomaly-based)
 
 Referenced datasets:
 - [ADFA-LD](/COMIDDS/content/datasets/adfa_ld), [ADFA-WD](/COMIDDS/content/datasets/adfa_wd)
-- [CIC IDS 2017](/COMIDDS/content/datasets/cic_ids_2017)
+- [CIC IDS 2017](/COMIDDS/content/datasets/cic_ids2017)
 - [DARPA'98 Intrusion Detection Program](/COMIDDS/content/datasets/darpa98)
 - [ISCX IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)
 - [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)

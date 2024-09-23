@@ -8,26 +8,27 @@ title: ASNM Datasets
 - [Contained Data](#contained-data)
 - [Papers](#papers)
 - [Links](#links)
+- [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                               |
-|--------------------------|--------------------------------------------------------|
-| **Network Data Source**  | Custom extension of network flows                      |
-| **Network Data Labeled** | Yes                                                    |
-| **Host Data Source**     | -                                                      |
-| **Host Data Labeled**    | -                                                      |
-|                          |                                                        |
-| **Overall Setting**      | Enterprise IT<br/>Small Network                        |
-| **OS Types**             | Windows Server<br/>Windows XP SP3<br/>Linux Server     |
-| **Number of Machines**   | 12 / 5 / 4                                             |
-| **Total Runtime**        | n/a                                                    |
-| **Year of Collection**   | 2009/2015/2018                                         |
-| **Attack Categories**    | Remote Buffer Overflows<br/>Obfuscated Network Attacks |
-| **Benign Activity**      | Synthetic, but not further detailed                    |
-|                          |                                                        |
-| **Packed Size**          | 21 MB                                                  |
-| **Unpacked Size**        | 95 MB                                                  |
-| **Download Link**        | [goto](http://www.fit.vutbr.cz/~ihomoliak/asnm/)       |
+| <!-- -->                 | <!-- -->                                                                                                                                              |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Network Data Source**  | Custom extension of network flows                                                                                                                     |
+| **Network Data Labeled** | Yes                                                                                                                                                   |
+| **Host Data Source**     | -                                                                                                                                                     |
+| **Host Data Labeled**    | -                                                                                                                                                     |
+|                          |                                                                                                                                                       |
+| **Overall Setting**      | Enterprise IT<br/>Small Network                                                                                                                       |
+| **OS Types**             | Windows Server<br/>Windows XP SP3<br/>Linux Server                                                                                                    |
+| **Number of Machines**   | 12 / 5 / 4                                                                                                                                            |
+| **Total Runtime**        | n/a                                                                                                                                                   |
+| **Year of Collection**   | 2009/2015/2018                                                                                                                                        |
+| **Attack Categories**    | Remote Buffer Overflows<br/>Obfuscated Network Attacks                                                                                                |
+| **Benign Activity**      | Synthetic, but not further detailed                                                                                                                   |
+|                          |                                                                                                                                                       |
+| **Packed Size**          | 21 MB                                                                                                                                                 |
+| **Unpacked Size**        | 95 MB                                                                                                                                                 |
+| **Download Link**        | [goto (IEEE login required)](https://ieee-dataport.org/open-access/asnm-datasets-collection-network-traffic-data-testing-adversarial-classifiers-and) |
 
 ***
 
@@ -113,10 +114,8 @@ Data is available in the form of `.csv` files.
 
 ### Links
 
-- [Homepage](http://www.fit.vutbr.cz/~ihomoliak/asnm/)
-- [ASNM-CDX-2009](https://www.fit.vutbr.cz/~ihomoliak/asnm/ASNM-CDX-2009.html)
-- [ASMN-TUN](https://www.fit.vutbr.cz/~ihomoliak/asnm/ASNM-TUN.html)
-- [ASMN-NPBO](https://www.fit.vutbr.cz/~ihomoliak/asnm/ASNM-NPBO.html)
+- [Homepage](https://www.fit.vut.cz/research/publication/12109/)
+- [Download](https://ieee-dataport.org/open-access/asnm-datasets-collection-network-traffic-data-testing-adversarial-classifiers-and) (IEEE login required)
 
 ### Related Entries
 

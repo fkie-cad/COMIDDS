@@ -7,10 +7,10 @@ title: SimuLand Golden SAML Dataset
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Data](#data)
+- [Data Example](#data-example)
 
 | <!-- -->                 | <!-- -->                                         |
-|--------------------------|--------------------------------------------------|
+| ------------------------ | ------------------------------------------------ |
 | **Network Data Source**  | -                                                |
 | **Network Data Labeled** | -                                                |
 | **Host Data Source**     | Events from AAD, MS Defender, Office and Windows |
@@ -67,7 +67,7 @@ Labels are not provided, presumably expecting all logs to be considered maliciou
 - [AAD Hybrid Identity: AD FS Environment](https://github.com/Azure/SimuLand/blob/main/docs/environments/aadHybridIdentityADFS/README.md)
 - [(Blog Post) Sharing the first SimuLand dataset to expedite research and learn about adversary trade-craft](https://www.microsoft.com/en-us/security/blog/2021/08/05/sharing-the-first-simuland-dataset-to-expedite-research-and-learn-about-adversary-tradecraft/)
 
-### Data
+### Data Example
 
 AAD audit events
 
