@@ -1,5 +1,5 @@
 ---
-title: I-SEC-IDS
+title: I-Sec-IDS
 ---
 
 - [Overview](#overview)
@@ -32,7 +32,7 @@ title: I-SEC-IDS
 ***
 
 ### Overview
-The I-SEC-IDS dataset (exact meaning of the acronym unknown) consists of a small amount of network flows collected from a singular VM under attack.
+The I-Sec-IDS dataset (exact meaning of the acronym unknown) consists of a small amount of network flows collected from a singular VM under attack.
 It does not feature user behavior or any other notable properties.
 
 ### Environment
