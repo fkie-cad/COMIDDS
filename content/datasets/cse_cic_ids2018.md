@@ -9,10 +9,10 @@ title: CSE-CIC-IDS2018
 - [Papers](#papers)
 - [Links](#links)
 - [Related Entries](#related-entries)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                 |
-|--------------------------|----------------------------------------------------------------------------------------------------------|
+| ------------------------ | -------------------------------------------------------------------------------------------------------- |
 | **Network Data Source**  | pcaps, NetFlows                                                                                          |
 | **Network Data Labeled** | Yes, NetFlows are labeled                                                                                |
 | **Host Data Source**     | Ubuntu event logs, Windows event logs                                                                    |
@@ -82,7 +82,7 @@ The aforementioned flaws of this dataset, such as some simulation artifacts maki
 ### Links
 
 - [Homepage](https://www.unb.ca/cic/datasets/ids-2018.html)
-    - For download, install AWS CLI and
+    - To download, install AWS CLI and
       run `aws s3 sync --no-sign-request --region <your-region> "s3://cse-cic-ids2018/" dest-dir`, where your-region is
       your AWS region and destination-dir is the target directory.
     - If cou only need the labeled features, use `s3://cse-cic-ids2018/Processed Traffic Data for ML Algorithms` as your URL
@@ -92,7 +92,7 @@ The aforementioned flaws of this dataset, such as some simulation artifacts maki
 - [CIC IDS2017](/COMIDDS/content/datasets/cic_ids2017)
 - [NF-UQ-NIDS](/COMIDDS/content/datasets/nf_uq_nids)
 
-### Example Data
+### Data Examples
 
 Labeled features from `Processed Traffic Data for ML Algorithms/Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv`
 

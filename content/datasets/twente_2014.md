@@ -10,24 +10,24 @@ title: Twente 2014 Dataset
 - [Links](#links)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                      |
-|--------------------------|---------------------------------------------------------------|
-| **Network Data Source**  | NetFlows (ssh auth only)                                      |
-| **Network Data Labeled** | Yes                                                           |
-| **Host Data Source**     | ssh auth logs                                                 |
-| **Host Data Labeled**    | Yes                                                           |
-|                          |                                                               |
-| **Overall Setting**      | Enterprise OS                                                 |
-| **OS Types**             | n/a                                                           |
-| **Number of Machines**   | 93                                                            |
-| **Total Runtime**        | 2 months                                                      |
-| **Year of Collection**   | 2013-2014                                                     |
-| **Attack Categories**    | ssh bruteforce                                                |
-| **Benign Activity**      | Real users                                                    |
-|                          |                                                               |
-| **Packed Size**          | 2,42 GB                                                       |
-| **Unpacked Size**        | 5,76 GB                                                       |
-| **Download Link**        | [goto](https://www.simpleweb.org/wiki/index.php/SSH_datasets) |
+| <!-- -->                 | <!-- -->                                                           |
+| ------------------------ | ------------------------------------------------------------------ |
+| **Network Data Source**  | NetFlows (ssh auth only)                                           |
+| **Network Data Labeled** | Yes                                                                |
+| **Host Data Source**     | ssh auth logs                                                      |
+| **Host Data Labeled**    | Yes                                                                |
+|                          |                                                                    |
+| **Overall Setting**      | Enterprise OS                                                      |
+| **OS Types**             | n/a                                                                |
+| **Number of Machines**   | 93                                                                 |
+| **Total Runtime**        | 2 months                                                           |
+| **Year of Collection**   | 2013-2014                                                          |
+| **Attack Categories**    | ssh bruteforce                                                     |
+| **Benign Activity**      | Real users                                                         |
+|                          |                                                                    |
+| **Packed Size**          | 2,42 GB                                                            |
+| **Unpacked Size**        | 5,76 GB                                                            |
+| **Download Link**        | [goto](https://www.simpleweb.org/wiki/index.php/SSH_datasets.html) |
 
 ***
 

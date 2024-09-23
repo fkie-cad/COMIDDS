@@ -12,7 +12,7 @@ title: NSL-KDD
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                           |
-|--------------------------|------------------------------------------------------------------------------------|
+| ------------------------ | ---------------------------------------------------------------------------------- |
 | **Network Data Source**  | Connection records                                                                 |
 | **Network Data Labeled** | Yes                                                                                |
 | **Host Data Source**     | -                                                                                  |
@@ -74,7 +74,6 @@ Note that the original download source is now longer accessible, however, an uno
 
 ### Links
 
-- [Homepage](https://www.unb.ca/cic/datasets/nsl.html)
 - [Unofficial Download Source](https://github.com/HoaNP/NSL-KDD-DataSet)
 
 ### Related Entries

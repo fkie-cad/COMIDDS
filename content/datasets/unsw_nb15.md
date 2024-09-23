@@ -11,24 +11,24 @@ title: UNSW-NB15
 - [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                                                                                              |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Data Source**  | pcaps, custom network features                                                                                                        |
-| **Network Data Labeled** | Yes                                                                                                                                   |
-| **Host Data Source**     | -                                                                                                                                     |
-| **Host Data Labeled**    | -                                                                                                                                     |
-|                          |                                                                                                                                       |
-| **Overall Setting**      | Miscellaneous                                                                                                                         |
-| **OS Types**             | Undisclosed                                                                                                                           |
-| **Number of Machines**   | <45                                                                                                                                   |
-| **Total Runtime**        | 31 hours                                                                                                                              |
-| **Year of Collection**   | 2015                                                                                                                                  |
-| **Attack Categories**    | Scanning<br/>Backdoors<br/>DoS<br/>Exploits<br/>Reconnaissance<br/>Shellcode<br/>Worms<br/>Fuzzing                                    |
-| **Benign Activity**      | Synthetic, via IXIA PerfectStorm                                                                                                            |
-|                          |                                                                                                                                       |
-| **Packed Size**          | ~100 GB                                                                                                                               |
-| **Unpacked Size**        | n/a                                                                                                                                   |
-| **Download Link**        | [goto](https://unsw-my.sharepoint.com/:f:/g/personal/z5025758_ad_unsw_edu_au/EnuQZZn3XuNBjgfcUu4DIVMBLCHyoLHqOswirpOQifr1ag?e=gKWkLS) |
+| <!-- -->                 | <!-- -->                                                                                                                                                                                    |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Network Data Source**  | pcaps, custom network features                                                                                                                                                              |
+| **Network Data Labeled** | Yes                                                                                                                                                                                         |
+| **Host Data Source**     | -                                                                                                                                                                                           |
+| **Host Data Labeled**    | -                                                                                                                                                                                           |
+|                          |                                                                                                                                                                                             |
+| **Overall Setting**      | Miscellaneous                                                                                                                                                                               |
+| **OS Types**             | Undisclosed                                                                                                                                                                                 |
+| **Number of Machines**   | <45                                                                                                                                                                                         |
+| **Total Runtime**        | 31 hours                                                                                                                                                                                    |
+| **Year of Collection**   | 2015                                                                                                                                                                                        |
+| **Attack Categories**    | Scanning<br/>Backdoors<br/>DoS<br/>Exploits<br/>Reconnaissance<br/>Shellcode<br/>Worms<br/>Fuzzing                                                                                          |
+| **Benign Activity**      | Synthetic, via IXIA PerfectStorm                                                                                                                                                            |
+|                          |                                                                                                                                                                                             |
+| **Packed Size**          | ~100 GB                                                                                                                                                                                     |
+| **Unpacked Size**        | n/a                                                                                                                                                                                         |
+| **Download Link**        | [goto](https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset&ga=1) |
 
 ***
 
@@ -94,10 +94,13 @@ Other available files are:
 
 ### Links
 - [Homepage](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+- [OneDrive Share](https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset)
 - READMEs
   - [General](https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FReadMe%2Epdf&parent=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset)
-  - [Features](https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FCSV%20Files%2FThe%20UNSW%2DNB15%20description%2Epdf&parent=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FCSV%20Files)
+  - [Features](https://unsw-my.sharepoint.com/:x:/r/personal/z5025758_ad_unsw_edu_au/_layouts/15/Doc.aspx?sourcedoc=%7B975B24E4-7E36-4CE1-B98A-9FBE4BB521B7%7D&file=NUSW-NB15_features.csv&action=default&mobileredirect=true)
 - [IXIA PerfectStorm](https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html)
+
+*Note: Should the direct sharepoint links above not work for you, try accessing the dataset through the homepage*
 
 ### Related Entries
 - [NF-UQ-NIDS](/COMIDDS/content/datasets/nf_uq_nids)

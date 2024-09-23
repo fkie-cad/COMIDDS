@@ -17,24 +17,24 @@ missing.
 In what follows, only ADFA-WD:SAA will be described.
 Info for ADFA-WD will be added if that data becomes available.
 
-| <!-- -->                 | <!-- -->                                                                                            |
-|--------------------------|-----------------------------------------------------------------------------------------------------|
-| **Network Data Source**  | -                                                                                                   |
-| **Network Data Labeled** | -                                                                                                   |
-| **Host Data Source**     | DLL calls, XML logs from Procmon                                                                    |
-| **Host Data Labeled**    | "Yes", as in SAA only contains attack data                                                          |
-|                          |                                                                                                     |
-| **Overall Setting**      | Single OS                                                                                           |
-| **OS Types**             | Windows XP Service Pack 2                                                                           |
-| **Number of Machines**   | 1                                                                                                   |
-| **Total Runtime**        | n/a                                                                                                 |
-| **Year of Collection**   | 2014                                                                                                |
-| **Attack Categories**    | Stealthy Shellcode                                                                                  |
-| **Benign Activity**      | n/a                                                                                                 |
-|                          |                                                                                                     |
-| **Packed Size**          | 403 MB                                                                                              |
-| **Unpacked Size**        | 13,6 GB                                                                                             |
-| **Download Link**        | [ADFA-WD:SAA](https://cloudstor.aarnet.edu.au/plus/s/UC733k398npjHA8/download) (EXPIRES 15.12.2023) |
+| <!-- -->                 | <!-- -->                                   |
+| ------------------------ | ------------------------------------------ |
+| **Network Data Source**  | -                                          |
+| **Network Data Labeled** | -                                          |
+| **Host Data Source**     | DLL calls, XML logs from Procmon           |
+| **Host Data Labeled**    | "Yes", as in SAA only contains attack data |
+|                          |                                            |
+| **Overall Setting**      | Single OS                                  |
+| **OS Types**             | Windows XP Service Pack 2                  |
+| **Number of Machines**   | 1                                          |
+| **Total Runtime**        | n/a                                        |
+| **Year of Collection**   | 2014                                       |
+| **Attack Categories**    | Stealthy Shellcode                         |
+| **Benign Activity**      | n/a                                        |
+|                          |                                            |
+| **Packed Size**          | 403 MB                                     |
+| **Unpacked Size**        | 13,6 GB                                    |
+| **Download Link**        | n/a                                        |
 
 ***
 
@@ -46,6 +46,10 @@ These datasets were introduced to address the limitations of older datasets, suc
 become outdated given the evolution of cyber threats.
 Later, the Windows dataset was expanded with an addendum containing stealth attack traces named ADFA-WD:SAA (Stealth
 Attack Addendum).
+
+*Note: The provider this dataset was hosted on shut down in 2023.
+As of writing this, I am unaware of other download sources.
+Should you find one, please open a pull request.*
 
 ### Environment
 
@@ -83,9 +87,9 @@ Data is available in two formats:
 
 - [Homepage](https://research.unsw.edu.au/projects/adfa-ids-datasets)
 - (ADFA-WD download not available)
-- [ADFA-WD-SAA Download](https://cloudstor.aarnet.edu.au/plus/s/UC733k398npjHA8/download)
+- (ADFA-WD-SAA download not available)
 
-Note: Download links will most likely expire by 15.12.2023 as the storage provider is shutting down.
+*Note: At the time of writing, links on the official homepage have not been updated.*
 
 ### Related Entries
 

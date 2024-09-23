@@ -7,10 +7,10 @@ title: EVTX to MITRE ATT&CK
 - [Activity](#activity)
 - [Contained Data](#contained-data)
 - [Links](#links)
-- [Example Data](#example-data)
+- [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                                                                          |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Network Data Source**  | -                                                                                                                                                 |
 | **Network Data Labeled** | -                                                                                                                                                 |
 | **Host Data Source**     | Windows evtx files                                                                                                                                |
@@ -56,7 +56,7 @@ These files could either be used as-is, or converted into something like JSON or
 
 - [Homepage](https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack)
 
-### Example Data
+### Data Examples
 
 Some events taken
 from `TA00004-Privilege Escalation/T1574-DLL side-loading/ID354-808-Mimispool printer installation (PrintNightmare).evtx`,
