@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 import requests
+import re
 from time import sleep
 
 
@@ -13,7 +14,7 @@ def get_all_paper_ids(filename):
             if line.startswith("| "):
                 # Relevant value is in the fourth row
                 paper_id = line.split("|")[4].strip()
-                if len(paper_id) == 40:
+                if len(re.sub(r"\W+", "", paper_id)) == 40:
                     all_ids.append(paper_id)
     return all_ids
 
