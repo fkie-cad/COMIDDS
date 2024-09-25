@@ -24,8 +24,8 @@ def fetch_citation_info_from_ids(paper_ids, api_key):
     request_headers = {
         "x-api-key": api_key,
     }
-    max_tries = 20
-    base_wait_after_failure = 2  # seconds, multiplied by the current attempt number
+    max_tries = 999  # try (almost) forever until we hopefully get our API key
+    base_wait_after_failure = 1  # seconds, multiplied by the current attempt number
 
     for paper_id in paper_ids:
         print(f"Now processing paper {paper_id}...")
@@ -43,7 +43,9 @@ def fetch_citation_info_from_ids(paper_ids, api_key):
                 success = True
 
             except requests.HTTPError as e:
-                wait_timer = base_wait_after_failure * current_attempt
+                wait_timer = base_wait_after_failure * current_attempt + 1
+                wait_timer = min(wait_timer, 10)
+
                 print(f"WARNING: Unable to fetch citation details for paper with id {paper_id} on attempt {current_attempt + 1}/{max_tries}.")
                 print(f"The failed request returned the following:\n{e.args[0].json()}")
                 print(f"Waiting for {wait_timer} seconds and trying again.")
