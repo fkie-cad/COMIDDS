@@ -1,0 +1,16 @@
+name: API Key Keep Alive
+
+on:
+  schedule:
+    - cron: "0 1 * * SUN" # At 01:00 on Sunday
+
+jobs:
+  keep_alive:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - name: Make a single API request to prevent the API key from expiring
+        env: 
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+        run: |
+          wget -qO- --header="x-api-key: $S2_API_KEY" --header="Content-Type: application/json" "https://api.semanticscholar.org/graph/v1/paper/431f7fb6c9e12aaaa8dcc2abefa1c6514ab40074"
