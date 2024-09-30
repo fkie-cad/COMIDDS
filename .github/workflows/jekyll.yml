@@ -55,7 +55,7 @@ jobs:
         run: pip install pandas matplotlib seaborn requests
 
       - name: Fetch citation information from papers
-        run: python tools/count_citations.py
+        run: python tools/count_citations.py --api-key ${{ secrets.S2_API_KEY }}
 
       - name: Generate CSV assets # must happen after fetching citation info
         run: python tools/generate_csv.py
