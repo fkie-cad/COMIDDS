@@ -31,6 +31,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,7 +58,7 @@ jobs:
       - name: Fetch citation information from papers
         env: 
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
-        run: python tools/count_citations.py --api-key "$S2_API_KEY"
+        run: python tools/count_citations.py --api-key $S2_API_KEY
 
       - name: Generate CSV assets # must happen after fetching citation info
         run: python tools/generate_csv.py
