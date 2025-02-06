@@ -19,13 +19,6 @@ EXCEPTIONS = {
     # Some valid links return nonsensical status codes
     # Only add links that are known to be valid with that specific status code
     # Do not add 404s
-    "https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html": 403,
-    "https://onlineacademiccommunity.uvic.ca/isot/wp-content/uploads/sites/7295/2023/03/ISOT-Dataset-Overview-v0.5.pdf": 403,
-    "https://doi.org/10.1142/9781786340757_0002": 403,
-    "https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset&ga=1": 401,
-    "https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset": 401,
-    "https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FReadMe%2Epdf&parent=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset": 401,
-    "https://unsw-my.sharepoint.com/:x:/r/personal/z5025758_ad_unsw_edu_au/_layouts/15/Doc.aspx?sourcedoc=%7B975B24E4-7E36-4CE1-B98A-9FBE4BB521B7%7D&file=NUSW-NB15_features.csv&action=default&mobileredirect=true": 401,
 }
 
 
@@ -87,13 +80,18 @@ def verify_jekyll_link(link: str):
 
 
 def get_url(link: str, verify_ssl: bool):
-    return requests.get(
-        link, stream=True, timeout=5, allow_redirects=True, verify=verify_ssl
-    )
+    # Use a proper header, otherwise some servers will respond with a 403
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Upgrade-Insecure-Requests": "1",
+    }
+    return requests.get(link, stream=True, timeout=5, allow_redirects=True, verify=verify_ssl, headers=headers)
 
 
 def verify_web_link(link: str):
     verify_ssl = True
+
     try:
         response = get_url(link, verify_ssl)
     except requests.exceptions.SSLError:
@@ -114,9 +112,7 @@ def verify_web_link(link: str):
     elif EXCEPTIONS.get(link) == response.status_code:
         return
     elif 300 <= response.status_code < 400:
-        raise InvalidLink(
-            f"Received a {response.status_code} redirect to {response.headers['Location']}."
-        )
+        raise InvalidLink(f"Received a {response.status_code} redirect to {response.headers['Location']}.")
     else:
         raise InvalidLink(f"Request returned with status code {response.status_code}.")
 
@@ -138,11 +134,7 @@ def verify_links(file_name: str, links: list[str]):
                 verify_internal_anchor(file_content, link)
             elif link.startswith("/"):
                 verify_internal_absolute_link(link)
-            elif (
-                link.startswith("../")
-                or link.endswith(".md")
-                and not link.startswith("http")
-            ):
+            elif link.startswith("../") or link.endswith(".md") and not link.startswith("http"):
                 verify_internal_relative_link(file_name, link)
             elif link.startswith("{{"):
                 verify_jekyll_link(link)
