@@ -32,7 +32,7 @@ title: Biblio-US17
 
 ### Overview
 The Biblio-US17 dataset consists of selected features extracted from ~48 million web requests recorded from a webserver at the University of Seville (Spain).
-The recording period spanned 6,5 months and includes benign usage during that time.
+The recording period spanned 6.5 months and includes benign usage during that time.
 Requests are made available in a labeled, but heavily anonymized form.
 
 ### Environment
@@ -59,6 +59,7 @@ With an example looking like this:
 Notably, fine-grained timestamps are *not* available.
 Labels are available in a separate file;
 for each request a line beginning with the same identifier indicates which IDSs triggered on this request.
+The researches then manually determine whether this is a true or false positive, leveraging additional info presented by the intrusion detection alerts.
 Furthermore, additional labels inform about features like the confidence level of this attack which range from level 1 to 4, with level 1 being a confirmed attack.
 For additional information, refer to the README linked below, which documents all fields in a concise way.
 
