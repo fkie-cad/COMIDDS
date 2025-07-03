@@ -38,6 +38,27 @@ Additionally, for publications, all datasets discussed in the survey are also li
 
 ## Publications
 
+### Network intrusion datasets: A survey, limitations, and recommendations (2025)
+
+[Link to Paper](https://doi.org/10.1016/j.cose.2025.104510)
+```
+Goldschmidt, P., & Chudá, D. (2025). Network intrusion datasets: A survey, limitations, and recommendations. Computers & Security, 156, 104510.
+```
+A data-centered review focusing specifically on the state of network intrusion detection (NID) datasets.
+The authors systematically identify *89 publicly available NID datasets* spanning from 1998 to 2023, analyzing 13 key properties (e.g., normal/attack traffic origin, data format, labeling approach) and highlighting domain-specific limitations such as timeliness, class imbalance, and missing documentation.
+The paper discusses *real* vs. *emulated* vs. *synthetic* traffic, culminating in best-practice recommendations for dataset creation (e.g., scenario design, labeling, documentation).
+They also include a popularity study, revealing minimal reusability across the field and underscoring the need for community-driven continuous data capture and standardization.
+
+Referenced datasets (selection of 89 total):
+- [DARPA 1998 / 1999](/COMIDDS/content/datasets/darpa98)  
+- [KDD Cup 1999](/COMIDDS/content/datasets/kdd_cup_1999)  
+- [NSL-KDD](/COMIDDS/content/datasets/nsl_kdd_dataset)  
+- [ISCX-IDS 2012](/COMIDDS/content/datasets/iscx_ids_2012)  
+- [UNSW-NB15](/COMIDDS/content/datasets/unsw_nb15)  
+- [CIC-IDS2017](/COMIDDS/content/datasets/cic_ids2017)  
+- [CSE-CIC-IDS 2018](/COMIDDS/content/datasets/cse_cic_ids2018)  
+- Bot-IoT, IoT-23, TON_IoT, UGR'16, MaWILab, and many others in diverse categories.
+
 ### A systematic literature review of methods and datasets for anomaly-based network intrusion detection (2022)
 
 [Link to Paper](https://doi.org/10.1016/j.cose.2022.102675)
@@ -45,9 +66,9 @@ Additionally, for publications, all datasets discussed in the survey are also li
 Yang, Z., Liu, X., Li, T., Wu, D., Wang, J., Zhao, Y., & Han, H. (2022). A systematic literature review of methods and datasets for anomaly-based network intrusion detection. Computers & Security, 116, 102675.
 ```
 An extensive survey covering a broad range of publications (119 in total) and topics related to anomaly-based network intrusion detection systems, ranging from data preprocessing over evaluation metrics to, relevant here, datasets.
-While it is one of the more comprehensive surveys in this regard, listing over 52 datasets and collections, there is very little information provided for each of them.
+Though it is one of the more comprehensive surveys in this regard, listing over 52 datasets and collections, there is very little information provided for each of them.
 Every entry is described with four properties (real/emulated, event count, label existence and number of labels), along with a few sentences outlining some additional details, though in no particular order or consistent manner.
-While significant in scope (though not complete), the provided coverage of dataset is negligible, i.e., there is no further analysis or conclusion on the basis of the surveyed datasets.
+While significant in scope (though not complete), the provided details of covered datasets are negligible, i.e., there is no further analysis or conclusion on the basis of the surveyed datasets.
 
 Referenced datasets:
 - [ADFA-LD](/COMIDDS/content/datasets/adfa_ld)
