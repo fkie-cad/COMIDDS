@@ -11,7 +11,7 @@ title: NGIDS Dataset
 - [Data Examples](#data-examples)
 
 | <!-- -->                 | <!-- -->                                                                                      |
-|--------------------------|-----------------------------------------------------------------------------------------------|
+| ------------------------ | --------------------------------------------------------------------------------------------- |
 | **Network Data Source**  | pcaps                                                                                         |
 | **Network Data Labeled** | Ground truth provided                                                                         |
 | **Host Data Source**     | Features derived from host events                                                             |

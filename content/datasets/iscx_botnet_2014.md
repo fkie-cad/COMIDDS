@@ -10,24 +10,24 @@ title: ISCX Botnet Dataset 2014
 - [Links](#links)
 - [Related Entries](#related-entries)
 
-| <!-- -->                 | <!-- -->                                                        |
-| ------------------------ | --------------------------------------------------------------- |
-| **Network Data Source**  | pcaps                                                           |
-| **Network Data Labeled** | Yes                                                             |
-| **Host Data Source**     | -                                                               |
-| **Host Data Labeled**    | -                                                               |
-|                          |                                                                 |
-| **Overall Setting**      | Enterprise IT                                                   |
-| **OS Types**             | Undisclosed                                                     |
-| **Number of Machines**   | 2000+                                                           |
-| **Total Runtime**        | n/a                                                             |
-| **Year of Collection**   | 2004-2014                                                       |
-| **Attack Categories**    | Botnets                                                         |
-| **User Emulation**       | Real Users                                                      |
-|                          |                                                                 |
-| **Packed Size**          | -                                                               |
-| **Unpacked Size**        | 13,8 GB                                                         |
-| **Download Link**        | [goto](http://205.174.165.80/CICDataset/ISCX-Bot-2014/Dataset/) |
+| <!-- -->                 | <!-- -->      |
+| ------------------------ | ------------- |
+| **Network Data Source**  | pcaps         |
+| **Network Data Labeled** | Yes           |
+| **Host Data Source**     | -             |
+| **Host Data Labeled**    | -             |
+|                          |               |
+| **Overall Setting**      | Enterprise IT |
+| **OS Types**             | Undisclosed   |
+| **Number of Machines**   | 2000+         |
+| **Total Runtime**        | n/a           |
+| **Year of Collection**   | 2004-2014     |
+| **Attack Categories**    | Botnets       |
+| **User Emulation**       | Real Users    |
+|                          |               |
+| **Packed Size**          | -             |
+| **Unpacked Size**        | 13,8 GB       |
+| **Download Link**        | n/a           |
 
 ***
 
@@ -39,6 +39,9 @@ To this end, three overarching shortcomings affecting (at the time) current data
 - Realism (environments are not realistic / long-lasting enough for a botnet to perform all malicious functionality)
 - Representativeness (benign behavior does not resemble that of actual networks)
 In order to alleviate these flaws, the authors combine traffic from three sources - ISOT Botnet, ISCX IDS 2012, and the Malware Capture Facility Project - with the goal of creating one novel dataset.
+
+*Note: At the time of writing, this dataset has been taken down by the original authors.
+Should you find a working download URL, please open a pull request.*
 
 ### Environment
 For details regarding the respective underlying datasets, refer to the related entries and links below.
