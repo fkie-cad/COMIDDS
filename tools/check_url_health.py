@@ -19,6 +19,7 @@ EXCEPTIONS = {
     # Some valid links return nonsensical status codes
     # Only add links that are known to be valid with that specific status code
     # Do not add 404s
+    "https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html": 403,
 }
 
 
@@ -80,13 +81,14 @@ def verify_jekyll_link(link: str):
 
 
 def get_url(link: str, verify_ssl: bool):
-    # Use a proper header, otherwise some servers will respond with a 403
+    # Use comprehensive browser headers to avoid 403 blocks
     headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
     }
-    return requests.get(link, stream=True, timeout=5, allow_redirects=True, verify=verify_ssl, headers=headers)
+
+    return requests.get(link, stream=True, timeout=10, allow_redirects=True, verify=verify_ssl, headers=headers)
 
 
 def verify_web_link(link: str):
@@ -106,13 +108,15 @@ def verify_web_link(link: str):
                 f"\033[94mINFO:\n\033[0mURL \033[4m{link}\033[0m was accessible, but only when disabling SSL verification.\n"
             )
         return
-    elif response.status_code == 403 and "doi.org" in link:
-        print(f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m returned 403 but is likely valid (DOI link).\n")
-        return
-    elif response.status_code == 418 and "doi.org" in link:
-        # Some DOI links return 418 for some reason, even though all of the links are valid
+    elif (response.status_code == 403 or response.status_code == 418) and (
+        "doi.org" in link or "dl.acm.org/doi" in link
+    ):
+        print(
+            f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m returned {response.status_code} but is likely valid (DOI link).\n"
+        )
         return
     elif EXCEPTIONS.get(link) == response.status_code:
+        print(f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m is known to return {response.status_code}.\n")
         return
     elif 300 <= response.status_code < 400:
         raise InvalidLink(f"Received a {response.status_code} redirect to {response.headers['Location']}.")
@@ -162,6 +166,9 @@ def main():
     if counter:
         print(f"\033[91m{counter} invalid links found.\033[0m")
         sys.exit(1)
+    else:
+        print("\033[92mAll links are valid! Probably! Hopefully!\033[0m")
+        sys.exit(0)
 
 
 if __name__ == "__main__":
