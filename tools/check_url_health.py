@@ -34,7 +34,7 @@ def grab_all_links(directory: str) -> dict[str, list[str]]:
             all_files.append(os.path.join(root, file))
 
     for file in all_files:
-        with open(file, "r") as f:
+        with open(file, "r", encoding="utf-8") as f:
             # Do not check for URLs in the example data section, if present
             content = f.read().split("### Data Examples")[0]
 
@@ -73,9 +73,9 @@ def verify_jekyll_link(link: str):
         return
 
     pattern = re.compile(r"(\/.*?\.[\w:]+)")
-    match = pattern.search(link).group(1)
-    if not match or not os.path.exists(match.lstrip("/")):
-        print(match)
+    match = pattern.search(link)
+    if not match or not os.path.exists(match.group(1).lstrip("/")):
+        print(match.group(1) if match else None)
         raise InvalidLink(f"Jekyll link does not point to a valid file.")
 
 
@@ -106,6 +106,9 @@ def verify_web_link(link: str):
                 f"\033[94mINFO:\n\033[0mURL \033[4m{link}\033[0m was accessible, but only when disabling SSL verification.\n"
             )
         return
+    elif response.status_code == 403 and "doi.org" in link:
+        print(f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m returned 403 but is likely valid (DOI link).\n")
+        return
     elif response.status_code == 418 and "doi.org" in link:
         # Some DOI links return 418 for some reason, even though all of the links are valid
         return
@@ -119,7 +122,7 @@ def verify_web_link(link: str):
 
 def verify_links(file_name: str, links: list[str]):
     chars_not_in_anchors = ["(", ")", ":", ","]
-    with open(file_name, "r") as f:
+    with open(file_name, "r", encoding="utf-8") as f:
         # This deals with how markdown converts headings to anchors
         file_content = f.read().lower().replace(" - ", " ").replace("-", " ")
         for char in chars_not_in_anchors:
@@ -143,7 +146,7 @@ def verify_links(file_name: str, links: list[str]):
         except InvalidLink as e:
             counter += 1
             print(
-                f"\033[93mWARNING:\n\033[0mInvalid link \033[4m{link}\033[0m in file \033[1m{file_name}\033[0m:\n{e}\n"
+                f"\033[91mERROR:\n\033[0mInvalid link \033[4m{link}\033[0m in file \033[1m{file_name}\033[0m:\n{e}\n"
             )
             continue
     return counter
