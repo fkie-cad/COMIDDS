@@ -41,13 +41,14 @@ As the name suggests, this dataset aims to enable federated learning by providin
 
 The dataset originates from a CORE-emulated environment running the GEANT-2012 network topology with 40 interconnected routers, similar to the network infrastructure of an ISP.
 Each node represents a "primary router" serving a specific geographic location; a subset of ten of these are chosen as data collection points.
-While further details like operating system or services are not specified, CORE typically uses Linux-based containers and standard Linux-based network services
+While further details like operating system or services are not specified, CORE typically uses Linux-based containers and standard Linux-based network services.
 Refer to the [README](https://github.com/nsol-nmsu/FML-Network) for a detailed illustration of the network setup.
 
 ### Activity
 
 Benign traffic generation (via hping3) is described as representing multiple protocols and covering a variety of devices and traffic patterns.
 Attacks are orchestrated by integrating various open-source tools in the CORE environment to automate the execution of a number of attacks:
+
 - DDoS Bot/Dyn/Stomp/TCP (MHDDoS)
 - DoS (Hulk, SlowHTTP)
 - Web SQLi (sqlmap)
