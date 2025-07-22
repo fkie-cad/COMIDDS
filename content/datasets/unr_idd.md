@@ -22,7 +22,7 @@ title: UNR-IDD
 | **Number of Machines**   | 10 virtual hosts, 12 switches                                                              |
 | **Total Runtime**        | n/a                                                                                        |
 | **Year of Collection**   | 2023                                                                                       |
-| **Attack Categories**    | TCP-SYN flood<br>Port scan<br>Flow table overflow<br>Backhole<br>Diversion                 |
+| **Attack Categories**    | TCP-SYN flood<br>Port scan<br>Flow table overflow<br>Blackhole<br>Diversion                |
 | **User Emulation**       | Synthetic                                                                                  |
 |                          |                                                                                            |
 | **Packed Size**          | -                                                                                          |
