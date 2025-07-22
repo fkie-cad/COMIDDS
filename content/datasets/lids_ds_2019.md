@@ -10,24 +10,24 @@ title: LID-DS 2019
 - [Links](#links)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                                 |
-| ------------------------ | ------------------------------------------------------------------------ |
-| **Network Data Source**  | -                                                                        |
-| **Network Data Labeled** | -                                                                        |
-| **Host Data Source**     | Syscalls with parameter information                                      |
-| **Host Data Labeled**    | Ground truth provided                                                    |
-|                          |                                                                          |
-| **Overall Setting**      | Single OS                                                                |
-| **OS Types**             | Ubuntu 18.04                                                             |
-| **Number of Machines**   | 1                                                                        |
-| **Total Runtime**        | 30 seconds per sim                                                       |
-| **Year of Collection**   | 2019                                                                     |
-| **Attack Categories**    | Various CVEs                                                             |
-| **Benign Activity**      | Synthetic                                                                |
-|                          |                                                                          |
-| **Packed Size**          | 13 GB                                                                    |
-| **Unpacked Size**        | n/a                                                                      |
-| **Download Link**        | [goto](https://cloud.scadsai.uni-leipzig.de/index.php/s/kTY67LRiT3BGy8c) |
+| <!-- -->                 | <!-- -->                                                     |
+| ------------------------ | ------------------------------------------------------------ |
+| **Network Data Source**  | -                                                            |
+| **Network Data Labeled** | -                                                            |
+| **Host Data Source**     | Syscalls with parameter information                          |
+| **Host Data Labeled**    | Ground truth provided                                        |
+|                          |                                                              |
+| **Overall Setting**      | Single OS                                                    |
+| **OS Types**             | Ubuntu 18.04                                                 |
+| **Number of Machines**   | 1                                                            |
+| **Total Runtime**        | 30 seconds per sim                                           |
+| **Year of Collection**   | 2019                                                         |
+| **Attack Categories**    | Various CVEs                                                 |
+| **Benign Activity**      | Synthetic                                                    |
+|                          |                                                              |
+| **Packed Size**          | 13 GB                                                        |
+| **Unpacked Size**        | n/a                                                          |
+| **Download Link**        | [goto](https://drive.proton.me/urls/BWKRGQK994#fCK9JKL93Sjm) |
 
 ***
 
@@ -82,8 +82,8 @@ Additionally, for each attack there is a `run.cvs` file, which contains metadata
 ### Links
 
 - [LID-DS on GitHub](https://github.com/LID-DS/LID-DS)
-- [2019 Version Download](https://cloud.scadsai.uni-leipzig.de/index.php/s/kTY67LRiT3BGy8c)
-- [2021 Version Download](https://cloud.scadsai.uni-leipzig.de/index.php/s/JtKyYC33SYnk49T)
+- [2019 Version Download](https://drive.proton.me/urls/BWKRGQK994#fCK9JKL93Sjm)
+- [2021 Version Download](https://drive.proton.me/urls/4DCRHJC9XC#pn6TukLN0Wq5)
 
 ### Data Examples
 
