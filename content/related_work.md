@@ -12,6 +12,7 @@ Additionally, for publications, all datasets discussed in the survey are also li
 ## Contents
 
 - Publications
+    - [Network intrusion datasets: A survey, limitations, and recommendations (2025)](#network-intrusion-datasets-a-survey-limitations-and-recommendations-2025)
     - [A systematic literature review of methods and datasets for anomaly-based network intrusion detection (2022)](#a-systematic-literature-review-of-methods-and-datasets-for-anomaly-based-network-intrusion-detection-2022)
     - [Pillars of Sand: The current state of Datasets in the field of Network Intrusion Detection (2022)](#pillars-of-sand-the-current-state-of-datasets-in-the-field-of-network-intrusion-detection-2022)
     - [A Comprehensive Survey of Databases and Deep Learning Methods for Cybersecurity and Intrusion Detection Systems (2020)](#a-comprehensive-survey-of-databases-and-deep-learning-methods-for-cybersecurity-and-intrusion-detection-systems-2020)
