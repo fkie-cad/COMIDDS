@@ -20,6 +20,10 @@ EXCEPTIONS = {
     # Only add links that are known to be valid with that specific status code
     # Do not add 404s
     "https://www.keysight.com/us/en/products/network-test/network-test-hardware/perfectstorm.html": 403,
+    # Medium blocks some requests, but the links are valid. Might want to spoof headers if more appear
+    "https://medium.com/threat-hunters-forge/mordor-labs-part-1-deploying-att-ck-apt29-evals-environments-via-arm-templates-to-create-1c6c4bc32c9a": 403,
+    "https://medium.com/threat-hunters-forge/mordor-labs-part-2-executing-att-ck-apt29-evals-emulation-plan-day1-17fae7a81229": 403,
+    "https://medium.com/threat-hunters-forge/mordor-labs-part-3-executing-att-ck-apt29-evaluations-emulation-plan-day2-417cadc2a337": 403,
 }
 
 
@@ -104,16 +108,10 @@ def verify_web_link(link: str):
 
     if 200 <= response.status_code < 300:
         if not verify_ssl:
-            print(
-                f"\033[94mINFO:\n\033[0mURL \033[4m{link}\033[0m was accessible, but only when disabling SSL verification.\n"
-            )
+            print(f"\033[94mINFO:\n\033[0mURL \033[4m{link}\033[0m was accessible, but only when disabling SSL verification.\n")
         return
-    elif (response.status_code == 403 or response.status_code == 418) and (
-        "doi.org" in link or "dl.acm.org/doi" in link
-    ):
-        print(
-            f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m returned {response.status_code} but is likely valid (DOI link).\n"
-        )
+    elif (response.status_code == 403 or response.status_code == 418) and ("doi.org" in link or "dl.acm.org/doi" in link):
+        print(f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m returned {response.status_code} but is likely valid (DOI link).\n")
         return
     elif EXCEPTIONS.get(link) == response.status_code:
         print(f"\033[93mWARNING:\n\033[0mURL \033[4m{link}\033[0m is known to return {response.status_code}.\n")
@@ -149,9 +147,7 @@ def verify_links(file_name: str, links: list[str]):
                 verify_web_link(link)
         except InvalidLink as e:
             counter += 1
-            print(
-                f"\033[91mERROR:\n\033[0mInvalid link \033[4m{link}\033[0m in file \033[1m{file_name}\033[0m:\n{e}\n"
-            )
+            print(f"\033[91mERROR:\n\033[0mInvalid link \033[4m{link}\033[0m in file \033[1m{file_name}\033[0m:\n{e}\n")
             continue
     return counter
 
