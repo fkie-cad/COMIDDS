@@ -70,7 +70,7 @@ Note that the original download source is now longer accessible, however, an uno
 ### Papers
 
 - [A detailed analysis of the KDD CUP 99 data set (2009)](https://doi.org/10.1109/cisda.2009.5356528)
-- [A Study on NSL-KDD Dataset for Intrusion Detection Systems Based on Classification Algorithms (2013)](https://e-tarjome.com/storage/btn_uploaded/2019-07-13/1563006133_9702-etarjome-English.pdf)
+- [A Study on NSL-KDD Dataset for Intrusion Detection Systems Based on Classification Algorithms (2015)](https://www.semanticscholar.org/paper/A-Study-on-NSL-KDD-Dataset-for-Intrusion-Detection-L.Dhanabal-Shantharajah/f00d9a1533b296a878656db4589246a0e1597db0)
 
 ### Links
 
