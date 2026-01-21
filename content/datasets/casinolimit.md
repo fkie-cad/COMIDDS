@@ -32,13 +32,13 @@ title: CasinoLimit
 ***
 
 ### Overview
-The CasinoLimit dataset is a set of labelled logs collected from 114 individual attack campaigns, all performed against (copies of) the same target during the Breizh CTF 2024.
-Notably, labels are not binary, but instead describe the associated Mitre ATT&CK technique of the associated log.
+The CasinoLimit dataset is a set of labeled logs collected from 114 individual attack campaigns, all performed against (copies of) the same target during the Breizh CTF 2024.
+Notably, labels are not binary, but instead describe the associated MITRE ATT&CK technique of the associated log.
 The dataset is aimed at providing a basis for kill-chain analysis and attacker identification via command inspection, though it does not feature any benign behavior.
 
 ### Environment
 Each team was provided with an isolated environment that featured 4 Linux hosts distributed across two networks.
-Players are given ssh-credentials for the first machine and are then meant to move laterally and horizontally through the environment, finding various vulnerabilities as well as clues leading them to these vulnerabilities.
+Players are given SSH credentials for the first machine and are then meant to move laterally and horizontally through the environment, finding various vulnerabilities as well as clues leading them to these vulnerabilities.
 The authors used the [URSID](https://gitlab.inria.fr/pirat-public/ursid) tool for automated and repeatable deployment.
 All interactions from players are purely command-line based.
 
@@ -53,8 +53,8 @@ The "minimal" path to achieve this goal contained the following techniques:
 - T1485: Data Destruction
 - T1114: Email Collection
 
-Refer to section 3c of the paper for a detailed description of the attack path.
-Since players naturally didn't strictly adhere to this path, the  final labels contain techniques from all Mitre ATT&CK tactics, except for Initial Access and Execution.
+Refer to Section 3c of the paper for a detailed description of the attack path.
+Since players naturally didn't strictly adhere to this path, the  final labels contain techniques from all MITRE ATT&CK tactics, except for Initial Access and Execution.
 
 ### Contained Data
 All hosts and their network traffic were monitored to collect kernel and user-space events as well as network flows.
@@ -101,7 +101,7 @@ Snippet of entries from `syslog_labels/system_labels/aeriella.json`
 ```
 <!--  {% endraw %} -->
 
-Snippet of entries from `syslogs/syslogs/aerliella/start-56/audit.log` (labelled by the entry above)
+Snippet of entries from `syslogs/syslogs/aerliella/start-56/audit.log` (labeled by the entry above)
 <!--  {% raw %} -->
 ```
 type=PATH msg=audit(1715994529.336:94050): item=0 name="/etc/shadow" inode=4842 dev=08:01 mode=0100640 ouid=0 ogid=42 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0 OUID="root" OGID="shadow"
