@@ -11,24 +11,24 @@ title: KDD Cup 1999
 - [Related Entries](#related-entries)
 - [Data Examples](#data-examples)
 
-| <!-- -->                 | <!-- -->                                                                           |
-|--------------------------|------------------------------------------------------------------------------------|
-| **Network Data Source**  | Connection records                                                                 |
-| **Network Data Labeled** | Yes                                                                                |
-| **Host Data Source**     | -                                                                                  |
-| **Host Data Labeled**    | -                                                                                  |
-|                          |                                                                                    |
-| **Overall Setting**      | Military IT                                                                        |
-| **OS Types**             | Linux 2.0.27<br/>SunOS 4.1.4<br/>Sun Solaris 2.5.1<br/>Windows NT                  |
-| **Number of Machines**   | 1000's                                                                             |
-| **Total Runtime**        | Nine weeks                                                                         |
-| **Year of Collection**   | 1998                                                                               |
-| **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                  |
-| **Benign Activity**      | Scripts for synthetic traffic generation, real humans for performing complex tasks |
-|                          |                                                                                    |
-| **Packed Size**          | 18 MB                                                                              |
-| **Unpacked Size**        | 743 MB                                                                             |
-| **Download Link**        | [goto](http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz)                   |
+| <!-- -->                 | <!-- -->                                                                                |
+| ------------------------ | --------------------------------------------------------------------------------------- |
+| **Network Data Source**  | Connection records                                                                      |
+| **Network Data Labeled** | Yes                                                                                     |
+| **Host Data Source**     | -                                                                                       |
+| **Host Data Labeled**    | -                                                                                       |
+|                          |                                                                                         |
+| **Overall Setting**      | Military IT                                                                             |
+| **OS Types**             | Linux 2.0.27<br/>SunOS 4.1.4<br/>Sun Solaris 2.5.1<br/>Windows NT                       |
+| **Number of Machines**   | 1000's                                                                                  |
+| **Total Runtime**        | Nine weeks                                                                              |
+| **Year of Collection**   | 1998                                                                                    |
+| **Attack Categories**    | DoS<br/>Remote to Local<br/>User to Root<br/>Surveillance/Probing                       |
+| **Benign Activity**      | Scripts for synthetic traffic generation, real humans for performing complex tasks      |
+|                          |                                                                                         |
+| **Packed Size**          | 18 MB                                                                                   |
+| **Unpacked Size**        | 743 MB                                                                                  |
+| **Download Link**        | [goto](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data?select=kddcup.data.gz) |
 
 ***
 
@@ -71,6 +71,8 @@ majority (71%) of the entire test data set.
 ### Links
 
 - [Homepage](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+  - Some entries seem to be inaccessible.
+    Alternatively, try [Kaggle](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data)
 - [Detailed Feature Description](https://kdd.ics.uci.edu/databases/kddcup99/task.html)
 
 ### Related Entries
