@@ -33,7 +33,7 @@ title: DEDALE
 
 ### Overview
 DEDALE (Dataset for Evaluating Detection of APT among Logs and Events) is a network and host intrusion detection dataset generated using the RESCOUSSE testbed.
-The dataset spans 28 days and contains a fully-fledged APT campaign, preceded and followed by several days of only benign behavior.
+The dataset spans 28 days and contains a fully-fledged APT campaign, preceded by two weeks and followed by several days of only benign behavior.
 The authors try to improve upon existing similar works (specifically referencing [SOCBED](https://github.com/fkie-cad/socbed)) by increasing both size and complexity of the virtualized network, running the attack campaign over several days as well as offering more sophisticated user emulation.
 
 ### Environment
