@@ -70,6 +70,8 @@ Network data is captured at four distinct monitoring points, each available as w
 - ``orange_dmz``
 - ``router1`` with three interfaces (router1_green, router1_orange, router1_red).
 
+[PyCapCutter](https://gitlab.inria.fr/mlanvin/pycapcutter) is used to cut the network capture by day while ensuring that each flow is contained in one file. This limits side effects when applying Zeek or CICFlowMeter to the network capture.
+
 Suricata alerts are included, but not explicitly labeled, although the authors mention that only 2 out of 130,430 Suricata alerts are true positive (related to a malicious flow).
 Network flows, generated from the PCAPs above, are labeled with one of three classes, additionally providing the associated MITRE ATT&CK tactic and technique numbers if relevant:
 - 0 (benign)
@@ -92,6 +94,9 @@ The technical process of both host and network labeling is documented [here](htt
 ### Links
 - [Homepage](https://dedale.inria.fr/index.html)
 - [DEDALE labeling repo](https://gitlab.inria.fr/mlanvin/dedale_labeling)
+- [PyCapCutter](https://gitlab.inria.fr/mlanvin/pycapcutter)
+- [Rescousse](https://gitlab.inria.fr/mlanvin/rescousse)
+- [AURA](https://gitlab.inria.fr/mlanvin/aura)
 
 ### Data Examples
 Snippet of labeled flows from `green_internal/D1_2024-12-23_output_green_internal.pcap_Flow_labeled`
