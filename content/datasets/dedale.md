@@ -99,6 +99,18 @@ The technical process of both host and network labeling is documented [here](htt
 - [AURA](https://gitlab.inria.fr/mlanvin/aura)
 
 ### Data Examples
+Snippet of Zeek logs (conn.log) from `green_internal/D1_2024-12-23_output_green_internal_Zeek/conn.log`
+<!--  {% raw %} -->
+```
+#fields ts  uid id.orig_h id.orig_p id.resp_h id.resp_p proto service duration  orig_bytes  resp_bytes  conn_state  local_orig  local_resp  missed_bytes  history orig_pkts orig_ip_bytes resp_pkts resp_ip_bytes tunnel_parents  ip_proto
+#types  time  string  addr  port  addr  port  enum  string  interval  count count string  bool  bool  count string  count count count count set[string] count
+1734940832.969785 Cl2MZQ1QCb8UhJ4rz2  172.16.1.27 49695 172.16.0.2  389 tcp - 0.002062  0 0 SF  T T 0 ShAFaf  4 172 3 132 - 6
+1734940830.498427 CKe2Ov3eS3Ur3AOPn4  172.16.1.27 49674 172.16.0.2  389 tcp - 2.475692  3126  2773  SF  T T 350 ShADaGdFf 15  3738  12  3265  - 6
+1734940829.513993 CrChlf1i0rl6J06XO4  172.16.1.27 51716 224.0.0.252 5355  udp dns - - - S0  T F 0 D 1 54  0 0 - 17
+1734940834.648160 Cq4Yuo4nlguHGUdXWe  172.16.1.27 49696 172.16.0.2  88  tcp krb_tcp 0.014710  1521  1474  SF  T T 0 ShADadFf  7 1813  5 1686  - 6
+```
+<!--  {% endraw %} -->
+
 Snippet of labeled flows from `green_internal/D1_2024-12-23_output_green_internal.pcap_Flow_labeled`
 <!--  {% raw %} -->
 ```
