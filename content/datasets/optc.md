@@ -75,6 +75,9 @@ If they are the same, it wouldn't really make sense to have duplicate data like 
 Unfortunately, there seems to be no labeling beyond the one implied by the folder structure, and the authors suggest to
 use the provided ground truth file to label events manually.
 
+However, two recent efforts provide a more precise labeling of the events and describe their methodology to do so.
+The github repository [optc-labels](https://github.com/AT03380/optc-labels) associated with the article [Effective IDS under constraints of modern enterprise networks: revisiting the OpTC dataset (2024)](https://doi.org/10.1109/CIoT63799.2024.10757066) provides the labeling of host events. The gitlab repository [A New Hope For Darpa Optc](https://gitlab.inria.fr/fmajorcz/a_new_hope_for_darpa_optc/-/tree/main/labelling) associated with the article [A New Hope For Darpa Optc (2025)](https://inria.hal.science/hal-05474126/) provides the labeling of host and network data. It must be noted that the labeling of host events is not exactly the same. Moreover, the work [A New Hope For Darpa Optc (2025)](https://inria.hal.science/hal-05474126/) provides a corrected version of the dataset available [here](https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/UXCWOC).
+
 ### Papers
 
 - [Analyzing the Usefulness of the DARPA OpTC Dataset in Cyber Threat Detection Research (2021)](https://doi.org/10.1145/3450569.3463573)
