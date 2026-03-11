@@ -25,8 +25,8 @@ title: DEDALE
 | **Attack Categories**    | Various ATT&CK tactics                        |
 | **User Emulation**       | Synthetic                                     |
 |                          |                                               |
-| **Packed Size**          | -                                             |
-| **Unpacked Size**        | 65 GB                                         |
+| **Packed Size**          | Network: 2.9 TB, System: 63 GB                |
+| **Unpacked Size**        | Network: 7.5 TB, System: 700 GB               |
 | **Download Link**        | [goto](https://dedale.inria.fr/download.html) |
 
 ***
