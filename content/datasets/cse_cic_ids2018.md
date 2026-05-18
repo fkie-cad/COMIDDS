@@ -87,6 +87,7 @@ The aforementioned flaws of this dataset, such as some simulation artifacts maki
       your AWS region and destination-dir is the target directory.
     - If cou only need the labeled features, use `s3://cse-cic-ids2018/Processed Traffic Data for ML Algorithms` as your URL
 - [Secondary Source](https://registry.opendata.aws/cse-cic-ids2018/)
+- [PCAP Filter Rules](https://github.com/UHH-ISS/rt-kcsm/tree/main/code/filter/cse-cic-ids2018/filters) derived from [[2]](https://intrusion-detection.distrinet-research.be/CNS2022/CSECICIDS2018.html)
 
 ### Related Entries
 - [CIC IDS2017](/COMIDDS/content/datasets/cic_ids2017)
