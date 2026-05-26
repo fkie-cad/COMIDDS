@@ -40,8 +40,7 @@ These alerts come from the AIT Log Data Set V2 (AIT-LDSv2) and are sourced from 
 Suricata, Wazuh, and AMiner.
 The dataset includes eight scenarios, each targeted by a multistep attack that involves actions such as web exploits,
 password cracking, and privilege escalation.
-Each attack scenario has variations, allowing the dataset to be used to assess the similarity and merging of attack
-chains.
+Differences between scenarios include variations in system environment, normal behavior simulation and attack parametrization.
 
 ### Environment
 

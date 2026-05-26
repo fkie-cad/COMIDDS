@@ -36,11 +36,8 @@ title: AIT Log Data Set
 
 A collection of synthetic log data intended for IDS evaluation, federated learning and alert aggregation.
 Logs were collected from eight testbeds built at the Austrian Institute of Technology (AIT).
-Each testbed represents a small company network, including simulation of normal user behavior to generate background
-noise.
-Each of the testbed runs for 4-6 days, and at some point a sequence of attacks is launched against the network.
-Differences between attacks include the runtime, the specific execution of attacks and the number of servers, employees,
-users, etc.
+Each testbed represents a small company network, including simulation of normal user behavior to generate background noise; testbeds run for 4-6 days, and at some point a sequence of attacks is launched against the network.
+Differences between runs include the total length as well as variation of system environment (such as number of hosts), normal behavior simulation and attack parametrization.
 This dataset, assigned version 2.0, is a continuation of previous efforts by the same authors, improving upon network
 complexity, log collection and user simulation.
 
